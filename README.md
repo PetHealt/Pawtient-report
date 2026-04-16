@@ -511,7 +511,20 @@ y evaluar sus fortalezas y debilidades. Esto nos permite definir la propuesta de
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-*(Describir las estrategias y tácticas preliminares que aplicará el startup para afrontar las fortalezas y aprovechar las debilidades de los competidores, así como el contexto de oportunidades y amenazas)*
+#### Estrategias:
+
+- Posicionar a PetHealth como una solución moderna, accesible e intuitiva, diseñada específicamente para las clínicas veterinarias pequeñas y medianas en Perú, a diferencia de los sistemas ERP corporativos complejos y costosos (como Qvet) o plataformas con interfaces anticuadas (como SmartVet).
+- Enfocarse en la funcionalidad única del modelo dual (B2B2C) que conecta al veterinario directamente con el dueño de la mascota a través de una "Libreta Sanitaria Digital", transformando el software de una simple herramienta administrativa a un canal de fidelización y marketing para la clínica.
+- Ofrecer un modelo de suscripción SaaS escalonado con un plan básico de muy bajo costo ($5 USD), lo cual elimina el riesgo financiero para los emprendedores que buscan dejar el papel, haciéndolo mucho más atractivo que los competidores premium.
+- Posicionar a PetHealth como una alternativa "Lite" y veloz frente a la complejidad de otras aplicaciones (como Provet Cloud). Mientras que otros requieren una curva de aprendizaje alta debido a sus múltiples módulos hospitalarios y de IA, PetHealth elimina la fricción operativa ofreciendo una interfaz web 100% responsive, optimizada para procesos de consulta rápida en clínicas medianas, garantizando que el personal médico no pierda tiempo en menús complejos.
+
+#### Tácticas:
+
+- Desarrollar un proceso de onboarding (registro inicial) autogestionable de menos de 10 minutos y tutoriales interactivos dentro de la plataforma para facilitar la rápida adopción por parte del personal veterinario con baja familiaridad tecnológica.
+- Implementar campañas de educación y marketing en redes sociales (Instagram, TikTok, Facebook) dirigidas a los dueños de mascotas ("Pet Parents") para que sean ellos quienes exijan historiales clínicos transparentes y recomienden PetHealth a sus veterinarios.
+- Establecer alianzas estratégicas con proveedores de insumos médicos, marcas de alimentos para mascotas y colegios veterinarios para llegar a un gran número de clínicas de manera directa y generar confianza institucional.
+- Crear una calculadora interactiva (ROI) dentro de la Landing Page que le muestre a los dueños de las clínicas el ahorro de tiempo, la reducción de inasistencias (gracias a los recordatorios) y el aumento de ganancias que obtendrán al usar PetHealth versus sus métodos manuales actuales
+
 
 ---
 
