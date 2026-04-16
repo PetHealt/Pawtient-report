@@ -1116,7 +1116,7 @@ Se establece una relación de asociación entre Dueño y Mascota con multiplicid
   
 *Imagen del Class Diagram*
 
-![Class Diagram BC1](../assets/images/bounded_1.png)
+![Class Diagram BC1](pawtient-report/assets/images/class-diagrams/bounded_1.png)
 
 *Elaboración propia con LucidChart*
 
@@ -1139,7 +1139,7 @@ Las relaciones entre clases permiten establecer la asignación de citas a veteri
   
 *Imagen del Class Diagram*
 
-![Class Diagram BC1](../assets/images/bounded_2.png)
+![Class Diagram BC1](pawtient-report/assets/images/class-diagrams/bounded_2.png)
 
 *Elaboración propia con LucidChart*
 
@@ -1163,7 +1163,7 @@ Las relaciones entre clases permiten llevar un control detallado del inventario,
   
 *Imagen del Class Diagram*
 
-![Class Diagram BC1](../assets/images/bounded_3.png)
+![Class Diagram BC1](pawtient-report/assets/images/class-diagrams/bounded_3.png)
 
 *Elaboración propia con LucidChart*
 
@@ -1187,7 +1187,7 @@ Las relaciones entre clases permiten establecer una jerarquía de usuarios media
   
 *Imagen del Class Diagram*
 
-![Class Diagram BC1](../assets/images/bounded_4.png)
+![Class Diagram BC1](pawtient-report/assets/images/class-diagrams/bounded_4.png)
 
 *Elaboración propia con LucidChart*
 
@@ -1215,7 +1215,7 @@ Las relaciones entre clases permiten establecer una jerarquía de usuarios media
 
 <br>
 
-![Database Diagram BC1](../assets/images/db_1.png)
+![Database Diagram BC1](pawtient-report/assets/images/database/db_1.png)
 
 </div>
 
@@ -1233,7 +1233,7 @@ Las relaciones entre clases permiten establecer una jerarquía de usuarios media
 
 <br>
 
-![Database Diagram BC2](../assets/images/db_2.png)
+![Database Diagram BC2](pawtient-report/assets/images/database/db_2.png)
 
 </div>
 
@@ -1251,7 +1251,7 @@ Las relaciones entre clases permiten establecer una jerarquía de usuarios media
 
 <br>
 
-![Database Diagram BC3](../assets/images/db_3.png)
+![Database Diagram BC3](pawtient-report/assets/images/database/db_3.png)
 
 </div>
 
@@ -1271,7 +1271,7 @@ Las relaciones entre clases permiten establecer una jerarquía de usuarios media
 
 <br>
 
-![Database Diagram BC4](../assets/images/db_4.png)
+![Database Diagram BC4](pawtient-report/assets/images/database/db_4.png)
 
 </div>
 
