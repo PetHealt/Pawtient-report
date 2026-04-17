@@ -203,70 +203,6 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 ###   1.1.2. Perfiles de integrantes del equipo
 
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y Apellidos** | `Apellidos, Nombres` |
-| **Código de estudiante** | `codigo` |
-| **Carrera** | Ingeniería de Software |
-</div>
-
-**Descripción:**
-*(Párrafo describiendo principales conocimientos técnicos y habilidades que puede aportar al equipo)*
-
----
-<br>
-
-<div align="center">
-  
-#### Integrante 3
-
-<img src="../assets/team/integrante3.jpg" alt="Foto Integrante 3" width="120"/>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y Apellidos** | `Apellidos, Nombres` |
-| **Código de estudiante** | `codigo` |
-| **Carrera** | Ingeniería de Software |
-</div>
-
-**Descripción:**
-*(Párrafo describiendo principales conocimientos técnicos y habilidades que puede aportar al equipo)*
-
----
-<br>
-<div align="center">
-
-#### Integrante 4
-
-<img src="../assets/team/integrante4.jpg" alt="Foto Integrante 4" width="120"/>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y Apellidos** | `Apellidos, Nombres` |
-| **Código de estudiante** | `codigo` |
-| **Carrera** | Ingeniería de Software |
-</div>
-
-**Descripción:**
-*(Párrafo describiendo principales conocimientos técnicos y habilidades que puede aportar al equipo)*
-
----
-<br>
-<div align="center">
-  
-#### Integrante 5
-
-<img src="../assets/team/integrante5.jpg" alt="Foto Integrante 5" width="120"/>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y Apellidos** | `Apellidos, Nombres` |
-| **Código de estudiante** | `codigo` |
-| **Carrera** | Ingeniería de Software |
-</div>
-
-**Descripción:**
-*(Párrafo describiendo principales conocimientos técnicos y habilidades que puede aportar al equipo)*
 |                                        Miembro                                         |                                                                                                                                                                                                                                                                                                                                                Descripción                                                                                                                                                                                                                                                                                                                                                |
 |:--------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | <img src="pawtient-report/assets/images/Cápitulo1/members/Gonzalo.jpeg" width="3000"/> |                                                                                                                                                                                            **Gonzalo Samuel Quintanilla Pozo \- U202315007** <br>  Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 20 años, como compañero me gusta apoyar y tomar iniciativa en trabajos grupales. Me especializo en los lenguajes CSS, Java y Python. Tengo experiencia desarrollando páginas web.                                                                                                                                                                                             |
@@ -281,32 +217,91 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 ### 1.2.1. Antecedentes y problemática
 
+#### What? (¿Qué?)
 
 
----
-
-### 1.2.2. Lean UX Process
+#### ¿Cuál es el problema?
 
 
-
-#### 1.2.2.1. Lean UX Problem Statements
-
+El problema es que en muchos centros veterinarios la información médica aún se gestiona de forma desordenada o poco organizada, con historiales clínicos dispersos y un control limitado de los insumos. Esto hace que sea más difícil dar un seguimiento adecuado a la salud de las mascotas, afectando la calidad de la atención y reduciendo la confianza de los dueños en el servicio.
 
 
-**Problem Statement 1:**
+#### When? (¿Cuándo?)
 
 
-
----
-
-#### 1.2.2.2. Lean UX Assumptions
-
-**Business Assumptions:**
+#### ¿Cuándo ocurre el problema?
 
 
+El problema ocurre principalmente durante el registro de consultas, el seguimiento de tratamientos y la gestión de insumos médicos, sobre todo cuando la información se maneja de forma manual o no se actualiza a tiempo, lo que aumenta el riesgo de errores e inconsistencias.
 
-**User Assumptions:**
 
+#### Where? (¿Dónde?)
+
+
+#### ¿Dónde surge el problema?
+
+
+El problema surge en los procesos internos de la gestión clínica y administrativa dentro de los centros veterinarios, donde la información suele manejarse de forma poco organizada o no centralizada.
+
+
+#### ¿En qué tipo de centros o contextos ocurre esta problemática?
+
+
+Se presenta principalmente en centros veterinarios pequeños y medianos, donde aún se utilizan registros manuales o herramientas poco integradas. Sin embargo, también puede darse en centros más grandes que no cuentan con sistemas unificados, lo que dificulta el acceso oportuno a la información y su correcta gestión.
+
+
+#### Who? (¿Quién?)
+
+
+#### ¿Quiénes son los principales afectados por esta problemática?
+
+
+Los principales afectados son los veterinarios, administradores y dueños de mascotas. Los veterinarios tienen dificultades para acceder a información completa y actualizada, los administradores enfrentan problemas en el control de insumos y operaciones, y los dueños de mascotas ven limitado el seguimiento de sus animales y el acceso a información clara, lo que puede afectar su confianza en el servicio.
+
+
+#### ¿Quién lo utilizará?
+
+
+El sistema será utilizado por veterinarios para registrar diagnósticos, tratamientos y evolución de los pacientes; por administradores para gestionar insumos y supervisar las operaciones; y por los dueños de mascotas para consultar el historial médico y dar seguimiento al estado de salud de sus mascotas.
+
+
+#### Why? (¿Por qué?)
+
+
+#### ¿Cuál es la causa del problema?
+
+
+La principal causa es la falta de digitalización e integración de los procesos dentro de los centros veterinarios, lo que hace que la información se maneje de forma desorganizada, se generen errores en los registros y exista poca comunicación entre los distintos usuarios. Como consecuencia, se dificulta la toma de decisiones, el control de los recursos y la calidad de la atención.
+
+
+#### How? (¿Cómo?)
+
+
+#### ¿En qué condiciones los usuarios usarán nuestro producto?
+
+
+Los usuarios utilizarán la plataforma en sus actividades diarias. Los veterinarios la usarán durante la atención de sus pacientes para registrar diagnósticos, tratamientos y consultar información en tiempo real, los administradores para supervisar insumos y operaciones, y los dueños de mascotas para revisar el historial médico, dar seguimiento a sus animales y conocer la información de los veterinarios.
+
+
+#### ¿Cómo les gustaría a los usuarios acceder a la plataforma?
+
+
+Los dueños de mascotas prefieren acceder desde sus teléfonos móviles para consultar rápidamente el historial médico, dar seguimiento al estado de salud de sus mascotas y revisar la información de los veterinarios. Por su parte, los veterinarios y administradores utilizan tanto computadoras como dispositivos móviles, ya que esto les permite registrar información clínica en tiempo real y gestionar tratamientos, insumos y operaciones del centro de manera más completa.
+
+
+#### How much? (¿Cuánto?)
+
+
+#### ¿Cómo impacta la gestión ineficiente de la información clínica y de los insumos médicos en la calidad de atención en las clínicas veterinarias?
+
+
+Esto impacta de manera significativa en la calidad de atención en las clínicas o centros veterinarios, ya que el manejo manual y no centralizado de los datos puede generar pérdida, duplicidad y dificultad en el acceso a los registros clínicos, afectando el seguimiento adecuado de los pacientes.
+
+
+De acuerdo con Cedeno Ochoa et al. (2021), en muchos centros veterinarios la información aún se gestiona de forma manual, lo que dificulta la organización de los expedientes y puede ocasionar errores en los registros. Asimismo, la implementación de herramientas digitales permite reducir el tiempo de atención y mejorar la eficiencia en los procesos administrativos.
+
+
+En el contexto peruano, Lolimsa (2024) señala que una inadecuada gestión en centros veterinarios, especialmente en el manejo de información e insumos, puede generar retrasos de atención, desorganización y una disminución en la calidad del servicio. En este sentido, la falta de digitalización impacta negativamente, mientras que soluciones como Pawtient permiten optimizar procesos, reducir errores y ofrecer una atención más eficiente y confiable.
 
 ---
 
