@@ -394,18 +394,64 @@ La plataforma debe contar con un diseño claro y ordenado, con iconos fáciles d
 
 
 ---
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 > *(Estructura: "Creemos que [resultado] se logrará si [usuario] logra [beneficio] con [característica]")*
+- **Hypothesis 01:**
 
-**Hypothesis 1:**
-> Creemos que **[resultado de negocio]** se logrará si **[usuario/segmento]** logra **[beneficio esperado]** con **[característica o solución propuesta]**.
+  <br>**Creemos que** los veterinarios y administradores mejorarán la organización de la información si centralizan los historiales clínicos en una sola plataforma.
 
-**Hypothesis 2:**
-> Creemos que **[resultado de negocio]** se logrará si **[usuario/segmento]** logra **[beneficio esperado]** con **[característica o solución propuesta]**.
+  <br>**Sabremos que** hemos tenido éxito.
+
+  <br>**Cuando** encuentren la información más rápido y disminuyan los errores al momento de registrar o consultar datos.
+
+
+- **Hypothesis 02:**
 
 **Hypothesis 3:**
 > Creemos que **[resultado de negocio]** se logrará si **[usuario/segmento]** logra **[beneficio esperado]** con **[característica o solución propuesta]**.
+  <br>**Creemos que** los dueños de mascotas se sentirán más tranquilos con la atención si pueden revisar la información médica de sus mascotas.
+
+  <br>**Sabremos que** hemos tenido éxito.
+
+  <br>**Cuando** consulten el historial de sus mascotas con frecuencia y expresen mayor seguridad en la información recibida.
+
+
+- **Hypothesis 03:**
+
+  <br>**Creemos que** las notificaciones sobre citas y tratamientos ayudarán a que los usuarios cumplan mejor con estas actividades.
+
+  <br>**Sabremos que** hemos tenido éxito.
+
+  <br>**Cuando** disminuyan las citas perdidas y los usuarios respondan con mayor frecuencia a las notificaciones.
+
+
+- **Hypothesis 04:**
+
+  <br>**Creemos que** los veterinarios registrarán la información más rápido si utilizan formularios dentro de la plataforma.
+
+  <br>**Sabremos que** hemos tenido éxito.
+
+  <br>**Cuando** los registros se completen en menos tiempo y sin repetir información.
+
+
+- **Hypothesis 05:**
+
+  <br>**Creemos que** mostrar el estado actualizado de las mascotas ayudará a los dueños a tomar mejores decisiones.
+
+  <br>**Sabremos que** hemos tenido éxito.
+
+  <br>**Cuando** los usuarios consulten con frecuencia esta información y la utilicen para el seguimiento de sus mascotas.
+
+
+- **Hypothesis 06:**
+
+  <br>**Creemos que** mostrar la experiencia y credenciales de los veterinarios generará mayor confianza en los dueños de mascotas.
+
+  <br>**Sabremos que** hemos tenido éxito.
+
+  <br>**Cuando** los usuarios consulten los perfiles de los veterinarios y manifiesten mayor confianza en la atención recibida.
 
 ---
 
