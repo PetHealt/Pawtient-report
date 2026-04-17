@@ -536,64 +536,67 @@ Esta sección expone la investigación basada en entrevistas realizadas a médic
 
 Las entrevistas fueron diseñadas aplicando buenas prácticas de investigación cualitativa, estructurando las preguntas de lo general a lo específico. El objetivo principal es recolectar información demográfica, psicográfica, conductual y tecnológica de los entrevistados. Estos datos son fundamentales para construir posteriormente nuestros arquetipos (User Personas), identificando su biografía, dispositivos de preferencia, influencias, metas y puntos de dolor respecto a la gestión de salud veterinaria.
 
-**Segmento objetivo 1: `Médicos Veterinarios y Administradores de Clínicas`**
+**Segmento 1: Médicos Veterinarios y Administradores de Clínicas**
 
-- **Bloque 1: Perfilamiento y Demografía (Background del Arquetipo)**
-    
-    - **Pregunta principal:** 
-      - Para empezar, cuéntame un poco sobre ti: ¿Cuál es tu edad, en qué distrito resides y cuál es tu estado civil o composición familiar actual? 
-    - **Preguntas complementarias:**
+**A. Información Demográfica y Antecedentes**
 
-      - ¿Cuál es tu cargo exacto en la clínica y cuántos años de experiencia tienes en el rubro?
+- ¿Podría indicarnos su edad, en qué distrito reside y cuál es su estado civil o composición familiar actual?
 
-      - ¿Cómo te describirías en tu entorno de trabajo? (Ej. ¿Te consideras alguien metódico, tradicional, innovador, acelerado?)
-      
+- ¿Cuál es su cargo exacto en la clínica y cuántos años de experiencia tiene en el rubro veterinario?
 
-- **Bloque 2: Hábitos Digitales, Marcas e Influencias (Habilidades y Tecnología)**
-  
-    - **Pregunta principal:** 
-      - ¿Cuáles son los dispositivos que más utilizas en tu día a día tanto para tu vida personal como para la clínica?
-    - **Preguntas complementarias:**
-      - ¿Qué tan hábil te consideras aprendiendo a usar nuevos programas o aplicaciones?
-      - ¿Cuáles son tus redes sociales o canales digitales favoritos para informarte o interactuar con colegas?
-      - ¿Hay alguna marca, empresa o figura pública dentro del rubro veterinario o tecnológico que consideres un referente o influencia?
+- ¿Cómo describiría su personalidad en su entorno de trabajo? (Ej. metódico, tradicional, innovador, acelerado).
 
+**B. Objetivos y Frustraciones**
 
-- **Bloque 3: Objetivos y Frustraciones (El problema a resolver)**
-    - **Pregunta principal:**
-      - ¿Cuáles son tus objetivos profesionales principales para tu clínica este año y qué es lo que más te frustra o te impide lograrlos actualmente?
-    - **Preguntas complementarias:**
-      - Pensando en la gestión diaria (citas, historias clínicas, inventario), ¿cuál es la tarea que consideras más tediosa, desordenada o propensa a errores?
-      - ¿Cómo te afecta a nivel personal (estrés, tiempo libre) el no tener la información de tus pacientes o el stock de insumos centralizados y organizados?
-      - Si tuvieras una herramienta ideal para gestionar la clínica, ¿cuál sería la primera función que usarías?
+- ¿Cuáles son sus objetivos profesionales principales para su clínica este año y qué es lo que más le impide lograrlos actualmente?
+
+- Pensando en la gestión diaria (citas, historias clínicas, inventario), ¿cuál es la tarea que considera más tediosa, desordenada o propensa a errores?
+
+- ¿Cómo le afecta a nivel personal (estrés, falta de tiempo libre) el no tener la información de sus pacientes o el stock de insumos centralizados?
+
+**C. Tecnología y Canales de Interacción**
+
+- ¿Qué dispositivos utiliza con mayor frecuencia en su día a día (Smartphone, Laptop) tanto para su vida personal como para la clínica?
+
+- ¿Qué tan hábil se considera aprendiendo a usar nuevos programas y cuáles son sus redes sociales favoritas para informarse o interactuar con colegas?
+
+- ¿Hay alguna marca, empresa o figura pública dentro del rubro veterinario o tecnológico que considere un referente o influencia?
+
+**D. Comportamiento frente a la solución**
+
+Si existiera una herramienta integral que le permitiera gestionar la clínica y fidelizar a sus clientes, ¿qué funciones serían indispensables para que usted decida implementarla?
 
 ---
 
-**Segmento objetivo 2: `[Dueños de Mascotas (Pet Parents)]`**
+**Segmento 2: Dueños de Mascotas (Pet Parents)**
 
-- **Bloque 1: Perfilamiento y Demografía (Background del Arquetipo)**
-    - **Pregunta principal:**
-      - Cuéntame sobre ti y tu familia: ¿Cuál es tu edad, distrito de residencia, ocupación y con quiénes vives actualmente?
-    - **Preguntas complementarias:**
-      - Háblame de tu mascota: ¿Qué especie es, cuántos años tiene y cómo llegó a tu vida?
-      - ¿Cómo describirías tu personalidad como dueño de mascota? (Ej. ¿Eres sobreprotector, relajado, muy organizado con sus cosas?)
+**A. Información Demográfica y Antecedentes**
 
+- ¿Podría indicarnos su edad, ocupación actual, en qué distrito reside y con quiénes vive actualmente?
 
-- **Bloque 2: Hábitos Digitales, Marcas e Influencias (Habilidades y Tecnología)**
-    - **Pregunta principal:**
-      - ¿Qué dispositivos tecnológicos usas principalmente en tu rutina y cuáles son los canales digitales (apps, redes sociales) donde pasas más tiempo?
-    - **Preguntas complementarias:**
-      - Cuando compras productos para tu mascota (comida, accesorios), ¿qué marcas sueles preferir y por qué confías en ellas?
-      - ¿Sigues a algún influencer de mascotas, veterinario en redes sociales o blog que influya en cómo cuidas a tu animal?
+- Hábleme de su mascota: ¿Qué especie es, cuántos años tiene y cómo llegó a su vida?
 
+- ¿Cómo describiría su personalidad como dueño de mascota? (Ej. sobreprotector, relajado, muy organizado con sus cosas).
 
-- **Bloque 3: Objetivos y Frustraciones (El problema a resolver)**
-    - **Pregunta principal:** 
-      - Como dueño, ¿cuál es tu objetivo principal respecto a la salud de tu mascota y qué es lo que más te genera estrés cuando tienes que llevarla al veterinario?
-    - **Preguntas complementarias:**
-      - ¿Cómo te organizas para recordar sus vacunas, citas o encontrar su historial médico si vas a una clínica nueva?
-      - ¿Alguna vez has olvidado una indicación médica importante o has perdido una receta física? ¿Cómo te hizo sentir eso frente al cuidado de tu mascota?
-      - Si existiera una plataforma web donde pudieras ver todo el historial de tu mascota y agendar citas desde tu celular, ¿qué te motivaría a usarla constantemente?
+**B. Objetivos y Frustraciones**
+
+- ¿Cuál es su objetivo principal respecto a la salud de su mascota y qué es lo que más le genera estrés cuando tiene que llevarla al veterinario?
+
+- ¿Cómo se organiza para recordar sus vacunas, citas o encontrar su historial médico si tiene que ir a una clínica nueva?
+
+- ¿Alguna vez ha olvidado una indicación médica importante o ha perdido una receta física? ¿Cómo resolvió esa situación?
+
+**C. Tecnología y Canales de Interacción**
+
+- ¿Qué dispositivos tecnológicos utiliza principalmente en su rutina y cuáles son las aplicaciones o redes sociales donde pasa más tiempo?
+
+- Cuando compra productos para su mascota (comida, accesorios), ¿qué marcas suele preferir y por qué confía en ellas?
+
+- ¿Sigue a algún influencer de mascotas, veterinario en redes sociales o blog que influya en la manera en que cuida a su animal?
+
+**D. Comportamiento frente a la solución**
+
+- Si existiera una plataforma web donde pudiera ver todo el historial de su mascota, recibir recordatorios y agendar citas desde su celular, ¿qué características harían que la use constantemente?
 
 ---
 
