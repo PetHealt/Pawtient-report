@@ -458,7 +458,6 @@ El Lean UX Canvas es una herramienta visual que permite organizar y comprender l
 
 A continuación, se presenta el Lean UX Canvas de Pawtient:
 
-*(Descripción y análisis del Lean UX Canvas)*
 ![Lean UX Canvas](pawtient-report/assets/images/Cápitulo1/Lean-UX-Canvas.png)
 
 **Enlace al Lean UX Canvas:** [*Ver en Miro*](https://miro.com/app/board/uXjVGi5z7Cc=/?share_link_id=379450686428)
@@ -468,36 +467,67 @@ A continuación, se presenta el Lean UX Canvas de Pawtient:
 ## 1.3. Segmentos objetivo
 
 > *(Describir los segmentos asociados al dominio del problema, incluyendo características demográficas e información estadística de sustento)*
+En el análisis del segmento objetivo para Pawtient, se ha identificado que nuestros principales usuarios serán veterinarios, administradores de los centros veterinarios y los dueños de mascotas.
 
-### Segmento objetivo 1: `[Nombre del segmento]`
 
-*(Descripción del segmento: características demográficas, perfil, necesidades y estadísticas de respaldo)*
+### Veterinarios
 
-**Características demográficas:**
-- **Edad:** `[rango de edad]`
-- **Género:** `[distribución]`
-- **Ubicación:** `[contexto geográfico]`
-- **Ocupación:** `[tipo de ocupación]`
-- **Nivel socioeconómico:** `[nivel]`
+
+Los veterinarios necesitan acceder a la información clínica de forma rápida y ordenada para poder atender mejor a sus pacientes. Cuando la información se encuentra desordenada o incompleta, se dificulta el seguimiento de tratamientos.
+
+
+- **Edad:** 22 a 60 años.
+
+
+- **Necesidad clave:** Registrar información clínica y dar seguimiento a los pacientes.
+
+
+- **Nivel educativo:** Profesionales en medicina veterinaria.
+
+
+---
+- **Uso de tecnología:** Uso constante de computadoras y dispositivos móviles.
+
+
+### Administradores
+
+
+El personal administrativo se encarga de la organización de la información de los pacientes y de controlar los recursos del centro. Sin un buen sistema, pueden presentarse errores en los registros y dificultades en la gestión de insumos.
+
+
+- **Edad:** 22 a 50 años
+
+
+- **Necesidad clave:** Organizar la información y gestionar insumos.
+
+
+- **Nivel educativo:** Formación técnica o universitaria.
+
+
+-  **Uso de tecnología:** Uso regular de herramientas digitales.
+
+
+### Dueños de mascotas
+
+
+Los dueños de mascotas buscan estar informados sobre la salud de sus mascotas y entender mejor la atención que reciben. Muchas veces no cuentan con acceso a esta.
+
 
 *(Estadísticas de sustento con fuentes referenciadas)*
+- **Edad:** 20 a 60 años
+
+
+- **Necesidad clave:** Consultar el estado de salud de sus mascotas.
+
+
+- **Nivel educativo:** Variado
+
+
+- **Uso de tecnología:** Uso frecuente de teléfonos móviles.
+
 
 ---
 
-### Segmento objetivo 2: `[Nombre del segmento]`
-
-*(Descripción del segmento: características demográficas, perfil, necesidades y estadísticas de respaldo)*
-
-**Características demográficas:**
-- **Edad:** `[rango de edad]`
-- **Género:** `[distribución]`
-- **Ubicación:** `[contexto geográfico]`
-- **Ocupación:** `[tipo de ocupación]`
-- **Nivel socioeconómico:** `[nivel]`
-
-*(Estadísticas de sustento con fuentes referenciadas)*
-
----
 
 <div align="center">
 
