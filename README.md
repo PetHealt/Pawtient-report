@@ -355,6 +355,45 @@ Hemos identificado que la gestión de insumos suele realizarse de forma manual o
 10. **Mi principal riesgo** será la baja adopción del sistema debido a la resistencia al cambio o poca familiaridad con herramientas digitales.
 11. **Abordaremos este riesgo mediante** una interfaz simple, guías de uso dentro de la plataforma y un proceso de adopción progresivo que facilite el uso desde el primer momento.
 
+**User Assumptions:**
+
+**¿Quiénes son nuestros usuarios?**
+
+
+Los usuarios de Pawtient son centros veterinarios, incluyendo veterinarios y personal administrativo que buscan mejorar la gestión de la información clínica. También participan los dueños de mascotas, quienes necesitan acceder al historial médico de sus mascotas y conocer información sobre la atención y los profesionales que los atienden.
+
+
+**¿Qué problemas busca resolver nuestro producto?**
+
+
+Pawtient busca resolver la desorganización en los historiales clínicos, la falta de integración de la información y el control limitado de los insumos médicos. También aborda la poca visibilidad que tienen los dueños de mascotas sobre la salud de sus mascotas y la información de los veterinarios.
+
+
+**¿En qué momentos y de qué forma se utiliza el producto?**
+
+
+La plataforma se utiliza durante consultas, seguimiento de tratamientos, gestión de citas y control de insumos. Puede ser accedida desde computadoras o dispositivos móviles, lo que permite trabajar con información en tiempo real desde cualquier lugar.
+
+
+**¿Cómo se integra la solución en la rutina del usuario?**
+
+
+El sistema forma parte de la rutina diaria de los centros veterinarios. Los veterinarios lo utilizan durante la atención para registrar diagnósticos y hacer seguimiento a los pacientes, los administradores para organizar la información y gestionar los recursos, y los dueños de mascotas para acceder al historial, información y citas de sus mascotas.
+
+
+**¿Qué tan sencilla es la adopción de la plataforma?**
+
+
+La incorporación de la plataforma será progresiva, ya que reemplaza procesos manuales por una solución más organizada. Su diseño simple y fácil de usar permite que los usuarios se adapten rápidamente sin afectar sus actividades habituales.
+
+
+**¿Qué esperan ver los usuarios en la plataforma?**
+
+
+La plataforma debe contar con un diseño claro y ordenado, con iconos fáciles de reconocer, colores adecuados y una estructura que facilite la navegación. Esto permite que los usuarios comprendan rápidamente las funciones y puedan interactuar de forma ágil y sencilla.
+
+
+---
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 > *(Estructura: "Creemos que [resultado] se logrará si [usuario] logra [beneficio] con [característica]")*
