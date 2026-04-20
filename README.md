@@ -880,11 +880,17 @@ Los principios de identidad visual se centran en:
 
 **Typography**
 
-| Tipo |    Fuente    | Uso |
-|:-----|:------------:|:----|
-| Display / Heading |   Poppins    | Títulos y encabezados |
-| Body |    Inter     | Texto de contenido |
-| Monospace | Roberto Mono | Código y datos técnicos |
+| Tipo |   Fuente    | Uso |
+|:-----|:-----------:|:----|
+| Display / Heading |   Poppins   | Títulos y encabezados |
+| Body |    Inter    | Texto de contenido |
+| Monospace | Roboto Mono | Código y datos técnicos |
+
+![roboto](pawtient-report/assets/images/roboto.png)
+
+![poppins](pawtient-report/assets/images/poppins.png)
+
+![inter](pawtient-report/assets/images/inter.png)
 
 Estas tipografías fueron seleccionadas por su alta legibilidad en entornos digitales y su compatibilidad con interfaces modernas.
 
