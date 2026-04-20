@@ -906,6 +906,8 @@ Estas tipografías fueron seleccionadas por su alta legibilidad en entornos digi
 | Error | #E63946 | Estados de error                   |
 | Success | #2ECC71 | Estados de éxito                   |
 
+![paletacolores](pawtient-report/assets/images/paletacolores.png)
+
 La paleta busca generar una experiencia visual equilibrada, transmitiendo seguridad, limpieza y accesibilidad.
 
 **Spacing**
