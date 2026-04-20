@@ -970,6 +970,26 @@ Los componentes del sistema de *Pawtient* han sido diseñados siguiendo principi
   Basados en representaciones simples y reconocibles (usuario, menú, mascota), alineados con el estilo minimalista del sistema.
 ---
 
+#### Interacciones
+
+Las interacciones en Pawtient están diseñadas para ser intuitivas, fluidas y consistentes, mejorando la experiencia del usuario sin sobrecargar la interfaz.
+
+- **Hover states:**  
+  Los elementos interactivos (botones, links, cards) cambian sutilmente de color o elevación al pasar el cursor.
+
+- **Feedback visual:**  
+  El sistema muestra respuestas inmediatas a las acciones del usuario, como mensajes de éxito, error o carga.
+
+- **Transiciones suaves:**  
+  Se utilizan animaciones ligeras para cambios de estado, navegación o aparición de componentes.
+
+- **Responsive interactions:**  
+  En dispositivos móviles, se priorizan interacciones táctiles claras, como botones grandes y menús desplegables.
+
+- **Call To Action (CTA):**  
+  Botones destacados como “Comenzar gratis” guían al usuario hacia las acciones principales del sistema.
+
+---
 ## 4.2. Information Architecture
 
 *(Decisiones que dirigen la organización del contenido en las experiencias web — Landing Page y Web Application)*
