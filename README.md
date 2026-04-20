@@ -917,12 +917,14 @@ Esto permite una interfaz ordenada, clara y fácil de escanear visualmente.
 ---
 **Tono de comunicación**
 
-| Dimensión | Selección |
-|:----------|:---------:|
-| Divertido / Serio | *(indicar posición en la escala)* |
-| Formal / Casual | *(indicar posición en la escala)* |
-| Respetuoso / Irreverente | *(indicar posición en la escala)* |
-| Entusiasta / Sereno | *(indicar posición en la escala)* |
+| Dimensión |             Selección             |
+|:----------|:---------------------------------:|
+| Divertido / Serio |  Equilibrado (ligeramente serio)  |
+| Formal / Casual |            Semi-formal            |
+| Respetuoso / Irreverente |            Respetuoso             |
+| Entusiasta / Sereno | Sereno con toques positivos |
+
+El tono busca generar confianza en un entorno clínico, sin perder cercanía con los usuarios.
 
 ---
 
