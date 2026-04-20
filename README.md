@@ -852,11 +852,31 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 ### 4.1.1. General Style Guidelines
 
-Las decisiones de estilo de *Pawtient* se basan en la necesidad de transmitir confianza, cercanía y profesionalismo en el contexto del cuidado de mascotas y la gestión de clínicas veterinarias. Se busca una interfaz clara, accesible y consistente, que facilite la interacción tanto de veterinarios como del personal administrativo.
-TEST    
+Las decisiones de estilo de Pawtient se basan en la necesidad de transmitir confianza, cercanía y profesionalismo en el contexto del cuidado de mascotas y la gestión de clínicas veterinarias. Se busca una interfaz clara, accesible y consistente, que facilite la interacción tanto de veterinarios como del personal administrativo.
+
 **Branding**
 
-*(Descripción del branding de BrandRadar: logo, isotipo, naming, y principios de identidad visual)*
+El branding de Pawtient está orientado a representar el cuidado y bienestar de las mascotas a través de una identidad visual moderna y amigable.
+
+El nombre Pawtient surge de la combinación de “Paw” (pata) y “Patient” (paciente), haciendo referencia directa a las mascotas como los pacientes principales del sistema.
+
+El logotipo de *Pawtient* está compuesto por una tipografía sans-serif moderna y amigable, que transmite claridad, accesibilidad y confianza, valores fundamentales en el contexto de la gestión clínica veterinaria.
+
+El elemento distintivo del logotipo es la integración de una huella de mascota dentro de la letra inicial “P”, la cual funciona como isotipo. Este recurso visual refuerza de manera directa el enfoque del sistema en el cuidado de animales, permitiendo una identificación inmediata por parte del usuario.
+
+En cuanto a la paleta de colores, el logotipo utiliza una combinación de azul y verde. El azul (#3A86FF) representa confianza, profesionalismo y seguridad en el manejo de la información, mientras que el verde (#2ECC71) evoca salud, bienestar y conexión con el cuidado de las mascotas. Esta combinación cromática genera un equilibrio visual que comunica tanto el aspecto clínico como el humano del producto.
+
+El diseño del logotipo ha sido concebido para ser versátil y escalable, asegurando su correcta visualización en diferentes contextos, como interfaces web, aplicaciones móviles, iconos y material gráfico. Asimismo, el isotipo puede utilizarse de forma independiente en espacios reducidos, como favicon o elementos de navegación.
+
+![Logo Pawtient](pawtient-report/assets/images/pawtient2.png)
+
+Los principios de identidad visual se centran en:
+- Cercanía con el usuario
+- Claridad en la comunicación
+- Profesionalismo en el entorno clínico
+- Confianza en el manejo de información
+
+---
 
 **Typography**
 
