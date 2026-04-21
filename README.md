@@ -886,6 +886,8 @@ Luego de conversar un poco, el equipo descartó algunos eventos y identificó me
 
 ![Big Picture Final](pawtient-report/assets/images/Big-Picture-Event-Storming/Big-picture-event-storming.png)
 
+[Ver en miro](`https://miro.com/welcomeonboard/TUM0Kzk0ajRxOXdpd1EzRXpwQjU1ckx6c3JPV2trSUxpQ2dLc0p6RFZjUEFwaXYvcHpOMTZGWHExOFpibXpLRHNURWF6Zko2b1NaM2FxTEJieCsvUElhMFUwdXIwNThuaWpBa3F4dzlXUklLaXA4dFFvZUY1VjRHVXhGcklxT3BNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=798329479919`)
+
 ---
 
 ## 2.5. Ubiquitous Language
