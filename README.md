@@ -189,7 +189,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 ### 1.1.1. Descripción de la Startup
 
-**PetHealth** es una startup tecnológica enfocada en la modernización del sector veterinario mediante soluciones digitales. Nuestro producto principal, **Pawtient**, es una plataforma web diseñada para gestionar la información médica de las mascotas, facilitando el registro de consultas, el seguimiento de tratamientos y el control de historiales clínicos. A través de esta solución, se conectan veterinarios, administradores y dueños de mascotas en un mismo sistema, mejorando la organización de la información, la gestión de insumos médicos y el monitoreo continuo de cada paciente.
+**PetHealth** es una startup tecnológica enfocada en la modernización del sector veterinario mediante soluciones digitales. Nuestro producto principal, **Pawtient**, es una plataforma web diseñada para gestionar la información médica de las mascotas, facilitando el registro de consultas, el seguimiento de tratamientos y el control de historiales clínicos. A través de esta solución, se conecta al personal de las clínicas veterinarias con los dueños de mascotas en un mismo sistema, facilitando la comunicación y el acceso a la información, mejorando la organización de los datos, la gestión de insumos médicos y el monitoreo continuo de cada paciente.
 
 
 - **Misión:** Desarrollar soluciones digitales que mejoren la gestión de los centros veterinarios, facilitando el acceso y control de la información clínica, así como promoviendo una mejor comunicación entre la parte profesional y los dueños de mascotas para brindar una atención de mejor calidad.
@@ -254,14 +254,13 @@ Se presenta principalmente en centros veterinarios pequeños y medianos, donde a
 #### ¿Quiénes son los principales afectados por esta problemática?
 
 
-Los principales afectados son los veterinarios, administradores y dueños de mascotas. Los veterinarios tienen dificultades para acceder a información completa y actualizada, los administradores enfrentan problemas en el control de insumos y operaciones, y los dueños de mascotas ven limitado el seguimiento de sus animales y el acceso a información clara, lo que puede afectar su confianza en el servicio.
+Los principales afectados son el personal de las clínicas veterinarias y los dueños de mascotas. El personal clínico enfrenta dificultades para acceder a información completa y actualizada, así como para gestionar insumos y operaciones de manera eficiente. Por su parte, los dueños de mascotas tienen un acceso limitado al seguimiento de sus animales y a información clara sobre la atención, lo que puede afectar su confianza en el servicio.
 
 
 #### ¿Quién lo utilizará?
 
 
-El sistema será utilizado por veterinarios para registrar diagnósticos, tratamientos y evolución de los pacientes; por administradores para gestionar insumos y supervisar las operaciones; y por los dueños de mascotas para consultar el historial médico y dar seguimiento al estado de salud de sus mascotas.
-
+El sistema será utilizado por el personal de las clínicas veterinarias para registrar diagnósticos, gestionar tratamientos, supervisar operaciones y controlar insumos. Por su parte, los dueños de mascotas lo utilizarán para consultar el historial médico y dar seguimiento al estado de salud de sus mascotas.
 
 #### Why? (¿Por qué?)
 
@@ -278,14 +277,12 @@ La principal causa es la falta de digitalización e integración de los procesos
 #### ¿En qué condiciones los usuarios usarán nuestro producto?
 
 
-Los usuarios utilizarán la plataforma en sus actividades diarias. Los veterinarios la usarán durante la atención de sus pacientes para registrar diagnósticos, tratamientos y consultar información en tiempo real, los administradores para supervisar insumos y operaciones, y los dueños de mascotas para revisar el historial médico, dar seguimiento a sus animales y conocer la información de los veterinarios.
-
+Los usuarios utilizarán la plataforma en sus actividades diarias. El personal de las clínicas veterinarias la empleará durante la atención para registrar diagnósticos, gestionar tratamientos, supervisar insumos y consultar información en tiempo real. Por su parte, los dueños de mascotas la utilizarán para revisar el historial médico, dar seguimiento al estado de sus animales y conocer la información de los profesionales que los atienden.
 
 #### ¿Cómo les gustaría a los usuarios acceder a la plataforma?
 
 
-Los dueños de mascotas prefieren acceder desde sus teléfonos móviles para consultar rápidamente el historial médico, dar seguimiento al estado de salud de sus mascotas y revisar la información de los veterinarios. Por su parte, los veterinarios y administradores utilizan tanto computadoras como dispositivos móviles, ya que esto les permite registrar información clínica en tiempo real y gestionar tratamientos, insumos y operaciones del centro de manera más completa.
-
+Los dueños de mascotas prefieren acceder desde sus teléfonos móviles para consultar rápidamente el historial médico, dar seguimiento al estado de salud de sus mascotas y revisar la información de los profesionales. Por su parte, el personal de las clínicas veterinarias utiliza tanto computadoras como dispositivos móviles, ya que esto les permite registrar información clínica en tiempo real y gestionar tratamientos, insumos y operaciones del centro de forma más eficiente.
 
 #### How much? (¿Cuánto?)
 
@@ -305,7 +302,7 @@ En el contexto peruano, Lolimsa (2024) señala que una inadecuada gestión en ce
 
 ### 1.2.2. Lean UX Process
 
-El proceso de Lean UX es una metodología de diseño enfocada en el usuario que busca mejorar continuamente el producto a partir de la prueba de ideas, la evaluación y la retroalimentación constante. En el caso de Pawtient, se aplicará para entender mejor las necesidades de veterinarios, administradores y dueños de mascotas, permitiendo ajustar la plataforma en función de su uso real y mejorar su experiencia de manera progresiva.
+El proceso de Lean UX es una metodología de diseño enfocada en el usuario que busca mejorar continuamente el producto a partir de la prueba de ideas, la evaluación y la retroalimentación constante. En el caso de Pawtient, se aplicará para entender mejor las necesidades del personal clínico y dueños de mascotas, permitiendo ajustar la plataforma en función de su uso real y mejorar su experiencia de manera progresiva.
 
 #### 1.2.2.1. Lean UX Problem Statements
 
@@ -343,7 +340,7 @@ Hemos identificado que la gestión de insumos suele realizarse de forma manual o
 
 1. **Considero que** los centros veterinarios requieren una forma más ordenada y segura de manejar la información clínica y el seguimiento de sus pacientes.
 2. **Estas necesidades pueden resolverse con** una plataforma web que centralice historiales médicos, control de insumos y gestión de citas.
-3. **Nuestros primeros usuarios serán** veterinarios y administradores de centros veterinarios, así como dueños de mascotas interesados en acceder y dar seguimiento a la información de salud de sus mascotas.
+3. **Nuestros primeros usuarios serán** el personal clínico de los centros veterinarios, así como los dueños de mascotas interesados en acceder y dar seguimiento a la información de salud de sus mascotas.
 4. **El principal beneficio que buscan los usuarios es** mejorar la calidad de atención y tomar decisiones basadas en información actualizada.
 5. **El sistema también ofrece** control de inventario, seguimiento de tratamientos y acceso a información del personal veterinario.
 6. **La captación de nuestros usuarios será a través de** marketing digital, alianzas con centros veterinarios y recomendaciones dentro del sector.
@@ -358,7 +355,7 @@ Hemos identificado que la gestión de insumos suele realizarse de forma manual o
 **¿Quiénes son nuestros usuarios?**
 
 
-Los usuarios de Pawtient son centros veterinarios, incluyendo veterinarios y personal administrativo que buscan mejorar la gestión de la información clínica. También participan los dueños de mascotas, quienes necesitan acceder al historial médico de sus mascotas y conocer información sobre la atención y los profesionales que los atienden.
+Los usuarios de Pawtient son centros veterinarios, incluyendo al personal clínico que buscan mejorar la gestión de la información clínica. También participan los dueños de mascotas, quienes necesitan acceder al historial médico de sus mascotas y conocer información sobre la atención y los profesionales que los atienden.
 
 
 **¿Qué problemas busca resolver nuestro producto?**
@@ -376,8 +373,7 @@ La plataforma se utiliza durante consultas, seguimiento de tratamientos, gestió
 **¿Cómo se integra la solución en la rutina del usuario?**
 
 
-El sistema forma parte de la rutina diaria de los centros veterinarios. Los veterinarios lo utilizan durante la atención para registrar diagnósticos y hacer seguimiento a los pacientes, los administradores para organizar la información y gestionar los recursos, y los dueños de mascotas para acceder al historial, información y citas de sus mascotas.
-
+El sistema forma parte de la rutina diaria de los centros veterinarios. El personal clínico lo utiliza durante la atención para registrar diagnósticos, hacer seguimiento a los pacientes y gestionar la información y los recursos del centro. Por su parte, los dueños de mascotas lo utilizan para acceder al historial, consultar información y revisar las citas de sus mascotas.
 
 **¿Qué tan sencilla es la adopción de la plataforma?**
 
@@ -397,7 +393,7 @@ La plataforma debe contar con un diseño claro y ordenado, con iconos fáciles d
 
 - **Hypothesis 01:**
 
-  <br>**Creemos que** los veterinarios y administradores mejorarán la organización de la información si centralizan los historiales clínicos en una sola plataforma.
+  <br>**Creemos que** el personal clínico mejorará la organización de la información si centraliza los historiales clínicos en una sola plataforma.
 
   <br>**Sabremos que** hemos tenido éxito.
 
@@ -424,7 +420,7 @@ La plataforma debe contar con un diseño claro y ordenado, con iconos fáciles d
 
 - **Hypothesis 04:**
 
-  <br>**Creemos que** los veterinarios registrarán la información más rápido si utilizan formularios dentro de la plataforma.
+  <br>**Creemos que** el personal clínico registrará la información más rápido si utilizan formularios dentro de la plataforma.
 
   <br>**Sabremos que** hemos tenido éxito.
 
@@ -452,7 +448,7 @@ La plataforma debe contar con un diseño claro y ordenado, con iconos fáciles d
 
 #### 1.2.2.4. Lean UX Canvas
 
-El Lean UX Canvas es una herramienta visual que permite organizar y comprender los elementos clave de un producto, enfocándose en el problema, los usuarios y el valor que se busca ofrecer. En el caso de Pawtient, se utiliza para identificar las necesidades de veterinarios, administradores y dueños de mascotas, y definir cómo la plataforma aporta valor dentro de los centros veterinarios.
+El Lean UX Canvas es una herramienta visual que permite organizar y comprender los elementos clave de un producto, enfocándose en el problema, los usuarios y el valor que se busca ofrecer. En el caso de Pawtient, se utiliza para identificar las necesidades del personal clínico y de los dueños de mascotas, y definir cómo la plataforma aporta valor dentro de los centros veterinarios
 
 A continuación, se presenta el Lean UX Canvas de Pawtient:
 
@@ -464,44 +460,22 @@ A continuación, se presenta el Lean UX Canvas de Pawtient:
 
 ## 1.3. Segmentos objetivo
 
-En el análisis del segmento objetivo para Pawtient, se ha identificado que nuestros principales usuarios serán veterinarios, administradores de los centros veterinarios y los dueños de mascotas.
+En el análisis del segmento objetivo para Pawtient, se ha identificado que nuestros principales usuarios serán el personal clínico de los centros veterinarios y los dueños de mascotas.
+
+### Personal de clínico de centros veterinarios
+
+Incluye veterinarios y personal administrativo, quienes necesitan gestionar la información clínica, registrar consultas, controlar insumos y organizar los procesos del centro de forma eficiente.
+
+- **Edad:** 23 a 60 años
 
 
-### Veterinarios
+- **Necesidad clave:** Centralizar información clínica y optimizar la gestión del centro.
 
 
-Los veterinarios necesitan acceder a la información clínica de forma rápida y ordenada para poder atender mejor a sus pacientes. Cuando la información se encuentra desordenada o incompleta, se dificulta el seguimiento de tratamientos.
+- **Nivel educativo:** Formación técnica o profesional
 
 
-- **Edad:** 22 a 60 años.
-
-
-- **Necesidad clave:** Registrar información clínica y dar seguimiento a los pacientes.
-
-
-- **Nivel educativo:** Profesionales en medicina veterinaria.
-
-
-- **Uso de tecnología:** Uso constante de computadoras y dispositivos móviles.
-
-
-### Administradores
-
-
-El personal administrativo se encarga de la organización de la información de los pacientes y de controlar los recursos del centro. Sin un buen sistema, pueden presentarse errores en los registros y dificultades en la gestión de insumos.
-
-
-- **Edad:** 22 a 50 años
-
-
-- **Necesidad clave:** Organizar la información y gestionar insumos.
-
-
-- **Nivel educativo:** Formación técnica o universitaria.
-
-
--  **Uso de tecnología:** Uso regular de herramientas digitales.
-
+- **Uso de tecnología:** Uso frecuente de computadoras y dispositivos móviles.
 
 ### Dueños de mascotas
 
