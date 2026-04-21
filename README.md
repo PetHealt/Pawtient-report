@@ -862,15 +862,29 @@ Si existiera una herramienta integral que le permitiera gestionar la clínica y 
 
 ## 2.4. Big Picture Event Storming
 
-> *(Sesión colaborativa enfocada en entender el dominio del negocio en general. Referencia: https://bit.ly/bpes-guide)*
+En esta sección se introduce y resume el proceso realizado por el equipo para el Big Picture Event Storming, que fue realizado mediante una llamada en discord y plasmado con la ayuda de la herramienta Miro. A continuación, se explica el proceso:
 
-*(Introducción al proceso realizado y explicación de las etapas)*
+**1. OPEN**
 
-*(Capturas del Big Picture Event Storming elaborado en LucidChart / Miro)*
+En esta etapa el equipo se concentró en generar la mayor cantidad de eventos de dominio posibles (cosas que suceden en el negocio) escribiendo en los post-its naranjas.
 
-![Big Picture Event Storming](../assets/event-storming/big-picture-event-storming.png)
+![Open](pawtient-report/assets/images/Big-Picture-Event-Storming/open.png)
 
-*(Explicación de los eventos, actores y flujos identificados)*
+**2. Explore**
+
+Después de la anterior etapa, en esta se concentró en ordenar cronológicamente los eventos, eliminar los eventos repetidos, identificar sus actores y posibles sistemas externos, y finalmente algunos puntos de dolor en post-its morados.
+
+![Explore](pawtient-report/assets/images/Big-Picture-Event-Storming/Explore.png)
+
+**3. Close**
+
+En esta última etapa, se documentaron en post-its rosados los problemas más relevantes detectados, junto con aspectos que debíamos investigar más a fondo o descartar según el alcance definido.
+
+![Close](pawtient-report/assets/images/Big-Picture-Event-Storming/Close.png)
+
+Luego de conversar un poco, el equipo descartó algunos eventos y identificó mejor un sistema externo:
+
+![Big Picture Final](pawtient-report/assets/images/Big-Picture-Event-Storming/Big-picture-event-storming.png)
 
 ---
 
