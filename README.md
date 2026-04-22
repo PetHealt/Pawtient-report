@@ -962,13 +962,23 @@ Los siguientes son los eventos significativos identificados en el Event Storming
 
 >*El Product Backlog de Pawtient contiene las funcionalidades priorizadas del sistema en función del valor de negocio. Se inicia con la Landing Page para validar la propuesta de valor, seguida por las funcionalidades core como gestión de usuarios, historiales clínicos y citas, y finalmente módulos de soporte como inventario y API. Cada User Story incluye una estimación en Story Points para facilitar la planificación ágil.*
 
-> **Herramienta utilizada:** `Jira`
->
-> **URL del Product Backlog:** [`[URL del Product Backlog]`](`[URL]`)
+<br>
 
-*(Captura del Product Backlog en la herramienta indicada)*
+**Herramienta utilizada:** `Jira`
+
+**URL del Product Backlog:** [`[URL del Product Backlog]`](`[URL]`)
+
+<br>
+
+<div align="center">
+  
+*Product Backlog en Jira*
 
 ![Product Backlog](../assets/product-backlog/product-backlog.png)
+
+</div>
+
+<br>
 
 | Orden | User Story Id | Título                           | Descripción                                                                      | Story Points |
 | ----- | ------------- | -------------------------------- | -------------------------------------------------------------------------------- | ------------ |
@@ -1003,6 +1013,7 @@ Los siguientes son los eventos significativos identificados en el Event Storming
 | 29    | TS04          | API inventario                   | Endpoint para gestión de inventario                                              | 5            |
 | 30    | TS05          | API notificaciones               | Endpoint para envío de notificaciones                                            | 5            |
 
+<br>
 
 ---
 
