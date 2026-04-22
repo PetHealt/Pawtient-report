@@ -776,17 +776,37 @@ Camila Rodríguez es una joven dueña de mascota que busca mantener la salud de 
 
 ### 2.3.2. User Task Matrix
 
-*(Introducción estableciendo los segmentos considerados)*
+##### User Task Matrix - Personal clínico 
 
-| Tarea (Task) | `[Persona 1]` Frecuencia | `[Persona 1]` Importancia | `[Persona 2]` Frecuencia | `[Persona 2]` Importancia |
-|:-------------|:------------------------:|:-------------------------:|:------------------------:|:-------------------------:|
-| *(Tarea 1)* | Alta / Media / Baja | Alta / Media / Baja | Alta / Media / Baja | Alta / Media / Baja |
-| *(Tarea 2)* | | | | |
-| *(Tarea 3)* | | | | |
-| *(Tarea 4)* | | | | |
-| *(Tarea 5)* | | | | |
+| **Tareas / Tasks**                   | **Frecuencia** | **Importancia** |
+|--------------------------------------|----------------|-----------------|
+| Registrar historias clínicas         | Alta           | Muy alta        |
+| Consultar información de pacientes   | Alta           | Muy alta        |
+| Gestionar citas                      | Alta           | Alta            |
+| Controlar inventario de insumos      | Media          | Alta            |
+| Coordinar atención con clientes      | Alta           | Muy alta        |
+| Revisar stock de insumos             | Media          | Alta            |
+| Organizar información clínica        | Alta           | Muy alta        |
+| Realizar seguimiento de tratamientos | Media          | Alta            |
+| Comunicar indicaciones a los dueños  | Alta           | Alta            |
 
-*(Explicación resaltando las tareas con mayor frecuencia e importancia, principales diferencias y coincidencias entre los User Personas)*
+El personal clínico desarrolla tareas constantes enfocadas en el registro, consulta y gestión de información médica, así como en la coordinación de citas y control de insumos. Lo que refleja la necesidad de sistemas que centralicen la información y optimicen el tiempo de trabajo.
+
+##### User Task Matrix - Dueños de mascotas
+
+| **Tareas / Tasks**                          | **Frecuencia** | **Importancia** |
+|---------------------------------------------|----------------|-----------------|
+| Llevar a su mascota al veterinario          | Media          | Muy alta        |
+| Recordar vacunas y tratamiento              | Media          | Muy alta        |
+| Consultar información respecto a su mascota | Alta           | Alta            |
+| Organizar citas veterinarias                | Media          | Alta            |
+| Verificar el estado de salud de su mascota  | Alta           | Muy alta        |
+| Revisar historial antes de una consulta     | Baja           | Alta            |
+| Comprar productos para su mascota           | Media          | Media           |
+| Consultar reseñas de veterinarias           | Alta           | Alta            |
+| Registrar o guardar información médica      | Baja           | Alta            |
+
+Los dueños de mascotas realizan actividades para asegurar su bienestar, vigilar su estado y tomar decisiones sobre su salud. Las tareas principales incluyen administrar vacunas, buscar información confiable y agendar visitas, lo que resalta la necesidad de herramientas para llevar un registro y evitar la pérdida de información.
 
 ---
 
