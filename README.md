@@ -960,24 +960,49 @@ Los siguientes son los eventos significativos identificados en el Event Storming
 
 ## 3.3. Product Backlog
 
-*(Introducción al Product Backlog)*
+>*El Product Backlog de Pawtient contiene las funcionalidades priorizadas del sistema en función del valor de negocio. Se inicia con la Landing Page para validar la propuesta de valor, seguida por las funcionalidades core como gestión de usuarios, historiales clínicos y citas, y finalmente módulos de soporte como inventario y API. Cada User Story incluye una estimación en Story Points para facilitar la planificación ágil.*
 
-> **Herramienta utilizada:** `[Pivotal Tracker / JetBrains YouTrack / Jira / Trello]`
+> **Herramienta utilizada:** `Jira`
 >
-> **URL del Product Backlog:** [`[URL pública del Product Backlog]`](`[URL]`)
+> **URL del Product Backlog:** [`[URL del Product Backlog]`](`[URL]`)
 
 *(Captura del Product Backlog en la herramienta indicada)*
 
 ![Product Backlog](../assets/product-backlog/product-backlog.png)
 
-| # Orden | User Story ID | Título | Descripción | Story Points |
-|:-------:|:-------------:|:------:|:------------|:------------:|
-| 1 | US01 | `[Título]` | Como `[rol]`, deseo `[acción]`, para `[beneficio]`. | `1 / 2 / 3 / 5 / 8` |
-| 2 | US02 | `[Título]` | Como `[rol]`, deseo `[acción]`, para `[beneficio]`. | |
-| 3 | US03 | `[Título]` | Como `[rol]`, deseo `[acción]`, para `[beneficio]`. | |
-| 4 | US04 | `[Título]` | Como `[rol]`, deseo `[acción]`, para `[beneficio]`. | |
-| 5 | US05 | `[Título]` | Como `[rol]`, deseo `[acción]`, para `[beneficio]`. | |
-| n | TS01 | `[Technical Story]` | Como Developer, deseo `[endpoint]`, para `[propósito]`. | |
+| Orden | User Story Id | Título                           | Descripción                                                                      | Story Points |
+| ----- | ------------- | -------------------------------- | -------------------------------------------------------------------------------- | ------------ |
+| 1     | US22          | Propuesta de valor para clínicas | Como visitante de clínica, deseo ver beneficios del sistema para evaluar su uso  | 3            |
+| 2     | US23          | Propuesta de valor para dueños   | Como dueño de mascota, deseo entender beneficios para decidir registrarme        | 3            |
+| 3     | US24          | Navegación en landing page       | Como visitante, deseo navegar fácilmente entre secciones para explorar contenido | 2            |
+| 4     | US25          | Preguntas frecuentes             | Como visitante, deseo ver FAQs para resolver dudas sin contactar soporte         | 2            |
+| 5     | US03          | Recuperar contraseña             | Como usuario, deseo recuperar mi contraseña para acceder nuevamente              | 3            |
+| 6     | US01          | Registro de veterinario          | Como veterinario, deseo crear cuenta para usar el sistema                        | 5            |
+| 7     | US02          | Inicio de sesión                 | Como usuario, deseo iniciar sesión para acceder al sistema                       | 3            |
+| 8     | US16          | Crear perfil de mascota          | Como dueño, deseo registrar mi mascota para centralizar su información           | 5            |
+| 9     | US04          | Registrar historia clínica       | Como veterinario, deseo registrar historial para seguimiento médico              | 8            |
+| 10    | US05          | Consultar historial clínico      | Como veterinario, deseo visualizar historial para tomar decisiones informadas    | 5            |
+| 11    | US06          | Editar historia clínica          | Como veterinario, deseo actualizar historial para mantener datos vigentes        | 5            |
+| 12    | US07          | Registrar vacunas                | Como veterinario, deseo registrar vacunas para control sanitario                 | 5            |
+| 13    | US08          | Agendar cita clínica             | Como veterinario, deseo registrar citas para organizar la agenda                 | 5            |
+| 14    | US10          | Visualizar agenda diaria         | Como veterinario, deseo ver las citas del día para organizar mi jornada          | 3            |
+| 15    | US09          | Agendar cita (dueño)             | Como dueño, deseo reservar citas desde mi celular                                | 5            |
+| 16    | US11          | Recordatorios de citas           | Como dueño, deseo recibir recordatorios para no olvidar citas                    | 3            |
+| 17    | US19          | Recordatorios de vacunación      | Como dueño, deseo recibir alertas de vacunas                                     | 3            |
+| 18    | US21          | Notificaciones de seguimiento    | Como dueño, deseo recibir actualizaciones médicas                                | 3            |
+| 19    | US20          | Configurar notificaciones        | Como dueño, deseo personalizar las alertas                                       | 2            |
+| 20    | US12          | Registrar suministros            | Como administrador, deseo registrar inventario                                   | 5            |
+| 21    | US13          | Consultar stock                  | Como veterinario, deseo verificar disponibilidad de insumos                      | 3            |
+| 22    | US14          | Registrar consumo                | Como veterinario, deseo descontar insumos usados en consulta                     | 5            |
+| 23    | US15          | Alertas de stock                 | Como administrador, deseo recibir alertas de bajo stock                          | 3            |
+| 24    | US17          | Compartir historial              | Como dueño, deseo compartir historial con clínicas                               | 5            |
+| 25    | US18          | Buscar clínicas                  | Como dueño, deseo encontrar clínicas cercanas                                    | 5            |
+| 26    | TS01          | API autenticación                | Endpoint para autenticación mediante JWT                                         | 5            |
+| 27    | TS02          | API historial clínico            | Endpoint para registro de historias clínicas                                     | 5            |
+| 28    | TS03          | API citas                        | Endpoint para programación de citas                                              | 5            |
+| 29    | TS04          | API inventario                   | Endpoint para gestión de inventario                                              | 5            |
+| 30    | TS05          | API notificaciones               | Endpoint para envío de notificaciones                                            | 5            |
+
 
 ---
 
