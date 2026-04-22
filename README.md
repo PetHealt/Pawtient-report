@@ -603,31 +603,31 @@ Si existiera una herramienta integral que le permitiera gestionar la clínica y 
 ### 2.2.2. Registro de entrevistas
 <div align="center">
   
-**Segmento objetivo 1: `nombre del segmento`**
+**Segmento objetivo 1: `Personal de clínico de centros veterinarios`**
 
 <br>
 
 #### Entrevista 1
 *Imagen de la entrevista*
 
-<img src="../assets/interviews/ss_entrevista_1.png" alt="Screenshot Entrevista 1" width="500"/>
+<img src="pawtient-report/assets/images/Entrevista/valeria.png" alt="Screenshot Entrevista 1" width="500"/>
 
 <br>
 
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+| Campo | Detalle                                                                                                                                                                                                                                                                                                                                                       |
+|:------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombres y apellidos** | Valeria Nomberto                                                                                                                                                                                                                                                                                                                                              |
+| **Edad** | 23                                                                                                                                                                                                                                                                                                                                                            |
+| **Ubicación** | Lince                                                                                                                                                                                                                                                                                                                                                         |
+| **Fecha de entrevista** | 21-04-2026                                                                                                                                                                                                                                                                                                                                                    |
+| **Duración** | 05:59 min                                                                                                                                                                                                                                                                                                                                                     |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQAz3Em-fhe6R7-5goCWq0-YAWzVewgdUXIBFNEKZiFuhOE?e=kimAI5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 **Resumen:**
 
 </div>
 
-*(Redactar resumen de la entrevista)*
+Valeria es una médica veterinaria de 23 años que trabaja en el distrito de Lince, Lima. Se define como una profesional responsable, empática y muy organizada, con aproximadamente dos años de experiencia en el sector. Su principal meta para este año es digitalizar los procesos de su clínica para mejorar la fidelización de los clientes y optimizar la gestión interna. Actualmente, su mayor dificultad es el desorden y la dispersión de las historias clínicas físicas, lo que le genera estrés y le resta tiempo libre. Por ello, busca una herramienta que centralice la gestión de citas, inventarios e historiales médicos en una plataforma accesible desde el celular.
 
 <br>
 <div align="center">
@@ -635,18 +635,18 @@ Si existiera una herramienta integral que le permitiera gestionar la clínica y 
 #### Entrevista 2
 *Imagen de la entrevista*
 
-<img src="../assets/interviews/ss_entrevista_2.png" alt="Screenshot Entrevista 2" width="1000"/>
+<img src="pawtient-report/assets/images/Entrevista/Adrian.png" alt="Screenshot Entrevista 1" width="500"/>
 
 <br>
 
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+| Campo | Detalle                                                     |
+|:------|:------------------------------------------------------------|
+| **Nombres y apellidos** | Adrian                                                      |
+| **Edad** | 35                                                          |
+| **Ubicación** | Miraflores                                                  |
+| **Fecha de entrevista** | 22-04-2026                                                  |
+| **Duración** | 05:44 min                                                   |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQBBtDDT9R0bQpGUDj6Uw9XeAbjQ6oExcvphcoKBd82sQ7o?e=80gFgA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 **Resumen:**
 
@@ -661,18 +661,18 @@ Si existiera una herramienta integral que le permitiera gestionar la clínica y 
 
 *Imagen de la entrevista*
 
-<img src="../assets/interviews/ss_entrevista_3.png" alt="Screenshot Entrevista 3" width="500"/>
+<img src="pawtient-report/assets/images/Entrevista/Luciana.png" alt="Screenshot Entrevista 1" width="500"/>
 
 <br>
 
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+| Campo | Detalle                                                      |
+|:------|:-------------------------------------------------------------|
+| **Nombres y apellidos** | Luciana Quintana                                             |
+| **Edad** | 28                                                           |
+| **Ubicación** | Surco                                                        |
+| **Fecha de entrevista** | 22-04-2026                                                   |
+| **Duración** | 05:18 min                                                     |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCMlNh3l3N6TZPQPy1mHg6RAVOCx3wuJoNC11qLxFvlMrY?e=4XiPy9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 **Resumen:**
 
@@ -683,7 +683,7 @@ Si existiera una herramienta integral que le permitiera gestionar la clínica y 
 ---
 <div align="center">
   
-**Segmento objetivo 2: `nombre del segmento`**
+**Segmento objetivo 2: `Dueños de mascotas`**
 
 <br>
 
@@ -691,25 +691,24 @@ Si existiera una herramienta integral que le permitiera gestionar la clínica y 
 
 *Imagen de la entrevista*
 
-<img src="../assets/interviews/ss_entrevista_4.png" alt="Screenshot Entrevista 4" width="500"/>
+<img src="pawtient-report/assets/images/Entrevista/Pierina.png" alt="Screenshot Entrevista 1" width="500"/>
 
 <br>
 
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+| Campo | Detalle                                                     |
+|:------|:------------------------------------------------------------|
+| **Nombres y apellidos** | Pierina                                                     |
+| **Edad** | 29                                                          |
+| **Ubicación** | Surco                                                       |
+| **Fecha de entrevista** | 20-04-2026                                                  |
+| **Duración** | 07:57 min                                                   |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQAFfPb10NeoRrgpyDAsrwO9AV0mvrXDNFWqMpHT4T8IZZ4?e=LIlQpN&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 **Resumen:**
 
 </div>
 
-*(Redactar de forma descriptiva las respuestas del entrevistado a las preguntas realizadas. Incluir todas las características objetivas y subjetivas: personalidad, marcas e influencias, tecnología, canales de interacción, browser, dispositivos, etc.)*
-
+Pierina es una estudiante de Ingeniería de Software de 19 años que vive en San Juan de Lurigancho y tiene dos perros de raza pequeña de cuatro años, adoptados de la camada de un familiar. Se considera una dueña sobreprotectora y su principal objetivo es mantener a sus mascotas saludables y libres de parásitos, especialmente por la presencia de perros callejeros en su zona. Le genera preocupación llevarlos al veterinario por posibles malos tratos y tiene dificultades para organizar el historial médico y las vacunas, ya que utiliza una cartilla física que puede perderse o no siempre está disponible. Utiliza TikTok e Instagram para buscar recomendaciones y sigue a veterinarios en redes sociales. Además, señala que usaría una plataforma digital si le permitiera organizar el historial médico, recibir recordatorios de vacunas, agendar citas y ver reseñas de veterinarias.
 <br>
 
 <div align="center">
@@ -718,24 +717,24 @@ Si existiera una herramienta integral que le permitiera gestionar la clínica y 
 
 *Imagen de la entrevista*
 
-<img src="../assets/interviews/ss_entrevista_5.png" alt="Screenshot Entrevista 5" width="500"/>
+<img src="pawtient-report/assets/images/Entrevista/Mauricio.png" alt="Screenshot Entrevista 1" width="500"/>
 
 <br>
 
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+| Campo | Detalle                                                     |
+|:------|:------------------------------------------------------------|
+| **Nombres y apellidos** | Mauricio Canchis                                            |
+| **Edad** | 29                                                          |
+| **Ubicación** | Surco                                                       |
+| **Fecha de entrevista** | 18-04-2026                                                  |
+| **Duración** | 08:42 min                                                   |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQDpOEyAXDKrSabjI835Bo8_AaRMpQ-XQfXEVC77FQGQYfo?e=vnulnX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 **Resumen:**
 
 </div>
 
-*(Redactar resumen de la entrevista)*
+Mauricio es un estudiante universitario de 29 años que reside en Surco y es dueño de un perro pequeño. Debido a su pesada carga académica y a que posee una memoria que él mismo describe como "frágil", le resulta complicado mantenerse al día con los cuidados de su mascota. Su principal frustración es el tiempo que consume ir al veterinario y la dificultad para recordar las fechas de vacunación o citas médicas. Es un usuario intensivo de smartphone y WhatsApp, y admite que no recuerda nombres de marcas, sino que compra productos guiándose por el reconocimiento visual de los colores del empaque. Para él, lo más valioso de una plataforma digital sería recibir notificaciones y recordatorios automáticos que le quiten la preocupación de olvidar los eventos de salud de su perro.
 
 <br>
 
@@ -745,24 +744,24 @@ Si existiera una herramienta integral que le permitiera gestionar la clínica y 
 
 *Imagen de la entrevista*
 
-<img src="../assets/interviews/ss_entrevista_6.png" alt="Screenshot Entrevista 6" width="500"/>
+<img src="pawtient-report/assets/images/Entrevista/Jorge.png" alt="Screenshot Entrevista 1" width="500"/>
 
 <br>
 
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
+| Campo | Detalle                                                      |
+|:------|:-------------------------------------------------------------|
+| **Nombres y apellidos** | Jorge                                                        |
+| **Edad** | 20                                                           |
+| **Ubicación** | La Victoria                                                  |
+| **Fecha de entrevista** | 21-04-2026                                                   |
+| **Duración** | 06:16 min                                                    |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQACXesV91lmRpPN6yBDOZ3EAa3Z8Y0G0-DjIC18S1qX8jk?e=1VGFIk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 **Resumen:**
 
 </div>
 
-*(Redactar resumen de la entrevista)*
+Jorge es un estudiante universitario de 20 años que vive en La Victoria junto a su hermano y tiene un perro Golden Retriever de 6 años que llegó como regalo. Se considera un dueño equilibrado entre relajado y sobreprotector, y su principal objetivo es brindarle calidad de vida a su mascota. Le genera estrés llevarlo al veterinario porque su perro le tiene miedo y porque a veces detecta problemas tarde, lo que aumenta los costos. Ha perdido indicaciones médicas anteriormente y ha tenido que volver al veterinario. Utiliza principalmente su celular y computadora, y aplicaciones como Instagram, WhatsApp y Google Calendar. Prefiere marcas de comida recomendadas como Pro Plan y sigue consejos de veterinarios en redes sociales. Además, usaría una plataforma digital si incluyera historial médico, recordatorios y recomendaciones para el cuidado de su mascota.
 
 ---
 
