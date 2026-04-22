@@ -816,17 +816,17 @@ En el desarrollo de Pawtient, se elaboró un user journey mapping con el fin de 
 
 **User Journey Map — Personal clínico**
 
-<img alt= "User Journey Mapping Personal Clínico" src="">
+<img alt= "User Journey Mapping Personal Clínico" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-segment-1.png">
 
-[Ver Imagen]()
+[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-segment-1.png)
 
 ---
 
-**User Journey Map — `[Persona 2]`**
+**User Journey Map — Dueños de mascotas**
 
-*(Captura del diagrama elaborado en UXPressia)*
+<img alt= "User Journey Mapping Personal Clínico" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-segment-2.png">
 
-![User Journey Map Persona 2](../assets/journey-maps/journey-map-persona2.png)
+[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-segment-2.png)
 
 ---
 
