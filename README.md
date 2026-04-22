@@ -999,9 +999,7 @@ diversos tipos de colores, tipografías, etc.
 ![Desktop-Mockup1](pawtient-report/assets/images/landing-page/Page-Mockup1.png)
 ![Desktop-Mockup2](pawtient-report/assets/images/landing-page/Page-Mockup2.png)
 ![Desktop-Mockup3](pawtient-report/assets/images/landing-page/Page-Mockup3.png)
-![Desktop-Mockup4](pawtient-report/assets/images/landing-page/Page-Mockup4.png)
 ![Desktop-Mockup5](pawtient-report/assets/images/landing-page/Page-Mockup5.png)
-![Desktop-Mockup6](pawtient-report/assets/images/landing-page/Page-Mockup6.png)
 ![Desktop-Mockup7](pawtient-report/assets/images/landing-page/Page-Mockup7.png)
 **Mobile Web Browser**
 
@@ -1046,13 +1044,15 @@ antes de poder acceder al sistema y realizar los debido servicios.
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-*(User Flows incluyendo Mock-ups de vistas, happy paths y unhappy paths)*
+**User goal: `[Usuario y selección de Perfil/ Elección de Membresia]`**
 
-**User goal: `[Nombre del User goal]`**
+Los diagramas de User Flow presentados ilustran la lógica de navegación y la experiencia del usuario dentro de nuestro sistema
+Pawtient, centrándose en el proceso crítico de elección de rol y la elección de membresia. Esta estructura de flujos asegura 
+que la aplicación web mantenga la integridad de la base de datos y ofrezca una navegación intuitiva y segura en todo momento.
 
-*(Descripción de los flujos y condiciones especificadas)*
-
-![User Flow Diagrama 1](../assets/web-app/user-flow-1.png)
+![User Flow Diagrama 1](pawtient-report/assets/images/landing-page/Page-Mockup4.png)
+![User Flow Diagrama 2](pawtient-report/assets/images/mobile-app/Mobile-Mockup4.png)
+![User Flow Diagrama 2](pawtient-report/assets/images/landing-page/Page-Mockup6.png)
 
 ---
 
