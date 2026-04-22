@@ -866,45 +866,23 @@ En esta sección se presentarán los Empathy Maps de cada segmento objetivo, con
 
 ## 2.5. Ubiquitous Language
 
-> *A continuación, se presenta el glosario de términos clave utilizados en el dominio del sistema Pawtient, orientado a la gestión de clínicas veterinarias. Este lenguaje común permite una comunicación clara y sin ambigüedades entre todos los stakeholders.*
-
+El siguiente ubiquitous language presenta los conceptos clave del dominio, con el objetivo de unificar el lenguaje utilizado por los diferentes actores y facilitar una comunicación clara durante el desarrollo de la plataforma.
 <br>
 
-| Término (EN) | Término (ES) | Definición |
-|:-------------|:-------------|:-----------|
-| `Patient` | Paciente | Animal que recibe atención médica en la clínica veterinaria. |
-| `Pet Owner` | Propietario de la mascota | Persona responsable del paciente, encargada de autorizar tratamientos y gestionar citas. |
-| `Veterinarian` | Veterinario | Profesional de la salud encargado de diagnosticar, tratar y dar seguimiento al paciente. |
-| `Clinical Record` | Historia clínica | Registro detallado del estado de salud del paciente, incluyendo diagnósticos, tratamientos y antecedentes. |
-| `Medical History` | Historial médico | Conjunto de registros previos relacionados con la salud del paciente a lo largo del tiempo. |
-| `Appointment` | Cita | Reserva programada para la atención de un paciente en una fecha y hora específica. |
-| `Consultation` | Consulta | Atención médica realizada durante una cita donde se evalúa al paciente. |
-| `Diagnosis` | Diagnóstico | Identificación de una enfermedad o condición médica basada en la evaluación del veterinario. |
-| `Treatment` | Tratamiento | Conjunto de acciones o procedimientos indicados para mejorar la salud del paciente. |
-| `Prescription` | Receta médica | Documento que especifica medicamentos, dosis y duración del tratamiento. |
-| `Medication` | Medicamento | Sustancia utilizada para tratar o prevenir enfermedades en el paciente. |
-| `Vaccine` | Vacuna | Sustancia administrada para prevenir enfermedades específicas en el paciente. |
-| `Check-up` | Chequeo | Evaluación general del estado de salud del paciente, generalmente preventiva. |
-| `Emergency Case` | Caso de emergencia | Situación médica crítica que requiere atención inmediata. |
-| `Symptom` | Síntoma | Manifestación observable de una enfermedad o condición en el paciente. |
-| `Allergy` | Alergia | Reacción adversa del paciente a ciertos medicamentos, alimentos o factores ambientales. |
-| `Procedure` | Procedimiento | Intervención médica realizada al paciente, como cirugías o tratamientos específicos. |
-| `Supply` | Suministro | Producto o insumo utilizado en la clínica, como medicamentos o materiales médicos. |
-| `Inventory` | Inventario | Conjunto de suministros disponibles en la clínica en un momento determinado. |
-| `Stock Level` | Nivel de stock | Cantidad disponible de un suministro en el inventario. |
-| `Stock Movement` | Movimiento de stock | Registro de entradas y salidas de suministros dentro del inventario. |
-| `Supply Traceability` | Trazabilidad de suministros | Capacidad de rastrear el origen, uso y destino de los suministros. |
-| `Supplier` | Proveedor | Entidad que abastece de productos o insumos a la clínica. |
-| `Batch` | Lote | Grupo de suministros producidos o adquiridos bajo las mismas condiciones. |
-| `Expiration Date` | Fecha de vencimiento | Fecha límite en la que un suministro puede ser utilizado de forma segura. |
-| `Restock` | Reabastecimiento | Proceso de reposición de suministros en el inventario. |
-| `Appointment Schedule` | Agenda de citas | Organización de todas las citas programadas en la clínica. |
-| `Availability` | Disponibilidad | Horarios en los que un veterinario puede atender citas. |
-| `Follow-up` | Seguimiento | Evaluación posterior al tratamiento para verificar la evolución del paciente. |
-| `Clinical Note` | Nota clínica | Observaciones registradas por el veterinario durante o después de una consulta. |
-| `Weight Record` | Registro de peso | Historial del peso del paciente para control de su salud. |
-| `Treatment Plan` | Plan de tratamiento | Estrategia médica definida para tratar una condición específica del paciente. |
-
+| Término (EN)         | Término (ES)          | Definición                                                       |
+|:---------------------|:----------------------|:-----------------------------------------------------------------|
+| `Pet`                | Mascota               | Paciente registrado en el sistema veterinario.                   |
+| `Pet Owner`          | Dueño de mascota      | Persona responsable del cuidado y seguimiento de la mascota.     |
+| `Appointment`        | Cita                  | Atención médica programada para una mascota.                     |
+| `Medical Record`     | Historial clínico     | Registro completo de la información médica de la mascota.        |
+| `Consultation`       | Consulta médica       | Proceso de atención realizado por el veterinario.                |
+| `Diagnosis`          | Diagnóstico           | Resultado de la evaluación médica del paciente.                  |
+| `Prescription`       | 	Receta médica	       | Indicaciones de tratamiento asignadas a la mascota.              |
+| `Inventory`	         | Inventario	           | Conjunto de insumos médicos disponibles en la clínica.           |
+| `Stock`              | 	Stock                | 	Cantidad disponible de un insumo o medicamento.                 |
+| `Supplier`           | 	Proveedor            | 	Entidad que abastece insumos médicos a la clínica.              |
+| `Payment`	           | Pago                  | 	Registro de una transacción realizada por el cliente.           |
+|  `Subscription Plan` | 	Plan de suscripción	 | Servicio SaaS contratado por la clínica para usar la plataforma. |
 <br>
 
 ---
