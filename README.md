@@ -866,24 +866,6 @@ En esta sección se presentarán los Empathy Maps de cada segmento objetivo, con
 
 ## 2.5. Ubiquitous Language
 
-El siguiente ubiquitous language presenta los conceptos clave del dominio, con el objetivo de unificar el lenguaje utilizado por los diferentes actores y facilitar una comunicación clara durante el desarrollo de la plataforma.
-<br>
-
-| Término (EN)         | Término (ES)          | Definición                                                       |
-|:---------------------|:----------------------|:-----------------------------------------------------------------|
-| `Pet`                | Mascota               | Paciente registrado en el sistema veterinario.                   |
-| `Pet Owner`          | Dueño de mascota      | Persona responsable del cuidado y seguimiento de la mascota.     |
-| `Appointment`        | Cita                  | Atención médica programada para una mascota.                     |
-| `Medical Record`     | Historial clínico     | Registro completo de la información médica de la mascota.        |
-| `Consultation`       | Consulta médica       | Proceso de atención realizado por el veterinario.                |
-| `Diagnosis`          | Diagnóstico           | Resultado de la evaluación médica del paciente.                  |
-| `Prescription`       | 	Receta médica	       | Indicaciones de tratamiento asignadas a la mascota.              |
-| `Inventory`	         | Inventario	           | Conjunto de insumos médicos disponibles en la clínica.           |
-| `Stock`              | 	Stock                | 	Cantidad disponible de un insumo o medicamento.                 |
-| `Supplier`           | 	Proveedor            | 	Entidad que abastece insumos médicos a la clínica.              |
-| `Payment`	           | Pago                  | 	Registro de una transacción realizada por el cliente.           |
-|  `Subscription Plan` | 	Plan de suscripción	 | Servicio SaaS contratado por la clínica para usar la plataforma. |
-<br>
 
 ---
 
