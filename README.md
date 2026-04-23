@@ -1382,7 +1382,7 @@ El bounded context de inventario gestiona suministros, proveedores, consumo y al
   
 *Imagen del Class Diagram*
 
-![Class Diagram BC4](pawtient-report/assets/images/class-diagrams/class-diagram4.png)
+![Class Diagram BC4](pawtient-report/assets/images/class-diagrams/class-diagram-4.png)
 
 *Elaboración propia con LucidChart*
 
