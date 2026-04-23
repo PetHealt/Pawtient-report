@@ -1316,7 +1316,7 @@ A continuación, se presentan los diagramas de clases UML para cada bounded cont
 
 <br>
 
-El bounded context de autenticación gestiona usuarios, roles y sesiones. Las clases principales son User, Role, Session y Clinic.
+El diagrama de clases del bounded context Identity & Access representa la gestión de autenticación y control de acceso dentro del sistema Pawtient.
 
 <br>
 <div align="center">
@@ -1331,11 +1331,21 @@ El bounded context de autenticación gestiona usuarios, roles y sesiones. Las cl
 
 <br>
 
+Este contexto define la entidad principal User, que encapsula la información básica de autenticación como correo electrónico, contraseña y estado de la cuenta.
+
+Adicionalmente, se modelan las especializaciones del usuario mediante las entidades PetOwner y Veterinarian, permitiendo diferenciar comportamientos y atributos específicos según el rol dentro del sistema. La clase Account complementa la gestión de sesión, almacenando información relevante como el último inicio de sesión.
+
+El comportamiento del sistema se abstrae a través de la interfaz AuthService, la cual define operaciones clave como autenticación y generación de tokens. Asimismo, se emplean enumeraciones como UserRole y UserStatus para garantizar consistencia en los estados y roles definidos.
+
+Las relaciones establecidas reflejan una asociación uno a uno entre usuario y cuenta, así como relaciones opcionales hacia los perfiles específicos. Este diseño permite una adecuada separación de responsabilidades y facilita la escalabilidad del sistema.
+
+<br>
+
 **Bounded Context: `Appointment Management`**
 
 <br>
 
-El bounded context de citas maneja la agenda, recordatorios y estados del turno.
+El diagrama de clases del bounded context Appointment Management modela la gestión completa del ciclo de vida de las citas médicas dentro del sistema Pawtient.
 
 <br>
 <div align="center">
@@ -1348,6 +1358,15 @@ El bounded context de citas maneja la agenda, recordatorios y estados del turno.
 
 </div>
 
+<br>
+
+La entidad central es Appointment, la cual contiene información relevante como fecha, estado y motivo de la cita, además de métodos que permiten gestionar su flujo, tales como confirmación, cancelación y reprogramación. La clase Schedule permite representar la disponibilidad horaria del sistema, asegurando que las citas se asignen en intervalos válidos.
+
+El modelo incorpora también la entidad Reminder, encargada de gestionar notificaciones hacia los usuarios, mejorando la asistencia a las citas programadas. Asimismo, se incluyen las entidades Pet, PetOwner y Veterinarian, reflejando la interacción entre los actores principales del dominio.
+
+La interfaz AppointmentService encapsula la lógica de negocio asociada a la gestión de citas, promoviendo una arquitectura desacoplada. La enumeración AppointmentStatus define los posibles estados del ciclo de vida de una cita.
+
+Las relaciones muestran claramente que un dueño puede tener múltiples mascotas, cada mascota puede tener múltiples citas, y cada cita es atendida por un veterinario y asociada a un horario específico, lo que asegura coherencia en la programación.
 
 <br>
 
@@ -1355,7 +1374,7 @@ El bounded context de citas maneja la agenda, recordatorios y estados del turno.
 
 <br>
 
-El bounded context clínico modela el historial médico, vacunas, diagnósticos y recetas de cada mascota.
+El bounded context Clinical Management constituye el núcleo del sistema Pawtient, ya que modela la gestión del historial clínico de las mascotas y la atención médica brindada.
 
 <br>
 <div align="center">
@@ -1368,6 +1387,17 @@ El bounded context clínico modela el historial médico, vacunas, diagnósticos 
 
 </div>
 
+<br>
+
+La entidad principal es MedicalRecord, definida como un aggregate root, que agrupa todas las consultas médicas asociadas a una mascota. Cada Consultation representa un evento clínico específico, incluyendo información sobre su estado, fecha y observaciones.
+
+Dentro de cada consulta se registran elementos fundamentales como VitalSigns, modelado como un value object debido a su naturaleza inmutable, así como Diagnosis, Prescription y Exam, que representan los resultados clínicos derivados de la atención.
+
+La clase PrescriptionItem permite descomponer una receta en múltiples elementos, facilitando la trazabilidad de medicamentos. Asimismo, la entidad Veterinarian se asocia a la consulta, indicando el profesional responsable.
+
+La interfaz ClinicalService abstrae las operaciones principales del dominio clínico, como el inicio de consultas y la generación de recetas. La enumeración ConsultationStatus define el estado del proceso clínico.
+
+Las relaciones establecidas reflejan que cada mascota posee un único historial médico, el cual contiene múltiples consultas, asegurando una correcta trazabilidad de la información clínica a lo largo del tiempo.
 
 <br>
 
@@ -1375,7 +1405,7 @@ El bounded context clínico modela el historial médico, vacunas, diagnósticos 
 
 <br>
 
-El bounded context de inventario gestiona suministros, proveedores, consumo y alertas de stock.
+El diagrama de clases del bounded context Inventory & Supply modela la gestión de insumos médicos y la trazabilidad de su uso dentro del sistema Pawtient.
 
 <br>
 <div align="center">
@@ -1387,6 +1417,18 @@ El bounded context de inventario gestiona suministros, proveedores, consumo y al
 *Elaboración propia con LucidChart*
 
 </div>
+
+<br>
+
+La entidad principal Product representa los insumos o medicamentos disponibles, incluyendo atributos como stock actual y stock mínimo, lo que permite controlar la disponibilidad. La entidad Supplier modela los proveedores responsables del abastecimiento de dichos productos.
+
+Para registrar los cambios en el inventario, se utiliza la entidad InventoryMovement, la cual captura entradas, salidas y ajustes mediante la enumeración MovementType. Asimismo, la clase StockAlert permite generar alertas cuando los niveles de inventario alcanzan umbrales críticos.
+
+Un aspecto clave del diseño es la relación entre Product y PrescriptionItem, lo que permite vincular directamente los insumos utilizados en el contexto clínico, logrando así la trazabilidad entre el inventario y la atención médica.
+
+La interfaz InventoryService encapsula las operaciones principales relacionadas con la gestión de inventario, como el registro de movimientos y la generación de alertas.
+
+Las relaciones establecidas reflejan que un proveedor puede suministrar múltiples productos, y que cada producto puede estar asociado a múltiples movimientos y alertas, garantizando un control detallado del inventario.
 
 <br>
 
