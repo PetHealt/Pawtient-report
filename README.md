@@ -1015,7 +1015,7 @@ El Impact Mapping nos permitió conectar los objetivos de negocio con el comport
   
 **Herramienta utilizada:** `Jira`
 
-**URL del Product Backlog:** [`[URL del Product Backlog]`](`https://briupalace.atlassian.net/jira/software/projects/PAW/boards/2/backlog?atlOrigin=eyJpIjoiMTE0ZjJmNThkNjBhNDQyNzkwMzI2YTJiMzJkNjRiN2MiLCJwIjoiaiJ9`)
+**URL del Product Backlog:** [Ver Product Backlog en Jira](https://briupalace.atlassian.net/jira/software/projects/PAW/boards/2/backlog?atlOrigin=eyJpIjoiMTE0ZjJmNThkNjBhNDQyNzkwMzI2YTJiMzJkNjRiN2MiLCJwIjoiaiJ9)
 
 <br>
 
