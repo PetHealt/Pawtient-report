@@ -1312,22 +1312,18 @@ A continuación, se presentan los diagramas de clases UML para cada bounded cont
 
 <br>
 
-**Bounded Context: `Gestión de Pacientes`**
+**Bounded Context: `Identity & Access`**
 
 <br>
 
-En este bounded context se modelan las entidades relacionadas con la gestión de mascotas y sus historiales clínicos dentro del sistema Pawtient. El diagrama de clases incluye las clases principales Mascota, Dueño y HistorialClinico, las cuales permiten registrar, actualizar y consultar la información de los pacientes.
-
-La clase Mascota contiene atributos como identificador, nombre, especie, raza, edad y peso, además de métodos para la gestión de sus datos. La clase Dueño almacena la información del responsable de la mascota, mientras que HistorialClinico gestiona los registros médicos, incluyendo diagnóstico y tratamiento.
-
-Se establece una relación de asociación entre Dueño y Mascota con multiplicidad uno a muchos, y una relación de composición entre Mascota y HistorialClinico, donde cada mascota posee un único historial clínico. Esto permite representar de forma clara la estructura y comportamiento del sistema en este contexto.
+El bounded context de autenticación gestiona usuarios, roles y sesiones. Las clases principales son User, Role, Session y Clinic.
 
 <br>
 <div align="center">
   
 *Imagen del Class Diagram*
 
-![Class Diagram BC1](pawtient-report/assets/images/class-diagrams/bounded_1.png)
+![Class Diagram BC1](pawtient-report/assets/images/class-diagrams/class-diagram-1.png)
 
 *Elaboración propia con LucidChart*
 
@@ -1335,22 +1331,18 @@ Se establece una relación de asociación entre Dueño y Mascota con multiplicid
 
 <br>
 
-**Bounded Context: `Gestión de Citas`**
+**Bounded Context: `Appointment Management`**
 
 <br>
 
-En este bounded context se modela la programación y administración de las citas dentro del sistema Pawtient. Este módulo permite agendar, reprogramar y cancelar citas médicas para las mascotas, asegurando una correcta coordinación entre los dueños y los veterinarios.
-
-El diagrama de clases incluye entidades como Cita, Veterinario y la enumeración EstadoCita, las cuales permiten representar el estado, la asignación y la gestión de cada cita. Además, se definen los atributos, métodos y relaciones necesarias para controlar el flujo de atención médica.
-
-Las relaciones entre clases permiten establecer la asignación de citas a veterinarios y la gestión de sus estados, garantizando una organización eficiente del calendario clínico del sistema.
+El bounded context de citas maneja la agenda, recordatorios y estados del turno.
 
 <br>
 <div align="center">
   
 *Imagen del Class Diagram*
 
-![Class Diagram BC1](pawtient-report/assets/images/class-diagrams/bounded_2.png)
+![Class Diagram BC2](pawtient-report/assets/images/class-diagrams/class-diagram-2.png)
 
 *Elaboración propia con LucidChart*
 
@@ -1359,22 +1351,18 @@ Las relaciones entre clases permiten establecer la asignación de citas a veteri
 
 <br>
 
-**Bounded Context: `Trazabilidad de Suministros`**
+**Bounded Context: `Clinical Management`**
 
 <br>
 
-En este bounded context se gestiona el control y seguimiento de los suministros utilizados dentro del sistema Pawtient. Su objetivo es registrar el ingreso, uso y salida de insumos médicos y veterinarios, permitiendo mantener un control adecuado del inventario.
-
-El diagrama de clases incluye entidades como Suministro y MovimientoSuministro, las cuales permiten representar la disponibilidad, el consumo y la trazabilidad de cada insumo dentro de la clínica. Además, se definen atributos y métodos que facilitan la actualización del stock y el registro de movimientos.
-
-Las relaciones entre clases permiten llevar un control detallado del inventario, asegurando la correcta gestión de los recursos utilizados en la atención veterinaria.
+El bounded context clínico modela el historial médico, vacunas, diagnósticos y recetas de cada mascota.
 
 <br>
 <div align="center">
   
 *Imagen del Class Diagram*
 
-![Class Diagram BC1](pawtient-report/assets/images/class-diagrams/bounded_3.png)
+![Class Diagram BC3](pawtient-report/assets/images/class-diagrams/class-diagram-3.png)
 
 *Elaboración propia con LucidChart*
 
@@ -1383,22 +1371,18 @@ Las relaciones entre clases permiten llevar un control detallado del inventario,
 
 <br>
 
-**Bounded Context: `Gestión de Usuarios`**
+**Bounded Context: `Inventory & Supply`**
 
 <br>
 
-En este bounded context se gestionan los usuarios del sistema Pawtient, incluyendo veterinarios y administradores que interactúan con la plataforma. Este módulo se encarga del control de acceso, la administración de perfiles y la asignación de roles dentro del sistema.
-
-El diagrama de clases incluye entidades como Usuario, Veterinario y Administrador, permitiendo modelar las credenciales, datos personales y permisos de cada tipo de usuario. Además, se definen atributos y métodos que facilitan la autenticación, gestión de información y control de funciones dentro del sistema.
-
-Las relaciones entre clases permiten establecer una jerarquía de usuarios mediante herencia, garantizando una estructura organizada y escalable para la gestión de accesos en la aplicación.
+El bounded context de inventario gestiona suministros, proveedores, consumo y alertas de stock.
 
 <br>
 <div align="center">
   
 *Imagen del Class Diagram*
 
-![Class Diagram BC1](pawtient-report/assets/images/class-diagrams/bounded_4.png)
+![Class Diagram BC4](pawtient-report/assets/images/class-diagrams/class-diagram-4.png)
 
 *Elaboración propia con LucidChart*
 
@@ -1422,55 +1406,49 @@ Las relaciones entre clases permiten establecer una jerarquía de usuarios media
 
 <div align="center">
   
-**Bounded Context: `Gestión de Pacientes (Database Diagram)`**
+**Bounded Context: `Identity & Access (Database Diagram)`**
 
 <br>
 
-![Database Diagram BC1](pawtient-report/assets/images/database/db_1.png)
+![Database Diagram BC1](pawtient-report/assets/images/database/db-1.png)
 
 </div>
 
 <br>
 
-*En este bounded context se modela la persistencia de datos de mascotas, dueños, historiales clínicos y consultas en el sistema Pawtient. El diagrama incluye las tablas Dueno, Mascota, HistorialClinico y Consulta, relacionadas mediante claves primarias y foráneas.*
-
-*Se establece una relación uno a muchos entre Dueno y Mascota, una relación uno a uno entre Mascota y HistorialClinico, y una relación uno a muchos entre HistorialClinico y Consulta. Esto permite organizar y gestionar de forma eficiente la información clínica de los pacientes.*
+*Descripcion*
 
 <br>
 
 <div align="center">
   
-**Bounded Context: `Gestión de Citas (Database Diagram)`**
+**Bounded Context: `Appointment Management (Database Diagram)`**
 
 <br>
 
-![Database Diagram BC2](pawtient-report/assets/images/database/db_2.png)
+![Database Diagram BC2](pawtient-report/assets/images/database/db-2.png)
 
 </div>
 
 <br>
 
-*En este bounded context se modela la persistencia de datos relacionados con la programación de citas en el sistema Pawtient. El diagrama incluye las tablas Cita, Veterinario y Mascota, las cuales permiten gestionar la asignación y organización de las atenciones médicas.*
-
-*Se establecen relaciones uno a muchos entre Veterinario y Cita, así como entre Mascota y Cita, mediante claves foráneas. Esto permite registrar múltiples citas por veterinario y por mascota, asegurando una correcta gestión del calendario clínico.*
+*Descripcion*
 
 <br>
 
 <div align="center">
   
-**Bounded Context: `Trazabilidad de Suministros (Database Diagram)`**
+**Bounded Context: `Clinical Management (Database Diagram)`**
 
 <br>
 
-![Database Diagram BC3](pawtient-report/assets/images/database/db_3.png)
+![Database Diagram BC3](pawtient-report/assets/images/database/db-3.png)
 
 </div>
 
 <br>
 
-*En este bounded context se modela la persistencia de datos relacionados con el control y seguimiento de los suministros en el sistema Pawtient. El diagrama incluye las tablas Suministro, MovimientoSuministro y AlertaInventario, que permiten gestionar el inventario y registrar los cambios en el stock.*
-
-*Se establece una relación uno a muchos entre Suministro y MovimientoSuministro, así como entre Suministro y AlertaInventario, mediante claves foráneas. Esto permite llevar un control detallado de los movimientos y alertas asociadas a cada insumo.*
+*Descripcion*
 
 
 <br>
@@ -1478,7 +1456,7 @@ Las relaciones entre clases permiten establecer una jerarquía de usuarios media
 
 <div align="center">
   
-**Bounded Context: `Gestión de Usuarios (Database Diagram)`**
+**Bounded Context: `Inventory & Supply (Database Diagram)`**
 
 <br>
 
@@ -1488,9 +1466,7 @@ Las relaciones entre clases permiten establecer una jerarquía de usuarios media
 
 <br>
 
-*En este bounded context se modela la persistencia de datos relacionados con los usuarios del sistema Pawtient, incluyendo veterinarios y administradores. El diagrama está compuesto por las tablas Usuario, Veterinario y Administrador, que permiten gestionar la información, roles y acceso al sistema.*
-
-*Se establece una relación de herencia entre Usuario y sus especializaciones, implementada mediante claves foráneas que vinculan a Veterinario y Administrador con la tabla principal. Esto permite mantener una estructura organizada y flexible para la gestión de usuarios.*
+*Descripcion*
 
 
 <br>
