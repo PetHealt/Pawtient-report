@@ -1184,23 +1184,15 @@ El diagrama de contexto del sistema Pawtient presenta una vista general del sist
 
 ![System Context View](pawtient-report/assets/images/systemcontextview.png)
 
-*(Introducción y explicación del Context Diagram — C4 Model elaborado en Structurizr)*
-
-*(El sistema como recuadro central, rodeado por usuarios y sistemas externos con los que interactúa)*
-
-![Software Architecture Context Diagram](../assets/architecture/context-diagram.png)
-
-*(Explicación del diagrama)*
-
 ### 4.6.3. Software Architecture Container Diagrams
 
-*(Introducción y explicación del Container Diagram — C4 Model)*
+El diagrama de contenedores del sistema Pawtient presenta una vista de alto nivel de la arquitectura, mostrando los principales bloques tecnológicos y la forma en que interactúan entre sí.
 
-*(Elementos de alto nivel de la arquitectura, distribución de responsabilidades, tecnologías y comunicación entre containers)*
+El sistema está compuesto por una aplicación web (frontend), que permite la interacción de los usuarios mediante una interfaz intuitiva; un backend implementado como una API REST, encargado de procesar la lógica de negocio y gestionar las solicitudes; y una base de datos, donde se almacena la información del sistema, como usuarios, mascotas, citas e historiales médicos.
 
-![Software Architecture Container Diagram](../assets/architecture/container-diagram.png)
+Asimismo, el sistema se integra con servicios externos para el envío de notificaciones y el procesamiento de pagos. La comunicación entre los contenedores se realiza mediante protocolos estándar, garantizando una arquitectura organizada, escalable y mantenible.
 
-*(Explicación del diagrama)*
+![Container View](pawtient-report/assets/images/containerview.png)
 
 ### 4.6.4. Software Architecture Components Diagrams
 
