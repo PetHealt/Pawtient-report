@@ -1180,6 +1180,10 @@ Se toman como referencia los principios de **Material Design**, adaptados a la i
 
 ### 4.6.2. Software Architecture Context Diagram
 
+El diagrama de contexto del sistema Pawtient presenta una vista general del sistema dentro de su entorno, identificando los actores principales que interactúan con la plataforma y los sistemas externos con los que se integra.
+
+![System Context View](pawtient-report/assets/images/systemcontextview.png)
+
 *(Introducción y explicación del Context Diagram — C4 Model elaborado en Structurizr)*
 
 *(El sistema como recuadro central, rodeado por usuarios y sistemas externos con los que interactúa)*
