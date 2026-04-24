@@ -1196,14 +1196,22 @@ Asimismo, el sistema se integra con servicios externos para el envío de notific
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-*(Component Diagrams para cada Container identificado — C4 Model)*
+Los diagramas de componentes del sistema Pawtient representan la estructura interna del backend siguiendo el enfoque de Domain-Driven Design (DDD). La arquitectura se organiza en distintos Bounded Contexts, cada uno enfocado en una responsabilidad específica del sistema: IAM, Profile, Organization, Monitoring and Control, y Reports.
 
-**Bounded Context: `[Nombre del Bounded Context]`**
+Dentro de cada Bounded Context, los componentes se estructuran en cuatro capas principales: Interfaces, Application, Domain e Infrastructure. La capa de Interfaces gestiona la interacción con los usuarios a través de endpoints REST; la capa de Application coordina la lógica de negocio y los casos de uso; la capa de Domain contiene las entidades y reglas de negocio; y la capa de Infrastructure se encarga de la persistencia de datos mediante repositorios. 
 
-![Component Diagram BC1](../assets/architecture/component-diagram-bc1.png)
+La interacción entre estas capas sigue un flujo definido donde la capa de Interfaces invoca los servicios de Application, los cuales utilizan el Domain para ejecutar la lógica de negocio y la Infrastructure para acceder a la base de datos. Este enfoque permite una clara separación de responsabilidades, facilitando la escalabilidad, mantenibilidad y evolución del sistema.
 
-*(Explicación de los components, sus responsabilidades y detalles de implementación/tecnología)*
-
+- Organization Bounded Context
+  ![Organization](pawtient-report/assets/images/organization.png)
+- Monitoring and Control Bounded Context
+  ![Monitoring](pawtient-report/assets/images/monitoring.png)
+- Reports Bounded Context
+  ![Reports](pawtient-report/assets/images/reports.png)
+- Profile Bounded Context
+  ![Profile](pawtient-report/assets/images/profile.png)
+- IAM Bounded Context
+  ![IAM](pawtient-report/assets/images/IAM.png)
 ---
 
 ## 4.7. Software Object-Oriented Design
