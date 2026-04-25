@@ -767,15 +767,38 @@ Jorge es un estudiante universitario de 20 años que vive en La Victoria junto a
 
 ### 2.2.3. Análisis de entrevistas
 
-> *(Análisis por segmento objetivo con sustento estadístico — porcentajes)*
+**Segmento objetivo 1: `Personal de clínico de centros veterinarios`**
 
-**Segmento objetivo 1: `[Nombre del segmento]`**
+Tras analizar las entrevistas realizadas a los profesionales del sector veterinario, se han identificado las siguientes características objetivas y subjetivas, las cuales servirán de base para la construcción de nuestro User Persona:
 
-*(Identificar con sustento estadístico todas las características objetivas y subjetivas representativas del segmento, necesarias para la construcción de los arquetipos)*
 
-**Segmento objetivo 2: `[Nombre del segmento]`**
+* **Perfil Demográfico (Características objetivas):** El 100% de los entrevistados son profesionales activos (médicos veterinarios y administradores) con edades comprendidas entre los 23 y 35 años, operando en diversos distritos de Lima Metropolitana. El 100% cuenta con experiencia laboral previa en el rubro, variando entre 2 y 10 años.
 
-*(Identificar con sustento estadístico todas las características objetivas y subjetivas representativas del segmento, necesarias para la construcción de los arquetipos)*
+
+* **Perfil Psicológico y Conductual (Características subjetivas):** El 100% de la muestra se autodefine con rasgos de personalidad orientados al orden (organizados, metódicos y responsables). A nivel de metas profesionales, el 100% tiene como objetivo principal optimizar la gestión interna de sus clínicas para mejorar la calidad del servicio y fidelizar a sus clientes.
+
+
+* **Puntos de Dolor (Pain Points):** Existe una coincidencia absoluta; el 100% de los profesionales reporta altos niveles de estrés derivados de la gestión manual y desordenada de la información (uso de historias clínicas en papel o Excel y agendas manuales). Asimismo, el 100% manifiesta que esta ineficiencia operativa invade su vida personal, obligándolos a realizar labores administrativas fuera de su horario y dificultando su desconexión del trabajo.
+
+
+* **Necesidades y Soluciones Esperadas:** El 100% de los entrevistados expresa la necesidad urgente de una transformación digital. Buscan una herramienta tecnológica integral, con accesibilidad móvil (mencionada explícitamente), que les permita centralizar tres pilares fundamentales: historias clínicas, agendamiento de citas y control de inventarios en tiempo real.
+
+
+**Segmento objetivo 2: `Dueños de mascotas`**
+
+El análisis de las entrevistas a los dueños de mascotas revela patrones de comportamiento muy marcados respecto a la responsabilidad y la gestión del tiempo, delineando el siguiente perfil para el arquetipo:
+
+
+* **Perfil Demográfico (Características objetivas):** El 100% de los entrevistados son jóvenes adultos y estudiantes universitarios (rango de 19 a 29 años) residentes en Lima. El 100% son dueños de perros y son usuarios intensivos de dispositivos móviles (smartphones) y plataformas digitales (Instagram, WhatsApp, TikTok).
+
+
+* **Perfil Psicológico y Conductual (Características subjetivas):** El 100% tiene como prioridad fundamental garantizar la salud, prevención (libre de parásitos) y calidad de vida de sus mascotas. A nivel de personalidad frente a su mascota, el 66.7% (2 de 3) se autodenomina con tendencias "sobreprotectoras". Además, el 100% lleva un ritmo de vida acelerado y con alta carga de responsabilidades académicas.
+
+
+* **Puntos de Dolor (Pain Points):** El 100% de la muestra experimenta frustración y dificultades severas para organizar la información médica de sus mascotas. Manifiestan problemas de "memoria frágil", pérdida de indicaciones médicas y extravío de cartillas físicas de vacunación. Adicionalmente, el 66.7% asocia la visita al veterinario con experiencias de estrés, ya sea por el tiempo que consume o por el miedo que experimentan sus mascotas.
+
+
+* **Necesidades y Soluciones Esperadas:** El 100% de los dueños afirma que utilizaría activamente una plataforma digital si esta resuelve su problema de memoria y organización. Su necesidad principal, exigida por el 100% de la muestra, es un sistema que envíe notificaciones y recordatorios automáticos (vacunas, citas) y que digitalice el historial médico para tenerlo siempre disponible en el celular.
 
 ---
 
