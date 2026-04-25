@@ -1314,7 +1314,7 @@ A continuación, se presentan los diagramas de clases UML para cada bounded cont
 
 <br>
 
-**Bounded Context: `IAM (Identity & Access)`**
+**1. Bounded Context: `IAM (Identity & Access)`**
 
 <br>
 
@@ -1348,7 +1348,7 @@ Descripcion
 
 <br>
 
-**Bounded Context: `Appointment Management`**
+**2. Bounded Context: `Appointment Management`**
 
 <br>
 
@@ -1381,7 +1381,7 @@ Descripcion
 
 <br>
 
-**Bounded Context: `Clinical Management`**
+**2. Bounded Context: `Clinical Management`**
 
 <br>
 
@@ -1414,7 +1414,7 @@ Descripcion
 
 <br>
 
-**Bounded Context: `Inventory & Supply`**
+**4. Bounded Context: `Store`**
 
 <br>
 
@@ -1439,6 +1439,73 @@ Descripcion
 **Backend Components Diagrams**
 
 ![Backend Diagram BC4](pawtient-report/assets/images/class-diagrams/back-diagram-4.png)
+
+</div>
+<br>
+
+Descripcion
+
+<br>
+
+**5. Bounded Context: `Reports`**
+
+<br>
+
+El diagrama de clases del bounded context Inventory & Supply modela la gestión de insumos médicos y la trazabilidad de su uso dentro del sistema Pawtient.
+
+
+<br>
+<div align="center">
+
+**Frontend Components Diagrams**
+
+![Frontend Diagram BC5](pawtient-report/assets/images/class-diagrams/front-diagram-5.png)
+
+</div>
+<br>
+
+Descripcion
+
+<br>
+<div align="center">
+
+**Backend Components Diagrams**
+
+![Backend Diagram BC5](pawtient-report/assets/images/class-diagrams/back-diagram-5.png)
+
+</div>
+<br>
+
+Descripcion
+
+
+<br>
+
+**6. Bounded Context: `Profile`**
+
+<br>
+
+El diagrama de clases del bounded context Inventory & Supply modela la gestión de insumos médicos y la trazabilidad de su uso dentro del sistema Pawtient.
+
+
+<br>
+<div align="center">
+
+**Frontend Components Diagrams**
+
+![Frontend Diagram BC6](pawtient-report/assets/images/class-diagrams/front-diagram-6.png)
+
+</div>
+<br>
+
+Descripcion
+
+<br>
+<div align="center">
+
+**Backend Components Diagrams**
+
+![Backend Diagram BC6](pawtient-report/assets/images/class-diagrams/back-diagram-6.png)
 
 </div>
 <br>
@@ -1478,7 +1545,7 @@ Descripcion
 
 <br>
 
-**Identity & Access**
+**IAM (Identity & Access)**
 
 Constituye el núcleo de identidad del sistema. La tabla Users centraliza la autenticación y el control de roles mediante los atributos USU_role y USU_status. A partir de ella se especializan dos perfiles: Pet_owners, que extiende el usuario con datos de contacto y dirección, y Veterinarians, que incorpora número de licencia y especialización. La entidad Pets se ancla en este contexto al estar directamente vinculada al dueño a través de PTO_id, representando el objeto de atención registrado antes de cualquier interacción clínica.
 
@@ -1496,7 +1563,17 @@ Es el contexto de mayor profundidad del modelo. Medical_records actúa como raí
 
 <br>
 
-**Inventory & Supply** 
+**Store** 
+
+Gestiona los insumos del establecimiento. Suppliers provee los datos del proveedor asociado a cada producto. Products centraliza el stock actual y el mínimo requerido. Inventory_movements registra cada movimiento de entrada, salida o ajuste. Stock_alerts permite la trazabilidad de alertas generadas por stock bajo. Finalmente, Prescription_items cierra el ciclo de trazabilidad conectando cada receta clínica con los productos dispensados, incluyendo cantidad y dosificación.
+Las relaciones entre contextos se realizan mediante claves foráneas que atraviesan los límites de dominio de forma controlada: Appointments referencia PET_id y VET_id del contexto de identidad; Medical_records referencia PET_id; y Prescription_items referencia PRE_id del contexto clínico, garantizando la trazabilidad entre la prescripción médica y el consumo de inventario.
+
+**Reports** 
+
+Gestiona los insumos del establecimiento. Suppliers provee los datos del proveedor asociado a cada producto. Products centraliza el stock actual y el mínimo requerido. Inventory_movements registra cada movimiento de entrada, salida o ajuste. Stock_alerts permite la trazabilidad de alertas generadas por stock bajo. Finalmente, Prescription_items cierra el ciclo de trazabilidad conectando cada receta clínica con los productos dispensados, incluyendo cantidad y dosificación.
+Las relaciones entre contextos se realizan mediante claves foráneas que atraviesan los límites de dominio de forma controlada: Appointments referencia PET_id y VET_id del contexto de identidad; Medical_records referencia PET_id; y Prescription_items referencia PRE_id del contexto clínico, garantizando la trazabilidad entre la prescripción médica y el consumo de inventario.
+
+**Profile** 
 
 Gestiona los insumos del establecimiento. Suppliers provee los datos del proveedor asociado a cada producto. Products centraliza el stock actual y el mínimo requerido. Inventory_movements registra cada movimiento de entrada, salida o ajuste. Stock_alerts permite la trazabilidad de alertas generadas por stock bajo. Finalmente, Prescription_items cierra el ciclo de trazabilidad conectando cada receta clínica con los productos dispensados, incluyendo cantidad y dosificación.
 Las relaciones entre contextos se realizan mediante claves foráneas que atraviesan los límites de dominio de forma controlada: Appointments referencia PET_id y VET_id del contexto de identidad; Medical_records referencia PET_id; y Prescription_items referencia PRE_id del contexto clínico, garantizando la trazabilidad entre la prescripción médica y el consumo de inventario.
