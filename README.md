@@ -1351,16 +1351,15 @@ Para el desarrollo de Pawtient, el equipo ha estandarizado un entorno de desarro
 
 ### 5.1.2. Source Code Management
 
-*(Medios y esquema de organización para el seguimiento de modificaciones)*
+El código fuente de Pawtient se gestiona bajo una arquitectura de repositorios separados para garantizar modularidad.
 
-**Organización de GitHub:** [`[URL de la organización]`](`[URL]`)
+**Organización de GitHub:** [PetHealt](https://github.com/PetHealt)
 
-| Producto | Repositorio | URL |
-|:--------:|:-----------:|:----|
-| Landing Page | `[nombre-repo]` | `[URL]` |
-| Frontend Web Application | `[nombre-repo]` | `[URL]` |
-| Web Services (RESTful API) | `[nombre-repo]` | `[URL]` |
-| Project Report | `[nombre-repo]` | `[URL]` |
+|      Producto       |       Repositorio       | URL                                             |
+|:-------------------:|:-----------------------:|:------------------------------------------------|
+| Organización Flowey |       `Pawtient`        | https://github.com/FloweyTech     |
+|    Landing Page     | `Pawtient-landing-page` | https://github.com/PetHealt/Pawtient-landing-page     |
+|       Report        |    `Pawtient-report`    | https://github.com/PetHealt/Pawtient-report    |
 
 **GitFlow Workflow:**
 
@@ -1370,9 +1369,9 @@ Se implementará GitFlow con las siguientes ramas:
 |:-----|:---------:|:---------------------|
 | `main` | Código en producción | `main` |
 | `develop` | Integración de features | `develop` |
-| `feature/*` | Desarrollo de características | `feature/[descripción-corta]` |
-| `release/*` | Preparación de releases | `release/[versión]` (ej: `release/1.0.0`) |
-| `hotfix/*` | Correcciones urgentes en producción | `hotfix/[descripción-corta]` |
+| `feature/*` | Desarrollo de características | `feature/<nombre-descriptivo>` |
+| `release/*` | Preparación de releases | `release/vX.Y.Z` (ej: `release/1.0.0`) |
+| `hotfix/*` | Correcciones urgentes en producción | `hotfix/<problema>` |
 
 **Semantic Versioning:** Se aplica [Semantic Versioning 2.0.0](https://semver.org/) para nombrar los releases (`MAJOR.MINOR.PATCH`).
 
@@ -1388,12 +1387,10 @@ Tipos: feat | fix | docs | style | refactor | test | chore
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-*(Convenciones de nombrado y programación para cada lenguaje utilizado en la solución)*
-
 | Lenguaje / Framework | Convención adoptada | Referencia |
 |:--------------------:|:-------------------:|:-----------|
 | HTML | HTML Style Guide | https://www.w3schools.com/html/html5_syntax.asp |
-| CSS | Google HTML/CSS Style Guide | https://google.github.io/styleguide/htmlcssguide.html |
+| CSS | BEM & Custom Properties | Guía de estilo interna (Uso estricto de variables en `:root`) |
 | JavaScript / TypeScript | Google TypeScript Style Guide | https://google.github.io/styleguide/tsguide.html |
 | Angular | Angular coding style guide | https://angular.io/guide/styleguide |
 | Java | Google Java Style Guide | https://google.github.io/styleguide/javaguide.html |
@@ -1406,17 +1403,16 @@ Tipos: feat | fix | docs | style | refactor | test | chore
 
 ### 5.1.4. Software Deployment Configuration
 
-*(Configuración del despliegue de la solución — pasos necesarios para lograr el despliegue de cada producto)*
+1. **Ingresar a Netlify**<br>
+   Accedemos a la plataforma mediante nuestras credenciales de Github en "Log in with GitHub".
+   ![Screenshot 1 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-1.png)
 
-**Landing Page:**
-*(Describir pasos de despliegue del Landing Page — plataforma, configuración, automatización)*
-
-**Frontend Web Application:**
-*(Describir pasos de despliegue de la Web Application — plataforma, configuración, automatización)*
-
-**Web Services (RESTful API):**
-*(Describir pasos de despliegue del API — plataforma, configuración, automatización)*
-
+2. **Autorizar a Netlify**<br>
+   Damos permisos a Netlify de acceder a nuestra cuenta de GitHub para luego ir a la sección "Sites" y presionar "Add new site". Entonces, le damos a "Import an existing project".
+    ![Screenshot 2 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-2.jpeg)
+3. **Escoger tu deploy**<br>
+   En la parte de "Let's deploy your project with..." seleccionamos GitHub.
+    ![Screenshot 3 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-3.png)
 ---
 
 ## 5.2. Landing Page, Services & Applications Implementation
