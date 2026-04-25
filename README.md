@@ -307,81 +307,22 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-
-
-**Problem Statement 1:**
-
-
-
 ---
 
 #### 1.2.2.2. Lean UX Assumptions
-
-**Business Assumptions:**
-
-
-
-**User Assumptions:**
-
 
 ---
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-> *(Estructura: "Creemos que [resultado] se logrará si [usuario] logra [beneficio] con [característica]")*
-
-**Hypothesis 1:**
-> Creemos que **[resultado de negocio]** se logrará si **[usuario/segmento]** logra **[beneficio esperado]** con **[característica o solución propuesta]**.
-
-**Hypothesis 2:**
-> Creemos que **[resultado de negocio]** se logrará si **[usuario/segmento]** logra **[beneficio esperado]** con **[característica o solución propuesta]**.
-
-**Hypothesis 3:**
-> Creemos que **[resultado de negocio]** se logrará si **[usuario/segmento]** logra **[beneficio esperado]** con **[característica o solución propuesta]**.
-
 ---
 
 #### 1.2.2.4. Lean UX Canvas
-
-*(Incluir captura de imagen del Lean UX Canvas elaborado en la herramienta indicada)*
-
-![Lean UX Canvas](../assets/lean-ux/lean-ux-canvas.png)
-
-*(Descripción y análisis del Lean UX Canvas)*
 
 ---
 
 ## 1.3. Segmentos objetivo
 
-> *(Describir los segmentos asociados al dominio del problema, incluyendo características demográficas e información estadística de sustento)*
-
-### Segmento objetivo 1: `[Nombre del segmento]`
-
-*(Descripción del segmento: características demográficas, perfil, necesidades y estadísticas de respaldo)*
-
-**Características demográficas:**
-- **Edad:** `[rango de edad]`
-- **Género:** `[distribución]`
-- **Ubicación:** `[contexto geográfico]`
-- **Ocupación:** `[tipo de ocupación]`
-- **Nivel socioeconómico:** `[nivel]`
-
-*(Estadísticas de sustento con fuentes referenciadas)*
-
----
-
-### Segmento objetivo 2: `[Nombre del segmento]`
-
-*(Descripción del segmento: características demográficas, perfil, necesidades y estadísticas de respaldo)*
-
-**Características demográficas:**
-- **Edad:** `[rango de edad]`
-- **Género:** `[distribución]`
-- **Ubicación:** `[contexto geográfico]`
-- **Ocupación:** `[tipo de ocupación]`
-- **Nivel socioeconómico:** `[nivel]`
-
-*(Estadísticas de sustento con fuentes referenciadas)*
 
 ---
 
@@ -395,343 +336,61 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 ## 2.1. Competidores
 
-> *(Identificar y describir mínimo 3 competidores directos o indirectos con modelos de negocio basados en productos digitales similares)*
 
 ### 2.1.1. Análisis competitivo
 
-**¿Por qué llevar a cabo este análisis?**
-*(Escribir la pregunta que busca responder o el objetivo de este análisis)*
-
-#### Competitive Analysis Landscape
-
-| | **BrandRadar** | **Competidor 1** | **Competidor 2** | **Competidor 3** |
-|:--|:--:|:--:|:--:|:--:|
-| **Logo** | *(logo)* | *(logo)* | *(logo)* | *(logo)* |
-| **Overview** | | | | |
-| **Ventaja competitiva** | | | | |
-| **Mercado objetivo** | | | | |
-| **Estrategias de marketing** | | | | |
-| **Productos & Servicios** | | | | |
-| **Precios & Costos** | | | | |
-| **Canales de distribución** | | | | |
-| **Fortalezas** | | | | |
-| **Debilidades** | | | | |
-| **Oportunidades** | | | | |
-| **Amenazas** | | | | |
 
 ---
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-*(Describir las estrategias y tácticas preliminares que aplicará el startup para afrontar las fortalezas y aprovechar las debilidades de los competidores, así como el contexto de oportunidades y amenazas)*
 
 ---
 
 ## 2.2. Entrevistas
 
-> *(Investigación basada en recolección de información mediante entrevistas a representantes de los segmentos objetivo)*
 
 ### 2.2.1. Diseño de entrevistas
 
-*(Incluir las preguntas principales y complementarias para entrevistas, dirigidas a cada segmento objetivo)*
-
-**Segmento objetivo 1: `[Nombre del segmento]`**
-
-*Preguntas principales:*
-1. *(Pregunta 1)*
-2. *(Pregunta 2)*
-3. *(Pregunta 3)*
-
-*Preguntas complementarias:*
-1. *(Pregunta complementaria 1)*
-2. *(Pregunta complementaria 2)*
 
 ---
 
-**Segmento objetivo 2: `[Nombre del segmento]`**
 
-*Preguntas principales:*
-1. *(Pregunta 1)*
-2. *(Pregunta 2)*
-3. *(Pregunta 3)*
-
-*Preguntas complementarias:*
-1. *(Pregunta complementaria 1)*
-2. *(Pregunta complementaria 2)*
-
----
 
 ### 2.2.2. Registro de entrevistas
-<div align="center">
-  
-**Segmento objetivo 1: `nombre del segmento`**
-
-<br>
-
-#### Entrevista 1
-*Imagen de la entrevista*
-
-<img src="../assets/interviews/ss_entrevista_1.png" alt="Screenshot Entrevista 1" width="500"/>
-
-<br>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
-
-**Resumen:**
-
-</div>
-
-*(Redactar resumen de la entrevista)*
-
-<br>
-<div align="center">
-  
-#### Entrevista 2
-*Imagen de la entrevista*
-
-<img src="../assets/interviews/ss_entrevista_2.png" alt="Screenshot Entrevista 2" width="1000"/>
-
-<br>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
-
-**Resumen:**
-
-</div>
-
-*(Redactar resumen de la entrevista)*
-
-<br>
-<div align="center">
-  
-#### Entrevista 3
-
-*Imagen de la entrevista*
-
-<img src="../assets/interviews/ss_entrevista_3.png" alt="Screenshot Entrevista 3" width="500"/>
-
-<br>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
-
-**Resumen:**
-
-</div>
-
-*Redactar resumen de la entrevista*
-
----
-<div align="center">
-  
-**Segmento objetivo 2: `nombre del segmento`**
-
-<br>
-
-#### Entrevista 1
-
-*Imagen de la entrevista*
-
-<img src="../assets/interviews/ss_entrevista_4.png" alt="Screenshot Entrevista 4" width="500"/>
-
-<br>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
-
-**Resumen:**
-
-</div>
-
-*(Redactar de forma descriptiva las respuestas del entrevistado a las preguntas realizadas. Incluir todas las características objetivas y subjetivas: personalidad, marcas e influencias, tecnología, canales de interacción, browser, dispositivos, etc.)*
-
-<br>
-
-<div align="center">
-  
-#### Entrevista 2
-
-*Imagen de la entrevista*
-
-<img src="../assets/interviews/ss_entrevista_5.png" alt="Screenshot Entrevista 5" width="500"/>
-
-<br>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
-
-**Resumen:**
-
-</div>
-
-*(Redactar resumen de la entrevista)*
-
-<br>
-
-<div align="center">
-
-#### Entrevista 3
-
-*Imagen de la entrevista*
-
-<img src="../assets/interviews/ss_entrevista_6.png" alt="Screenshot Entrevista 6" width="500"/>
-
-<br>
-
-| Campo | Detalle |
-|:------|:--------|
-| **Nombres y apellidos** | `[Nombre del entrevistado]` |
-| **Edad** | `[Edad]` |
-| **Ubicación** | `[Distrito]` |
-| **Fecha de entrevista** | `YYYY-MM-DD` |
-| **Duración** | `[HH:MM]` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](`URL`) — Inicia en `[MM:SS]` |
-
-**Resumen:**
-
-</div>
-
-*(Redactar resumen de la entrevista)*
 
 ---
 
 ### 2.2.3. Análisis de entrevistas
 
-> *(Análisis por segmento objetivo con sustento estadístico — porcentajes)*
-
-**Segmento objetivo 1: `[Nombre del segmento]`**
-
-*(Identificar con sustento estadístico todas las características objetivas y subjetivas representativas del segmento, necesarias para la construcción de los arquetipos)*
-
-**Segmento objetivo 2: `[Nombre del segmento]`**
-
-*(Identificar con sustento estadístico todas las características objetivas y subjetivas representativas del segmento, necesarias para la construcción de los arquetipos)*
 
 ---
 
 ## 2.3. Needfinding
 
-> *(Artefactos resultantes del proceso de análisis de la información recolectada)*
 
 ### 2.3.1. User Personas
 
-*(Introducción explicando la relación entre los artefactos y las principales características tomadas del análisis de entrevistas y competencia)*
-
-**User Persona — Segmento 1: `[Nombre del Persona]`**
-
-*(Captura de la ficha elaborada en UXPressia)*
-
-![User Persona Segmento 1](../assets/user-personas/user-persona-seg1.png)
-
----
-
-**User Persona — Segmento 2: `[Nombre del Persona]`**
-
-*(Captura de la ficha elaborada en UXPressia)*
-
-![User Persona Segmento 2](../assets/user-personas/user-persona-seg2.png)
 
 ---
 
 ### 2.3.2. User Task Matrix
 
-*(Introducción estableciendo los segmentos considerados)*
-
-| Tarea (Task) | `[Persona 1]` Frecuencia | `[Persona 1]` Importancia | `[Persona 2]` Frecuencia | `[Persona 2]` Importancia |
-|:-------------|:------------------------:|:-------------------------:|:------------------------:|:-------------------------:|
-| *(Tarea 1)* | Alta / Media / Baja | Alta / Media / Baja | Alta / Media / Baja | Alta / Media / Baja |
-| *(Tarea 2)* | | | | |
-| *(Tarea 3)* | | | | |
-| *(Tarea 4)* | | | | |
-| *(Tarea 5)* | | | | |
-
-*(Explicación resaltando las tareas con mayor frecuencia e importancia, principales diferencias y coincidencias entre los User Personas)*
-
 ---
 
 ### 2.3.3. User Journey Mapping
 
-*(Introducción resumiendo el end-to-end journey que se pretende ilustrar — versión As-Is)*
 
-**User Journey Map — `[Persona 1]`**
-
-*(Captura del diagrama elaborado en UXPressia)*
-
-![User Journey Map Persona 1](../assets/journey-maps/journey-map-persona1.png)
-
----
-
-**User Journey Map — `[Persona 2]`**
-
-*(Captura del diagrama elaborado en UXPressia)*
-
-![User Journey Map Persona 2](../assets/journey-maps/journey-map-persona2.png)
 
 ---
 
 ### 2.3.4. Empathy Mapping
 
-*(Resumen del proceso de elaboración y capturas de los Empathy Maps)*
-
-**Empathy Map — `[Persona 1]`**
-
-*(Captura elaborada en UXPressia)*
-
-![Empathy Map Persona 1](../assets/empathy-maps/empathy-map-persona1.png)
-
----
-
-**Empathy Map — `[Persona 2]`**
-
-*(Captura elaborada en UXPressia)*
-
-![Empathy Map Persona 2](../assets/empathy-maps/empathy-map-persona2.png)
 
 ---
 
 ## 2.4. Big Picture Event Storming
 
-> *(Sesión colaborativa enfocada en entender el dominio del negocio en general. Referencia: https://bit.ly/bpes-guide)*
-
-*(Introducción al proceso realizado y explicación de las etapas)*
-
-*(Capturas del Big Picture Event Storming elaborado en LucidChart / Miro)*
-
-![Big Picture Event Storming](../assets/event-storming/big-picture-event-storming.png)
-
-*(Explicación de los eventos, actores y flujos identificados)*
 
 ---
 
@@ -1065,196 +724,69 @@ El orden del backlog responde a los siguientes criterios en cascada:
 
 ### 4.1.1. General Style Guidelines
 
-*(Explicar las decisiones y referencias visuales sobre conceptos generales: Branding, Typography, Colors, Spacing y tono de comunicación)*
 
-**Branding**
-
-*(Descripción del branding de BrandRadar: logo, isotipo, naming, y principios de identidad visual)*
-
-**Typography**
-
-| Tipo | Fuente | Uso |
-|:-----|:------:|:----|
-| Display / Heading | `[Fuente principal]` | Títulos y encabezados |
-| Body | `[Fuente secundaria]` | Texto de contenido |
-| Monospace | `[Fuente monoespaciada]` | Código y datos técnicos |
-
-**Colors**
-
-| Nombre | Hex | Uso |
-|:-------|:---:|:----|
-| Primary | `#XXXXXX` | Color principal de la marca |
-| Secondary | `#XXXXXX` | Color de apoyo |
-| Accent | `#XXXXXX` | Énfasis y llamados a la acción |
-| Background | `#XXXXXX` | Fondo general |
-| Text | `#XXXXXX` | Texto principal |
-| Error | `#XXXXXX` | Estados de error |
-| Success | `#XXXXXX` | Estados de éxito |
-
-**Spacing**
-
-*(Describir el sistema de espaciado y las unidades base utilizadas)*
-
-**Tono de comunicación**
-
-| Dimensión | Selección |
-|:----------|:---------:|
-| Divertido / Serio | *(indicar posición en la escala)* |
-| Formal / Casual | *(indicar posición en la escala)* |
-| Respetuoso / Irreverente | *(indicar posición en la escala)* |
-| Entusiasta / Sereno | *(indicar posición en la escala)* |
 
 ---
 
 ### 4.1.2. Web Style Guidelines
 
-*(Decisiones sobre los estándares visuales y de interacción para responsive web interfaces)*
-
-*(Incluir capturas o especificaciones visuales del Design System basado en Material Design y Angular Material)*
-
 ---
 
 ## 4.2. Information Architecture
 
-*(Decisiones que dirigen la organización del contenido en las experiencias web — Landing Page y Web Application)*
 
 ### 4.2.1. Organization Systems
 
-*(Explicar en qué grupos de información se aplica cada sistema de organización: jerárquica, secuencial o matricial; y los esquemas de categorización: alfabético, cronológico, por tópicos, según audiencia)*
 
 ### 4.2.2. Labeling Systems
 
-*(Especificar las etiquetas a utilizar con el mínimo número de palabras, para representar los conjuntos de información y sus asociaciones)*
-
-| Etiqueta | Descripción del contenido que representa |
-|:--------:|:-----------------------------------------|
-| `[Etiqueta]` | *(Descripción)* |
-| `[Etiqueta]` | *(Descripción)* |
-| `[Etiqueta]` | *(Descripción)* |
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-**Landing Page**
-
-```html
-<title>[Título del Landing Page]</title>
-<meta name="description" content="[Descripción del Landing Page]" />
-<meta name="keywords" content="[keywords, separadas, por, comas]" />
-<meta name="author" content="[Nombre del Startup]" />
-```
-
-**Web Application**
-
-```html
-<title>[Título de la Web Application]</title>
-<meta name="description" content="[Descripción de la Web Application]" />
-<meta name="keywords" content="[keywords, separadas, por, comas]" />
-<meta name="author" content="[Nombre del Startup]" />
-```
 
 ### 4.2.4. Searching Systems
 
-*(Describir qué opciones de búsqueda ofrecen las aplicaciones, con qué filtros contará el usuario y cómo lucirán los datos después de la búsqueda)*
+
 
 ### 4.2.5. Navigation Systems
 
-*(Explicar las acciones y técnicas que guiarán a los usuarios a través del Landing Page y las aplicaciones, describiendo cómo recorrerán el contenido)*
+
 
 ---
 
 ## 4.3. Landing Page UI Design
 
-*(Introducción explicando cómo se traducen las decisiones de diseño y arquitectura de información)*
+
 
 ### 4.3.1. Landing Page Wireframe
 
-*(Wireframes del Landing Page para Desktop Web Browser y Mobile Web Browser)*
-
-**Desktop Web Browser**
-
-![Landing Page Wireframe Desktop](../assets/landing-page/wireframe-desktop.png)
-
-**Mobile Web Browser**
-
-![Landing Page Wireframe Mobile](../assets/landing-page/wireframe-mobile.png)
 
 ### 4.3.2. Landing Page Mock-up
 
-*(Mock-ups del Landing Page para Desktop y Mobile, con Design System aplicado)*
-
-**Desktop Web Browser**
-
-![Landing Page Mockup Desktop](../assets/landing-page/mockup-desktop.png)
-
-**Mobile Web Browser**
-
-![Landing Page Mockup Mobile](../assets/landing-page/mockup-mobile.png)
 
 ---
 
 ## 4.4. Web Applications UX/UI Design
 
-*(Propuesta visual y de interacción para las aplicaciones web)*
 
 ### 4.4.1. Web Applications Wireframes
 
-*(Wireframes de las aplicaciones web con principios de diseño inclusivo y arquitectura de información aplicados)*
-
-![Web App Wireframes](../assets/web-app/wireframes.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
-
-*(Un Wireflow por cada User goal, considerando los User Personas definidos)*
-
-**User goal: `[Nombre del User goal]`**
-
-*(Descripción del flujo especificado)*
-
-![Wireflow Diagrama 1](../assets/web-app/wireflow-1.png)
 
 ---
 
 **User goal: `[Nombre del User goal]`**
 
-*(Descripción del flujo especificado)*
-
-![Wireflow Diagrama 2](../assets/web-app/wireflow-2.png)
 
 ### 4.4.3. Web Applications Mock-ups
 
-*(Mock-ups de las aplicaciones web con Design System aplicado)*
-
-![Web App Mockups](../assets/web-app/mockups.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams
-
-*(User Flows incluyendo Mock-ups de vistas, happy paths y unhappy paths)*
-
-**User goal: `[Nombre del User goal]`**
-
-*(Descripción de los flujos y condiciones especificadas)*
-
-![User Flow Diagrama 1](../assets/web-app/user-flow-1.png)
 
 ---
 
 ## 4.5. Web Applications Prototyping
-
-*(Introducción explicando los principales criterios para las decisiones de interacción)*
-
-*(Prototipos de UI para Desktop y Mobile Web Browser con simulación de interacción y navegación)*
-
-**Prototipo Desktop**
-
-![Screenshot Prototipo Desktop](../assets/prototypes/prototype-desktop-screenshot.png)
-
-[Ver video de prototipo Desktop en Microsoft Stream](`URL`)
-
-**Prototipo Mobile**
-
-![Screenshot Prototipo Mobile](../assets/prototypes/prototype-mobile-screenshot.png)
-
-[Ver video de prototipo Mobile en Microsoft Stream](`URL`)
 
 ---
 
@@ -1262,43 +794,14 @@ El orden del backlog responde a los siguientes criterios en cascada:
 
 ### 4.6.1. Design-Level Event Storming
 
-*(Introducción y explicación del proceso de Design-Level EventStorming realizado. Referencia: https://bit.ly/dles-guide)*
-
-*(Capturas del Event Storming elaborado en LucidChart / Miro)*
-
-![Design Level Event Storming](../assets/event-storming/design-level-event-storming.png)
-
-*(Identificación de Bounded Contexts, Aggregates, Events, Commands and Queries)*
 
 ### 4.6.2. Software Architecture Context Diagram
 
-*(Introducción y explicación del Context Diagram — C4 Model elaborado en Structurizr)*
-
-*(El sistema como recuadro central, rodeado por usuarios y sistemas externos con los que interactúa)*
-
-![Software Architecture Context Diagram](../assets/architecture/context-diagram.png)
-
-*(Explicación del diagrama)*
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-*(Introducción y explicación del Container Diagram — C4 Model)*
-
-*(Elementos de alto nivel de la arquitectura, distribución de responsabilidades, tecnologías y comunicación entre containers)*
-
-![Software Architecture Container Diagram](../assets/architecture/container-diagram.png)
-
-*(Explicación del diagrama)*
 
 ### 4.6.4. Software Architecture Components Diagrams
-
-*(Component Diagrams para cada Container identificado — C4 Model)*
-
-**Bounded Context: `[Nombre del Bounded Context]`**
-
-![Component Diagram BC1](../assets/architecture/component-diagram-bc1.png)
-
-*(Explicación de los components, sus responsabilidades y detalles de implementación/tecnología)*
 
 ---
 
