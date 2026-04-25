@@ -1413,6 +1413,26 @@ Tipos: feat | fix | docs | style | refactor | test | chore
 3. **Escoger tu deploy**<br>
    En la parte de "Let's deploy your project with..." seleccionamos GitHub.
     ![Screenshot 3 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-3.png)
+
+4. **Escoger tu repositorio**<br>
+    Dado que nuestro repositorio está bajo una organización, la seleccionamos.
+    ![Screenshot 4 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-4.png)
+5. **Configurar el despliegue**<br>
+   Ahora procedemos a configurar el despliegue, colocando el Site Name y seleccionando el Team, también debemos escoger una rama que en este caso será la Main.
+    ![Screenshot 5 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-5.png)
+
+6. **Seguir configurando**<br>
+   Seguimos configurando, pero esta vez seleccionando el "Publish directory" colocamos public, para finalmente darle a "Deploy demy-academy".
+    ![Screenshot 6 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-6.png)
+
+7. **Despliegue listo**<br>
+   Ahora podemos observar que el deploy está listo y podremos ver el enlace de la web a la landing page recién desplegada.
+    ![Screenshot 7 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-7.png)
+
+Ahora con la Landing Page desplegada, cada vez que se realize un push en la rama correspondiente, se actualizara automáticamente, de esta manera evitamos repetir los pasos.
+
+[Ver Landing Page desplegada](`https://pethealt.netlify.app/`)
+
 ---
 
 ## 5.2. Landing Page, Services & Applications Implementation
