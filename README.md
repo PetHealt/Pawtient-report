@@ -1514,13 +1514,15 @@ El módulo Profile gestiona la lógica de negocio relacionada con la actualizaci
 
 ## 4.8. Database Design
 
->*En esta sección se presenta el diseño de la base de datos del sistema Pawtient, la cual está estructurada en base a los bounded contexts definidos previamente. Se modelan diagramas de base de datos relacionales que permiten la persistencia de la información del sistema. Cada diagrama incluye tablas, columnas, claves primarias y foráneas, así como las relaciones entre entidades. Este diseño garantiza la integridad de los datos y la correcta organización de la información según los módulos del sistema.*
+>*En esta sección se presenta el diseño de la base de datos del sistema Pawtient, estructurado en función de los bounded contexts definidos previamente en el modelo de dominio. El diseño sigue un enfoque relacional que permite la persistencia eficiente y consistente de la información del sistema.
+El modelo incluye tablas con atributos definidos bajo una nomenclatura uniforme, así como claves primarias y foráneas que establecen relaciones entre entidades. Estas relaciones garantizan la integridad referencial y permiten mantener la coherencia de los datos entre los distintos módulos del sistema. Asimismo, la organización por bounded contexts facilita la separación de responsabilidades y la escalabilidad del sistema.*
 
 <br>
 
 ### 4.8.1. Database Diagrams
 
->*El diagrama de base de datos de Pawtient refleja una arquitectura orientada a dominios, organizada en cuatro bounded contexts claramente delimitados, cada uno con responsabilidad sobre un conjunto cohesivo de entidades. Para la elaboración del modelo relacional se utilizó la herramienta MySQL Workbench, la cual permitió diseñar y visualizar el diagrama de base de datos, así como definir de manera estructurada las tablas, columnas, claves primarias y claves foráneas. A través de esta herramienta se logró representar de forma clara las relaciones entre las entidades del sistema.*
+>*El diagrama de base de datos de Pawtient refleja una arquitectura orientada al dominio, organizada en múltiples bounded contexts, cada uno responsable de un conjunto cohesivo de entidades. Para su elaboración se utilizó MySQL Workbench, herramienta que permitió diseñar, visualizar y estructurar las tablas, columnas y relaciones del sistema de manera clara.
+Aunque el modelo es único a nivel físico, en el diagrama las tablas se agrupan visualmente según el bounded context al que pertenecen, lo que facilita la comprensión de la estructura del sistema sin generar duplicación de datos.*
 
 <br>
 
@@ -1543,36 +1545,44 @@ El módulo Profile gestiona la lógica de negocio relacionada con la actualizaci
 
 **IAM (Identity & Access)**
 
-Constituye el núcleo de identidad del sistema. La tabla Users centraliza la autenticación y el control de roles mediante los atributos USU_role y USU_status. A partir de ella se especializan dos perfiles: Pet_owners, que extiende el usuario con datos de contacto y dirección, y Veterinarians, que incorpora número de licencia y especialización. La entidad Pets se ancla en este contexto al estar directamente vinculada al dueño a través de PTO_id, representando el objeto de atención registrado antes de cualquier interacción clínica.
+Este contexto gestiona la identidad y el acceso al sistema. La tabla Users centraliza la autenticación, roles y estado de los usuarios. A partir de ella se derivan Pet_owners y Veterinarians, que extienden la información según el tipo de usuario. Estas entidades permiten diferenciar claramente entre los dueños de mascotas y los profesionales veterinarios dentro del sistema.
 
 <br>
 
 **Appointment Management** 
 
-Gestiona el ciclo completo de agendamiento. Schedules define los bloques de disponibilidad horaria con fecha, hora de inicio y fin. Appointments cruza una mascota, un veterinario y un horario, registrando además el estado de la cita (REQUESTED, CONFIRMED, CANCELLED, RESCHEDULED) y el motivo de consulta. Reminders complementa este contexto con la trazabilidad de las notificaciones enviadas por cada cita.
+Este contexto administra la programación de citas. La tabla Schedules define la disponibilidad de los veterinarios mediante bloques de tiempo, mientras que Appointments vincula mascotas, veterinarios y horarios, incluyendo el estado y motivo de la cita. La tabla Reminders permite registrar notificaciones asociadas a cada cita, facilitando la comunicación con los usuarios.
 
 <br>
 
 **Clinical Management** 
 
-Es el contexto de mayor profundidad del modelo. Medical_records actúa como raíz del agregado clínico, vinculando el historial de cada mascota. Cada entrada en Consultations referencia ese historial y al veterinario responsable, y de ella se desprenden en relación uno a uno: Vital_signs para los signos vitales registrados, Diagnoses para el diagnóstico clínico y Prescriptions para las instrucciones de tratamiento. La tabla Exams permite múltiples estudios complementarios por consulta en relación uno a muchos.
+Este es el núcleo funcional del sistema. La tabla Medical_records actúa como raíz del historial clínico de cada mascota. A partir de ella, Consultations registra cada atención médica realizada por un veterinario. De cada consulta se derivan múltiples entidades relacionadas:
+
+- Vital_signs, que almacena los signos vitales,
+- Diagnoses, que contiene el diagnóstico,
+- Prescriptions, que define el tratamiento,
+- Exams, que permite registrar múltiples estudios complementarios.
+
+Este contexto permite gestionar de forma integral la información médica de cada paciente.
 
 <br>
 
 **Store (Inventory)** 
 
-Gestiona los insumos del establecimiento. Suppliers provee los datos del proveedor asociado a cada producto. Products centraliza el stock actual y el mínimo requerido. Inventory_movements registra cada movimiento de entrada, salida o ajuste. Stock_alerts permite la trazabilidad de alertas generadas por stock bajo. Finalmente, Prescription_items cierra el ciclo de trazabilidad conectando cada receta clínica con los productos dispensados, incluyendo cantidad y dosificación.
-Las relaciones entre contextos se realizan mediante claves foráneas que atraviesan los límites de dominio de forma controlada: Appointments referencia PET_id y VET_id del contexto de identidad; Medical_records referencia PET_id; y Prescription_items referencia PRE_id del contexto clínico, garantizando la trazabilidad entre la prescripción médica y el consumo de inventario.
+Este contexto gestiona los recursos e insumos de la clínica. Suppliers almacena la información de proveedores, mientras que Products representa los insumos disponibles, incluyendo stock actual y mínimo. Inventory_movements registra cada movimiento de inventario (entrada, salida o ajuste), y Stock_alerts permite identificar situaciones de bajo stock.
+
+La tabla Prescription_items conecta este contexto con el clínico, permitiendo la trazabilidad de los productos utilizados en cada tratamiento.
 
 **Reports** 
 
-Gestiona los insumos del establecimiento. Suppliers provee los datos del proveedor asociado a cada producto. Products centraliza el stock actual y el mínimo requerido. Inventory_movements registra cada movimiento de entrada, salida o ajuste. Stock_alerts permite la trazabilidad de alertas generadas por stock bajo. Finalmente, Prescription_items cierra el ciclo de trazabilidad conectando cada receta clínica con los productos dispensados, incluyendo cantidad y dosificación.
-Las relaciones entre contextos se realizan mediante claves foráneas que atraviesan los límites de dominio de forma controlada: Appointments referencia PET_id y VET_id del contexto de identidad; Medical_records referencia PET_id; y Prescription_items referencia PRE_id del contexto clínico, garantizando la trazabilidad entre la prescripción médica y el consumo de inventario.
+Este contexto se encarga de la generación de reportes y análisis del sistema. No posee tablas propias en el modelo actual, ya que consume información proveniente de otros contextos como Appointments, Consultations e Inventory_movements.
+
+Su función es consolidar y procesar estos datos para obtener indicadores y reportes, manteniendo una única fuente de verdad sin duplicar información.
 
 **Profile** 
 
-Gestiona los insumos del establecimiento. Suppliers provee los datos del proveedor asociado a cada producto. Products centraliza el stock actual y el mínimo requerido. Inventory_movements registra cada movimiento de entrada, salida o ajuste. Stock_alerts permite la trazabilidad de alertas generadas por stock bajo. Finalmente, Prescription_items cierra el ciclo de trazabilidad conectando cada receta clínica con los productos dispensados, incluyendo cantidad y dosificación.
-Las relaciones entre contextos se realizan mediante claves foráneas que atraviesan los límites de dominio de forma controlada: Appointments referencia PET_id y VET_id del contexto de identidad; Medical_records referencia PET_id; y Prescription_items referencia PRE_id del contexto clínico, garantizando la trazabilidad entre la prescripción médica y el consumo de inventario.
+Este contexto gestiona la información del perfil de usuario. Se basa en la tabla Users, reutilizando sus atributos para evitar redundancia. Su responsabilidad principal es permitir la visualización y actualización de los datos personales del usuario dentro del sistema.
 
 <br>
 
