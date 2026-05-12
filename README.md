@@ -188,13 +188,12 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 ### 1.1.1. Descripción de la Startup
 
-**PetHealth** es una startup tecnológica enfocada en la modernización del sector veterinario mediante soluciones digitales. Nuestro producto principal, **Pawtient**, es una plataforma web diseñada para gestionar la información médica de las mascotas, facilitando el registro de consultas, el seguimiento de tratamientos y el control de historiales clínicos. A través de esta solución, se conecta al personal de las clínicas veterinarias con los dueños de mascotas en un mismo sistema, facilitando la comunicación y el acceso a la información, mejorando la organización de los datos, la gestión de insumos médicos y el monitoreo continuo de cada paciente.
+**PetHealth** es una startup tecnológica enfocada en la modernización del sector veterinario mediante soluciones digitales orientadas a la gestión clínica. Su producto principal, Pawtient, es una plataforma web SaaS diseñada para ayudar a clínicas veterinarias y veterinarios independientes a optimizar la administración de historiales clínicos, citas, tratamientos e inventarios médicos.
+
+- **Misión:** Desarrollar soluciones digitales que optimicen la gestión de clínicas veterinarias y veterinarios independientes, facilitando el control de la información clínica, la organización de procesos y la eficiencia operativa para mejorar la calidad del servicio veterinario.
 
 
-- **Misión:** Desarrollar soluciones digitales que mejoren la gestión de los centros veterinarios, facilitando el acceso y control de la información clínica, así como promoviendo una mejor comunicación entre la parte profesional y los dueños de mascotas para brindar una atención de mejor calidad.
-
-
-- **Visión:** Posicionarnos como una startup líder en soluciones tecnológicas para el sector veterinario en Latinoamérica, destacando por una gestión más eficiente y moderna de la salud animal mediante el uso de herramientas digitales.
+- **Visión:** Posicionarnos como una startup líder en soluciones tecnológicas para la gestión veterinaria en Latinoamérica, impulsando la digitalización y modernización de los servicios veterinarios mediante herramientas accesibles, eficientes e innovadoras.
 
 ---
 
@@ -2335,6 +2334,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar la L
     <td>Done</td>
   </tr>
 </table>
+</div>
 
 ---
 
