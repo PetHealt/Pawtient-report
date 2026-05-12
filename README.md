@@ -578,9 +578,9 @@ y evaluar sus fortalezas y debilidades. Esto nos permite definir la propuesta de
   <tr>
     <td valign="top">Precios & Costos</td>
     <td valign="top">Anual: Desde $60 USD hasta $360 USD. Mensual: plan escalonado de $5, $15, $30 USD.</td>
-    <td valign="top">Anual: Desde $240 USD hasta $480 USD. Mensual: Desde $20 a $40 USD dependiendo del país y funciones.</td>
-    <td valign="top">Anual: Desde $600 USD hasta cotizaciones personalizadas elevadas para grupos de clínicas. Mensual: Desde $50 USD a $100+ USD mensuales, dependiendo fuertemente de los módulos adicionales contratados.</td>
-    <td valign="top">Plan Core: Desde $249/mes incluye 1 veterinarios; personal de apoyo ilimitado gratuito. Plan Pro Desde $299/mes para clínicas con múltiples sedes.</td>
+    <td valign="top">Maneja un modelo de suscripción mensual por niveles: $19 USD/mes (Plan Emprendedor - básico), $39 USD/mes (Plan Clínica - intermedio) y $65 USD/mes (Plan Hospital - avanzado). Ofrece descuentos por pago anual.</td>
+    <td valign="top">Su modelo es de licenciamiento B2B. Requiere un costo de implementación inicial (Setup Fee) de aprox. $500 USD y mensualidades que van desde los $55 USD hasta los $120 USD dependiendo del número de estaciones de trabajo y módulos de hospitalización activados.</td>
+    <td valign="top">Es la solución más costosa (segmento Enterprise). Sus precios inician en $249 USD/mes por el Plan Core (limitado a 1 veterinario) y suben a $299 USD/mes por el Plan Pro. Cobran adicionales por almacenamiento de imágenes médicas pesadas.</td>
   </tr>
   <tr>
     <td valign="top">Canales de distribución (Web y/o Móvil)</td>
