@@ -932,13 +932,13 @@ User Persona 1: Dueños y administradores de clínicas veterinarias
 
 Camila Ramírez de 32 años es dueña y administradora de una clínica veterinaria en Santiago de Surco. En su día a día debe coordinar citas, controlar inventarios y supervisar la información clínica de sus pacientes, por lo que busca soluciones digitales que le permitan mantener una gestión más organizada, rápida y eficiente.
 
-![User Persona 1](pawtient-report/assets/images/user-personas/segmento-1.png)
+![User Persona 1](pawtient-report/assets/images/user-personas/user-persona-1.png)
 
 User Persona 2: Veterinarios independientes
 
 Diego Torres es un médico veterinario independiente que atiende consultas y realiza seguimiento de pacientes en distintos puntos de Santiago de Surco. Su principal desafío es mantener organizada la información clínica y gestionar sus citas de manera eficiente, por lo que busca herramientas digitales prácticas que le permitan optimizar su trabajo diario y enfocarse más en la atención de sus pacientes.
 
-![User Persona 1](pawtient-report/assets/images/user-personas/segmento-2.png)
+![User Persona 1](pawtient-report/assets/images/user-personas/user-persona-2.png)
 
 ---
 
@@ -980,19 +980,19 @@ Los veterinarios independientes desarrollan tareas relacionadas con la atención
 
 ### 2.3.3. User Journey Mapping
 
-En el desarrollo de Pawtient, se elaboró un user journey mapping con el fin de comprender como es que interactúan los dueños de mascotas y el personal clínico en el contexto de atención veterinaria. Analizamos las distintas etapas que atraviesan, desde la detección de un problema hasta el seguimiento posterior al tratamiento, identificando dificultades y oportunidades de mejora. Este análisis nos permite plantear una solución que se integra de forma natural en sus actividades diarias, facilitando el acceso a la información, mejorando la organización de los procesos y fortaleciendo la calidad de la atención.
+En el desarrollo de Pawtient, se elaboró un User Journey Mapping con el objetivo de comprender cómo interactúan los dueños y administradores de clínicas veterinarias, así como los veterinarios independientes, dentro de sus procesos de atención y gestión diaria. Se analizaron las distintas etapas relacionadas con la organización de consultas, manejo de historiales clínicos, control de insumos y seguimiento de pacientes, identificando problemas y oportunidades de mejora. Este análisis permitió proponer una solución que se integra de manera práctica en sus actividades diarias, optimizando la gestión de la información y mejorando la eficiencia de los procesos veterinarios.
 
-**User Journey Map — Personal clínico**
+**User Journey Map — Dueños y administradores de clínicas veterinarias**
 
-<img alt= "User Journey Mapping Personal Clínico" src="">
+<img alt= "User Journey Mapping Dueños y administradores de clínicas veterinarias" src="">
 
 [Ver Imagen]()
 
 ---
 
-**User Journey Map — Dueños de mascotas**
+**User Journey Map — Veterinarios independientes**
 
-<img alt= "User Journey Mapping Personal Clínico" src="">
+<img alt= "User Journey Mapping Veterinarios independientes" src="">
 
 [Ver Imagen]()
 
