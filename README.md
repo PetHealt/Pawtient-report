@@ -984,9 +984,9 @@ En el desarrollo de Pawtient, se elaboró un User Journey Mapping con el objetiv
 
 **User Journey Map — Dueños y administradores de clínicas veterinarias**
 
-<img alt= "User Journey Mapping Dueños y administradores de clínicas veterinarias" src="">
+<img alt= "User Journey Mapping Dueños y administradores de clínicas veterinarias" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-1.png">
 
-[Ver Imagen]()
+[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-1.png)
 
 ---
 
