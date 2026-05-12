@@ -323,15 +323,15 @@ Hemos identificado que la gestión de insumos suele realizarse de forma manual o
 
 **Business Assumptions:**
 
-1. **Considero que** los centros veterinarios requieren una forma más ordenada y segura de manejar la información clínica y el seguimiento de sus pacientes.
-2. **Estas necesidades pueden resolverse con** una plataforma web que centralice historiales médicos, control de insumos y gestión de citas.
-3. **Nuestros primeros usuarios serán** el personal clínico de los centros veterinarios, así como los dueños de mascotas interesados en acceder y dar seguimiento a la información de salud de sus mascotas.
-4. **El principal beneficio que buscan los usuarios es** mejorar la calidad de atención y tomar decisiones basadas en información actualizada.
-5. **El sistema también ofrece** control de inventario, seguimiento de tratamientos y acceso a información del personal veterinario.
-6. **La captación de nuestros usuarios será a través de** marketing digital, alianzas con centros veterinarios y recomendaciones dentro del sector.
+1. **Considero que** las clínicas veterinarias y los veterinarios independientes requieren una forma más ordenada, eficiente y segura de gestionar la información clínica y administrativa de sus servicios.
+2. **Estas necesidades pueden resolverse con** una plataforma web que centralice historiales clínicos, control de insumos, gestión de citas y seguimiento de tratamientos.
+3. **Nuestros primeros usuarios serán** los dueños y administradores de clínicas veterinarias, así como los veterinarios independientes que buscan optimizar sus procesos operativos y mejorar la organización de la información clínica.
+4. **El principal beneficio que buscan los usuarios es** mejorar la eficiencia de sus operaciones, reducir errores administrativos y tomar decisiones basadas en información actualizada.
+5. **El sistema también ofrece** control de inventario, gestión de citas, seguimiento de tratamientos y acceso rápido a información clínica en tiempo real.
+6. **La captación de nuestros usuarios será a través de** marketing digital, alianzas con on clínicas veterinarias y recomendaciones dentro del sector veterinario.
 7. **Generaré ingresos mediante** un modelo de suscripción mensual con diferentes niveles: Paw Basic(5 USD), Paw Care(15 USD), Paw Pro(30 USD).
 8. **Mi competencia estará conformada** por otros sistemas de gestión veterinaria y soluciones digitales similares.
-9. **Nos diferenciamos por** ofrecer una plataforma fácil de usar, con información centralizada y mayor transparencia para los usuarios.
+9. **Nos diferenciamos por** ofrecer una plataforma accesible, fácil de usar y enfocada en centralizar la gestión clínica y operativa en un solo sistema.
 10. **Mi principal riesgo** será la baja adopción del sistema debido a la resistencia al cambio o poca familiaridad con herramientas digitales.
 11. **Abordaremos este riesgo mediante** una interfaz simple, guías de uso dentro de la plataforma y un proceso de adopción progresivo que facilite el uso desde el primer momento.
 
@@ -340,25 +340,22 @@ Hemos identificado que la gestión de insumos suele realizarse de forma manual o
 **¿Quiénes son nuestros usuarios?**
 
 
-Los usuarios de Pawtient son centros veterinarios, incluyendo al personal clínico que buscan mejorar la gestión de la información clínica. También participan los dueños de mascotas, quienes necesitan acceder al historial médico de sus mascotas y conocer información sobre la atención y los profesionales que los atienden.
-
+Los usuarios de Pawtient son dueños y administradores de clínicas veterinarias, así como veterinarios independientes que buscan optimizar la gestión de historiales clínicos, citas, tratamientos e inventarios médicos mediante herramientas digitales.
 
 **¿Qué problemas busca resolver nuestro producto?**
 
 
-Pawtient busca resolver la desorganización en los historiales clínicos, la falta de integración de la información y el control limitado de los insumos médicos. También aborda la poca visibilidad que tienen los dueños de mascotas sobre la salud de sus mascotas y la información de los veterinarios.
-
+Pawtient busca resolver la desorganización de la información clínica, la falta de integración de procesos y el control limitado de citas e insumos médicos dentro de clínicas veterinarias y servicios independientes.
 
 **¿En qué momentos y de qué forma se utiliza el producto?**
 
 
-La plataforma se utiliza durante consultas, seguimiento de tratamientos, gestión de citas y control de insumos. Puede ser accedida desde computadoras o dispositivos móviles, lo que permite trabajar con información en tiempo real desde cualquier lugar.
-
+La plataforma se utiliza durante consultas, gestión de citas, seguimiento de tratamientos y control de inventarios. Puede ser accedida desde computadoras o dispositivos móviles, permitiendo trabajar con información actualizada en tiempo real.
 
 **¿Cómo se integra la solución en la rutina del usuario?**
 
 
-El sistema forma parte de la rutina diaria de los centros veterinarios. El personal clínico lo utiliza durante la atención para registrar diagnósticos, hacer seguimiento a los pacientes y gestionar la información y los recursos del centro. Por su parte, los dueños de mascotas lo utilizan para acceder al historial, consultar información y revisar las citas de sus mascotas.
+El sistema forma parte de las actividades diarias de clínicas veterinarias y veterinarios independientes, facilitando el registro de consultas, la gestión de pacientes, el control de insumos y la organización de procesos operativos.
 
 **¿Qué tan sencilla es la adopción de la plataforma?**
 
