@@ -444,18 +444,19 @@ A continuación, se presenta el Lean UX Canvas de Pawtient:
 
 ## 1.3. Segmentos objetivo
 
+En el análisis del segmento objetivo para Pawtient, se ha identificado que nuestros principales usuarios serán los dueños y administradores de clínicas veterinarias, así como los veterinarios independientes.
 
 ### Dueños y administradores de clínicas veterinarias
 
-Incluye veterinarios y personal administrativo, quienes necesitan gestionar la información clínica, registrar consultas, controlar insumos y organizar los procesos del centro de forma eficiente.
+Incluye responsables de la gestión operativa y administrativa de clínicas veterinarias, quienes necesitan organizar la información clínica, gestionar citas, controlar inventarios y optimizar los procesos del centro de forma eficiente.
 
-- **Edad:** 20 a 60 años
-
-
-- **Necesidad clave:** Centralizar información clínica y optimizar la gestión del centro.
+- **Edad:** 30 a 55 años
 
 
-- **Nivel educativo:** Formación técnica o profesional
+- **Necesidad clave:** Centralizar la gestión clínica y optimizar los procesos operativos.
+
+
+- **Nivel educativo:** Formación técnica, profesional o experiencia en administración de negocios veterinarios.
 
 
 - **Uso de tecnología:** Uso frecuente de computadoras y dispositivos móviles.
@@ -463,19 +464,18 @@ Incluye veterinarios y personal administrativo, quienes necesitan gestionar la i
 ### Veterinarios independientes
 
 
-Los dueños de mascotas buscan estar informados sobre la salud de sus mascotas y entender mejor la atención que reciben. Muchas veces no cuentan con acceso a esta.
+Incluye profesionales veterinarios que realizan consultas independientes y requieren herramientas digitales para gestionar pacientes, historiales clínicos y tratamientos de manera rápida y organizada.
+
+- **Edad:** 25 a 45 años
 
 
-- **Edad:** 18 a 60 años
+- **Necesidad clave:** Acceder y gestionar información clínica desde cualquier lugar de forma práctica y eficiente.
 
 
-- **Necesidad clave:** Consultar el estado de salud de sus mascotas.
+- **Nivel educativo:** Formación profesional en medicina veterinaria.
 
 
-- **Nivel educativo:** Variado
-
-
-- **Uso de tecnología:** Uso frecuente de teléfonos móviles.
+- **Uso de tecnología:** Uso constante de dispositivos móviles y laptops.
 
 
 ---
