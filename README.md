@@ -424,27 +424,28 @@ La plataforma debe contar con un diseño claro y ordenado, con iconos fáciles d
 
   <br>**Sabremos que** hemos tenido éxito.
 
-  <br>**Cuando** os usuarios utilicen constantemente la plataforma y reduzcan el uso de registros manuales o herramientas no integradas.
+  <br>**Cuando** los usuarios utilicen constantemente la plataforma y reduzcan el uso de registros manuales o herramientas no integradas.
 
 ---
 
 #### 1.2.2.4. Lean UX Canvas
 
-El Lean UX Canvas es una herramienta visual que permite organizar y comprender los elementos clave de un producto, enfocándose en el problema, los usuarios y el valor que se busca ofrecer. En el caso de Pawtient, se utiliza para identificar las necesidades del personal clínico y de los dueños de mascotas, y definir cómo la plataforma aporta valor dentro de los centros veterinarios
+El Lean UX Canvas es una herramienta visual que permite organizar y comprender los elementos clave de un producto, enfocándose en el problema, los usuarios y el valor que se busca ofrecer.
+
+En el caso de Pawtient, se utiliza para identificar las necesidades de los dueños y administradores de clínicas veterinarias, así como de los veterinarios independientes, y definir cómo la plataforma aporta valor dentro de la gestión veterinaria.
 
 A continuación, se presenta el Lean UX Canvas de Pawtient:
 
 ![Lean UX Canvas](pawtient-report/assets/images/Capítulo1/Lean-UX-Canvas.png)
 
-**Enlace al Lean UX Canvas:** [*Ver en Miro*](https://miro.com/app/board/uXjVGi5z7Cc=/?share_link_id=122548882114)
+**Enlace al Lean UX Canvas:** [*Ver en Miro*](https://miro.com/welcomeonboard/QVN1VzZ1RmhoWEhGUm9heXpldFAyenkxK1hWQ1hiQ1dLTUlNN2twU1ArL0o2TzY2ZzdlMjc2dkJ0SEhvdy9PQTZGejBEeFNJWFQ5VUh2V1NNb3hKNlcxUnNrTWZNWmh3MitiSXhvQVdHeUtxSFhvTWN2OTNLNTk5LzZSa0lWUklzVXVvMm53MW9OWFg5bkJoVXZxdFhRPT0hdjE=?share_link_id=400022156481)
 
 ---
 
 ## 1.3. Segmentos objetivo
 
-En el análisis del segmento objetivo para Pawtient, se ha identificado que nuestros principales usuarios serán el personal clínico de los centros veterinarios y los dueños de mascotas.
 
-### Personal de clínico de centros veterinarios
+### Dueños y administradores de clínicas veterinarias
 
 Incluye veterinarios y personal administrativo, quienes necesitan gestionar la información clínica, registrar consultas, controlar insumos y organizar los procesos del centro de forma eficiente.
 
@@ -459,7 +460,7 @@ Incluye veterinarios y personal administrativo, quienes necesitan gestionar la i
 
 - **Uso de tecnología:** Uso frecuente de computadoras y dispositivos móviles.
 
-### Dueños de mascotas
+### Veterinarios independientes
 
 
 Los dueños de mascotas buscan estar informados sobre la salud de sus mascotas y entender mejor la atención que reciben. Muchas veces no cuentan con acceso a esta.
