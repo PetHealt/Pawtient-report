@@ -926,19 +926,19 @@ El análisis de las entrevistas a los dueños de mascotas revela patrones de com
 
 ### 2.3.1. User Personas
 
-Los siguientes User Personas se elaboraron a partir de las entrevistas realizadas, representando a los principales segmentos del proyecto. Cada uno sintetiza características, comportamientos y necesidades que orientan el diseño y la propuesta de valor de la plataforma.
+Los siguientes User Personas se elaboraron a partir de las entrevistas realizadas a dueños y administradores de clínicas veterinarias, así como a veterinarios independientes. Cada uno representa características, comportamientos y necesidades clave que permiten orientar el diseño y la propuesta de valor de la plataforma Pawtient.
 
-User Persona 1: Personal clínico veterinario
+User Persona 1: Dueños y administradores de clínicas veterinarias
 
-Sebastián Navarro es un veterinario joven que trabaja en una clínica y atiende a varios pacientes al día. Su principal reto es organizar la información clínica, gestionar citas e insumos y optimizar su tiempo, por lo que busca herramientas digitales que le permitan trabajar de manera más eficiente.
+Camila Ramírez de 32 años es dueña y administradora de una clínica veterinaria en Santiago de Surco. En su día a día debe coordinar citas, controlar inventarios y supervisar la información clínica de sus pacientes, por lo que busca soluciones digitales que le permitan mantener una gestión más organizada, rápida y eficiente.
 
-![User Persona 1](pawtient-report/assets/images/user-personas/user-persona-2.png)
+![User Persona 1](pawtient-report/assets/images/user-personas/segmento-1.png)
 
-User Persona 2: Dueña de mascota
+User Persona 2: Veterinarios independientes
 
-Camila Rodríguez es una joven dueña de mascota que busca mantener la salud de su perro bajo control. Su principal dificultad es no contar con información clara y centralizada, por lo que valora soluciones simples que le permitan hacer seguimiento y tomar decisiones con mayor seguridad.
+Diego Torres es un médico veterinario independiente que atiende consultas y realiza seguimiento de pacientes en distintos puntos de Santiago de Surco. Su principal desafío es mantener organizada la información clínica y gestionar sus citas de manera eficiente, por lo que busca herramientas digitales prácticas que le permitan optimizar su trabajo diario y enfocarse más en la atención de sus pacientes.
 
-![User Persona 1](pawtient-report/assets/images/user-personas/user-persona-1.png)
+![User Persona 1](pawtient-report/assets/images/user-personas/segmento-2.png)
 
 ---
 
@@ -984,17 +984,17 @@ En el desarrollo de Pawtient, se elaboró un user journey mapping con el fin de 
 
 **User Journey Map — Personal clínico**
 
-<img alt= "User Journey Mapping Personal Clínico" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-segment-1.png">
+<img alt= "User Journey Mapping Personal Clínico" src="">
 
-[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-segment-1.png)
+[Ver Imagen]()
 
 ---
 
 **User Journey Map — Dueños de mascotas**
 
-<img alt= "User Journey Mapping Personal Clínico" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-segment-2.png">
+<img alt= "User Journey Mapping Personal Clínico" src="">
 
-[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-segment-2.png)
+[Ver Imagen]()
 
 ---
 
@@ -1004,9 +1004,9 @@ En esta sección se presentarán los Empathy Maps de cada segmento objetivo, con
 
 **Empathy Map — Personal clínico**
 
-<img alt= "User Journey Mapping Personal Clínico" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-map-segment-1.png">
+<img alt= "User Journey Mapping Personal Clínico" src="">
 
-[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-map-segment-1.png)
+[Ver Imagen]()
 
 ---
 
