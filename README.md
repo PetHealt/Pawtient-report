@@ -450,36 +450,58 @@ En el análisis del segmento objetivo para Pawtient, se ha identificado que nues
 
 Incluye responsables de la gestión operativa y administrativa de clínicas veterinarias, quienes necesitan organizar la información clínica, gestionar citas, controlar inventarios y optimizar los procesos del centro de forma eficiente.
 
-- **Edad:** 30 a 55 años
+- **Factores demográficos:**
+
+  - Hombres y mujeres entre 30 y 55 años.
+  - Propietarios o administradores de clínicas veterinarias urbanas.
+  - Residentes principalmente en Santiago de Surco, Lima, Perú.
+  - Nivel socioeconómico B y C.
+  - Experiencia previa en gestión veterinaria o administración de negocios.
 
 
-- **Necesidad clave:** Centralizar la gestión clínica y optimizar los procesos operativos.
+- **Factores psicográficos:**
+   - Buscan optimizar la gestión operativa de sus clínicas.
+   - Priorizan el orden, la eficiencia y el control de procesos.
+   - Están interesados en modernizar y digitalizar sus servicios.
+   - Buscan mejorar la organización y reducir errores administrativos.
 
 
-- **Nivel educativo:** Formación técnica, profesional o experiencia en administración de negocios veterinarios.
-
-
-- **Uso de tecnología:** Uso frecuente de computadoras y dispositivos móviles.
+- **Necesidades clave:**
+  
+   - Centralizar historiales clínicos y citas. 
+   - Mejorar el control de inventarios e insumos médicos. 
+   - Optimizar la gestión operativa y administrativa. 
+   - Acceder rápidamente a información clínica actualizada.
 
 ### Veterinarios independientes
 
 
 Incluye profesionales veterinarios que realizan consultas independientes y requieren herramientas digitales para gestionar pacientes, historiales clínicos y tratamientos de manera rápida y organizada.
 
-- **Edad:** 25 a 45 años
+- **Factores demográficos:**
+
+    - Hombres y mujeres entre 25 y 45 años. 
+    - Médicos veterinarios que trabajan de manera independiente. 
+    - Residentes principalmente en Santiago de Surco, Lima, Perú.
+    - Nivel socioeconómico B y C. 
+    - Profesionales con experiencia en atención clínica veterinaria.
 
 
-- **Necesidad clave:** Acceder y gestionar información clínica desde cualquier lugar de forma práctica y eficiente.
+- **Factores psicográficos:**
+    - Buscan herramientas digitales prácticas y accesibles. 
+    - Priorizan la rapidez y movilidad en su trabajo diario. 
+    - Desean reducir tareas manuales y mejorar la organización de consultas. 
+    - Están interesados en gestionar información clínica desde cualquier lugar.
 
 
-- **Nivel educativo:** Formación profesional en medicina veterinaria.
+- **Necesidades clave:**
 
-
-- **Uso de tecnología:** Uso constante de dispositivos móviles y laptops.
-
+    - Gestionar pacientes e historiales clínicos de forma digital. 
+    - Organizar citas y tratamientos veterinarios. 
+    - Acceder a información clínica desde dispositivos móviles. 
+    - Mejorar la eficiencia y organización de sus consultas.
 
 ---
-
 
 <div align="center">
 
