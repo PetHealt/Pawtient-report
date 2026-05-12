@@ -1004,9 +1004,9 @@ En esta sección se presentarán los Empathy Maps de cada segmento objetivo, con
 
 **Empathy Map — Dueños y administradores de clínicas veterinarias**
 
-<img alt= "Empathy mapping Dueños y administradores de clínicas veterinarias" src="">
+<img alt= "Empathy mapping Dueños y administradores de clínicas veterinarias" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-%20mapping-1.png">
 
-[Ver Imagen]()
+[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-%20mapping-1.png)
 
 ---
 
