@@ -1002,19 +1002,19 @@ En el desarrollo de Pawtient, se elaboró un User Journey Mapping con el objetiv
 
 En esta sección se presentarán los Empathy Maps de cada segmento objetivo, construidos a partir de los User Persona previamente definidos. Esta herramienta permite analizar de forma integral lo que los usuarios piensan, sienten, dicen y hacen, facilitando la identificación de sus necesidades, frustraciones y motivaciones. De esta manera, se obtienen insights clave que orientan el diseño de la solución propuesta.
 
-**Empathy Map — Personal clínico**
+**Empathy Map — Dueños y administradores de clínicas veterinarias**
 
-<img alt= "User Journey Mapping Personal Clínico" src="">
+<img alt= "Empathy mapping Dueños y administradores de clínicas veterinarias" src="">
 
 [Ver Imagen]()
 
 ---
 
-**Empathy Map — Dueños de mascotas**
+**Empathy Map — Veterinarios independientes**
 
-<img alt= "User Journey Mapping Personal Clínico" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-map-segment-2.png">
+<img alt= "Empathy mapping veterinarios independientes" src="">
 
-[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-map-segment-2.png)
+[Ver Imagen]()
 
 ---
 
