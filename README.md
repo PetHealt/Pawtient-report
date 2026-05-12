@@ -375,7 +375,7 @@ La plataforma debe contar con un diseño claro y ordenado, con iconos fáciles d
 
 - **Hypothesis 01:**
 
-  <br>**Creemos que** el personal clínico mejorará la organización de la información si centraliza los historiales clínicos en una sola plataforma.
+  <br>**Creemos que** los dueños y administradores de clínicas veterinarias mejorarán la organización de la información si centralizan los historiales clínicos en una sola plataforma.
 
   <br>**Sabremos que** hemos tenido éxito.
 
@@ -384,25 +384,25 @@ La plataforma debe contar con un diseño claro y ordenado, con iconos fáciles d
 
 - **Hypothesis 02:**
 
-  <br>**Creemos que** los dueños de mascotas se sentirán más tranquilos con la atención si pueden revisar la información médica de sus mascotas.
+  <br>**Creemos que** los veterinarios independientes optimizarán la gestión de sus consultas si cuentan con acceso rápido y centralizado a la información clínica de sus pacientes.
 
   <br>**Sabremos que** hemos tenido éxito.
 
-  <br>**Cuando** consulten el historial de sus mascotas con frecuencia y expresen mayor seguridad en la información recibida.
+  <br>**Cuando** reduzcan el tiempo de búsqueda de información y mejoren el seguimiento de tratamientos y consultas.
 
 
 - **Hypothesis 03:**
 
-  <br>**Creemos que** las notificaciones sobre citas y tratamientos ayudarán a que los usuarios cumplan mejor con estas actividades.
+  <br>**Creemos que** las notificaciones sobre citas y tratamientos ayudarán a los dueños y administradores de clínicas veterinarias, así como a los veterinarios independientes, a gestionar mejor sus actividades diarias.
 
   <br>**Sabremos que** hemos tenido éxito.
 
-  <br>**Cuando** disminuyan las citas perdidas y los usuarios respondan con mayor frecuencia a las notificaciones.
+  <br>**Cuando** disminuyan las citas perdidas y se mejore el seguimiento de los tratamientos registrados.
 
 
 - **Hypothesis 04:**
 
-  <br>**Creemos que** el personal clínico registrará la información más rápido si utilizan formularios dentro de la plataforma.
+  <br>**Creemos que** los dueños y administradores de clínicas veterinarias registrarán la información más rápido si utilizan formularios digitales dentro de la plataforma.
 
   <br>**Sabremos que** hemos tenido éxito.
 
@@ -411,20 +411,20 @@ La plataforma debe contar con un diseño claro y ordenado, con iconos fáciles d
 
 - **Hypothesis 05:**
 
-  <br>**Creemos que** mostrar el estado actualizado de las mascotas ayudará a los dueños a tomar mejores decisiones.
+  <br>**Creemos que** centralizar el estado clínico y los tratamientos de los pacientes ayudará a los dueños y administradores de clínicas veterinarias a mejorar el seguimiento y control de la atención médica.
 
   <br>**Sabremos que** hemos tenido éxito.
 
-  <br>**Cuando** los usuarios consulten con frecuencia esta información y la utilicen para el seguimiento de sus mascotas.
+  <br>**Cuando** los usuarios consulten frecuentemente la información clínica y mejoren el seguimiento de los pacientes.
 
 
 - **Hypothesis 06:**
 
-  <br>**Creemos que** mostrar la experiencia y credenciales de los veterinarios generará mayor confianza en los dueños de mascotas.
+  <br>**Creemos que** una plataforma organizada y accesible mejorará la confianza de los dueños y administradores de clínicas veterinarias, así como de los veterinarios independientes, en la gestión de su información operativa y clínica.
 
   <br>**Sabremos que** hemos tenido éxito.
 
-  <br>**Cuando** los usuarios consulten los perfiles de los veterinarios y manifiesten mayor confianza en la atención recibida.
+  <br>**Cuando** os usuarios utilicen constantemente la plataforma y reduzcan el uso de registros manuales o herramientas no integradas.
 
 ---
 
