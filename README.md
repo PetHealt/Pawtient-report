@@ -944,37 +944,37 @@ Diego Torres es un médico veterinario independiente que atiende consultas y rea
 
 ### 2.3.2. User Task Matrix
 
-##### User Task Matrix - Personal clínico 
+##### User Task Matrix - Dueños y administradores de clínicas veterinarias
 
 | **Tareas / Tasks**                   | **Frecuencia** | **Importancia** |
 |--------------------------------------|----------------|-----------------|
-| Registrar historias clínicas         | Alta           | Muy alta        |
-| Consultar información de pacientes   | Alta           | Muy alta        |
-| Gestionar citas                      | Alta           | Alta            |
-| Controlar inventario de insumos      | Media          | Alta            |
-| Coordinar atención con clientes      | Alta           | Muy alta        |
-| Revisar stock de insumos             | Media          | Alta            |
-| Organizar información clínica        | Alta           | Muy alta        |
-| Realizar seguimiento de tratamientos | Media          | Alta            |
-| Comunicar indicaciones a los dueños  | Alta           | Alta            |
+| Gestionar historiales clínicos         | Alta           | Muy alta        |
+| Organizar citas veterinarias   | Alta           | Muy alta        |
+| Controlar inventario de insumos                     | Alta           | Alta            |
+| Supervisar procesos operativos     | Alta           | Muy alta        |
+| Consultar información de pacientes     | Alta           | Muy alta        |
+| Coordinar atención del personal         | Media          | Alta            |
+| Revisar reportes y registros       | Media          | Alta            |
+| Gestionar información administrativa | Alta           | Muy alta        |
+| Dar seguimiento a tratamientos  | Media          | Alta            |
 
-El personal clínico desarrolla tareas constantes enfocadas en el registro, consulta y gestión de información médica, así como en la coordinación de citas y control de insumos. Lo que refleja la necesidad de sistemas que centralicen la información y optimicen el tiempo de trabajo.
+Los dueños y administradores de clínicas veterinarias realizan tareas enfocadas en la organización operativa, control de información clínica y supervisión de procesos internos. Esto evidencia la necesidad de una plataforma que centralice datos y optimice la gestión diaria del centro veterinario.
 
-##### User Task Matrix - Dueños de mascotas
+##### User Task Matrix - Veterinarios independientes
 
 | **Tareas / Tasks**                          | **Frecuencia** | **Importancia** |
 |---------------------------------------------|----------------|-----------------|
-| Llevar a su mascota al veterinario          | Media          | Muy alta        |
-| Recordar vacunas y tratamiento              | Media          | Muy alta        |
-| Consultar información respecto a su mascota | Alta           | Alta            |
-| Organizar citas veterinarias                | Media          | Alta            |
-| Verificar el estado de salud de su mascota  | Alta           | Muy alta        |
-| Revisar historial antes de una consulta     | Baja           | Alta            |
-| Comprar productos para su mascota           | Media          | Media           |
-| Consultar reseñas de veterinarias           | Alta           | Alta            |
-| Registrar o guardar información médica      | Baja           | Alta            |
+| Registrar consultas veterinarias         | Alta           | Muy alta        |
+| Consultar historiales clínicos           | Alta           | Muy alta        |
+| Gestionar citas y tratamientos | Alta           | Alta            |
+| Realizar seguimiento de pacientes              | Media          | Alta            |
+| Acceder a información clínica móvil  | Alta           | Muy alta        |
+| Organizar registros médicos    | Alta           | Alta            |
+| Comunicar indicaciones médicas          | Alta           | Alta            |
+| Gestionar tiempos de atención           | Media          | Alta            |
+| Revisar información de pacientes      | Alta           | Muy alta        |
 
-Los dueños de mascotas realizan actividades para asegurar su bienestar, vigilar su estado y tomar decisiones sobre su salud. Las tareas principales incluyen administrar vacunas, buscar información confiable y agendar visitas, lo que resalta la necesidad de herramientas para llevar un registro y evitar la pérdida de información.
+Los veterinarios independientes desarrollan tareas relacionadas con la atención clínica, el seguimiento de pacientes y la gestión de información médica en distintos entornos de trabajo. Esto refleja la necesidad de herramientas digitales accesibles que faciliten la organización y agilicen sus actividades diarias.
 
 ---
 
