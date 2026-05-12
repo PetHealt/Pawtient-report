@@ -219,8 +219,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 #### ¿Cuál es el problema?
 
 
-El problema es que en muchos centros veterinarios la información médica aún se gestiona de forma desordenada o poco organizada, con historiales clínicos dispersos y un control limitado de los insumos. Esto hace que sea más difícil dar un seguimiento adecuado a la salud de las mascotas, afectando la calidad de la atención y reduciendo la confianza de los dueños en el servicio.
-
+Muchos centros veterinarios aún gestionan la información clínica y administrativa de forma manual o mediante herramientas poco integradas, lo que genera desorganización en historiales clínicos, citas e inventarios médicos. Esto dificulta la gestión operativa y reduce la eficiencia en la atención veterinaria.
 
 #### When? (¿Cuándo?)
 
@@ -228,8 +227,7 @@ El problema es que en muchos centros veterinarios la información médica aún s
 #### ¿Cuándo ocurre el problema?
 
 
-El problema ocurre principalmente durante el registro de consultas, el seguimiento de tratamientos y la gestión de insumos médicos, sobre todo cuando la información se maneja de forma manual o no se actualiza a tiempo, lo que aumenta el riesgo de errores e inconsistencias.
-
+El problema ocurre principalmente durante el registro de consultas, la programación de citas, el seguimiento de tratamientos y el control de insumos médicos, especialmente cuando la información no se actualiza en tiempo real o se maneja manualmente.
 
 #### Where? (¿Dónde?)
 
@@ -237,14 +235,12 @@ El problema ocurre principalmente durante el registro de consultas, el seguimien
 #### ¿Dónde surge el problema?
 
 
-El problema surge en los procesos internos de la gestión clínica y administrativa dentro de los centros veterinarios, donde la información suele manejarse de forma poco organizada o no centralizada.
-
+La problemática surge en los procesos operativos y administrativos dentro de clínicas veterinarias y consultorios independientes.
 
 #### ¿En qué tipo de centros o contextos ocurre esta problemática?
 
 
-Se presenta principalmente en centros veterinarios pequeños y medianos, donde aún se utilizan registros manuales o herramientas poco integradas. Sin embargo, también puede darse en centros más grandes que no cuentan con sistemas unificados, lo que dificulta el acceso oportuno a la información y su correcta gestión.
-
+Se presenta principalmente en clínicas veterinarias pequeñas y medianas, así como en veterinarios independientes que aún utilizan registros manuales, archivos físicos o herramientas no especializadas para gestionar su información.
 
 #### Who? (¿Quién?)
 
@@ -252,13 +248,12 @@ Se presenta principalmente en centros veterinarios pequeños y medianos, donde a
 #### ¿Quiénes son los principales afectados por esta problemática?
 
 
-Los principales afectados son el personal de las clínicas veterinarias y los dueños de mascotas. El personal clínico enfrenta dificultades para acceder a información completa y actualizada, así como para gestionar insumos y operaciones de manera eficiente. Por su parte, los dueños de mascotas tienen un acceso limitado al seguimiento de sus animales y a información clara sobre la atención, lo que puede afectar su confianza en el servicio.
-
+Los principales afectados son los dueños o administradores y veterinarios independientes, quienes enfrentan dificultades para organizar información clínica, gestionar citas, controlar inventarios y optimizar sus procesos operativos.
 
 #### ¿Quién lo utilizará?
 
 
-El sistema será utilizado por el personal de las clínicas veterinarias para registrar diagnósticos, gestionar tratamientos, supervisar operaciones y controlar insumos. Por su parte, los dueños de mascotas lo utilizarán para consultar el historial médico y dar seguimiento al estado de salud de sus mascotas.
+La plataforma será utilizada por clínicas veterinarias y veterinarios independientes para registrar historiales clínicos, gestionar citas, controlar tratamientos e inventarios médicos y optimizar la administración de sus servicios.
 
 #### Why? (¿Por qué?)
 
@@ -266,7 +261,7 @@ El sistema será utilizado por el personal de las clínicas veterinarias para re
 #### ¿Cuál es la causa del problema?
 
 
-La principal causa es la falta de digitalización e integración de los procesos dentro de los centros veterinarios, lo que hace que la información se maneje de forma desorganizada, se generen errores en los registros y exista poca comunicación entre los distintos usuarios. Como consecuencia, se dificulta la toma de decisiones, el control de los recursos y la calidad de la atención.
+La principal causa es la falta de digitalización e integración de los procesos veterinarios, lo que provoca desorganización, duplicidad de información, errores en los registros y dificultades en la gestión operativa y administrativa.
 
 
 #### How? (¿Cómo?)
@@ -275,12 +270,12 @@ La principal causa es la falta de digitalización e integración de los procesos
 #### ¿En qué condiciones los usuarios usarán nuestro producto?
 
 
-Los usuarios utilizarán la plataforma en sus actividades diarias. El personal de las clínicas veterinarias la empleará durante la atención para registrar diagnósticos, gestionar tratamientos, supervisar insumos y consultar información en tiempo real. Por su parte, los dueños de mascotas la utilizarán para revisar el historial médico, dar seguimiento al estado de sus animales y conocer la información de los profesionales que los atienden.
+Los usuarios utilizarán la plataforma durante sus actividades diarias para registrar consultas, gestionar citas, supervisar tratamientos, controlar inventarios y acceder a información clínica en tiempo real.
 
 #### ¿Cómo les gustaría a los usuarios acceder a la plataforma?
 
 
-Los dueños de mascotas prefieren acceder desde sus teléfonos móviles para consultar rápidamente el historial médico, dar seguimiento al estado de salud de sus mascotas y revisar la información de los profesionales. Por su parte, el personal de las clínicas veterinarias utiliza tanto computadoras como dispositivos móviles, ya que esto les permite registrar información clínica en tiempo real y gestionar tratamientos, insumos y operaciones del centro de forma más eficiente.
+Los usuarios prefieren acceder mediante computadoras y dispositivos móviles, ya que esto les permite gestionar la información clínica y administrativa de forma rápida, flexible y desde cualquier lugar.
 
 #### How much? (¿Cuánto?)
 
