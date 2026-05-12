@@ -992,9 +992,9 @@ En el desarrollo de Pawtient, se elaboró un User Journey Mapping con el objetiv
 
 **User Journey Map — Veterinarios independientes**
 
-<img alt= "User Journey Mapping Veterinarios independientes" src="">
+<img alt= "User Journey Mapping Veterinarios independientes" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-2.png">
 
-[Ver Imagen]()
+[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-2.png)
 
 ---
 
