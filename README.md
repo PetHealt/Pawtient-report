@@ -2476,7 +2476,233 @@ A continuación se presentará el sprint planning para el trabajo parcial, donde
 | Sprint 2 Velocity                    | 14                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Sum of story points                  | 50                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
+---
 
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+Ahora presentaremos nuestro LACX (Leadership-and-Collaboration Matrix) que nos ayudará a saber quién lidera y quién colabora en cada aspecto de este segundo sprint.<br>
+Los aspectos que tomamos en cuenta para este segundo sprint fueron los endpoints de nuestro Front-End desarrollados por el equipo de Pawtient.
+
+<div style="font-size:70%;">
+
+| **Team Member** <br> Last Name, First Name |      **GitHub Username**       | **Reports** <br> L/C | **Appointments** <br> L/C | **Clinic** <br> L/C | **Profiles** <br> L/C | **Store** <br> L/C |
+|:------------------------------------------:|:------------------------------:|:--------------------:|:-------------------------:|:-------------------:|:---------------------:|:------------------:|
+|         **Quintanilla, Gonzalo** |             GoldQP             |          C           |             C             |          C          |           L           |         C          |
+|         **Salinas, Brianna** |        brianna-salinas         |          C           |             C             |          C          |           C           |         L          |
+|         **Salazar, Mateo** |  Mateo Paolo Salazar Miranda   |          C           |             C             |          L          |           C           |         C          |
+|         **Arroyo, Emily** |             Em2920             |          L           |             C             |          C          |           C           |         C          |
+|         **Acuache, Mathias** |           mathiasA25           |          C           |             L             |          C          |           C           |         C          |
+
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+
+</div>
+
+---
+
+#### 5.2.3.3. Sprint Backlog 2
+
+El objetivo principal de este Sprint es **diseñar, implementar y desplegar el Front-End** de la plataforma Pawtient, de modo que los usuarios (tanto dueños y administradores de clínicas veterinarias como veterinarios independientes) puedan interactuar con las principales funcionalidades del sistema y visualizar de manera práctica cómo la plataforma optimiza la gestión clínica y operativa. Asimismo, se busca ofrecer una experiencia funcional e intuitiva que permita validar la estructura de la solución, la navegación entre módulos y la integración con los endpoints desarrollados.
+
+<div>
+<table>
+  <tr>
+    <td><b>Sprint #</b></td>
+    <td colspan="7">Sprint 2</td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="2"><b>Work-Item / Task</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status (To-do / In-Process / To-Review / Done)</b></td>
+  </tr>
+
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>US01</td>
+    <td>Registrar cuenta como veterinario</td>
+    <td>T01</td>
+    <td>Implementar formulario de registro</td>
+    <td>Desarrollar interfaz de registro conectada al endpoint de autenticación y validación de campos.</td>
+    <td>5</td>
+    <td>Emily A.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US02</td>
+    <td>Iniciar sesión en la plataforma</td>
+    <td>T02</td>
+    <td>Implementar autenticación de usuarios</td>
+    <td>Construir vista de login y manejo de sesión mediante token JWT.</td>
+    <td>4</td>
+    <td>Gonzalo Q.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US04</td>
+    <td>Registrar historia clínica de mascota</td>
+    <td>T03</td>
+    <td>Implementar registro de historias clínicas</td>
+    <td>Desarrollar formulario para registrar información médica de mascotas.</td>
+    <td>6</td>
+    <td>Brianna S.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US05</td>
+    <td>Consultar historial médico de una mascota</td>
+    <td>T04</td>
+    <td>Implementar búsqueda de historiales</td>
+    <td>Construir módulo de búsqueda y visualización de historiales clínicos.</td>
+    <td>5</td>
+    <td>Mateo S.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US06</td>
+    <td>Editar y actualizar historia clínica</td>
+    <td>T05</td>
+    <td>Implementar edición de registros clínicos</td>
+    <td>Permitir actualización de diagnósticos, tratamientos y trazabilidad de cambios.</td>
+    <td>5</td>
+    <td>Emily A.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US08</td>
+    <td>Agendar cita desde la clínica</td>
+    <td>T06</td>
+    <td>Implementar módulo de citas</td>
+    <td>Desarrollar calendario veterinario y registro de citas desde la clínica.</td>
+    <td>5</td>
+    <td>Gonzalo Q.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US10</td>
+    <td>Visualizar agenda del día</td>
+    <td>T07</td>
+    <td>Implementar agenda diaria</td>
+    <td>Construir vista de agenda con listado de citas y filtros por veterinario.</td>
+    <td>4</td>
+    <td>Gonzalo Q.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US12</td>
+    <td>Registrar ingreso de suministros</td>
+    <td>T08</td>
+    <td>Implementar registro de inventario</td>
+    <td>Desarrollar módulo para registrar suministros y actualizar stock.</td>
+    <td>5</td>
+    <td>Brianna S.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US13</td>
+    <td>Consultar niveles de stock</td>
+    <td>T09</td>
+    <td>Implementar visualización de stock</td>
+    <td>Construir panel de inventario con alertas de stock mínimo.</td>
+    <td>4</td>
+    <td>Mateo S.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>TS01</td>
+    <td>Endpoint de autenticación de usuarios</td>
+    <td>T10</td>
+    <td>Integrar endpoint de autenticación</td>
+    <td>Conectar frontend con endpoint RESTful de login utilizando arquitectura DDD.</td>
+    <td>4</td>
+    <td>Mathias A.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>TS02</td>
+    <td>Endpoint de creación de historia clínica</td>
+    <td>T11</td>
+    <td>Integrar endpoint de historiales clínicos</td>
+    <td>Conectar formularios clínicos con servicios RESTful para registro de historias.</td>
+    <td>5</td>
+    <td>Emily A.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>TS03</td>
+    <td>Endpoint de programación de citas</td>
+    <td>T12</td>
+    <td>Integrar endpoint de citas</td>
+    <td>Conectar agenda veterinaria con endpoints de programación de citas.</td>
+    <td>4</td>
+    <td>Gonzalo Q.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>TS04</td>
+    <td>Endpoint de gestión de inventario</td>
+    <td>T13</td>
+    <td>Integrar endpoint de inventario</td>
+    <td>Consumir endpoints RESTful para consulta y actualización de suministros.</td>
+    <td>4</td>
+    <td>Brianna S.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>-</td>
+    <td>-</td>
+    <td>T14</td>
+    <td>Configurar arquitectura Frontend DDD</td>
+    <td>Estructurar módulos, bounded contexts y servicios para el frontend de Pawtient.</td>
+    <td>5</td>
+    <td>Mateo S.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>-</td>
+    <td>-</td>
+    <td>T15</td>
+    <td>Despliegue del Frontend</td>
+    <td>Configurar despliegue continuo del frontend en Netlify conectado al repositorio GitHub.</td>
+    <td>3</td>
+    <td>Gonzalo Q.</td>
+    <td>Done</td>
+  </tr>
+</table>
+</div>
+
+---
 
 ## Conclusiones
 
