@@ -9,7 +9,7 @@
 
 <br>
 
-# Informe de Proyecto - Avance 1
+# Informe de Proyecto - Trabajo Parcial
 
 ## Presentado por ´PetHealt Team´
 
@@ -2187,12 +2187,18 @@ Se implementará GitFlow con las siguientes ramas:
     ![Screenshot 6 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-6.png)
 
 7. **Despliegue listo**<br>
-   Ahora podemos observar que el deploy está listo y podremos ver el enlace de la web a la landing page recién desplegada.
-    ![Screenshot 7 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-7.png)
+   Ahora podemos observar que el deploy está listo y podremos ver el enlace de la web al front-end recién desplegado.
+    ![Screenshot 7 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-7.jpg)
 
-Ahora con la Landing Page desplegada, cada vez que se realize un push en la rama correspondiente, se actualizara automáticamente, de esta manera evitamos repetir los pasos.
+8. **Verificar la configuración del proyecto**<br>
+     Verificamos que el proyecto haya sido creado correctamente dentro de Netlify, comprobando el nombre del sitio, repositorio vinculado y estado general de la configuración del despliegue.
+    ![Screenshot 7 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-8.jpg)
 
-[Ver Landing Page desplegada](`https://pethealt.netlify.app/`)
+9. **Confirmar despliegues automáticos**<br>
+     Por último, revisamos la sección Deploys, donde se observa que los despliegues automáticos quedaron habilitados correctamente. De esta forma, cada nuevo push realizado en la rama principal actualiza automáticamente la aplicación desplegada. 
+     ![Screenshot 7 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-9.jpg)
+
+[Ver Front-End desplegado](`https://pawtient.netlify.app/login`)
 
 ---
 
