@@ -56,6 +56,7 @@
 | Versión | Fecha | Participantes | Descripción de modificación |
 |:-------:|:-----:|:-----:|:---------------------------|
 | AV1 | 2026-04-08 | Salinas Guzmán, Brianna Cristina <br> Quintanilla Pozo, Gonzalo Samuel <br> Salazar Miranda, Mateo Paolo <br> Arroyo Gonzales, Emily Juliette <br> Acuache Lucas, Mathias Joaquin | Avance 1 del reporte del proyecto y primera versión de la landing page |
+| **5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Salinas Guzmán, Brianna** <br> AV1: (acción específica) <br><br> **Quintanilla Pozo, Gonzalo** <br> AV1: (acción específica) <br><br> **Salazar Miranda, Mateo** <br> AV1: (acción específica) <br><br> **Arroyo Gonzales, Emily** <br> AV1: (acción específica) <br><br> **Acuache Lucas, Mathias** <br> AV1: (acción específica) | (Completar de forma grupal en cada entrega) |
 | | | | |
 
 </div>
@@ -67,8 +68,6 @@
 ## Project Report Collaboration Insights
 
 **URL del Repositorio:** [`https://github.com/PetHealt/Pawtient-report.git`](https://github.com/PetHealt/Pawtient-report.git)
-
-*(Esta sección se irá expandiendo con cada entrega)*
 
 ---
 
@@ -149,6 +148,7 @@
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
+    - [5.2.2. Sprint 2](#522-sprint-2)
   - [5.3. Validation Interviews](#53-validation-interviews)
   - [5.4. Video About-the-Product](#54-video-about-the-product)
     
@@ -174,6 +174,9 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 |:---|:---|:---|
 | **5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta.** | **Salinas Guzmán, Brianna** <br> AV1: Demostré liderazgo colaborativo al guiar la estructuración del sistema mediante la elaboración del Ubiquitous Language, User Stories, Impact Mapping y Product Backlog, facilitando la alineación del equipo en torno al dominio del problema. <br><br> **Quintanilla Pozo, Gonzalo** <br> AV1: Ejercí el liderazgo técnico al establecer el flujo de trabajo con GitFlow, supervisando la creación de ramas y resolviendo conflictos de integración. Coordiné el Sprint Planning para alinear los objetivos del equipo con el despliegue de la Landing Page y proporcioné dirección en la arquitectura de estilos base. <br><br> **Salazar Miranda, Mateo** <br> AV1: Contribuí al liderazgo técnico mediante el análisis y diseño de la sección de Servicios y Estadísticas. Participé activamente en la toma de decisiones sobre la arquitectura C4 y el diseño de clases, aportando una visión crítica para optimizar la estructura y escalabilidad del sistema. <br><br> **Arroyo Gonzales, Emily** <br> AV1: Demostré liderazgo colaborativo al liderar el modelado del Design Level Event Storming, facilitando la identificación de Bounded Contexts esenciales como Clinic y Appointment. Aseguré la consistencia estética y funcional mediante el diseño de componentes visuales clave. <br><br> **Acuache Lucas, Mathias** <br> AV1: Colaboré en la dirección conjunta del equipo mediante la estructuración de secciones críticas como IoT, Roles y Pricing. Mi participación en el diseño de la base de datos y diagramas de arquitectura permitió tener una visión clara de la lógica de negocio del sistema. | El equipo PetHealt logró establecer una base sólida de trabajo mediante metodologías ágiles y GitFlow, permitiendo una integración sin fricciones. La combinación de liderazgo técnico y comunicación clara resultó en un despliegue exitoso, cumpliendo con el 100% de los objetivos planteados para esta entrega. |
 | **5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Salinas Guzmán, Brianna** <br> AV1: Contribuí a la creación de un entorno colaborativo mediante la organización y priorización del Product Backlog, estableciendo metas claras para el desarrollo del sistema Pawtient. Aseguré la coherencia entre requerimientos y diseño técnico. <br><br> **Quintanilla Pozo, Gonzalo** <br> AV1: Fomenté un entorno colaborativo al configurar el entorno de despliegue continuo en Netlify y gestionar las versiones mediante la rama v1.0.0. Planifiqué y ejecuté tareas de integración técnica, cumpliendo con el objetivo de publicar la Landing Page en los tiempos establecidos. <br><br> **Salazar Miranda, Mateo** <br> AV1: Participé en la planificación de tareas mediante la estimación de tiempos para la implementación de secciones responsivas del frontend. Cumplí con los objetivos asignados al desarrollar componentes CSS modulares para las funcionalidades de estadísticas de la plataforma. <br><br> **Arroyo Gonzales, Emily** <br> AV1: Contribuí a un entorno inclusivo al documentar los procesos de diseño y asegurar que las necesidades de los veterinarios se reflejaran en el Event Storming. Planifiqué y cumplí con la entrega de recursos visuales para la sección Hero y de Contacto. <br><br> **Acuache Lucas, Mathias** <br> AV1: Demostré compromiso con las metas del Sprint al planificar e implementar la lógica de navegación y los componentes de precios. Mi proactividad en la resolución de tareas del Sprint Backlog permitió cumplir con el despliegue de una plataforma funcional y preparada para futuras integraciones. | El cumplimiento riguroso del Sprint Backlog y la distribución equitativa de tareas garantizaron un entorno de trabajo productivo. La planificación estratégica permitió que todas las historias de usuario del primer sprint pasaran a estado "Done", validando la capacidad de entrega técnica del equipo bajo presión académica. |
+
+
+
 ---
 
 <div align="center">
