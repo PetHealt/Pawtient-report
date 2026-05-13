@@ -2760,7 +2760,7 @@ A continuación, se presentan las capturas de las principales vistas desarrollad
 ![Vista de pestaña reportes](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-11.png)
 
 Asimismo, se elaboró un **video demostrativo** que muestra la navegación fluida del frontend:
-[Ver video demostrativo de Pawtient]([])
+[Ver video demostrativo de Pawtient]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311469_upc_edu_pe/IQA2vengUzUuS4seoi1K_jSXAdn-WEneaPJZtWg47Zge2Hc])
 
 ## Conclusiones
 
