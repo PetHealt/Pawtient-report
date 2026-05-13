@@ -2806,7 +2806,7 @@ Se optó por Netlify debido a su facilidad para implementar **Continuous Deploym
 4. **Despliegue inicial:** Se ejecutó el *Deploy* inicial, donde Netlify procesó los archivos del repositorio.
 5. **Generación de URL:** Una vez finalizado el proceso de *Provisioning* y *Deploy*, la plataforma generó una URL pública segura (HTTPS).
 
-**URL del despliegue:** [https://pawtient.netlify.app/login](https://pawtient.netlify.app/login)
+**URL del despliegue:** [https://pawtient.netlify.app/](https://pawtient.netlify.app/)
 
 ### 🔹 Evidencias
 A continuación, se presentan las capturas de pantalla que documentan el estado "Published" en el panel de Netlify y la correcta visualización del sitio en el navegador:
@@ -2818,7 +2818,19 @@ A continuación, se presentan las capturas de pantalla que documentan el estado 
 ![Configuración de despliegue en Netlify](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-3.png)
 ![Configuración de despliegue en Netlify](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-7.jpg)
 ![Configuración de despliegue en Netlify](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-1.png)
+
 ---
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, el equipo trabajó siguiendo la estrategia de ramificación estandarizada **GitFlow**, creando ramas específicas por endpoint asignado (ejemplo: `feature/appointments`, `feature/clinic`, `feature/profiles`, `feature/reports`, `feature/store`).
+
+El trabajo asíncrono se gestionó de manera eficiente: cada integrante empujó (*push*) sus cambios a su respectiva rama remota. Posteriormente, el Líder Técnico se encargó de realizar la integración progresiva (*merge*) de todas las ramas hacia `develop`, resolviendo los conflictos de fusión de estilos CSS que surgieron al unir los componentes. Tras la validación en el entorno de desarrollo, el código unificado se consolidó en la rama principal `main` para su despliegue a producción.
+
+A continuación, se presentan los **analíticos de GitHub (Insights & Network Graph)**, que evidencian la participación del equipo en *commits*, gestión de ramas y *merges* durante el Sprint. Estas evidencias confirman la colaboración activa, equilibrada y estructurada de todos los miembros del equipo:
+
+![Gráfico de Red (Network Graph) mostrando las ramas y merges](pawtient-report/assets/images/Team-Collaboration/network-frontend.png)
+![Analíticas de Contribución (Contributors) del equipo](pawtient-report/assets/images/Team-Collaboration/contributors-2.png)
 
 ## Anexos
 - Landing page: desplegada en Netlify [https://pethealt.netlify.app/](https://pethealt.netlify.app/)
