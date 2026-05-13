@@ -631,6 +631,9 @@ y evaluar sus fortalezas y debilidades. Esto nos permite definir la propuesta de
 - Enfocarse en la funcionalidad única del modelo dual (B2B2C) que conecta al veterinario directamente con el dueño de la mascota a través de una "Libreta Sanitaria Digital", transformando el software de una simple herramienta administrativa a un canal de fidelización y marketing para la clínica.
 - Ofrecer un modelo de suscripción SaaS escalonado con un plan básico de muy bajo costo ($5 USD), lo cual elimina el riesgo financiero para los emprendedores que buscan dejar el papel, haciéndolo mucho más atractivo que los competidores premium.
 - Posicionar a PetHealth como una alternativa "Lite" y veloz frente a la complejidad de otras aplicaciones (como Provet Cloud). Mientras que otros requieren una curva de aprendizaje alta debido a sus múltiples módulos hospitalarios y de IA, PetHealth elimina la fricción operativa ofreciendo una interfaz web 100% responsive, optimizada para procesos de consulta rápida en clínicas medianas, garantizando que el personal médico no pierda tiempo en menús complejos.
+- Capturar el segmento de veterinarios independientes(freelancers) mediante una propuesta de "oficina móvil", ofreciendo una herramienta de gestión personal que no requiere infraestructura física ni costos de implementación, superando la rigidez de los softwares tradicionales que solo están diseñados para locales fijos.
+- Utilizar el diferencial de precios frente a SmartVet (\$19 USD) y Qvet (\$55+ USD) para atraer al sector informal de veterinaria, posicionando a PetHealth como la única plataforma que permite la digitalización profesional por el costo de una sola consulta básica al mes.
+- Diferenciarse de Provet Cloud ofreciendo una política de exportación de datos simplificada y sin "secuestro" de información, asegurando que el veterinario independiente siempre sea dueño de su cartera de clientes sin enfrentar procesos técnicos complejos de migración.
 
 #### Tácticas:
 
@@ -638,7 +641,10 @@ y evaluar sus fortalezas y debilidades. Esto nos permite definir la propuesta de
 - Implementar campañas de educación y marketing en redes sociales (Instagram, TikTok, Facebook) dirigidas a los dueños de mascotas ("Pet Parents") para que sean ellos quienes exijan historiales clínicos transparentes y recomienden PetHealth a sus veterinarios.
 - Establecer alianzas estratégicas con proveedores de insumos médicos, marcas de alimentos para mascotas y colegios veterinarios para llegar a un gran número de clínicas de manera directa y generar confianza institucional.
 - Crear una calculadora interactiva (ROI) dentro de la Landing Page que le muestre a los dueños de las clínicas el ahorro de tiempo, la reducción de inasistencias (gracias a los recordatorios) y el aumento de ganancias que obtendrán al usar PetHealth versus sus métodos manuales actuales
-
+- Diseñar un módulo de agenda con geolocalización básica para que el veterinario freelancer pueda organizar sus citas diarias según su ruta de desplazamiento, diferenciándonos de la competencia que se enfoca únicamente en la gestión de salas de espera físicas. 
+- Lanzar una promoción dirigida a veterinarios independientes donde el primer mes del plan básico cuesta solo \$1 USD, resaltando que el precio regular (\$5 USD) sigue siendo 4 veces más económico que SmartVet (\$19 USD).
+- Implementar en la Landing Page una herramienta donde el usuario selecciona su software actual (Qvet, SmartVet o Provet) y PetHealth le calcula automáticamente cuánto dinero ahorraría al año migrando con nosotros, enfatizando la eliminación de los costos de instalación (Setup Fees) de la competencia.
+- Crear un kit de marketing digital gratuito para los independientes que se suscriban al plan de \$5 USD, que incluya plantillas de Instagram y tarjetas personales con el código QR de su Libreta Sanitaria Digital, posicionándonos como una inversión de marketing más que un gasto de software.
 
 ---
 
