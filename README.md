@@ -2450,49 +2450,33 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 
 La adopción de la metodología GitFlow permitió al equipo gestionar de manera organizada y eficiente el desarrollo de la Landing Page y de los distintos componentes del proyecto. El uso de ramas específicas, la correcta resolución de conflictos de integración y la automatización del despliegue en Netlify evidencian una adecuada gestión de configuración del software, asegurando estabilidad, trazabilidad y continuidad en el desarrollo.
 
----
-
 **2. Validación de la propuesta de valor**
 
 El empleo de herramientas de análisis y diseño UX, como User Personas, Impact Mapping, Wireframes, Mockups y User Journey Mapping, permitió validar las necesidades reales de los segmentos objetivo. Gracias a ello, Pawtient logró definir una propuesta de valor clara y diferenciada, enfocada tanto en el personal clínico veterinario como en los dueños de mascotas, priorizando la accesibilidad, organización de información y facilidad de uso.
-
----
 
 **3. Arquitectura escalable y modular basada en DDD**
 
 La aplicación de Domain-Driven Design (DDD), junto con el desarrollo de Event Storming, diagramas C4 y diseño orientado a componentes, permitió establecer una arquitectura modular, escalable y cohesionada. Esta estructura facilita la separación de responsabilidades, la reutilización de componentes y la futura integración de módulos como gestión clínica, control de inventarios y seguimiento médico.
 
----
-
 **4. Normalización y organización de datos**
 
 Durante el diseño de la base de datos se aplicaron principios de normalización, permitiendo estructurar la información clínica y administrativa de forma eficiente y consistente. Esto contribuye a reducir redundancias, evitar inconsistencias y asegurar una gestión adecuada de historiales médicos, citas e inventarios dentro de la plataforma.
-
----
 
 **5. Gestión ágil y trabajo colaborativo**
 
 El equipo trabajó bajo metodologías ágiles mediante la organización de tareas en Sprint Backlogs, User Stories y Product Backlog, lo que permitió mantener una planificación clara y un seguimiento constante del avance del proyecto. La comunicación continua y la colaboración entre integrantes facilitaron el cumplimiento de los objetivos establecidos para la entrega.
 
----
-
 **6. Enfoque centrado en el usuario**
 
 Las decisiones de diseño e implementación fueron tomadas considerando las necesidades y problemáticas identificadas durante las entrevistas a veterinarios y dueños de mascotas. Esto permitió desarrollar una solución con una interfaz intuitiva, responsiva y accesible, capaz de integrarse de forma natural en las actividades diarias de los usuarios.
-
----
 
 **7. Lecciones aprendidas durante el proceso**
 
 Durante el desarrollo del proyecto, el equipo identificó la importancia de mantener una comunicación constante y una adecuada distribución de tareas para evitar retrasos y mejorar la coordinación entre los integrantes. Asimismo, se evidenció la necesidad de validar continuamente los avances técnicos y de diseño mediante revisiones iterativas, permitiendo detectar errores tempranamente y optimizar el flujo de trabajo colaborativo.
 
----
-
 **8. Documentación y trazabilidad**
 
 La elaboración continua del informe, junto con el uso de GitHub y convenciones claras en los commits, permitió mantener una adecuada trazabilidad de los cambios realizados durante el proyecto. Además, la documentación de requerimientos, diagramas, arquitectura y procesos de desarrollo facilita el entendimiento, mantenimiento y futura escalabilidad de la solución propuesta.
-
----
 
 **9. Base técnica sólida para futuras iteraciones**
 
