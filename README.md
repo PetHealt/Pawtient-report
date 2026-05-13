@@ -2815,11 +2815,7 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 ![Gráfico de Red (Network Graph) mostrando las ramas y merges](pawtient-report/assets/images/Team-Collaboration/network-frontend.png)
 ![Analíticas de Contribución (Contributors) del equipo](pawtient-report/assets/images/Team-Collaboration/contributors-2.png)
 
-## Conclusiones
-
-1. **Integración y Despliegue Continuo (CI/CD) Exitoso:** La adopción estricta de la metodología de control de versiones *GitFlow* permitió al equipo gestionar de manera asíncrona y eficiente el código fuente de la *Landing Page*. La resolución efectiva de conflictos de fusión (merge conflicts) en la rama `develop` y la posterior automatización del despliegue en Netlify desde la rama `main` demuestran la madurez técnica del equipo en la gestión de la configuración del software.
-2. **Validación Efectiva de la Propuesta de Valor:** El uso de herramientas de diseño UX (Impact Mapping, Wireframes, Mockups) y el desarrollo de una interfaz responsiva con *Dark Mode* nativo garantizaron que la *Landing Page* comunique eficazmente la propuesta de valor dual (B2B2C) de Pawtient. Esto establece un canal de adquisición sólido tanto para el personal clínico como para los dueños de mascotas.
-3. **Arquitectura Escalable basada en DDD:** La aplicación del *Domain-Driven Design* a través del *Event Storming*, sumado al diseño de la base de datos relacional y los diagramas de arquitectura C4, proporciona una base técnica robusta, modular y altamente cohesiva. Esta estructuración mitiga riesgos técnicos tempranos y prepara el terreno para el desarrollo de los módulos de Gestión Clínica e Inventario en los próximos Sprints.
+---
 
 ## Bibliografía
 
@@ -2830,8 +2826,8 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 5. Lolimsa. (12 de marzo de 2024). *Problemas comunes en clínicas veterinarias y cómo prevenirlos*. Lolimsa Blog. https://www.lolimsa.com.pe/blog/problemas-comunes-en-clinicas-veterinarias-y-como-prevenirlos/
 6. Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide*. Scrum.org. https://scrumguides.org/scrum-guide.html
 7. W3C. (2023). *HTML5 Semantic Elements*. World Wide Web Consortium. https://www.w3.org/TR/html52/
----
 
+---
 
 ## Anexos
 - Landing page: desplegada en Netlify [https://pethealt.netlify.app/](https://pethealt.netlify.app/)
