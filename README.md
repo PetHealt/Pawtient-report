@@ -2794,6 +2794,31 @@ Durante el Sprint 2, el esfuerzo técnico se centró en el diseño, implementaci
 7. W3C. (2023). *HTML5 Semantic Elements*. World Wide Web Consortium. https://www.w3.org/TR/html52/
 ---
 
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el **Sprint 2** se realizó el despliegue exitoso del **Frontend** en la plataforma **Netlify**, utilizando el repositorio [PetHealt/Pawtient-Frontend-Web-App](https://github.com/PetHealt/Pawtient-Frontend-Web-App).  
+Se optó por Netlify debido a su facilidad para implementar **Continuous Deployment (CD)** desde GitHub. Esto asegura que cualquier cambio aprobado y subido a la rama `main` se publique automáticamente en el servidor de producción sin intervención manual adicional.
+
+### 🔹 Proceso seguido
+1. **Conexión de cuenta:** Se vinculó la cuenta de GitHub de la organización **PetHealt** con la plataforma Netlify.
+2. **Selección de repositorio:** Se seleccionó el proyecto `Pawtient-Frontend-Web-App` para la creación del nuevo sitio.
+3. **Configuración de Build:** Se definió la rama `main` como la rama de producción. Dado que es un sitio estático, no se requirieron comandos de compilación (Build commands) complejos.
+4. **Despliegue inicial:** Se ejecutó el *Deploy* inicial, donde Netlify procesó los archivos del repositorio.
+5. **Generación de URL:** Una vez finalizado el proceso de *Provisioning* y *Deploy*, la plataforma generó una URL pública segura (HTTPS).
+
+**URL del despliegue:** [https://pawtient.netlify.app/login](https://pawtient.netlify.app/login)
+
+### 🔹 Evidencias
+A continuación, se presentan las capturas de pantalla que documentan el estado "Published" en el panel de Netlify y la correcta visualización del sitio en el navegador:
+
+1. **Captura del Panel de Netlify:** Donde se vea el estado "Site is live" y la conexión con el repo de GitHub.
+2. **Captura de Deploys Log:** Mostrando el historial de despliegues exitosos.
+3. **Captura del Sitio Web:** Frontend cargado en el navegador con el candado de seguridad HTTPS activo.
+
+![Configuración de despliegue en Netlify](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-3.png)
+![Configuración de despliegue en Netlify](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-7.jpg)
+![Configuración de despliegue en Netlify](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-1.png)
+---
 
 ## Anexos
 - Landing page: desplegada en Netlify [https://pethealt.netlify.app/](https://pethealt.netlify.app/)
