@@ -10,6 +10,7 @@
 <br>
 
 # Informe de Proyecto - TB1
+# Informe de Proyecto - Trabajo Parcial
 
 ## Presentado por ´PetHealt Team´
 
@@ -191,13 +192,12 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 ### 1.1.1. Descripción de la Startup
 
-**PetHealth** es una startup tecnológica enfocada en la modernización del sector veterinario mediante soluciones digitales. Nuestro producto principal, **Pawtient**, es una plataforma web diseñada para gestionar la información médica de las mascotas, facilitando el registro de consultas, el seguimiento de tratamientos y el control de historiales clínicos. A través de esta solución, se conecta al personal de las clínicas veterinarias con los dueños de mascotas en un mismo sistema, facilitando la comunicación y el acceso a la información, mejorando la organización de los datos, la gestión de insumos médicos y el monitoreo continuo de cada paciente.
+**PetHealth** es una startup tecnológica enfocada en la modernización del sector veterinario mediante soluciones digitales orientadas a la gestión clínica. Su producto principal, Pawtient, es una plataforma web SaaS diseñada para ayudar a clínicas veterinarias y veterinarios independientes a optimizar la administración de historiales clínicos, citas, tratamientos e inventarios médicos.
+
+- **Misión:** Desarrollar soluciones digitales que optimicen la gestión de clínicas veterinarias y veterinarios independientes, facilitando el control de la información clínica, la organización de procesos y la eficiencia operativa para mejorar la calidad del servicio veterinario.
 
 
-- **Misión:** Desarrollar soluciones digitales que mejoren la gestión de los centros veterinarios, facilitando el acceso y control de la información clínica, así como promoviendo una mejor comunicación entre la parte profesional y los dueños de mascotas para brindar una atención de mejor calidad.
-
-
-- **Visión:** Posicionarnos como una startup líder en soluciones tecnológicas para el sector veterinario en Latinoamérica, destacando por una gestión más eficiente y moderna de la salud animal mediante el uso de herramientas digitales.
+- **Visión:** Posicionarnos como una startup líder en soluciones tecnológicas para la gestión veterinaria en Latinoamérica, impulsando la digitalización y modernización de los servicios veterinarios mediante herramientas accesibles, eficientes e innovadoras.
 
 ---
 
@@ -223,8 +223,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 #### ¿Cuál es el problema?
 
 
-El problema es que en muchos centros veterinarios la información médica aún se gestiona de forma desordenada o poco organizada, con historiales clínicos dispersos y un control limitado de los insumos. Esto hace que sea más difícil dar un seguimiento adecuado a la salud de las mascotas, afectando la calidad de la atención y reduciendo la confianza de los dueños en el servicio.
-
+Muchos centros veterinarios aún gestionan la información clínica y administrativa de forma manual o mediante herramientas poco integradas, lo que genera desorganización en historiales clínicos, citas e inventarios médicos. Esto dificulta la gestión operativa y reduce la eficiencia en la atención veterinaria.
 
 #### When? (¿Cuándo?)
 
@@ -232,8 +231,7 @@ El problema es que en muchos centros veterinarios la información médica aún s
 #### ¿Cuándo ocurre el problema?
 
 
-El problema ocurre principalmente durante el registro de consultas, el seguimiento de tratamientos y la gestión de insumos médicos, sobre todo cuando la información se maneja de forma manual o no se actualiza a tiempo, lo que aumenta el riesgo de errores e inconsistencias.
-
+El problema ocurre principalmente durante el registro de consultas, la programación de citas, el seguimiento de tratamientos y el control de insumos médicos, especialmente cuando la información no se actualiza en tiempo real o se maneja manualmente.
 
 #### Where? (¿Dónde?)
 
@@ -241,14 +239,12 @@ El problema ocurre principalmente durante el registro de consultas, el seguimien
 #### ¿Dónde surge el problema?
 
 
-El problema surge en los procesos internos de la gestión clínica y administrativa dentro de los centros veterinarios, donde la información suele manejarse de forma poco organizada o no centralizada.
-
+La problemática surge en los procesos operativos y administrativos dentro de clínicas veterinarias y consultorios independientes.
 
 #### ¿En qué tipo de centros o contextos ocurre esta problemática?
 
 
-Se presenta principalmente en centros veterinarios pequeños y medianos, donde aún se utilizan registros manuales o herramientas poco integradas. Sin embargo, también puede darse en centros más grandes que no cuentan con sistemas unificados, lo que dificulta el acceso oportuno a la información y su correcta gestión.
-
+Se presenta principalmente en clínicas veterinarias pequeñas y medianas, así como en veterinarios independientes que aún utilizan registros manuales, archivos físicos o herramientas no especializadas para gestionar su información.
 
 #### Who? (¿Quién?)
 
@@ -256,13 +252,12 @@ Se presenta principalmente en centros veterinarios pequeños y medianos, donde a
 #### ¿Quiénes son los principales afectados por esta problemática?
 
 
-Los principales afectados son el personal de las clínicas veterinarias y los dueños de mascotas. El personal clínico enfrenta dificultades para acceder a información completa y actualizada, así como para gestionar insumos y operaciones de manera eficiente. Por su parte, los dueños de mascotas tienen un acceso limitado al seguimiento de sus animales y a información clara sobre la atención, lo que puede afectar su confianza en el servicio.
-
+Los principales afectados son los dueños y administradores y veterinarios independientes, quienes enfrentan dificultades para organizar información clínica, gestionar citas, controlar inventarios y optimizar sus procesos operativos.
 
 #### ¿Quién lo utilizará?
 
 
-El sistema será utilizado por el personal de las clínicas veterinarias para registrar diagnósticos, gestionar tratamientos, supervisar operaciones y controlar insumos. Por su parte, los dueños de mascotas lo utilizarán para consultar el historial médico y dar seguimiento al estado de salud de sus mascotas.
+La plataforma será utilizada por clínicas veterinarias y veterinarios independientes para registrar historiales clínicos, gestionar citas, controlar tratamientos e inventarios médicos y optimizar la administración de sus servicios.
 
 #### Why? (¿Por qué?)
 
@@ -270,7 +265,7 @@ El sistema será utilizado por el personal de las clínicas veterinarias para re
 #### ¿Cuál es la causa del problema?
 
 
-La principal causa es la falta de digitalización e integración de los procesos dentro de los centros veterinarios, lo que hace que la información se maneje de forma desorganizada, se generen errores en los registros y exista poca comunicación entre los distintos usuarios. Como consecuencia, se dificulta la toma de decisiones, el control de los recursos y la calidad de la atención.
+La principal causa es la falta de digitalización e integración de los procesos veterinarios, lo que provoca desorganización, duplicidad de información, errores en los registros y dificultades en la gestión operativa y administrativa.
 
 
 #### How? (¿Cómo?)
@@ -279,12 +274,12 @@ La principal causa es la falta de digitalización e integración de los procesos
 #### ¿En qué condiciones los usuarios usarán nuestro producto?
 
 
-Los usuarios utilizarán la plataforma en sus actividades diarias. El personal de las clínicas veterinarias la empleará durante la atención para registrar diagnósticos, gestionar tratamientos, supervisar insumos y consultar información en tiempo real. Por su parte, los dueños de mascotas la utilizarán para revisar el historial médico, dar seguimiento al estado de sus animales y conocer la información de los profesionales que los atienden.
+Los usuarios utilizarán la plataforma durante sus actividades diarias para registrar consultas, gestionar citas, supervisar tratamientos, controlar inventarios y acceder a información clínica en tiempo real.
 
 #### ¿Cómo les gustaría a los usuarios acceder a la plataforma?
 
 
-Los dueños de mascotas prefieren acceder desde sus teléfonos móviles para consultar rápidamente el historial médico, dar seguimiento al estado de salud de sus mascotas y revisar la información de los profesionales. Por su parte, el personal de las clínicas veterinarias utiliza tanto computadoras como dispositivos móviles, ya que esto les permite registrar información clínica en tiempo real y gestionar tratamientos, insumos y operaciones del centro de forma más eficiente.
+Los usuarios prefieren acceder mediante computadoras y dispositivos móviles, ya que esto les permite gestionar la información clínica y administrativa de forma rápida, flexible y desde cualquier lugar.
 
 #### How much? (¿Cuánto?)
 
@@ -304,35 +299,27 @@ En el contexto peruano, Lolimsa (2024) señala que una inadecuada gestión en ce
 
 ### 1.2.2. Lean UX Process
 
-El proceso de Lean UX es una metodología de diseño enfocada en el usuario que busca mejorar continuamente el producto a partir de la prueba de ideas, la evaluación y la retroalimentación constante. En el caso de Pawtient, se aplicará para entender mejor las necesidades del personal clínico y dueños de mascotas, permitiendo ajustar la plataforma en función de su uso real y mejorar su experiencia de manera progresiva.
+El proceso de Lean UX es una metodología de diseño enfocada en el usuario que busca mejorar continuamente el producto a partir de la prueba de ideas, la evaluación y la retroalimentación constante. En el caso de Pawtient, se aplicará para entender mejor las necesidades de los dueños y administradores de clínicas veterinarias, así como de los veterinarios independientes, permitiendo ajustar la plataforma en función de su uso real y mejorar su experiencia de manera progresiva.
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-Nuestro sistema busca mejorar la forma en que los centros veterinarios gestionan su información clínica, facilitando el acceso a datos y control de sus procesos.
+Nuestro sistema busca mejorar la forma en que las clínicas veterinarias y los veterinarios independientes gestionan su información clínica, facilitando el acceso a datos y el control de sus procesos operativos.
 
+Hemos observado que en muchos centros veterinarios y servicios independientes la información aún se maneja de forma manual o mediante herramientas no integradas, lo que dificulta el acceso a datos actualizados, el seguimiento de historiales clínicos y la correcta gestión de citas e insumos médicos.
 
-Hemos observado que en muchos centros la información se maneja de forma manual o mediante sistemas no integrados, lo que dificulta el acceso a datos actualizados, el seguimiento de historiales y la correcta gestión de los insumos médicos.
+**¿Cómo podemos lograr que las clínicas veterinarias y los veterinarios independientes gestionen su información clínica y sus procesos de manera más organizada, accesible y confiable?**
 
+Nuestro sistema también busca optimizar la gestión administrativa y operativa dentro de las clínicas veterinarias, facilitando el control de recursos y mejorando la eficiencia en la atención.
 
-**¿Cómo podemos lograr que los centros veterinarios gestionen su información clínica y sus insumos de manera más organizada, accesible y confiable?**
+Actualmente, muchos centros veterinarios presentan dificultades para controlar sus inventarios, organizar citas y centralizar la información clínica, lo que genera desorganización y afecta la eficiencia de sus operaciones.
 
-
-Nuestro producto también busca mejorar la experiencia de los dueños de mascotas, brindándoles mayor acceso y visibilidad sobre la atención que reciben sus animales.
-
-
-Actualmente, muchos dueños cuentan con un acceso limitado a la información sobre la salud de sus mascotas y poca visibilidad sobre la experiencia de los veterinarios, lo que puede generar desconfianza.
-
-
-**¿Cómo podemos facilitar a los dueños de mascotas el acceso a información clara, actualizada y confiable sobre la salud de sus mascotas y la atención brindada?**
-
+**¿Cómo podemos mejorar la gestión operativa y administrativa de las clínicas veterinarias para optimizar sus procesos y reducir errores en el manejo de la información?**
 
 Nuestro sistema busca optimizar la gestión de los recursos e insumos dentro de las clínicas veterinarias, mejorando la eficiencia de sus procesos operativos.
 
-
 Hemos identificado que la gestión de insumos suele realizarse de forma manual o con herramientas poco integradas, lo que genera desorganización, errores en el control de stock y dificultades en la toma de decisiones.
 
-
-**¿Cómo podemos mejorar el control y la gestión de los recursos e insumos en las clínicas veterinarias para optimizar sus procesos operativos?**
+**¿Cómo podemos mejorar el control y la gestión de los recursos e insumos en las clínicas veterinarias para optimizar sus procesos ?**
 
 ---
 
@@ -340,15 +327,15 @@ Hemos identificado que la gestión de insumos suele realizarse de forma manual o
 
 **Business Assumptions:**
 
-1. **Considero que** los centros veterinarios requieren una forma más ordenada y segura de manejar la información clínica y el seguimiento de sus pacientes.
-2. **Estas necesidades pueden resolverse con** una plataforma web que centralice historiales médicos, control de insumos y gestión de citas.
-3. **Nuestros primeros usuarios serán** el personal clínico de los centros veterinarios, así como los dueños de mascotas interesados en acceder y dar seguimiento a la información de salud de sus mascotas.
-4. **El principal beneficio que buscan los usuarios es** mejorar la calidad de atención y tomar decisiones basadas en información actualizada.
-5. **El sistema también ofrece** control de inventario, seguimiento de tratamientos y acceso a información del personal veterinario.
-6. **La captación de nuestros usuarios será a través de** marketing digital, alianzas con centros veterinarios y recomendaciones dentro del sector.
+1. **Considero que** las clínicas veterinarias y los veterinarios independientes requieren una forma más ordenada, eficiente y segura de gestionar la información clínica y administrativa de sus servicios.
+2. **Estas necesidades pueden resolverse con** una plataforma web que centralice historiales clínicos, control de insumos, gestión de citas y seguimiento de tratamientos.
+3. **Nuestros primeros usuarios serán** los dueños y administradores de clínicas veterinarias, así como los veterinarios independientes que buscan optimizar sus procesos operativos y mejorar la organización de la información clínica.
+4. **El principal beneficio que buscan los usuarios es** mejorar la eficiencia de sus operaciones, reducir errores administrativos y tomar decisiones basadas en información actualizada.
+5. **El sistema también ofrece** control de inventario, gestión de citas, seguimiento de tratamientos y acceso rápido a información clínica en tiempo real.
+6. **La captación de nuestros usuarios será a través de** marketing digital, alianzas con on clínicas veterinarias y recomendaciones dentro del sector veterinario.
 7. **Generaré ingresos mediante** un modelo de suscripción mensual con diferentes niveles: Paw Basic(5 USD), Paw Care(15 USD), Paw Pro(30 USD).
 8. **Mi competencia estará conformada** por otros sistemas de gestión veterinaria y soluciones digitales similares.
-9. **Nos diferenciamos por** ofrecer una plataforma fácil de usar, con información centralizada y mayor transparencia para los usuarios.
+9. **Nos diferenciamos por** ofrecer una plataforma accesible, fácil de usar y enfocada en centralizar la gestión clínica y operativa en un solo sistema.
 10. **Mi principal riesgo** será la baja adopción del sistema debido a la resistencia al cambio o poca familiaridad con herramientas digitales.
 11. **Abordaremos este riesgo mediante** una interfaz simple, guías de uso dentro de la plataforma y un proceso de adopción progresivo que facilite el uso desde el primer momento.
 
@@ -357,25 +344,22 @@ Hemos identificado que la gestión de insumos suele realizarse de forma manual o
 **¿Quiénes son nuestros usuarios?**
 
 
-Los usuarios de Pawtient son centros veterinarios, incluyendo al personal clínico que buscan mejorar la gestión de la información clínica. También participan los dueños de mascotas, quienes necesitan acceder al historial médico de sus mascotas y conocer información sobre la atención y los profesionales que los atienden.
-
+Los usuarios de Pawtient son dueños y administradores de clínicas veterinarias, así como veterinarios independientes que buscan optimizar la gestión de historiales clínicos, citas, tratamientos e inventarios médicos mediante herramientas digitales.
 
 **¿Qué problemas busca resolver nuestro producto?**
 
 
-Pawtient busca resolver la desorganización en los historiales clínicos, la falta de integración de la información y el control limitado de los insumos médicos. También aborda la poca visibilidad que tienen los dueños de mascotas sobre la salud de sus mascotas y la información de los veterinarios.
-
+Pawtient busca resolver la desorganización de la información clínica, la falta de integración de procesos y el control limitado de citas e insumos médicos dentro de clínicas veterinarias y servicios independientes.
 
 **¿En qué momentos y de qué forma se utiliza el producto?**
 
 
-La plataforma se utiliza durante consultas, seguimiento de tratamientos, gestión de citas y control de insumos. Puede ser accedida desde computadoras o dispositivos móviles, lo que permite trabajar con información en tiempo real desde cualquier lugar.
-
+La plataforma se utiliza durante consultas, gestión de citas, seguimiento de tratamientos y control de inventarios. Puede ser accedida desde computadoras o dispositivos móviles, permitiendo trabajar con información actualizada en tiempo real.
 
 **¿Cómo se integra la solución en la rutina del usuario?**
 
 
-El sistema forma parte de la rutina diaria de los centros veterinarios. El personal clínico lo utiliza durante la atención para registrar diagnósticos, hacer seguimiento a los pacientes y gestionar la información y los recursos del centro. Por su parte, los dueños de mascotas lo utilizan para acceder al historial, consultar información y revisar las citas de sus mascotas.
+El sistema forma parte de las actividades diarias de clínicas veterinarias y veterinarios independientes, facilitando el registro de consultas, la gestión de pacientes, el control de insumos y la organización de procesos operativos.
 
 **¿Qué tan sencilla es la adopción de la plataforma?**
 
@@ -395,7 +379,7 @@ La plataforma debe contar con un diseño claro y ordenado, con iconos fáciles d
 
 - **Hypothesis 01:**
 
-  <br>**Creemos que** el personal clínico mejorará la organización de la información si centraliza los historiales clínicos en una sola plataforma.
+  <br>**Creemos que** los dueños y administradores de clínicas veterinarias mejorarán la organización de la información si centralizan los historiales clínicos en una sola plataforma.
 
   <br>**Sabremos que** hemos tenido éxito.
 
@@ -404,25 +388,25 @@ La plataforma debe contar con un diseño claro y ordenado, con iconos fáciles d
 
 - **Hypothesis 02:**
 
-  <br>**Creemos que** los dueños de mascotas se sentirán más tranquilos con la atención si pueden revisar la información médica de sus mascotas.
+  <br>**Creemos que** los veterinarios independientes optimizarán la gestión de sus consultas si cuentan con acceso rápido y centralizado a la información clínica de sus pacientes.
 
   <br>**Sabremos que** hemos tenido éxito.
 
-  <br>**Cuando** consulten el historial de sus mascotas con frecuencia y expresen mayor seguridad en la información recibida.
+  <br>**Cuando** reduzcan el tiempo de búsqueda de información y mejoren el seguimiento de tratamientos y consultas.
 
 
 - **Hypothesis 03:**
 
-  <br>**Creemos que** las notificaciones sobre citas y tratamientos ayudarán a que los usuarios cumplan mejor con estas actividades.
+  <br>**Creemos que** las notificaciones sobre citas y tratamientos ayudarán a los dueños y administradores de clínicas veterinarias, así como a los veterinarios independientes, a gestionar mejor sus actividades diarias.
 
   <br>**Sabremos que** hemos tenido éxito.
 
-  <br>**Cuando** disminuyan las citas perdidas y los usuarios respondan con mayor frecuencia a las notificaciones.
+  <br>**Cuando** disminuyan las citas perdidas y se mejore el seguimiento de los tratamientos registrados.
 
 
 - **Hypothesis 04:**
 
-  <br>**Creemos que** el personal clínico registrará la información más rápido si utilizan formularios dentro de la plataforma.
+  <br>**Creemos que** los dueños y administradores de clínicas veterinarias registrarán la información más rápido si utilizan formularios digitales dentro de la plataforma.
 
   <br>**Sabremos que** hemos tenido éxito.
 
@@ -431,74 +415,97 @@ La plataforma debe contar con un diseño claro y ordenado, con iconos fáciles d
 
 - **Hypothesis 05:**
 
-  <br>**Creemos que** mostrar el estado actualizado de las mascotas ayudará a los dueños a tomar mejores decisiones.
+  <br>**Creemos que** centralizar el estado clínico y los tratamientos de los pacientes ayudará a los dueños y administradores de clínicas veterinarias a mejorar el seguimiento y control de la atención médica.
 
   <br>**Sabremos que** hemos tenido éxito.
 
-  <br>**Cuando** los usuarios consulten con frecuencia esta información y la utilicen para el seguimiento de sus mascotas.
+  <br>**Cuando** los usuarios consulten frecuentemente la información clínica y mejoren el seguimiento de los pacientes.
 
 
 - **Hypothesis 06:**
 
-  <br>**Creemos que** mostrar la experiencia y credenciales de los veterinarios generará mayor confianza en los dueños de mascotas.
+  <br>**Creemos que** una plataforma organizada y accesible mejorará la confianza de los dueños y administradores de clínicas veterinarias, así como de los veterinarios independientes, en la gestión de su información operativa y clínica.
 
   <br>**Sabremos que** hemos tenido éxito.
 
-  <br>**Cuando** los usuarios consulten los perfiles de los veterinarios y manifiesten mayor confianza en la atención recibida.
+  <br>**Cuando** los usuarios utilicen constantemente la plataforma y reduzcan el uso de registros manuales o herramientas no integradas.
 
 ---
 
 #### 1.2.2.4. Lean UX Canvas
 
-El Lean UX Canvas es una herramienta visual que permite organizar y comprender los elementos clave de un producto, enfocándose en el problema, los usuarios y el valor que se busca ofrecer. En el caso de Pawtient, se utiliza para identificar las necesidades del personal clínico y de los dueños de mascotas, y definir cómo la plataforma aporta valor dentro de los centros veterinarios
+El Lean UX Canvas es una herramienta visual que permite organizar y comprender los elementos clave de un producto, enfocándose en el problema, los usuarios y el valor que se busca ofrecer.
+
+En el caso de Pawtient, se utiliza para identificar las necesidades de los dueños y administradores de clínicas veterinarias, así como de los veterinarios independientes, y definir cómo la plataforma aporta valor dentro de la gestión veterinaria.
 
 A continuación, se presenta el Lean UX Canvas de Pawtient:
 
 ![Lean UX Canvas](pawtient-report/assets/images/Capítulo1/Lean-UX-Canvas.png)
 
-**Enlace al Lean UX Canvas:** [*Ver en Miro*](https://miro.com/app/board/uXjVGi5z7Cc=/?share_link_id=122548882114)
+**Enlace al Lean UX Canvas:** [*Ver en Miro*](https://miro.com/welcomeonboard/QVN1VzZ1RmhoWEhGUm9heXpldFAyenkxK1hWQ1hiQ1dLTUlNN2twU1ArL0o2TzY2ZzdlMjc2dkJ0SEhvdy9PQTZGejBEeFNJWFQ5VUh2V1NNb3hKNlcxUnNrTWZNWmh3MitiSXhvQVdHeUtxSFhvTWN2OTNLNTk5LzZSa0lWUklzVXVvMm53MW9OWFg5bkJoVXZxdFhRPT0hdjE=?share_link_id=400022156481)
 
 ---
 
 ## 1.3. Segmentos objetivo
 
-En el análisis del segmento objetivo para Pawtient, se ha identificado que nuestros principales usuarios serán el personal clínico de los centros veterinarios y los dueños de mascotas.
+En el análisis del segmento objetivo para Pawtient, se ha identificado que nuestros principales usuarios serán los dueños y administradores de clínicas veterinarias, así como los veterinarios independientes.
 
-### Personal de clínico de centros veterinarios
+### Dueños y administradores de clínicas veterinarias
 
-Incluye veterinarios y personal administrativo, quienes necesitan gestionar la información clínica, registrar consultas, controlar insumos y organizar los procesos del centro de forma eficiente.
+Incluye responsables de la gestión operativa y administrativa de clínicas veterinarias, quienes necesitan organizar la información clínica, gestionar citas, controlar inventarios y optimizar los procesos del centro de forma eficiente.
 
-- **Edad:** 20 a 60 años
+- **Factores demográficos:**
 
-
-- **Necesidad clave:** Centralizar información clínica y optimizar la gestión del centro.
-
-
-- **Nivel educativo:** Formación técnica o profesional
-
-
-- **Uso de tecnología:** Uso frecuente de computadoras y dispositivos móviles.
-
-### Dueños de mascotas
+  - Hombres y mujeres entre 30 y 55 años.
+  - Propietarios o administradores de clínicas veterinarias urbanas.
+  - Residentes principalmente en Santiago de Surco, Lima, Perú.
+  - Nivel socioeconómico B y C.
+  - Experiencia previa en gestión veterinaria o administración de negocios.
 
 
-Los dueños de mascotas buscan estar informados sobre la salud de sus mascotas y entender mejor la atención que reciben. Muchas veces no cuentan con acceso a esta.
+- **Factores psicográficos:**
+   - Buscan optimizar la gestión operativa de sus clínicas.
+   - Priorizan el orden, la eficiencia y el control de procesos.
+   - Están interesados en modernizar y digitalizar sus servicios.
+   - Buscan mejorar la organización y reducir errores administrativos.
 
 
-- **Edad:** 18 a 60 años
+- **Necesidades clave:**
+  
+   - Centralizar historiales clínicos y citas. 
+   - Mejorar el control de inventarios e insumos médicos. 
+   - Optimizar la gestión operativa y administrativa. 
+   - Acceder rápidamente a información clínica actualizada.
+
+### Veterinarios independientes
 
 
-- **Necesidad clave:** Consultar el estado de salud de sus mascotas.
+Incluye profesionales veterinarios que realizan consultas independientes y requieren herramientas digitales para gestionar pacientes, historiales clínicos y tratamientos de manera rápida y organizada.
+
+- **Factores demográficos:**
+
+    - Hombres y mujeres entre 25 y 45 años. 
+    - Médicos veterinarios que trabajan de manera independiente. 
+    - Residentes principalmente en Santiago de Surco, Lima, Perú.
+    - Nivel socioeconómico B y C. 
+    - Profesionales con experiencia en atención clínica veterinaria.
 
 
-- **Nivel educativo:** Variado
+- **Factores psicográficos:**
+    - Buscan herramientas digitales prácticas y accesibles. 
+    - Priorizan la rapidez y movilidad en su trabajo diario. 
+    - Desean reducir tareas manuales y mejorar la organización de consultas. 
+    - Están interesados en gestionar información clínica desde cualquier lugar.
 
 
-- **Uso de tecnología:** Uso frecuente de teléfonos móviles.
+- **Necesidades clave:**
 
+    - Gestionar pacientes e historiales clínicos de forma digital. 
+    - Organizar citas y tratamientos veterinarios. 
+    - Acceder a información clínica desde dispositivos móviles. 
+    - Mejorar la eficiencia y organización de sus consultas.
 
 ---
-
 
 <div align="center">
 
@@ -929,75 +936,75 @@ El análisis de las entrevistas a los dueños de mascotas revela patrones de com
 
 ### 2.3.1. User Personas
 
-Los siguientes User Personas se elaboraron a partir de las entrevistas realizadas, representando a los principales segmentos del proyecto. Cada uno sintetiza características, comportamientos y necesidades que orientan el diseño y la propuesta de valor de la plataforma.
+Los siguientes User Personas se elaboraron a partir de las entrevistas realizadas a dueños y administradores de clínicas veterinarias, así como a veterinarios independientes. Cada uno representa características, comportamientos y necesidades clave que permiten orientar el diseño y la propuesta de valor de la plataforma Pawtient.
 
-User Persona 1: Personal clínico veterinario
+User Persona 1: Dueños y administradores de clínicas veterinarias
 
-Sebastián Navarro es un veterinario joven que trabaja en una clínica y atiende a varios pacientes al día. Su principal reto es organizar la información clínica, gestionar citas e insumos y optimizar su tiempo, por lo que busca herramientas digitales que le permitan trabajar de manera más eficiente.
-
-![User Persona 1](pawtient-report/assets/images/user-personas/user-persona-2.png)
-
-User Persona 2: Dueña de mascota
-
-Camila Rodríguez es una joven dueña de mascota que busca mantener la salud de su perro bajo control. Su principal dificultad es no contar con información clara y centralizada, por lo que valora soluciones simples que le permitan hacer seguimiento y tomar decisiones con mayor seguridad.
+Camila Ramírez de 32 años es dueña y administradora de una clínica veterinaria en Santiago de Surco. En su día a día debe coordinar citas, controlar inventarios y supervisar la información clínica de sus pacientes, por lo que busca soluciones digitales que le permitan mantener una gestión más organizada, rápida y eficiente.
 
 ![User Persona 1](pawtient-report/assets/images/user-personas/user-persona-1.png)
+
+User Persona 2: Veterinarios independientes
+
+Diego Torres es un médico veterinario independiente que atiende consultas y realiza seguimiento de pacientes en distintos puntos de Santiago de Surco. Su principal desafío es mantener organizada la información clínica y gestionar sus citas de manera eficiente, por lo que busca herramientas digitales prácticas que le permitan optimizar su trabajo diario y enfocarse más en la atención de sus pacientes.
+
+![User Persona 1](pawtient-report/assets/images/user-personas/user-persona-2.png)
 
 ---
 
 ### 2.3.2. User Task Matrix
 
-##### User Task Matrix - Personal clínico 
+##### User Task Matrix - Dueños y administradores de clínicas veterinarias
 
 | **Tareas / Tasks**                   | **Frecuencia** | **Importancia** |
 |--------------------------------------|----------------|-----------------|
-| Registrar historias clínicas         | Alta           | Muy alta        |
-| Consultar información de pacientes   | Alta           | Muy alta        |
-| Gestionar citas                      | Alta           | Alta            |
-| Controlar inventario de insumos      | Media          | Alta            |
-| Coordinar atención con clientes      | Alta           | Muy alta        |
-| Revisar stock de insumos             | Media          | Alta            |
-| Organizar información clínica        | Alta           | Muy alta        |
-| Realizar seguimiento de tratamientos | Media          | Alta            |
-| Comunicar indicaciones a los dueños  | Alta           | Alta            |
+| Gestionar historiales clínicos         | Alta           | Muy alta        |
+| Organizar citas veterinarias   | Alta           | Muy alta        |
+| Controlar inventario de insumos                     | Alta           | Alta            |
+| Supervisar procesos operativos     | Alta           | Muy alta        |
+| Consultar información de pacientes     | Alta           | Muy alta        |
+| Coordinar atención del personal         | Media          | Alta            |
+| Revisar reportes y registros       | Media          | Alta            |
+| Gestionar información administrativa | Alta           | Muy alta        |
+| Dar seguimiento a tratamientos  | Media          | Alta            |
 
-El personal clínico desarrolla tareas constantes enfocadas en el registro, consulta y gestión de información médica, así como en la coordinación de citas y control de insumos. Lo que refleja la necesidad de sistemas que centralicen la información y optimicen el tiempo de trabajo.
+Los dueños y administradores de clínicas veterinarias realizan tareas enfocadas en la organización operativa, control de información clínica y supervisión de procesos internos. Esto evidencia la necesidad de una plataforma que centralice datos y optimice la gestión diaria del centro veterinario.
 
-##### User Task Matrix - Dueños de mascotas
+##### User Task Matrix - Veterinarios independientes
 
 | **Tareas / Tasks**                          | **Frecuencia** | **Importancia** |
 |---------------------------------------------|----------------|-----------------|
-| Llevar a su mascota al veterinario          | Media          | Muy alta        |
-| Recordar vacunas y tratamiento              | Media          | Muy alta        |
-| Consultar información respecto a su mascota | Alta           | Alta            |
-| Organizar citas veterinarias                | Media          | Alta            |
-| Verificar el estado de salud de su mascota  | Alta           | Muy alta        |
-| Revisar historial antes de una consulta     | Baja           | Alta            |
-| Comprar productos para su mascota           | Media          | Media           |
-| Consultar reseñas de veterinarias           | Alta           | Alta            |
-| Registrar o guardar información médica      | Baja           | Alta            |
+| Registrar consultas veterinarias         | Alta           | Muy alta        |
+| Consultar historiales clínicos           | Alta           | Muy alta        |
+| Gestionar citas y tratamientos | Alta           | Alta            |
+| Realizar seguimiento de pacientes              | Media          | Alta            |
+| Acceder a información clínica móvil  | Alta           | Muy alta        |
+| Organizar registros médicos    | Alta           | Alta            |
+| Comunicar indicaciones médicas          | Alta           | Alta            |
+| Gestionar tiempos de atención           | Media          | Alta            |
+| Revisar información de pacientes      | Alta           | Muy alta        |
 
-Los dueños de mascotas realizan actividades para asegurar su bienestar, vigilar su estado y tomar decisiones sobre su salud. Las tareas principales incluyen administrar vacunas, buscar información confiable y agendar visitas, lo que resalta la necesidad de herramientas para llevar un registro y evitar la pérdida de información.
+Los veterinarios independientes desarrollan tareas relacionadas con la atención clínica, el seguimiento de pacientes y la gestión de información médica en distintos entornos de trabajo. Esto refleja la necesidad de herramientas digitales accesibles que faciliten la organización y agilicen sus actividades diarias.
 
 ---
 
 ### 2.3.3. User Journey Mapping
 
-En el desarrollo de Pawtient, se elaboró un user journey mapping con el fin de comprender como es que interactúan los dueños de mascotas y el personal clínico en el contexto de atención veterinaria. Analizamos las distintas etapas que atraviesan, desde la detección de un problema hasta el seguimiento posterior al tratamiento, identificando dificultades y oportunidades de mejora. Este análisis nos permite plantear una solución que se integra de forma natural en sus actividades diarias, facilitando el acceso a la información, mejorando la organización de los procesos y fortaleciendo la calidad de la atención.
+En el desarrollo de Pawtient, se elaboró un User Journey Mapping con el objetivo de comprender cómo interactúan los dueños y administradores de clínicas veterinarias, así como los veterinarios independientes, dentro de sus procesos de atención y gestión diaria. Se analizaron las distintas etapas relacionadas con la organización de consultas, manejo de historiales clínicos, control de insumos y seguimiento de pacientes, identificando problemas y oportunidades de mejora. Este análisis permitió proponer una solución que se integra de manera práctica en sus actividades diarias, optimizando la gestión de la información y mejorando la eficiencia de los procesos veterinarios.
 
-**User Journey Map — Personal clínico**
+**User Journey Map — Dueños y administradores de clínicas veterinarias**
 
-<img alt= "User Journey Mapping Personal Clínico" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-segment-1.png">
+<img alt= "User Journey Mapping Dueños y administradores de clínicas veterinarias" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-1.png">
 
-[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-segment-1.png)
+[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-1.png)
 
 ---
 
-**User Journey Map — Dueños de mascotas**
+**User Journey Map — Veterinarios independientes**
 
-<img alt= "User Journey Mapping Personal Clínico" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-segment-2.png">
+<img alt= "User Journey Mapping Veterinarios independientes" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-2.png">
 
-[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-segment-2.png)
+[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-2.png)
 
 ---
 
@@ -1005,19 +1012,19 @@ En el desarrollo de Pawtient, se elaboró un user journey mapping con el fin de 
 
 En esta sección se presentarán los Empathy Maps de cada segmento objetivo, construidos a partir de los User Persona previamente definidos. Esta herramienta permite analizar de forma integral lo que los usuarios piensan, sienten, dicen y hacen, facilitando la identificación de sus necesidades, frustraciones y motivaciones. De esta manera, se obtienen insights clave que orientan el diseño de la solución propuesta.
 
-**Empathy Map — Personal clínico**
+**Empathy Map — Dueños y administradores de clínicas veterinarias**
 
-<img alt= "User Journey Mapping Personal Clínico" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-map-segment-1.png">
+<img alt= "Empathy mapping Dueños y administradores de clínicas veterinarias" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-%20mapping-1.png">
 
-[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-map-segment-1.png)
+[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-%20mapping-1.png)
 
 ---
 
 **Empathy Map — Dueños de mascotas**
 
-<img alt= "User Journey Mapping Personal Clínico" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-map-segment-2.png">
+<img alt= "Empathy mapping veterinarios independientes" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-%20mapping-2.png">
 
-[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint1-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-map-segment-2.png)
+[Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-%20mapping-2.png)
 
 ---
 
@@ -2181,16 +2188,20 @@ Se implementará GitFlow con las siguientes ramas:
     ![Screenshot 6 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-6.png)
 
 7. **Despliegue listo**<br>
-   Ahora podemos observar que el deploy está listo y podremos ver el enlace de la web a la landing page recién desplegada.
-    ![Screenshot 7 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-7.png)
+   Ahora podemos observar que el deploy está listo y podremos ver el enlace de la web al front-end recién desplegado.
+    ![Screenshot 7 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-7.jpg)
 
-Ahora con la Landing Page desplegada, cada vez que se realize un push en la rama correspondiente, se actualizara automáticamente, de esta manera evitamos repetir los pasos.
+8. **Verificar la configuración del proyecto**<br>
+     Verificamos que el proyecto haya sido creado correctamente dentro de Netlify, comprobando el nombre del sitio, repositorio vinculado y estado general de la configuración del despliegue.
+    ![Screenshot 7 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-8.jpg)
 
-[Ver Landing Page desplegada](`https://pethealt.netlify.app/`)
+9. **Confirmar despliegues automáticos**<br>
+     Por último, revisamos la sección Deploys, donde se observa que los despliegues automáticos quedaron habilitados correctamente. De esta forma, cada nuevo push realizado en la rama principal actualiza automáticamente la aplicación desplegada. 
+     ![Screenshot 7 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-9.jpg)
+
+[Ver Front-End desplegado](`https://pawtient.netlify.app/login`)
 
 ---
-
-
 
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
@@ -2210,6 +2221,7 @@ A continuación se presentará el sprint planning para esta primera entrega, don
 | Sprint 1 Goal                        | Nuestro enfoque está en presentar una landing page que muestre todas las <br> funcionalidades y características de Pawtient a los visitantes. <br> Creemos que esto generará una sólida primera impresión sobre el valor de la plataforma para clínicas y dueños de mascotas. <br> Esto se confirmará cuando la página esté desplegada, sea responsiva y sus enlaces funcionen correctamente. |
 | Sprint 1 Velocity                    | 15                                                                                                                                                                                                                                                                                                |
 | Sum of story points                  | 10                                                                                                                                                                                                                                                                                                |
+
 ---
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
@@ -2335,6 +2347,10 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar la L
     <td>Done</td>
   </tr>
 </table>
+</div>
+
+![Ver imagen Sprint 1](pawtient-report/assets/images/sprint-1.png)
+[Ver imagen en Trello](https://trello.com/invite/b/6a04c26d44c138fd083131b5/ATTI04ef86782e73ed695b865a4b575cdff591158CE5/sprint-1-pethealth)
 
 ---
 
@@ -2391,7 +2407,7 @@ A continuación, se presentan las capturas de las principales vistas desarrollad
 
 
 Asimismo, se elaboró un **video demostrativo** que muestra la navegación fluida de la Landing Page, comprobando su responsividad, el cambio de temas (claro/oscuro) y explicando cada una de las secciones implementadas por el equipo:  
-[Ver video demostrativo de Pawtient]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCmFsBAO3FvTpMOpMAylR0gAUDFExNbahk7ihbfPEj4jSI?e=BnRltz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D])
+[Ver video demostrativo de Pawtient](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCmFsBAO3FvTpMOpMAylR0gAUDFExNbahk7ihbfPEj4jSI?e=BnRltz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ---
 
@@ -2443,44 +2459,363 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 ![Gráfico de Red (Network Graph) mostrando las ramas y merges](pawtient-report/assets/images/Team-Collaboration/network-graph.png)
 ![Analíticas de Contribución (Contributors) del equipo](pawtient-report/assets/images/Team-Collaboration/contributors.png)
 
+### 5.2.2. Sprint 2
+#### 5.2.2.1. Sprint Planning 2
 
-## Conclusiones
+A continuación se presentará el sprint planning para el trabajo parcial, donde definimos qué trabajo se va a realizar para el próximo sprint y cómo se va a lograr.
 
-**1. Integración y despliegue continuo (CI/CD)**
+| Sprint #                             | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning <br> background      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Date                                 | 2026/05/10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Time                                 | 8:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Location                             | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Prepared By                          | Gonzalo Quintanilla                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Attendees <br> (to planning meeting) | Brianna Salinas, Emily Arroyo, Mateo Salazar, Mathias Acuache y Gonzalo Quintanilla                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Sprint 1 Review Summary              | Durante el Sprint 1 se desarrolló la landing page de Pawtient, permitiendo presentar las principales funcionalidades y características de la plataforma a clínicas veterinarias y veterinarios independientes. Como resultado, se obtuvo una primera validación positiva respecto al valor de la solución, además de verificar que la página fuera responsiva, accesible y funcional en distintos dispositivos.                                                                                                                                                                                                                                                                                                                                 |
+| Sprint 1 Retrospective Summary       | El equipo tuvo poca comunicación, habían distintas opiniones respecto al diseño y no se tenía una visión clara sobre algunos aspectos del producto pero aún asi se logró llegar a una cuerdo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Sprint Goal & User Stories**       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sprint 2 Goal                        | Nuestro enfoque en el Sprint 2 estuvo orientado al desarrollo del front-end funcional de Pawtient, integrando las principales vistas y módulos de la plataforma junto con endpoints estructurados bajo el enfoque Domain-Driven Design (DDD). Además, se realizaron mejoras y correcciones basadas en el feedback proporcionado, permitiendo refinar la organización de la solución y alinear mejor la arquitectura del proyecto. Consideramos que esto contribuye a una estructura más escalable, mantenible y eficiente en la interacción entre la interfaz y los servicios de la aplicación. Esto se validó mediante la correcta conexión del front-end con los endpoints y el funcionamiento adecuado de las funcionalidades implementadas. |
+| Sprint 2 Velocity                    | 14                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sum of story points                  | 50                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
-La adopción de la metodología GitFlow permitió al equipo gestionar de manera organizada y eficiente el desarrollo de la Landing Page y de los distintos componentes del proyecto. El uso de ramas específicas, la correcta resolución de conflictos de integración y la automatización del despliegue en Netlify evidencian una adecuada gestión de configuración del software, asegurando estabilidad, trazabilidad y continuidad en el desarrollo.
+---
 
-**2. Validación de la propuesta de valor**
+#### 5.2.2.2. Aspect Leaders and Collaborators
 
-El empleo de herramientas de análisis y diseño UX, como User Personas, Impact Mapping, Wireframes, Mockups y User Journey Mapping, permitió validar las necesidades reales de los segmentos objetivo. Gracias a ello, Pawtient logró definir una propuesta de valor clara y diferenciada, enfocada tanto en el personal clínico veterinario como en los dueños de mascotas, priorizando la accesibilidad, organización de información y facilidad de uso.
+Ahora presentaremos nuestro LACX (Leadership-and-Collaboration Matrix) que nos ayudará a saber quién lidera y quién colabora en cada aspecto de este segundo sprint.<br>
+Los aspectos que tomamos en cuenta para este segundo sprint fueron los endpoints de nuestro Front-End desarrollados por el equipo de Pawtient.
 
-**3. Arquitectura escalable y modular basada en DDD**
+<div style="font-size:70%;">
 
-La aplicación de Domain-Driven Design (DDD), junto con el desarrollo de Event Storming, diagramas C4 y diseño orientado a componentes, permitió establecer una arquitectura modular, escalable y cohesionada. Esta estructura facilita la separación de responsabilidades, la reutilización de componentes y la futura integración de módulos como gestión clínica, control de inventarios y seguimiento médico.
+| **Team Member** <br> Last Name, First Name |      **GitHub Username**       | **Reports** <br> L/C | **Appointments** <br> L/C | **Clinic** <br> L/C | **Profiles** <br> L/C | **Store** <br> L/C |
+|:------------------------------------------:|:------------------------------:|:--------------------:|:-------------------------:|:-------------------:|:---------------------:|:------------------:|
+|         **Quintanilla, Gonzalo** |             GoldQP             |          C           |             C             |          C          |           L           |         C          |
+|         **Salinas, Brianna** |        brianna-salinas         |          C           |             C             |          C          |           C           |         L          |
+|         **Salazar, Mateo** |  Mateo Paolo Salazar Miranda   |          C           |             C             |          L          |           C           |         C          |
+|         **Arroyo, Emily** |             Em2920             |          L           |             C             |          C          |           C           |         C          |
+|         **Acuache, Mathias** |           mathiasA25           |          C           |             L             |          C          |           C           |         C          |
 
-**4. Normalización y organización de datos**
+</div>
 
-Durante el diseño de la base de datos se aplicaron principios de normalización, permitiendo estructurar la información clínica y administrativa de forma eficiente y consistente. Esto contribuye a reducir redundancias, evitar inconsistencias y asegurar una gestión adecuada de historiales médicos, citas e inventarios dentro de la plataforma.
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
 
-**5. Gestión ágil y trabajo colaborativo**
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
 
-El equipo trabajó bajo metodologías ágiles mediante la organización de tareas en Sprint Backlogs, User Stories y Product Backlog, lo que permitió mantener una planificación clara y un seguimiento constante del avance del proyecto. La comunicación continua y la colaboración entre integrantes facilitaron el cumplimiento de los objetivos establecidos para la entrega.
+</div>
 
-**6. Enfoque centrado en el usuario**
+---
 
-Las decisiones de diseño e implementación fueron tomadas considerando las necesidades y problemáticas identificadas durante las entrevistas a veterinarios y dueños de mascotas. Esto permitió desarrollar una solución con una interfaz intuitiva, responsiva y accesible, capaz de integrarse de forma natural en las actividades diarias de los usuarios.
+#### 5.2.3.3. Sprint Backlog 2
 
-**7. Lecciones aprendidas durante el proceso**
+El objetivo principal de este Sprint es **diseñar, implementar y desplegar el Front-End** de la plataforma Pawtient, de modo que los usuarios (tanto dueños y administradores de clínicas veterinarias como veterinarios independientes) puedan interactuar con las principales funcionalidades del sistema y visualizar de manera práctica cómo la plataforma optimiza la gestión clínica y operativa. Asimismo, se busca ofrecer una experiencia funcional e intuitiva que permita validar la estructura de la solución, la navegación entre módulos y la integración con los endpoints desarrollados.
 
-Durante el desarrollo del proyecto, el equipo identificó la importancia de mantener una comunicación constante y una adecuada distribución de tareas para evitar retrasos y mejorar la coordinación entre los integrantes. Asimismo, se evidenció la necesidad de validar continuamente los avances técnicos y de diseño mediante revisiones iterativas, permitiendo detectar errores tempranamente y optimizar el flujo de trabajo colaborativo.
+<div>
+<table>
+  <tr>
+    <td><b>Sprint #</b></td>
+    <td colspan="7">Sprint 2</td>
+  </tr>
 
-**8. Documentación y trazabilidad**
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="2"><b>Work-Item / Task</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status (To-do / In-Process / To-Review / Done)</b></td>
+  </tr>
 
-La elaboración continua del informe, junto con el uso de GitHub y convenciones claras en los commits, permitió mantener una adecuada trazabilidad de los cambios realizados durante el proyecto. Además, la documentación de requerimientos, diagramas, arquitectura y procesos de desarrollo facilita el entendimiento, mantenimiento y futura escalabilidad de la solución propuesta.
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
 
-**9. Base técnica sólida para futuras iteraciones**
+  <tr>
+    <td>US01</td>
+    <td>Registrar cuenta como veterinario</td>
+    <td>T01</td>
+    <td>Implementar formulario de registro</td>
+    <td>Desarrollar interfaz de registro conectada al endpoint de autenticación y validación de campos.</td>
+    <td>5</td>
+    <td>Emily A.</td>
+    <td>Done</td>
+  </tr>
 
-El avance desarrollado establece una base funcional y técnica sólida para las siguientes etapas del proyecto. La correcta documentación, la arquitectura planteada y la organización del desarrollo permitirán continuar con la implementación de nuevas funcionalidades de forma ordenada, manteniendo la escalabilidad y sostenibilidad de la solución Pawtient a largo plazo.
+  <tr>
+    <td>US02</td>
+    <td>Iniciar sesión en la plataforma</td>
+    <td>T02</td>
+    <td>Implementar autenticación de usuarios</td>
+    <td>Construir vista de login y manejo de sesión mediante token JWT.</td>
+    <td>4</td>
+    <td>Gonzalo Q.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US04</td>
+    <td>Registrar historia clínica de mascota</td>
+    <td>T03</td>
+    <td>Implementar registro de historias clínicas</td>
+    <td>Desarrollar formulario para registrar información médica de mascotas.</td>
+    <td>6</td>
+    <td>Brianna S.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US05</td>
+    <td>Consultar historial médico de una mascota</td>
+    <td>T04</td>
+    <td>Implementar búsqueda de historiales</td>
+    <td>Construir módulo de búsqueda y visualización de historiales clínicos.</td>
+    <td>5</td>
+    <td>Mateo S.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US06</td>
+    <td>Editar y actualizar historia clínica</td>
+    <td>T05</td>
+    <td>Implementar edición de registros clínicos</td>
+    <td>Permitir actualización de diagnósticos, tratamientos y trazabilidad de cambios.</td>
+    <td>5</td>
+    <td>Emily A.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US08</td>
+    <td>Agendar cita desde la clínica</td>
+    <td>T06</td>
+    <td>Implementar módulo de citas</td>
+    <td>Desarrollar calendario veterinario y registro de citas desde la clínica.</td>
+    <td>5</td>
+    <td>Gonzalo Q.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US10</td>
+    <td>Visualizar agenda del día</td>
+    <td>T07</td>
+    <td>Implementar agenda diaria</td>
+    <td>Construir vista de agenda con listado de citas y filtros por veterinario.</td>
+    <td>4</td>
+    <td>Gonzalo Q.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US12</td>
+    <td>Registrar ingreso de suministros</td>
+    <td>T08</td>
+    <td>Implementar registro de inventario</td>
+    <td>Desarrollar módulo para registrar suministros y actualizar stock.</td>
+    <td>5</td>
+    <td>Brianna S.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US13</td>
+    <td>Consultar niveles de stock</td>
+    <td>T09</td>
+    <td>Implementar visualización de stock</td>
+    <td>Construir panel de inventario con alertas de stock mínimo.</td>
+    <td>4</td>
+    <td>Mateo S.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>TS01</td>
+    <td>Endpoint de autenticación de usuarios</td>
+    <td>T10</td>
+    <td>Integrar endpoint de autenticación</td>
+    <td>Conectar frontend con endpoint RESTful de login utilizando arquitectura DDD.</td>
+    <td>4</td>
+    <td>Mathias A.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>TS02</td>
+    <td>Endpoint de creación de historia clínica</td>
+    <td>T11</td>
+    <td>Integrar endpoint de historiales clínicos</td>
+    <td>Conectar formularios clínicos con servicios RESTful para registro de historias.</td>
+    <td>5</td>
+    <td>Emily A.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>TS03</td>
+    <td>Endpoint de programación de citas</td>
+    <td>T12</td>
+    <td>Integrar endpoint de citas</td>
+    <td>Conectar agenda veterinaria con endpoints de programación de citas.</td>
+    <td>4</td>
+    <td>Gonzalo Q.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>TS04</td>
+    <td>Endpoint de gestión de inventario</td>
+    <td>T13</td>
+    <td>Integrar endpoint de inventario</td>
+    <td>Consumir endpoints RESTful para consulta y actualización de suministros.</td>
+    <td>4</td>
+    <td>Brianna S.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>-</td>
+    <td>-</td>
+    <td>T14</td>
+    <td>Configurar arquitectura Frontend DDD</td>
+    <td>Estructurar módulos, bounded contexts y servicios para el frontend de Pawtient.</td>
+    <td>5</td>
+    <td>Gonzalo Q.</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>-</td>
+    <td>-</td>
+    <td>T15</td>
+    <td>Despliegue del Frontend</td>
+    <td>Configurar despliegue continuo del frontend en Netlify conectado al repositorio GitHub.</td>
+    <td>3</td>
+    <td>Gonzalo Q.</td>
+    <td>Done</td>
+  </tr>
+</table>
+</div>
+
+![Imagen del trello para sprint2](pawtient-report/assets/images/sprint-2.png)
+
+[Ver enlace trello](https://trello.com/invite/b/6a04c5f0c2abdeec5c930425/ATTIc7eb47f5f43708a30c1456fa6cb7578e00C5BA81/sprint-2-pethealth)
+
+---
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2 se implementó el front-end de la solución Pawtient, incorporando módulos para la gestión de pacientes, agenda médica, inventario, proveedores y reportes administrativos. El desarrollo se realizó en el repositorio público https://github.com/PetHealt/Pawtient-Frontend-Web-App, utilizando un flujo de ramas basado en feature branches (GitFlow).
+
+**Development Evidence – Sprint 1**
+
+| Repository                          | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|:------------------------------------|:-------------|:---|:---|:---|:---|
+| PetHealt/Pawtient-Front-end-Web-app | v1.0.0 | 202bf69 | chore: rename files for improved structure in store module | Refactorización y mejora de estructura del módulo store. | 13/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | v1.0.0 | 31ef079 | feat: add billing and reports dashboard view | Implementación de vista dashboard para facturación y reportes. | 13/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | v1.0.0 | 5df53d2 | feat: add reports api service | Integración del servicio API para reportes. | 13/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | v1.0.0 | b97019d | feat: create report entity model | Creación de entidad Report para el dominio de reportes. | 13/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | v1.0.0 | db5a9bd | feat: create the reports folder and add reports.store.js inside the application layer | Implementación de carpeta reports y store en la capa de aplicación. | 13/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | v1.0.0 | 5c03221 | refactor: Add components to make it compatible with db.json | Adaptación de componentes para compatibilidad con db.json. | 12/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | main | e753031 | feature: store complete | Finalización e integración del módulo store. | 25/04/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | v1.0.0 | 9c0098d | feat: add clinic folder | Creación de estructura inicial del módulo clinic. | 13/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | develop | 515b398 | feat: update user profile details for Gonzalo Samuel Quintanilla Pozo | Actualización de detalles del perfil de usuario. | 11/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | develop | 5b94912 | feat: add profile view route and update authentication guard logic | Implementación de ruta de perfil y actualización del guard de autenticación. | 10/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | v1.0.0 | 2fb2f4e | feat: add ProfilesApi class for updating user profiles | Creación de servicio API para actualización de perfiles. | 13/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | develop | c996f10 | feat: add profiles store with loadProfile functionality | Implementación del store de perfiles y funcionalidad loadProfile. | 12/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | v1.0.0 | 433edc4 | feat: add profile editing functionality with data persistence | Implementación de edición persistente de perfiles. | 13/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | develop | 9dc0f0a | feat: add profile edit form component with validation and emit functionality | Creación de formulario de edición con validaciones. | 12/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | develop | dce1a16 | feat: add profile details component with user information display | Implementación de componente de visualización de perfil. | 12/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | develop | be30e5f | feat: add profile entity and profile details component | Creación de entidad Profile y componente de detalles. | 12/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | main | 10b7840 | add ProfileAssembler to convert resource to Profile entity | Implementación de assembler para conversión de recursos Profile. | 11/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | main | e436aa7 | Add "Mi Perfil" route and logout functionality to sidebar | Integración de ruta Mi Perfil y logout en sidebar. | 13/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | main | 1dd4dfc | refactor(home.vue): enhance dashboard layout and add profile editing functionality | Mejora del dashboard principal y edición de perfiles. | 13/04/2026 |
+
+---
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante el **Sprint 2** se implementó el **Front-End** de la plataforma Pawtient, cumpliendo satisfactoriamente con los objetivos definidos en el Sprint Backlog.  
+
+El desarrollo tecnológico se centró en:
+- Diseño responsive (Mobile-First) y navegación estructurada mediante anclas.
+- Implementación de módulos funcionales para pacientes, agenda, inventario, proveedores y reportes.
+- Desarrollo de dashboards y vistas administrativas para la gestión clínica y operativa.
+- Organización modular del Front-End para mejorar la escalabilidad y mantenimiento del sistema.
+- Configuración del despliegue continuo mediante Netlify y GitHub.
+
+A continuación, se presentan las capturas de las principales vistas desarrolladas y desplegadas en producción:
+
+![Vista del Login](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-1.png)
+![Vista del registro](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-2.png)
+![Vista de login con datos](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-3.png)
+![Vista de planes](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-4.png)
+![Vista de home](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-5.png)
+![Vista de pestana mi perfil](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-6.png)
+![Vista de pestaña pacientes](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-7.png)
+![Vista de pestaña agenda](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-8.png)
+![Vista de pestaña inventario](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-9.png)
+![Vista de pestaña proveedores](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-10.png)
+![Vista de pestaña reportes](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-11.png)
+
+Asimismo, se elaboró un **video demostrativo** que muestra la navegación fluida del frontend:
+[Ver video demostrativo de Pawtient]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311469_upc_edu_pe/IQA2vengUzUuS4seoi1K_jSXAdn-WEneaPJZtWg47Zge2Hc])
+
+---
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2, el esfuerzo técnico se centró en el diseño, implementación y despliegue del Front-End funcional de Pawtient. Además, se integró la estructura inicial de endpoints organizados, permitiendo una arquitectura más modular y preparada para futuras integraciones y documentación mediante OpenAPI/Swagger.
+
+---
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el **Sprint 2** se realizó el despliegue exitoso del **Frontend** en la plataforma **Netlify**, utilizando el repositorio [PetHealt/Pawtient-Frontend-Web-App](https://github.com/PetHealt/Pawtient-Frontend-Web-App).  
+Se optó por Netlify debido a su facilidad para implementar **Continuous Deployment (CD)** desde GitHub. Esto asegura que cualquier cambio aprobado y subido a la rama `main` se publique automáticamente en el servidor de producción sin intervención manual adicional.
+
+### 🔹 Proceso seguido
+1. **Conexión de cuenta:** Se vinculó la cuenta de GitHub de la organización **PetHealt** con la plataforma Netlify.
+2. **Selección de repositorio:** Se seleccionó el proyecto `Pawtient-Frontend-Web-App` para la creación del nuevo sitio.
+3. **Configuración de Build:** Se definió la rama `main` como la rama de producción. Dado que es un sitio estático, no se requirieron comandos de compilación (Build commands) complejos.
+4. **Despliegue inicial:** Se ejecutó el *Deploy* inicial, donde Netlify procesó los archivos del repositorio.
+5. **Generación de URL:** Una vez finalizado el proceso de *Provisioning* y *Deploy*, la plataforma generó una URL pública segura (HTTPS).
+
+**URL del despliegue:** [https://pawtient.netlify.app/login](https://pawtient.netlify.app/login)
+
+### 🔹 Evidencias
+A continuación, se presentan las capturas de pantalla que documentan el estado "Published" en el panel de Netlify y la correcta visualización del sitio en el navegador:
+
+1. **Captura del Panel de Netlify:** Donde se vea el estado "Site is live" y la conexión con el repo de GitHub.
+2. **Captura de Deploys Log:** Mostrando el historial de despliegues exitosos.
+3. **Captura del Sitio Web:** Frontend cargado en el navegador con el candado de seguridad HTTPS activo.
+
+![Configuración de despliegue en Netlify](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-3.png)
+![Configuración de despliegue en Netlify](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-7.jpg)
+![Configuración de despliegue en Netlify](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-1.png)
+
+---
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, el equipo trabajó siguiendo la estrategia de ramificación estandarizada **GitFlow**, creando ramas específicas por endpoint asignado (ejemplo: `feature/appointments`, `feature/clinic`, `feature/profiles`, `feature/reports`, `feature/store`).
+
+El trabajo asíncrono se gestionó de manera eficiente: cada integrante empujó (*push*) sus cambios a su respectiva rama remota. Posteriormente, el Líder Técnico se encargó de realizar la integración progresiva (*merge*) de todas las ramas hacia `develop`, resolviendo los conflictos de fusión de estilos CSS que surgieron al unir los componentes. Tras la validación en el entorno de desarrollo, el código unificado se consolidó en la rama principal `main` para su despliegue a producción.
+
+A continuación, se presentan los **analíticos de GitHub (Insights & Network Graph)**, que evidencian la participación del equipo en *commits*, gestión de ramas y *merges* durante el Sprint. Estas evidencias confirman la colaboración activa, equilibrada y estructurada de todos los miembros del equipo:
+
+![Gráfico de Red (Network Graph) mostrando las ramas y merges](pawtient-report/assets/images/Team-Collaboration/network-frontend.png)
+![Analíticas de Contribución (Contributors) del equipo](pawtient-report/assets/images/Team-Collaboration/contributors-2.png)
+
+---
 
 ## Bibliografía
 
@@ -2491,10 +2826,11 @@ El avance desarrollado establece una base funcional y técnica sólida para las 
 5. Lolimsa. (12 de marzo de 2024). *Problemas comunes en clínicas veterinarias y cómo prevenirlos*. Lolimsa Blog. https://www.lolimsa.com.pe/blog/problemas-comunes-en-clinicas-veterinarias-y-como-prevenirlos/
 6. Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide*. Scrum.org. https://scrumguides.org/scrum-guide.html
 7. W3C. (2023). *HTML5 Semantic Elements*. World Wide Web Consortium. https://www.w3.org/TR/html52/
----
 
+---
 
 ## Anexos
 - Landing page: desplegada en Netlify [https://pethealt.netlify.app/](https://pethealt.netlify.app/)
+- Frontend: desplegada en Netlify []()
 - video de exposición [Click Aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQDjBMv1FAbeT7vu70wgG-jjAUtpp41LDZw-REsa8JLOJ3U?e=mhXlkB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - prototipo web [Click Aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCmFsBAO3FvTpMOpMAylR0gAUDFExNbahk7ihbfPEj4jSI?e=BnRltz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
