@@ -2734,6 +2734,34 @@ Durante el Sprint 2 se implementó el front-end de la solución Pawtient, incorp
 
 ---
 
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante el **Sprint 2** se implementó el **Front-End** de la plataforma Pawtient, cumpliendo satisfactoriamente con los objetivos definidos en el Sprint Backlog.  
+
+El desarrollo tecnológico se centró en:
+- Diseño responsive (Mobile-First) y navegación estructurada mediante anclas.
+- Implementación de módulos funcionales para pacientes, agenda, inventario, proveedores y reportes.
+- Desarrollo de dashboards y vistas administrativas para la gestión clínica y operativa.
+- Organización modular del Front-End para mejorar la escalabilidad y mantenimiento del sistema.
+- Configuración del despliegue continuo mediante Netlify y GitHub.
+
+A continuación, se presentan las capturas de las principales vistas desarrolladas y desplegadas en producción:
+
+![Vista del Login](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-1.png)
+![Vista del registro](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-2.png)
+![Vista de login con datos](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-3.png)
+![Vista de planes](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-4.png)
+![Vista de home](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-5.png)
+![Vista de pestana mi perfil](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-6.png)
+![Vista de pestaña pacientes](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-7.png)
+![Vista de pestaña agenda](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-8.png)
+![Vista de pestaña inventario](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-9.png)
+![Vista de pestaña proveedores](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-10.png)
+![Vista de pestaña reportes](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-11.png)
+
+Asimismo, se elaboró un **video demostrativo** que muestra la navegación fluida del frontend:
+[Ver video demostrativo de Pawtient]([])
+
 ## Conclusiones
 
 1. **Integración y Despliegue Continuo (CI/CD) Exitoso:** La adopción estricta de la metodología de control de versiones *GitFlow* permitió al equipo gestionar de manera asíncrona y eficiente el código fuente de la *Landing Page*. La resolución efectiva de conflictos de fusión (merge conflicts) en la rama `develop` y la posterior automatización del despliegue en Netlify desde la rama `main` demuestran la madurez técnica del equipo en la gestión de la configuración del software.
