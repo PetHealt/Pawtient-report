@@ -2717,27 +2717,27 @@ Durante el Sprint 2 se implementó el front-end de la solución Pawtient, incorp
 
 **Development Evidence – Sprint 1**
 
-| Repository                          | Branch       | Commit Id | Commit Message | Commit Message Body                                                                           | Committed on (Date) |
-|:------------------------------------|:-------------| :--- | :--- |:----------------------------------------------------------------------------------------------|:--------------------|
-| PetHealt/Pawtient-Front-end-Web-app |         |  |  |  | 13/05/2026          |
-| PetHealt/Pawtient-Front-end-Web-app      |      |  |  |                                                                                   | 13/05/2026          |
-| PetHealt/Pawtient-Front-end-Web-app     |      |  |  |                           | 13/05/2026          |
-| PetHealt/Pawtient-Front-end-Web-app      |      |  |  |                            | 13/05/2026          |
-| PetHealt/Pawtient-Front-end-Web-app     |      |  |  |                                | 13/05/2026          |
-| PetHealt/Pawtient-Front-end-Web-app      |       |  |  |               | 12/05/2026          |
-| PetHealt/Pawtient-Front-end-Web-app      |      |  |  |                          | 25/04/2026          |
-| PetHealt/Pawtient-Front-end-Web-app      |   |  |  |                         | 13/05/2026          |
-| PetHealt/Pawtient-Front-end-Web-app      |    |  |  |                  | 11/05/2026          |
-| PetHealt/Pawtient-Front-end-Web-app      |  |  | |                     | 10/05/2026          |
-| PetHealt/Pawtient-Front-end-Web-app      |  |  |  |                              | 13/05/2026          |
-| PetHealt/Pawtient-Front-end-Web-app      |    |  |  |                           | 12/05/2026          |
-| PetHealt/Pawtient-Front-end-Web-app      |    |  |  |                            | 13/05/2026          |
-| PetHealt/Pawtient-Front-end-Web-app      |  |  |  |                | 12/05/2026          |
-| PetHealt/Pawtient-Front-end-Web-app      |  |  | |                    | 12/05/2026          |
-| PetHealt/Pawtient-Front-end-Web-app      |  |  |  |                        | 12/05/2026          |
-| PetHealt/Pawtient-Front-end-Web-app      |              |  |  |                   | 11/05/2026          |
-| PetHealt/Pawtient-Front-end-Web-app      |              |  | |                | 13/05/2026          |
-| PetHealt/Pawtient-Front-end-Web-app      |              |  |  |                       | 13/04/2026          |
+| Repository                          | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|:------------------------------------|:-------------|:---|:---|:---|:---|
+| PetHealt/Pawtient-Front-end-Web-app | v1.0.0 | 202bf69 | chore: rename files for improved structure in store module | Refactorización y mejora de estructura del módulo store. | 13/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | v1.0.0 | 31ef079 | feat: add billing and reports dashboard view | Implementación de vista dashboard para facturación y reportes. | 13/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | v1.0.0 | 5df53d2 | feat: add reports api service | Integración del servicio API para reportes. | 13/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | v1.0.0 | b97019d | feat: create report entity model | Creación de entidad Report para el dominio de reportes. | 13/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | v1.0.0 | db5a9bd | feat: create the reports folder and add reports.store.js inside the application layer | Implementación de carpeta reports y store en la capa de aplicación. | 13/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | v1.0.0 | 5c03221 | refactor: Add components to make it compatible with db.json | Adaptación de componentes para compatibilidad con db.json. | 12/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | main | e753031 | feature: store complete | Finalización e integración del módulo store. | 25/04/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | v1.0.0 | 9c0098d | feat: add clinic folder | Creación de estructura inicial del módulo clinic. | 13/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | develop | 515b398 | feat: update user profile details for Gonzalo Samuel Quintanilla Pozo | Actualización de detalles del perfil de usuario. | 11/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | develop | 5b94912 | feat: add profile view route and update authentication guard logic | Implementación de ruta de perfil y actualización del guard de autenticación. | 10/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | v1.0.0 | 2fb2f4e | feat: add ProfilesApi class for updating user profiles | Creación de servicio API para actualización de perfiles. | 13/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | develop | c996f10 | feat: add profiles store with loadProfile functionality | Implementación del store de perfiles y funcionalidad loadProfile. | 12/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | v1.0.0 | 433edc4 | feat: add profile editing functionality with data persistence | Implementación de edición persistente de perfiles. | 13/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | develop | 9dc0f0a | feat: add profile edit form component with validation and emit functionality | Creación de formulario de edición con validaciones. | 12/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | develop | dce1a16 | feat: add profile details component with user information display | Implementación de componente de visualización de perfil. | 12/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | develop | be30e5f | feat: add profile entity and profile details component | Creación de entidad Profile y componente de detalles. | 12/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | main | 10b7840 | add ProfileAssembler to convert resource to Profile entity | Implementación de assembler para conversión de recursos Profile. | 11/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | main | e436aa7 | Add "Mi Perfil" route and logout functionality to sidebar | Integración de ruta Mi Perfil y logout en sidebar. | 13/05/2026 |
+| PetHealt/Pawtient-Front-end-Web-app | main | 1dd4dfc | refactor(home.vue): enhance dashboard layout and add profile editing functionality | Mejora del dashboard principal y edición de perfiles. | 13/04/2026 |
 
 ---
 
@@ -2834,5 +2834,6 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 
 ## Anexos
 - Landing page: desplegada en Netlify [https://pethealt.netlify.app/](https://pethealt.netlify.app/)
+- Frontend: desplegada en Netlify []()
 - video de exposición [Click Aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQDjBMv1FAbeT7vu70wgG-jjAUtpp41LDZw-REsa8JLOJ3U?e=mhXlkB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - prototipo web [Click Aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCmFsBAO3FvTpMOpMAylR0gAUDFExNbahk7ihbfPEj4jSI?e=BnRltz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
