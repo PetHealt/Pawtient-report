@@ -1762,7 +1762,7 @@ En este último paso, el equipo buscó agregados que estén relacionados entre s
 
 El diagrama de contexto del sistema Pawtient presenta una vista general del sistema dentro de su entorno, identificando los actores principales que interactúan con la plataforma y los sistemas externos con los que se integra.
 
-![System Context View](pawtient-report/assets/images/systemcontextview.png)
+![System Context View](pawtient-report/assets/images/fixsystem.png)
 
 ### 4.6.3. Software Architecture Container Diagrams
 
