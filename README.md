@@ -2685,7 +2685,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el F
     <td>Configurar arquitectura Frontend DDD</td>
     <td>Estructurar módulos, bounded contexts y servicios para el frontend de Pawtient.</td>
     <td>5</td>
-    <td>Mateo S.</td>
+    <td>Gonzalo Q.</td>
     <td>Done</td>
   </tr>
 
@@ -2701,6 +2701,36 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el F
   </tr>
 </table>
 </div>
+
+---
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2 se implementó el front-end de la solución Pawtient, incorporando módulos para la gestión de pacientes, agenda médica, inventario, proveedores y reportes administrativos. El desarrollo se realizó en el repositorio público https://github.com/PetHealt/Pawtient-Frontend-Web-App, utilizando un flujo de ramas basado en feature branches (GitFlow).
+
+**Development Evidence – Sprint 1**
+
+| Repository                          | Branch       | Commit Id | Commit Message | Commit Message Body                                                                           | Committed on (Date) |
+|:------------------------------------|:-------------| :--- | :--- |:----------------------------------------------------------------------------------------------|:--------------------|
+| PetHealt/Pawtient-Front-end-Web-app |         |  |  |  | 13/05/2026          |
+| PetHealt/Pawtient-Front-end-Web-app      |      |  |  |                                                                                   | 13/05/2026          |
+| PetHealt/Pawtient-Front-end-Web-app     |      |  |  |                           | 13/05/2026          |
+| PetHealt/Pawtient-Front-end-Web-app      |      |  |  |                            | 13/05/2026          |
+| PetHealt/Pawtient-Front-end-Web-app     |      |  |  |                                | 13/05/2026          |
+| PetHealt/Pawtient-Front-end-Web-app      |       |  |  |               | 12/05/2026          |
+| PetHealt/Pawtient-Front-end-Web-app      |      |  |  |                          | 25/04/2026          |
+| PetHealt/Pawtient-Front-end-Web-app      |   |  |  |                         | 13/05/2026          |
+| PetHealt/Pawtient-Front-end-Web-app      |    |  |  |                  | 11/05/2026          |
+| PetHealt/Pawtient-Front-end-Web-app      |  |  | |                     | 10/05/2026          |
+| PetHealt/Pawtient-Front-end-Web-app      |  |  |  |                              | 13/05/2026          |
+| PetHealt/Pawtient-Front-end-Web-app      |    |  |  |                           | 12/05/2026          |
+| PetHealt/Pawtient-Front-end-Web-app      |    |  |  |                            | 13/05/2026          |
+| PetHealt/Pawtient-Front-end-Web-app      |  |  |  |                | 12/05/2026          |
+| PetHealt/Pawtient-Front-end-Web-app      |  |  | |                    | 12/05/2026          |
+| PetHealt/Pawtient-Front-end-Web-app      |  |  |  |                        | 12/05/2026          |
+| PetHealt/Pawtient-Front-end-Web-app      |              |  |  |                   | 11/05/2026          |
+| PetHealt/Pawtient-Front-end-Web-app      |              |  | |                | 13/05/2026          |
+| PetHealt/Pawtient-Front-end-Web-app      |              |  |  |                       | 13/04/2026          |
 
 ---
 
