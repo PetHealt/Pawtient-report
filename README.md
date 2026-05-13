@@ -1772,7 +1772,7 @@ El sistema está compuesto por una aplicación web (frontend), que permite la in
 
 Asimismo, el sistema se integra con servicios externos para el envío de notificaciones y el procesamiento de pagos. La comunicación entre los contenedores se realiza mediante protocolos estándar, garantizando una arquitectura organizada, escalable y mantenible.
 
-![Container View](pawtient-report/assets/images/containerview.png)
+![Container View](pawtient-report/assets/images/containerfix.png)
 
 ### 4.6.4. Software Architecture Components Diagrams
 
@@ -1782,6 +1782,8 @@ Dentro de cada Bounded Context, los componentes se estructuran en cuatro capas p
 
 La interacción entre estas capas sigue un flujo definido donde la capa de Interfaces invoca los servicios de Application, los cuales utilizan el Domain para ejecutar la lógica de negocio y la Infrastructure para acceder a la base de datos. Este enfoque permite una clara separación de responsabilidades, facilitando la escalabilidad, mantenibilidad y evolución del sistema.
 
+  ![Component](pawtient-report/assets/images/componentfix.png)
+  
 - Organization Bounded Context
   ![Organization](pawtient-report/assets/images/organization.png)
 - Monitoring and Control Bounded Context
