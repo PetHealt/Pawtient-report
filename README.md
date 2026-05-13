@@ -2806,7 +2806,7 @@ Se optó por Netlify debido a su facilidad para implementar **Continuous Deploym
 4. **Despliegue inicial:** Se ejecutó el *Deploy* inicial, donde Netlify procesó los archivos del repositorio.
 5. **Generación de URL:** Una vez finalizado el proceso de *Provisioning* y *Deploy*, la plataforma generó una URL pública segura (HTTPS).
 
-**URL del despliegue:** [https://pawtient.netlify.app/](https://pawtient.netlify.app/)
+**URL del despliegue:** [https://pawtient.netlify.app/login](https://pawtient.netlify.app/login)
 
 ### 🔹 Evidencias
 A continuación, se presentan las capturas de pantalla que documentan el estado "Published" en el panel de Netlify y la correcta visualización del sitio en el navegador:
