@@ -2773,7 +2773,7 @@ Asimismo, se elaboró un **video demostrativo** que muestra la navegación fluid
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-
+Durante el Sprint 2, el esfuerzo técnico se centró en el diseño, implementación y despliegue del Front-End funcional de Pawtient. Además, se integró la estructura inicial de endpoints organizados, permitiendo una arquitectura más modular y preparada para futuras integraciones y documentación mediante OpenAPI/Swagger.
 
 ---
 
