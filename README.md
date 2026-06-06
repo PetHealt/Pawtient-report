@@ -9,8 +9,7 @@
 
 <br>
 
-# Informe de Proyecto - TB1
-# Informe de Proyecto - Trabajo Parcial
+# Informe de Proyecto - AV2
 
 ## Presentado por ´PetHealt Team´
 
@@ -43,7 +42,10 @@
 
 `U202314898` - `Acuache Lucas, Mathias Joaquin`
 
-### **Mayo 2026**
+### **Junio 2026**
+
+
+<br>
 
 </div>
 
@@ -58,7 +60,7 @@
 |:-------:|:-----:|:-----:|:---------------------------|
 | AV1 | 2026-04-08 | Salinas Guzmán, Brianna Cristina <br> Quintanilla Pozo, Gonzalo Samuel <br> Salazar Miranda, Mateo Paolo <br> Arroyo Gonzales, Emily Juliette <br> Acuache Lucas, Mathias Joaquin | Avance 1 del reporte del proyecto y primera versión de la landing page |
 | TB1 | 2026-05-13 | Salinas Guzmán, Brianna Cristina <br> Quintanilla Pozo, Gonzalo Samuel <br> Salazar Miranda, Mateo Paolo <br> Arroyo Gonzales, Emily Juliette <br> Acuache Lucas, Mathias Joaquin | Correciones del project report y despliegue de la primera versión del frontend |
-| | | | |
+| AV2 | 2026-06-13 | Salinas Guzmán, Brianna Cristina <br> Quintanilla Pozo, Gonzalo Samuel <br> Salazar Miranda, Mateo Paolo <br> Arroyo Gonzales, Emily Juliette <br> Acuache Lucas, Mathias Joaquin | Entrega del reporte AV2 del proyecto, nueva versión de Web Applications, primera versión de Web Services, Video About-The-Product y Video About-The-Team |
 
 </div>
 
@@ -68,11 +70,31 @@
 
 ## Project Report Collaboration Insights
 
+<div align="center">
+
 **URL del Repositorio:** [`https://github.com/PetHealt/Pawtient-report.git`](https://github.com/PetHealt/Pawtient-report.git)
+
+<br>
+
+**AV2 Collaboration Insights**
+
+Para el desarrollo del AV2, cada integrante contribuyó de la siguiente manera:
+
+| Integrante | Tareas Realizadas |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Salinas Guzmán, Brianna Cristina | Tareas    |
+| Quintanilla Pozo, Gonzalo Samuel      | Tareas    |
+| Salazar Miranda, Mateo Paolo      | Tareas    | 
+| Arroyo Gonzales, Emily Juliette    | Tareas    |
+| Acuache Lucas, Mathias Joaquin           | Tareas    |
+
+
+</div>
+
+<br>
 
 ---
 
-<br>
 
 ## Tabla de Contenidos
   #### [Contenido](#-tabla-de-contenidos)
@@ -150,8 +172,12 @@
   - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
     - [5.2.2. Sprint 2](#522-sprint-2)
-  - [5.3. Validation Interviews](#53-validation-interviews)
-  - [5.4. Video About-the-Product](#54-video-about-the-product)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+  - [5.3. Validation Interviews](#52-landing-page-services--applications-implementation)
+    - [5.3.1. Diseño de Entrevistas](#521-sprint-1)
+    - [5.3.2. Registro de Entrevistas](#522-sprint-2)
+    - [5.3.3. Evaluaciones según heurísticas](#523-sprint-3)
+  - [5.4. Video About-the-Product](#52-landing-page-services--applications-implementation)
     
   #### [Conclusiones](#conclusiones-1)
   
@@ -173,8 +199,8 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |:---|:---|:---|
-| **5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta.** | **Salinas Guzmán, Brianna** <br> AV1: Demostré liderazgo colaborativo al guiar la estructuración del sistema mediante la elaboración del Ubiquitous Language, User Stories, Impact Mapping y Product Backlog, facilitando la alineación del equipo en torno al dominio del problema. <br> TB1: Durante el desarrollo del proyecto Pawtient, participé activamente en el trabajo colaborativo del equipo mediante la elaboración y corrección de las User Stories con Technical Stories y Epics, el Product Backlog, el Diagrama de Base de Datos y la implementación del Feature Store en Frontend. Asimismo, contribuí en la coordinación de tareas y en la toma de decisiones relacionadas con la organización de funcionalidades y estructura del sistema, manteniendo una comunicación constante con los integrantes del equipo para asegurar el cumplimiento de los objetivos del proyecto. <br><br> **Quintanilla Pozo, Gonzalo** <br> AV1: Ejercí el liderazgo técnico al establecer el flujo de trabajo con GitFlow, supervisando la creación de ramas y resolviendo conflictos de integración. Coordiné el Sprint Planning para alinear los objetivos del equipo con el despliegue de la Landing Page y proporcioné dirección en la arquitectura de estilos base. <br> TB1: <br><br> **Salazar Miranda, Mateo** <br> AV1: Contribuí al liderazgo técnico mediante el análisis y diseño de la sección de Servicios y Estadísticas. Participé activamente en la toma de decisiones sobre la arquitectura C4 y el diseño de clases, aportando una visión crítica para optimizar la estructura y escalabilidad del sistema.  <br> TB1: <br><br> **Arroyo Gonzales, Emily** <br> AV1: Demostré liderazgo colaborativo al liderar el modelado del Design Level Event Storming, facilitando la identificación de Bounded Contexts esenciales como Clinic y Appointment. Aseguré la consistencia estética y funcional mediante el diseño de componentes visuales clave.  <br> TB1: <br><br> **Acuache Lucas, Mathias** <br> AV1: Colaboré en la dirección conjunta del equipo mediante la estructuración de secciones críticas como IoT, Roles y Pricing. Mi participación en el diseño de la base de datos y diagramas de arquitectura permitió tener una visión clara de la lógica de negocio del sistema. | El equipo PetHealt logró establecer una base sólida de trabajo mediante metodologías ágiles y GitFlow, permitiendo una integración sin fricciones. La combinación de liderazgo técnico y comunicación clara resultó en un despliegue exitoso, cumpliendo con el 100% de los objetivos planteados para esta entrega. |
-| **5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Salinas Guzmán, Brianna** <br> AV1: Contribuí a la creación de un entorno colaborativo mediante la organización y priorización del Product Backlog, estableciendo metas claras para el desarrollo del sistema Pawtient. Aseguré la coherencia entre requerimientos y diseño técnico.  <br> TB1: En el proyecto Pawtient, participé en la planificación y organización de actividades necesarias para el avance del sistema, estableciendo prioridades mediante el Product Backlog y colaborando en la definición de requerimientos y tareas técnicas. Además, promoví un entorno de trabajo colaborativo participando en reuniones de coordinación, revisión de avances y validación de entregables. Gracias a la adecuada planificación y seguimiento de tareas, se lograron completar satisfactoriamente las actividades asignadas dentro de los tiempos establecidos.<br><br> **Quintanilla Pozo, Gonzalo** <br> AV1: Fomenté un entorno colaborativo al configurar el entorno de despliegue continuo en Netlify y gestionar las versiones mediante la rama v1.0.0. Planifiqué y ejecuté tareas de integración técnica, cumpliendo con el objetivo de publicar la Landing Page en los tiempos establecidos. <br> TB1: <br><br> **Salazar Miranda, Mateo** <br> AV1: Participé en la planificación de tareas mediante la estimación de tiempos para la implementación de secciones responsivas del frontend. Cumplí con los objetivos asignados al desarrollar componentes CSS modulares para las funcionalidades de estadísticas de la plataforma. <br> TB1: <br><br> **Arroyo Gonzales, Emily** <br> AV1: Contribuí a un entorno inclusivo al documentar los procesos de diseño y asegurar que las necesidades de los veterinarios se reflejaran en el Event Storming. Planifiqué y cumplí con la entrega de recursos visuales para la sección Hero y de Contacto. <br> TB1: <br><br> **Acuache Lucas, Mathias** <br> AV1: Demostré compromiso con las metas del Sprint al planificar e implementar la lógica de navegación y los componentes de precios. Mi proactividad en la resolución de tareas del Sprint Backlog permitió cumplir con el despliegue de una plataforma funcional y preparada para futuras integraciones. <br> TB1:  | El cumplimiento riguroso del Sprint Backlog y la distribución equitativa de tareas garantizaron un entorno de trabajo productivo. La planificación estratégica permitió que todas las historias de usuario del primer sprint pasaran a estado "Done", validando la capacidad de entrega técnica del equipo bajo presión académica. |
+| **5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta.** | **Salinas Guzmán, Brianna** <br> AV1: Demostré liderazgo colaborativo al guiar la estructuración del sistema mediante la elaboración del Ubiquitous Language, User Stories, Impact Mapping y Product Backlog, facilitando la alineación del equipo en torno al dominio del problema. <br><br> TB1: Durante el desarrollo del proyecto Pawtient, participé activamente en el trabajo colaborativo del equipo mediante la elaboración y corrección de las User Stories con Technical Stories y Epics, el Product Backlog, el Diagrama de Base de Datos y la implementación del Feature Store en Frontend. Asimismo, contribuí en la coordinación de tareas y en la toma de decisiones relacionadas con la organización de funcionalidades y estructura del sistema, manteniendo una comunicación constante con los integrantes del equipo para asegurar el cumplimiento de los objetivos del proyecto. <br><br> AV2: (acciones realizadas) <br><br> **Quintanilla Pozo, Gonzalo** <br> AV1: Ejercí el liderazgo técnico al establecer el flujo de trabajo con GitFlow, supervisando la creación de ramas y resolviendo conflictos de integración. Coordiné el Sprint Planning para alinear los objetivos del equipo con el despliegue de la Landing Page y proporcioné dirección en la arquitectura de estilos base. <br><br> TB1: (acciones realizadas) <br><br> AV2:(acciones realizadas) <br><br> **Salazar Miranda, Mateo** <br> AV1: Contribuí al liderazgo técnico mediante el análisis y diseño de la sección de Servicios y Estadísticas. Participé activamente en la toma de decisiones sobre la arquitectura C4 y el diseño de clases, aportando una visión crítica para optimizar la estructura y escalabilidad del sistema.  <br><br> TB1: (acciones realizadas) <br><br> AV2: (acciones realizadas) <br><br> **Arroyo Gonzales, Emily** <br> AV1: Demostré liderazgo colaborativo al liderar el modelado del Design Level Event Storming, facilitando la identificación de Bounded Contexts esenciales como Clinic y Appointment. Aseguré la consistencia estética y funcional mediante el diseño de componentes visuales clave. <br><br> TB1: (acciones realizadas) <br><br> AV2: (acciones realizadas) <br><br> **Acuache Lucas, Mathias** <br> AV1: Colaboré en la dirección conjunta del equipo mediante la estructuración de secciones críticas como IoT, Roles y Pricing. Mi participación en el diseño de la base de datos y diagramas de arquitectura permitió tener una visión clara de la lógica de negocio del sistema. <br><br> TB1: (acciones realizadas) <br><br> AV2: (acciones realizadas) <br><br> | El equipo PetHealt logró establecer una base sólida de trabajo mediante metodologías ágiles y GitFlow, permitiendo una integración sin fricciones. La combinación de liderazgo técnico y comunicación clara resultó en un despliegue exitoso, cumpliendo con el 100% de los objetivos planteados para esta entrega. |
+| **5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Salinas Guzmán, Brianna** <br> AV1: Contribuí a la creación de un entorno colaborativo mediante la organización y priorización del Product Backlog, estableciendo metas claras para el desarrollo del sistema Pawtient. Aseguré la coherencia entre requerimientos y diseño técnico. <br><br> TB1: En el proyecto Pawtient, participé en la planificación y organización de actividades necesarias para el avance del sistema, estableciendo prioridades mediante el Product Backlog y colaborando en la definición de requerimientos y tareas técnicas. Además, promoví un entorno de trabajo colaborativo participando en reuniones de coordinación, revisión de avances y validación de entregables. Gracias a la adecuada planificación y seguimiento de tareas, se lograron completar satisfactoriamente las actividades asignadas dentro de los tiempos establecidos.<br><br> AV2: (acciones realizadas) <br><br> **Quintanilla Pozo, Gonzalo** <br> AV1: Fomenté un entorno colaborativo al configurar el entorno de despliegue continuo en Netlify y gestionar las versiones mediante la rama v1.0.0. Planifiqué y ejecuté tareas de integración técnica, cumpliendo con el objetivo de publicar la Landing Page en los tiempos establecidos. <br><br> TB1: (acciones realizadas) <br><br> AV2: (acciones realizadas) <br><br> **Salazar Miranda, Mateo** <br> AV1: Participé en la planificación de tareas mediante la estimación de tiempos para la implementación de secciones responsivas del frontend. Cumplí con los objetivos asignados al desarrollar componentes CSS modulares para las funcionalidades de estadísticas de la plataforma. <br> TB1: (acciones realizadas) <br><br> AV2: (acciones realizadas) <br><br> **Arroyo Gonzales, Emily** <br> AV1: Contribuí a un entorno inclusivo al documentar los procesos de diseño y asegurar que las necesidades de los veterinarios se reflejaran en el Event Storming. Planifiqué y cumplí con la entrega de recursos visuales para la sección Hero y de Contacto. <br> TB1: (acciones realizadas) <br><br> AV2: (acciones realizadas) <br><br> **Acuache Lucas, Mathias** <br> AV1: Demostré compromiso con las metas del Sprint al planificar e implementar la lógica de navegación y los componentes de precios. Mi proactividad en la resolución de tareas del Sprint Backlog permitió cumplir con el despliegue de una plataforma funcional y preparada para futuras integraciones. <br><br> TB1: (acciones realizadas)  <br><br> AV2: (acciones realizadas) <br><br> | AV2: (conclusion grupal) |
 
 
 
@@ -192,24 +218,85 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 ### 1.1.1. Descripción de la Startup
 
-**PetHealth** es una startup tecnológica enfocada en la modernización del sector veterinario mediante soluciones digitales orientadas a la gestión clínica. Su producto principal, Pawtient, es una plataforma web SaaS diseñada para ayudar a clínicas veterinarias y veterinarios independientes a optimizar la administración de historiales clínicos, citas, tratamientos e inventarios médicos.
+<br>
 
-- **Misión:** Desarrollar soluciones digitales que optimicen la gestión de clínicas veterinarias y veterinarios independientes, facilitando el control de la información clínica, la organización de procesos y la eficiencia operativa para mejorar la calidad del servicio veterinario.
+*PetHealth* es una startup tecnológica dedicada a la modernización del sector veterinario mediante soluciones digitales orientadas a la gestión clínica integral. Su producto principal, *Pawtient*, es una plataforma web SaaS diseñada para ayudar a clínicas veterinarias y veterinarios independientes a optimizar la administración de historiales clínicos, citas, tratamientos e inventarios médicos en un entorno centralizado y accesible.
 
+La plataforma integra en un único panel de control todas las funciones esenciales del flujo de trabajo veterinario: desde el registro y seguimiento de pacientes hasta la gestión de inventarios y la programación de citas. Esto permite eliminar procesos manuales, reducir errores administrativos y mejorar la calidad de atención ofrecida a los pacientes animales y sus propietarios.
 
-- **Visión:** Posicionarnos como una startup líder en soluciones tecnológicas para la gestión veterinaria en Latinoamérica, impulsando la digitalización y modernización de los servicios veterinarios mediante herramientas accesibles, eficientes e innovadoras.
+Mediante el uso de tecnología moderna y una interfaz intuitiva, *Pawtient* facilita el acceso a la información clínica en tiempo real, permitiendo a los profesionales veterinarios tomar decisiones más rápidas e informadas. La plataforma está diseñada para adaptarse tanto a pequeñas clínicas como a centros veterinarios de mayor envergadura.
+
+En conjunto, *PetHealth* brinda a los profesionales de la salud animal las herramientas necesarias para digitalizar y optimizar sus operaciones, contribuyendo a elevar los estándares del servicio veterinario en Latinoamérica.
+
+<br>
+
+<div align="center">
+
+### Logo y nombre del proyecto:
+**Pawtient** — by PetHealth <br>  <br>
+  <img src="./pawtient-report/assets/images/pawtient.png" alt="Pawtient Logo" width="250"/>
+
+<br>
+
+## Misión
+*"Desarrollar soluciones digitales que optimicen la gestión de clínicas veterinarias y veterinarios independientes, facilitando el control de la información clínica, la organización de procesos y la eficiencia operativa para mejorar la calidad del servicio veterinario."*
+
+<br>
+
+## Visión
+*"Posicionarnos como una startup líder en soluciones tecnológicas para la gestión veterinaria en Latinoamérica, impulsando la digitalización y modernización de los servicios veterinarios mediante herramientas accesibles, eficientes e innovadoras."*
+
+</div>
+
+<br>
+
+## Propuesta de Valor
+
+Pawtient permite a clínicas y veterinarios independientes:
+
+- Centralizar el historial clínico de cada paciente en un único sistema digital accesible
+- Gestionar citas, tratamientos e inventarios médicos desde un panel de control unificado
+- Reducir errores administrativos mediante la automatización de procesos clave
+- Acceder a la información clínica en tiempo real desde cualquier dispositivo
+- Mejorar la experiencia del cliente mediante un servicio más organizado y eficiente
+
+<br>
+
+## Valores
+
+- **Innovación**: Desarrollo de soluciones tecnológicas modernas adaptadas al sector veterinario
+- **Accesibilidad**: Herramientas diseñadas para ser simples, intuitivas y utilizables por cualquier profesional
+- **Confiabilidad**: Gestión segura y responsable de la información clínica de los pacientes
+- **Orientación al usuario**: Enfoque en las necesidades reales de veterinarios y clínicas
+- **Calidad**: Compromiso con resultados precisos, útiles y que generen impacto real
+
+<br>
+
+## Objetivos
+
+1. Desarrollar una plataforma web SaaS funcional para la gestión clínica veterinaria
+2. Implementar un módulo de historiales clínicos digitales con seguimiento completo por paciente
+3. Integrar la gestión de citas, tratamientos e inventarios en un único entorno centralizado
+4. Garantizar la disponibilidad y seguridad de la información clínica en tiempo real
+5. Diseñar una interfaz intuitiva adaptada a las necesidades de veterinarios independientes y clínicas
+6. Facilitar la toma de decisiones clínicas mediante registros claros, ordenados y accesibles
+7. Contribuir a la digitalización y modernización del sector veterinario en Latinoamérica
+
+<br>
 
 ---
 
 ###   1.1.2. Perfiles de integrantes del equipo
 
-|                                         Miembro                                         |                                                                                                                                                                                                                                                                                                                                                Descripción                                                                                                                                                                                                                                                                                                                                                |
+|                                      Miembro  |                                                          Descripción                   |
 |:---------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| <img src="pawtient-report/assets/images/Capítulo1/members/Gonzalo.png " width="3000"/>  |                                                                                                                                                                                            **Gonzalo Samuel Quintanilla Pozo \- U202315007** <br>  Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 20 años, como compañero me gusta apoyar y tomar iniciativa en trabajos grupales. Me especializo en los lenguajes CSS, Java y Python. Tengo experiencia desarrollando páginas web.                                                                                                                                                                                             |
-| <img src="pawtient-report/assets/images/Capítulo1/members/Mathias.jpeg " width="3000"/> |                                                                                                                                                   **Mathias Joaquin Acuache Lucas \- U202314898** <br> Soy Mathias Joaquin Acuache Lucas, me encuentro en el sexto ciclo de la carrera de ingeniería de software, mi código de alumno es u202314898. Tengo experiencia en C++, SQL, MongoDB, además de utilizar GitHub de manera correcta . Me considero una persona que trata de apoyar en los diversos trabajos en equipo e investigar cosas nuevas.                                                                                                                                                    |
-| <img src="pawtient-report/assets/images/Capítulo1/members/Brianna.png " width="3000"/>  | **Brianna Cristina Salinas Guzman \- U202410239** <br> Soy estudiante de Ingeniería de Software con conocimientos en desarrollo de aplicaciones, estructuras de datos y programación orientada a objetos. Tengo experiencia trabajando con lenguajes como C++, Pyhton, SQL para base de datos y en la gestión de proyectos utilizando Git y GitHub para el control de versiones. Además, cuento con formación complementaria en marketing digital, lo que me permite aportar una perspectiva orientada al usuario y al posicionamiento del producto. Me considero una persona responsable, con capacidad de aprendizaje autónomo y habilidades para trabajar en equipo y comunicar ideas de manera clara. | 
-|  <img src="pawtient-report/assets/images/Capítulo1/members/Mateo.jpg " width="3000"/>   |                                                                                                                                                                                                                 **Mateo Paolo Salazar Miranda \- U202315171**   <br>  Soy un estudiante responsable y comprometido, con interés en el desarrollo de soluciones tecnológicas innovadoras. Tengo habilidades en trabajo en equipo, pensamiento analítico y resolución de problemas                                                                                                                                                                                                                          | 
-|  <img src="pawtient-report/assets/images/Capítulo1/members/Emily.png " width="3000"/>   |                                                                                                                                                                                                            **Emily Juliette Arroyo Gonzales \- U202311469**  <br> Soy estudiante de la carrera de Ingeniería de Software, tengo 20 años, tengo experiencia en lenguajes como C++, MongoDB, en trabajos grupales me gusta aportar ideas que contribuyan a mi grupo y avanzar según lo asignado.                                                                                                                                                                                                            | 
+| <img src="pawtient-report/assets/images/Capítulo1/members/Gonzalo.png" width="3000"/>  |                                                                                                                                                                                            **Gonzalo Samuel Quintanilla Pozo \- U202315007** <br>  Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 20 años, como compañero me gusta apoyar y tomar iniciativa en trabajos grupales. Me especializo en los lenguajes CSS, Java y Python. Tengo experiencia desarrollando páginas web.                                                                                                                                                                                             |
+| <img src="pawtient-report/assets/images/Capítulo1/members/Mathias.jpeg" width="3000"/> |                                                                                                                                                   **Mathias Joaquin Acuache Lucas \- U202314898** <br> Soy Mathias Joaquin Acuache Lucas, me encuentro en el sexto ciclo de la carrera de ingeniería de software, mi código de alumno es u202314898. Tengo experiencia en C++, SQL, MongoDB, además de utilizar GitHub de manera correcta . Me considero una persona que trata de apoyar en los diversos trabajos en equipo e investigar cosas nuevas.                                                                                                                                                    |
+| <img src="pawtient-report/assets/images/Capítulo1/members/Brianna.png" width="3000"/>  | **Brianna Cristina Salinas Guzman \- U202410239** <br> Soy estudiante de Ingeniería de Software con conocimientos en desarrollo de aplicaciones, estructuras de datos y programación orientada a objetos. Tengo experiencia trabajando con lenguajes como C++, Pyhton, SQL para base de datos y en la gestión de proyectos utilizando Git y GitHub para el control de versiones. Además, cuento con formación complementaria en marketing digital, lo que me permite aportar una perspectiva orientada al usuario y al posicionamiento del producto. Me considero una persona responsable, con capacidad de aprendizaje autónomo y habilidades para trabajar en equipo y comunicar ideas de manera clara. | 
+|  <img src="pawtient-report/assets/images/Capítulo1/members/Mateo.jpg" width="3000"/>   |                                                                                                                                                                                                                 **Mateo Paolo Salazar Miranda \- U202315171**   <br>  Soy un estudiante responsable y comprometido, con interés en el desarrollo de soluciones tecnológicas innovadoras. Tengo habilidades en trabajo en equipo, pensamiento analítico y resolución de problemas                                                                                                                                                                                                                          | 
+|  <img src="pawtient-report/assets/images/Capítulo1/members/Emily.png" width="3000"/>   |                                                                                                                                                                                                            **Emily Juliette Arroyo Gonzales \- U202311469**  <br> Soy estudiante de la carrera de Ingeniería de Software, tengo 20 años, tengo experiencia en lenguajes como C++, MongoDB, en trabajos grupales me gusta aportar ideas que contribuyan a mi grupo y avanzar según lo asignado.                                                                                                                                                                                                            | 
+
+<br>
 
 ---
 
@@ -295,6 +382,8 @@ De acuerdo con Cedeno Ochoa et al. (2021), en muchos centros veterinarios la inf
 
 En el contexto peruano, Lolimsa (2024) señala que una inadecuada gestión en centros veterinarios, especialmente en el manejo de información e insumos, puede generar retrasos de atención, desorganización y una disminución en la calidad del servicio. En este sentido, la falta de digitalización impacta negativamente, mientras que soluciones como Pawtient permiten optimizar procesos, reducir errores y ofrecer una atención más eficiente y confiable.
 
+<br>
+
 ---
 
 ### 1.2.2. Lean UX Process
@@ -321,6 +410,8 @@ Hemos identificado que la gestión de insumos suele realizarse de forma manual o
 
 **¿Cómo podemos mejorar el control y la gestión de los recursos e insumos en las clínicas veterinarias para optimizar sus procesos ?**
 
+<br>
+
 ---
 
 #### 1.2.2.2. Lean UX Assumptions
@@ -338,6 +429,8 @@ Hemos identificado que la gestión de insumos suele realizarse de forma manual o
 9. **Nos diferenciamos por** ofrecer una plataforma accesible, fácil de usar y enfocada en centralizar la gestión clínica y operativa en un solo sistema.
 10. **Mi principal riesgo** será la baja adopción del sistema debido a la resistencia al cambio o poca familiaridad con herramientas digitales.
 11. **Abordaremos este riesgo mediante** una interfaz simple, guías de uso dentro de la plataforma y un proceso de adopción progresivo que facilite el uso desde el primer momento.
+
+<br>
 
 **User Assumptions:**
 
@@ -372,63 +465,73 @@ La incorporación de la plataforma será progresiva, ya que reemplaza procesos m
 
 La plataforma debe contar con un diseño claro y ordenado, con iconos fáciles de reconocer, colores adecuados y una estructura que facilite la navegación. Esto permite que los usuarios comprendan rápidamente las funciones y puedan interactuar de forma ágil y sencilla.
 
+<br>
 
 ---
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+<br>
+
 - **Hypothesis 01:**
 
-  <br>**Creemos que** los dueños y administradores de clínicas veterinarias mejorarán la organización de la información si centralizan los historiales clínicos en una sola plataforma.
+  **Creemos que** los dueños y administradores de clínicas veterinarias mejorarán la organización de la información si centralizan los historiales clínicos en una sola plataforma.
 
-  <br>**Sabremos que** hemos tenido éxito.
+  **Sabremos que** hemos tenido éxito.
 
-  <br>**Cuando** encuentren la información más rápido y disminuyan los errores al momento de registrar o consultar datos.
+  **Cuando** encuentren la información más rápido y disminuyan los errores al momento de registrar o consultar datos.
 
+<br>
 
 - **Hypothesis 02:**
 
-  <br>**Creemos que** los veterinarios independientes optimizarán la gestión de sus consultas si cuentan con acceso rápido y centralizado a la información clínica de sus pacientes.
+  **Creemos que** los veterinarios independientes optimizarán la gestión de sus consultas si cuentan con acceso rápido y centralizado a la información clínica de sus pacientes.
 
-  <br>**Sabremos que** hemos tenido éxito.
+  **Sabremos que** hemos tenido éxito.
 
-  <br>**Cuando** reduzcan el tiempo de búsqueda de información y mejoren el seguimiento de tratamientos y consultas.
+  **Cuando** reduzcan el tiempo de búsqueda de información y mejoren el seguimiento de tratamientos y consultas.
 
+<br>
 
 - **Hypothesis 03:**
 
-  <br>**Creemos que** las notificaciones sobre citas y tratamientos ayudarán a los dueños y administradores de clínicas veterinarias, así como a los veterinarios independientes, a gestionar mejor sus actividades diarias.
+  **Creemos que** las notificaciones sobre citas y tratamientos ayudarán a los dueños y administradores de clínicas veterinarias, así como a los veterinarios independientes, a gestionar mejor sus actividades diarias.
 
-  <br>**Sabremos que** hemos tenido éxito.
+  **Sabremos que** hemos tenido éxito.
 
-  <br>**Cuando** disminuyan las citas perdidas y se mejore el seguimiento de los tratamientos registrados.
+  **Cuando** disminuyan las citas perdidas y se mejore el seguimiento de los tratamientos registrados.
 
+<br>
 
 - **Hypothesis 04:**
 
-  <br>**Creemos que** los dueños y administradores de clínicas veterinarias registrarán la información más rápido si utilizan formularios digitales dentro de la plataforma.
+  **Creemos que** los dueños y administradores de clínicas veterinarias registrarán la información más rápido si utilizan formularios digitales dentro de la plataforma.
 
-  <br>**Sabremos que** hemos tenido éxito.
+  **Sabremos que** hemos tenido éxito.
 
-  <br>**Cuando** los registros se completen en menos tiempo y sin repetir información.
+  **Cuando** los registros se completen en menos tiempo y sin repetir información.
 
+<br>
 
 - **Hypothesis 05:**
 
-  <br>**Creemos que** centralizar el estado clínico y los tratamientos de los pacientes ayudará a los dueños y administradores de clínicas veterinarias a mejorar el seguimiento y control de la atención médica.
+  **Creemos que** centralizar el estado clínico y los tratamientos de los pacientes ayudará a los dueños y administradores de clínicas veterinarias a mejorar el seguimiento y control de la atención médica.
 
-  <br>**Sabremos que** hemos tenido éxito.
+  **Sabremos que** hemos tenido éxito.
 
-  <br>**Cuando** los usuarios consulten frecuentemente la información clínica y mejoren el seguimiento de los pacientes.
+  **Cuando** los usuarios consulten frecuentemente la información clínica y mejoren el seguimiento de los pacientes.
 
+<br>
 
 - **Hypothesis 06:**
 
-  <br>**Creemos que** una plataforma organizada y accesible mejorará la confianza de los dueños y administradores de clínicas veterinarias, así como de los veterinarios independientes, en la gestión de su información operativa y clínica.
+  **Creemos que** una plataforma organizada y accesible mejorará la confianza de los dueños y administradores de clínicas veterinarias, así como de los veterinarios independientes, en la gestión de su información operativa y clínica.
 
-  <br>**Sabremos que** hemos tenido éxito.
+  **Sabremos que** hemos tenido éxito.
 
-  <br>**Cuando** los usuarios utilicen constantemente la plataforma y reduzcan el uso de registros manuales o herramientas no integradas.
+  **Cuando** los usuarios utilicen constantemente la plataforma y reduzcan el uso de registros manuales o herramientas no integradas.
+
+<br>
 
 ---
 
@@ -442,7 +545,11 @@ A continuación, se presenta el Lean UX Canvas de Pawtient:
 
 ![Lean UX Canvas](pawtient-report/assets/images/Capítulo1/Lean-UX-Canvas.png)
 
+<br>
+
 **Enlace al Lean UX Canvas:** [*Ver en Miro*](https://miro.com/welcomeonboard/QVN1VzZ1RmhoWEhGUm9heXpldFAyenkxK1hWQ1hiQ1dLTUlNN2twU1ArL0o2TzY2ZzdlMjc2dkJ0SEhvdy9PQTZGejBEeFNJWFQ5VUh2V1NNb3hKNlcxUnNrTWZNWmh3MitiSXhvQVdHeUtxSFhvTWN2OTNLNTk5LzZSa0lWUklzVXVvMm53MW9OWFg5bkJoVXZxdFhRPT0hdjE=?share_link_id=400022156481)
+
+<br>
 
 ---
 
@@ -504,6 +611,8 @@ Incluye profesionales veterinarios que realizan consultas independientes y requi
     - Organizar citas y tratamientos veterinarios. 
     - Acceder a información clínica desde dispositivos móviles. 
     - Mejorar la eficiencia y organización de sus consultas.
+
+<br>
 
 ---
 
@@ -656,6 +765,8 @@ y evaluar sus fortalezas y debilidades. Esto nos permite definir la propuesta de
 - Implementar en la Landing Page una herramienta donde el usuario selecciona su software actual (Qvet, SmartVet o Provet) y PetHealth le calcula automáticamente cuánto dinero ahorraría al año migrando con nosotros, enfatizando la eliminación de los costos de instalación (Setup Fees) de la competencia.
 - Crear un kit de marketing digital gratuito para los independientes que se suscriban al plan de \$5 USD, que incluya plantillas de Instagram y tarjetas personales con el código QR de su Libreta Sanitaria Digital, posicionándonos como una inversión de marketing más que un gasto de software.
 
+<br>
+
 ---
 
 ## 2.2. Entrevistas
@@ -666,7 +777,9 @@ Esta sección expone la investigación basada en entrevistas realizadas a médic
 
 Las entrevistas fueron diseñadas aplicando buenas prácticas de investigación cualitativa, estructurando las preguntas de lo general a lo específico. El objetivo principal es recolectar información demográfica, psicográfica, conductual y tecnológica de los entrevistados. Estos datos son fundamentales para construir posteriormente nuestros arquetipos (User Personas), identificando su biografía, dispositivos de preferencia, influencias, metas y puntos de dolor respecto a la gestión de salud veterinaria.
 
-**Segmento 1: Médicos Veterinarios y Administradores de Clínicas**
+<br>
+
+## Segmento 1: Médicos Veterinarios y Administradores de Clínicas
 
 **A. Información Demográfica y Antecedentes**
 
@@ -696,9 +809,9 @@ Las entrevistas fueron diseñadas aplicando buenas prácticas de investigación 
 
 Si existiera una herramienta integral que le permitiera gestionar la clínica y fidelizar a sus clientes, ¿qué funciones serían indispensables para que usted decida implementarla?
 
----
+<br>
 
-**Segmento 2: Dueños de Mascotas (Pet Parents)**
+## Segmento 2: Dueños de Mascotas (Pet Parents)**
 
 **A. Información Demográfica y Antecedentes**
 
@@ -728,9 +841,12 @@ Si existiera una herramienta integral que le permitiera gestionar la clínica y 
 
 - Si existiera una plataforma web donde pudiera ver todo el historial de su mascota, recibir recordatorios y agendar citas desde su celular, ¿qué características harían que la use constantemente?
 
+<br>
+
 ---
 
 ### 2.2.2. Registro de entrevistas
+
 <div align="center">
   
 **Segmento objetivo 1: `Personal de clínico de centros veterinarios`**
@@ -893,6 +1009,8 @@ Mauricio es un estudiante universitario de 29 años que reside en Surco y es due
 
 Jorge es un estudiante universitario de 20 años que vive en La Victoria junto a su hermano y tiene un perro Golden Retriever de 6 años que llegó como regalo. Se considera un dueño equilibrado entre relajado y sobreprotector, y su principal objetivo es brindarle calidad de vida a su mascota. Le genera estrés llevarlo al veterinario porque su perro le tiene miedo y porque a veces detecta problemas tarde, lo que aumenta los costos. Ha perdido indicaciones médicas anteriormente y ha tenido que volver al veterinario. Utiliza principalmente su celular y computadora, y aplicaciones como Instagram, WhatsApp y Google Calendar. Prefiere marcas de comida recomendadas como Pro Plan y sigue consejos de veterinarios en redes sociales. Además, usaría una plataforma digital si incluyera historial médico, recordatorios y recomendaciones para el cuidado de su mascota.
 
+<br>
+
 ---
 
 ### 2.2.3. Análisis de entrevistas
@@ -930,6 +1048,8 @@ El análisis de las entrevistas a los dueños de mascotas revela patrones de com
 
 * **Necesidades y Soluciones Esperadas:** El 100% de los dueños afirma que utilizaría activamente una plataforma digital si esta resuelve su problema de memoria y organización. Su necesidad principal, exigida por el 100% de la muestra, es un sistema que envíe notificaciones y recordatorios automáticos (vacunas, citas) y que digitalice el historial médico para tenerlo siempre disponible en el celular.
 
+<br>
+
 ---
 
 ## 2.3. Needfinding
@@ -938,13 +1058,15 @@ El análisis de las entrevistas a los dueños de mascotas revela patrones de com
 
 Los siguientes User Personas se elaboraron a partir de las entrevistas realizadas a dueños y administradores de clínicas veterinarias, así como a veterinarios independientes. Cada uno representa características, comportamientos y necesidades clave que permiten orientar el diseño y la propuesta de valor de la plataforma Pawtient.
 
-User Persona 1: Dueños y administradores de clínicas veterinarias
+**User Persona 1:** Dueños y administradores de clínicas veterinarias
 
 Camila Ramírez de 32 años es dueña y administradora de una clínica veterinaria en Santiago de Surco. En su día a día debe coordinar citas, controlar inventarios y supervisar la información clínica de sus pacientes, por lo que busca soluciones digitales que le permitan mantener una gestión más organizada, rápida y eficiente.
 
 ![User Persona 1](pawtient-report/assets/images/user-personas/user-persona-1.png)
 
-User Persona 2: Veterinarios independientes
+<br>
+
+**User Persona 2:** Veterinarios independientes
 
 Diego Torres es un médico veterinario independiente que atiende consultas y realiza seguimiento de pacientes en distintos puntos de Santiago de Surco. Su principal desafío es mantener organizada la información clínica y gestionar sus citas de manera eficiente, por lo que busca herramientas digitales prácticas que le permitan optimizar su trabajo diario y enfocarse más en la atención de sus pacientes.
 
@@ -986,25 +1108,29 @@ Los dueños y administradores de clínicas veterinarias realizan tareas enfocada
 
 Los veterinarios independientes desarrollan tareas relacionadas con la atención clínica, el seguimiento de pacientes y la gestión de información médica en distintos entornos de trabajo. Esto refleja la necesidad de herramientas digitales accesibles que faciliten la organización y agilicen sus actividades diarias.
 
+<br>
+
 ---
 
 ### 2.3.3. User Journey Mapping
 
 En el desarrollo de Pawtient, se elaboró un User Journey Mapping con el objetivo de comprender cómo interactúan los dueños y administradores de clínicas veterinarias, así como los veterinarios independientes, dentro de sus procesos de atención y gestión diaria. Se analizaron las distintas etapas relacionadas con la organización de consultas, manejo de historiales clínicos, control de insumos y seguimiento de pacientes, identificando problemas y oportunidades de mejora. Este análisis permitió proponer una solución que se integra de manera práctica en sus actividades diarias, optimizando la gestión de la información y mejorando la eficiencia de los procesos veterinarios.
 
-**User Journey Map — Dueños y administradores de clínicas veterinarias**
+**Dueños y administradores de clínicas veterinarias**
 
 <img alt= "User Journey Mapping Dueños y administradores de clínicas veterinarias" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-1.png">
 
 [Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-1.png)
 
----
+<br>
 
-**User Journey Map — Veterinarios independientes**
+**Veterinarios independientes**
 
 <img alt= "User Journey Mapping Veterinarios independientes" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-2.png">
 
 [Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Journey%20Mapping/Journey-mapping-2.png)
+
+<br>
 
 ---
 
@@ -1012,19 +1138,21 @@ En el desarrollo de Pawtient, se elaboró un User Journey Mapping con el objetiv
 
 En esta sección se presentarán los Empathy Maps de cada segmento objetivo, construidos a partir de los User Persona previamente definidos. Esta herramienta permite analizar de forma integral lo que los usuarios piensan, sienten, dicen y hacen, facilitando la identificación de sus necesidades, frustraciones y motivaciones. De esta manera, se obtienen insights clave que orientan el diseño de la solución propuesta.
 
-**Empathy Map — Dueños y administradores de clínicas veterinarias**
+**Dueños y administradores de clínicas veterinarias**
 
 <img alt= "Empathy mapping Dueños y administradores de clínicas veterinarias" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-%20mapping-1.png">
 
 [Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-%20mapping-1.png)
 
----
+<br>
 
-**Empathy Map — Dueños de mascotas**
+**Dueños de mascotas**
 
 <img alt= "Empathy mapping veterinarios independientes" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-%20mapping-2.png">
 
 [Ver Imagen](https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-%20mapping-2.png)
+
+<br>
 
 ---
 
@@ -1032,19 +1160,21 @@ En esta sección se presentarán los Empathy Maps de cada segmento objetivo, con
 
 En esta sección se introduce y resume el proceso realizado por el equipo para el Big Picture Event Storming, que fue realizado mediante una llamada en discord y plasmado con la ayuda de la herramienta Miro. A continuación, se explica el proceso:
 
+<br>
+
 **1. OPEN**
 
 En esta etapa el equipo se concentró en generar la mayor cantidad de eventos de dominio posibles (cosas que suceden en el negocio) escribiendo en los post-its naranjas.
 
 ![Open](pawtient-report/assets/images/Big-Picture-Event-Storming/open.png)
 
-**2. Explore**
+**2. EXPLORE**
 
 Después de la anterior etapa, en esta se concentró en ordenar cronológicamente los eventos, eliminar los eventos repetidos, identificar sus actores y posibles sistemas externos, y finalmente algunos puntos de dolor en post-its morados.
 
 ![Explore](pawtient-report/assets/images/Big-Picture-Event-Storming/Explore.png)
 
-**3. Close**
+**3. CLOSE**
 
 En esta última etapa, se documentaron en post-its rosados los problemas más relevantes detectados, junto con aspectos que debíamos investigar más a fondo o descartar según el alcance definido.
 
@@ -1056,6 +1186,7 @@ Luego de conversar un poco, el equipo descartó algunos eventos y identificó me
 
 [Ver en miro](https://miro.com/welcomeonboard/TUM0Kzk0ajRxOXdpd1EzRXpwQjU1ckx6c3JPV2trSUxpQ2dLc0p6RFZjUEFwaXYvcHpOMTZGWHExOFpibXpLRHNURWF6Zko2b1NaM2FxTEJieCsvUElhMFUwdXIwNThuaWpBa3F4dzlXUklLaXA4dFFvZUY1VjRHVXhGcklxT3BNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=798329479919)
 
+<br>
 
 ---
 
@@ -1217,8 +1348,6 @@ Los siguientes son los eventos significativos identificados en el Event Storming
 ---
 
 ## 3.1. User Stories
-
-<br>
 
 ## Epics
 
