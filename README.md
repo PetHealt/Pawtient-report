@@ -1582,7 +1582,9 @@ El orden del backlog responde a los siguientes criterios en cascada:
 
 Las decisiones de estilo de Pawtient se basan en la necesidad de transmitir confianza, cercanía y profesionalismo en el contexto del cuidado de mascotas y la gestión de clínicas veterinarias. Se busca una interfaz clara, accesible y consistente, que facilite la interacción tanto de veterinarios como del personal administrativo.
 
-**Branding**
+<br>
+
+### Branding
 
 El branding de Pawtient está orientado a representar el cuidado y bienestar de las mascotas a través de una identidad visual moderna y amigable.
 
@@ -1604,9 +1606,9 @@ Los principios de identidad visual se centran en:
 - Profesionalismo en el entorno clínico
 - Confianza en el manejo de información
 
----
+<br>
 
-**Typography**
+### Typography
 
 | Tipo |   Fuente    | Uso |
 |:-----|:-----------:|:----|
@@ -1622,7 +1624,9 @@ Los principios de identidad visual se centran en:
 
 Estas tipografías fueron seleccionadas por su alta legibilidad en entornos digitales y su compatibilidad con interfaces modernas.
 
-**Colors**
+<br>
+
+### Colors
 
 | Nombre | Hex | Uso                                |
 |:-------|:---:|:-----------------------------------|
@@ -1638,7 +1642,9 @@ Estas tipografías fueron seleccionadas por su alta legibilidad en entornos digi
 
 La paleta busca generar una experiencia visual equilibrada, transmitiendo seguridad, limpieza y accesibilidad.
 
-**Spacing**
+<br>
+
+### Spacing
 
 El sistema de espaciado de *Pawtient* se basa en una unidad base de **8px**, siguiendo buenas prácticas de diseño UI modernas.
 
@@ -1650,8 +1656,10 @@ Se utilizan múltiplos de esta unidad para mantener consistencia:
 
 Esto permite una interfaz ordenada, clara y fácil de escanear visualmente.
 
----
-**Tono de comunicación**
+<br>
+
+
+### Tono de comunicación
 
 | Dimensión |             Selección             |
 |:----------|:---------------------------------:|
@@ -1662,15 +1670,17 @@ Esto permite una interfaz ordenada, clara y fácil de escanear visualmente.
 
 El tono busca generar confianza en un entorno clínico, sin perder cercanía con los usuarios.
 
+<br>
+
 ---
 
 ### 4.1.2. Web Style Guidelines
 
 Las Web Style Guidelines de Pawtient definen los estándares visuales y de interacción para garantizar una experiencia consistente en la aplicación web.
 
----
+<br>
 
-#### Diseño Responsive 
+### Diseño Responsive 
 
 La aplicación se adapta a distintos dispositivos:
 - Desktop
@@ -1679,8 +1689,9 @@ La aplicación se adapta a distintos dispositivos:
 
 Se prioriza la usabilidad en pantallas pequeñas, asegurando navegación fluida y contenido legible.
 
----
-#### Componentes del sistema
+<br>
+
+### Componentes del sistema
 
 Los componentes del sistema de *Pawtient* han sido diseñados siguiendo principios de simplicidad, consistencia y reutilización, tomando como referencia Material Design y adaptándose a la identidad visual del producto.
 
@@ -1704,9 +1715,10 @@ Los componentes del sistema de *Pawtient* han sido diseñados siguiendo principi
 
 - **Icons (Iconos):**  
   Basados en representaciones simples y reconocibles (usuario, menú, mascota), alineados con el estilo minimalista del sistema.
----
 
-#### Interacciones
+<br>
+
+### Interacciones
 
 Las interacciones en Pawtient están diseñadas para ser intuitivas, fluidas y consistentes, mejorando la experiencia del usuario sin sobrecargar la interfaz.
 
@@ -1725,8 +1737,9 @@ Las interacciones en Pawtient están diseñadas para ser intuitivas, fluidas y c
 - **Call To Action (CTA):**  
   Botones destacados como “Comenzar gratis” guían al usuario hacia las acciones principales del sistema.
 
----
-#### Design System
+<br>
+
+### Design System
 
 El diseño de *Pawtient* se basa en un sistema de diseño modular que garantiza consistencia visual y escalabilidad en toda la aplicación.
 
@@ -1747,7 +1760,9 @@ Se toman como referencia los principios de **Material Design**, adaptados a la i
 - **Component-based design:**  
   Todos los elementos UI (botones, cards, forms) son reutilizables, permitiendo mantener coherencia y facilitar el desarrollo en Angular.
 
-![Landing Pawtient](pawtient-report\assets\images\pcpet.PNG)
+![Landing Pawtient](pawtient-report\assets\images\pcpet.png)
+
+<br>
 
 ---
 ## 4.2. Information Architecture
@@ -1759,11 +1774,15 @@ de ayudar a estos usuarios como una guía de lo que ofrecemos en los planes de m
 Para esta Web Application, la organización es funcional y modular, permitiendo a veterinarios y administradores acceder a las herramientas de regirstro e inventario con la menor cantidad de clics
 posibles, optimizando asi los procesos diarios.
 
+<br>
+
 ### 4.2.1. Organization Systems
 
 Se utiliza un sistema de organización jerárquica para la Landing Page, permitiendo que el usuario entienda primero la propuesta de valor y luego baje
 hacia los detalles de servicios y planes. Para la Web Application, se aplica un sistema orientado a tareas, facilitando que el veterinario acceda directamente a las funciones
 de registro clínico e inventario.
+
+<br>
 
 ### 4.2.2. Labeling Systems
 
@@ -1774,6 +1793,8 @@ de registro clínico e inventario.
 | `Servicios` | Detalle de las funcionalidades (Historial, Insumo, IoT). |
 | `Membresía` | Planes de Suscripción (Basic, Mid, Pro) y beneficios     |
 | `Contacto`  | Formulario para soporte y consultas de nuevos centros    |
+
+<br>
 
 ### 4.2.3. SEO Tags and Meta Tags
 
@@ -1795,11 +1816,15 @@ de registro clínico e inventario.
 <meta name="author" content="PetHealth" />
 ```
 
+<br>
+
 ### 4.2.4. Searching Systems
 
 
 El sistema de búsqueda en Pawtient está diseñado para ser reactivo y eficiente. Se implementará una barra de búsqueda global en el DashBoard que permitirá a los veterianos encontrar
 pacientes por nombre de la mascota, nombre del dueño o DNI del usuario. Ademas, se incluirán filtros avanzados en la sección de inventario para categorizar insumos por tipo. 
+
+<br>
 
 ### 4.2.5. Navigation Systems
 
@@ -1809,6 +1834,8 @@ Se han definido tres sistemas de navegación principales para garantizar la usab
 * Navegación Estructural (Menús):La Landing Page utiliza un menú superior fijo con enlaces ancla a las secciones de beneficios y precios. La Web Application utiliza una barra lateral con iconos reconocibles para el acceso rápido.
 * Navegación Asociativa: Se incluyen botones de 'Llamada a la Acción' (CTA) estratégicos como 'Comenzar gratis' para convertir visitantes en usuarios.
 * Navegación de Utilidad: Un menú de perfil de usuario en la esquina superior derecha para gestionar la configuración de la cuenta y el cierre de sesión, manteniendo la consistencia visual mediante el uso de avatars."
+
+<br>
 
 ---
 
@@ -1821,6 +1848,7 @@ Se han definido tres sistemas de navegación principales para garantizar la usab
 En esta sección se presenta los wireframes de la versión Desktop de la Landing page, donde se observa la estructura
 que tiene esta landing, como diversos apartados en donde el usuario pueda interacturar de manera autonoma y con una interfaz fácil de usar.
 
+<br>
 
 **Desktop Web Browser**
 
@@ -1830,6 +1858,8 @@ que tiene esta landing, como diversos apartados en donde el usuario pueda intera
 ![Page-Wireframe5](pawtient-report/assets/images/landing-page/Page-Wireframe5.png)
 ![Page-Wireframe6](pawtient-report/assets/images/landing-page/Page-Wireframe6.png)
 ![Page-Wireframe7](pawtient-report/assets/images/landing-page/Page-Wireframe7.png)
+
+<br>
 
 **Mobile Web Browser**
 
@@ -1842,12 +1872,16 @@ que tiene esta landing, como diversos apartados en donde el usuario pueda intera
 ![Mobile-Wireframe7](pawtient-report/assets/images/mobile-app/Mobile-Wireframe7.png)
 ![Mobile-Wireframe8](pawtient-report/assets/images/mobile-app/Mobile-Wireframe8.png)
 
+<br>
+
 ### 4.3.2. Landing Page Mock-up
 
 
 En este apartado se muestra todos los Mocku-ups de nuestra App web, tanto desktop como mobile tienen una interfaz la cual es agradable para el usuario,
 además de ser fácil de poder utilizar, cumple con el objetivo que nosotros queremos ofrecer, asimismo sigue un lineamiento usando
 diversos tipos de colores, tipografías, etc.
+
+<br>
 
 **Desktop Web Browser**
 
@@ -1856,6 +1890,9 @@ diversos tipos de colores, tipografías, etc.
 ![Desktop-Mockup3](pawtient-report/assets/images/landing-page/Page-Mockup3.png)
 ![Desktop-Mockup5](pawtient-report/assets/images/landing-page/Page-Mockup5.png)
 ![Desktop-Mockup7](pawtient-report/assets/images/landing-page/Page-Mockup7.png)
+
+<br>
+
 **Mobile Web Browser**
 
 ![Mobile-Mockup1](pawtient-report/assets/images/mobile-app/Mobile-Mockup1.png)
@@ -1867,10 +1904,13 @@ diversos tipos de colores, tipografías, etc.
 ![Mobile-Mockup7](pawtient-report/assets/images/mobile-app/Mobile-Mockup7.png)
 ![Mobile-Mockup8](pawtient-report/assets/images/mobile-app/Mobile-Mockup8.png)
 ![Mobile-Mockup9](pawtient-report/assets/images/mobile-app/Mobile-Mockup9.png)
+
+
+<br>
+
 ---
 
 ## 4.4. Web Applications UX/UI Design
-
 
 ### 4.4.1. Web Applications Wireframes
 
@@ -1878,11 +1918,13 @@ diversos tipos de colores, tipografías, etc.
 
 ![Web App Wireframes](pawtient-report/assets/images/landing-page/AllWireframes.png)
 
+<br>
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 En esta sección usamos los Wireframes. El objetivos es mostrar la lógica que queremos transmitir para nuestros usuarios
 
----
+<br>
 
 **User goal: `[Usuario y selección de Perfil]`**
 
@@ -1893,12 +1935,18 @@ antes de poder acceder al sistema y realizar los debido servicios.
 ![Wireflow Diagrama 4](pawtient-report/assets/images/landing-page/Page-Wireframe4.png)
 ![Wireflow Diagrama 4](pawtient-report/assets/images/mobile-app/Mobile-Wireframe4.png)
 
+<br>
+
 ---
 ### 4.4.3. Web Applications Mock-ups
 
 **Panorama Completo de los Mock-ups Desktop and Mobile, teniendo en cuenta los diversos styles anteriormente puesto**
 
 ![Web App Mockups](pawtient-report/assets/images/landing-page/AllMockUps.png)
+
+<br>
+
+---
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
@@ -1912,13 +1960,11 @@ que la aplicación web mantenga la integridad de la base de datos y ofrezca una 
 ![User Flow Diagrama 2](pawtient-report/assets/images/mobile-app/Mobile-Mockup4.png)
 ![User Flow Diagrama 2](pawtient-report/assets/images/landing-page/Page-Mockup6.png)
 
+<br>
+
 ---
 
 ## 4.5. Web Applications Prototyping
-
-*(Introducción explicando los principales criterios para las decisiones de interacción)*
-
-*(Prototipos de UI para Desktop y Mobile Web Browser con simulación de interacción y navegación)*
 
 **Prototipo Desktop**
 
@@ -1932,6 +1978,8 @@ que la aplicación web mantenga la integridad de la base de datos y ofrezca una 
 
 [Ver video de prototipo Mobile en Microsoft Stream](`URL`)
 
+<br>
+
 ---
 
 ## 4.6. Domain-Driven Software Architecture
@@ -1940,30 +1988,43 @@ que la aplicación web mantenga la integridad de la base de datos y ofrezca una 
 
 En esta sección se explica y evidencia el proceso de Design-Level EventStorming, que sirvió para plantear una aproximación revisada y mejorada al modelado de nivel general para el dominio del problema.
 
+<br>
 
 **IAM Bounded Context**
+
 ![IAM](pawtient-report/assets/images/Design-Level-Event-Storming/IAM.png)
 
 **Profile Bounded Context**
+
 ![Profile](pawtient-report/assets/images/Design-Level-Event-Storming/Profile.png)
 
 **Clinic Bounded Context**
+
 ![Clinic](pawtient-report/assets/images/Design-Level-Event-Storming/Clinic.png)
 
 **Appointment Bounded Context**
+
 ![Appointment](pawtient-report/assets/images/Design-Level-Event-Storming/Appoiments.png)
 
 **Report Bounded Context**
+
 ![Report](pawtient-report/assets/images/Design-Level-Event-Storming/Reports.png)
 
 **Store Bounded Context**
+
 ![Store](pawtient-report/assets/images/Design-Level-Event-Storming/Store.png)
 
 **Bounded Contexts y sus relaciones**
+
 ![Bounded Contexts](pawtient-report/assets/images/Design-Level-Event-Storming/Bounded-Context.png)
+
 En este último paso, el equipo buscó agregados que estén relacionados entre sí mediante policies para luego identificar bounded contexts y finalmente marco los eventos de dominio que fueron implementados.
 
 [Ver en miro](https://miro.com/welcomeonboard/TUM0Kzk0ajRxOXdpd1EzRXpwQjU1ckx6c3JPV2trSUxpQ2dLc0p6RFZjUEFwaXYvcHpOMTZGWHExOFpibXpLRHNURWF6Zko2b1NaM2FxTEJieCsvUElhMFUwdXIwNThuaWpBa3F4dzlXUklLaXA4dFFvZUY1VjRHVXhGcklxT3BNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=798329479919)
+
+<br>
+
+---
 
 ### 4.6.2. Software Architecture Context Diagram
 
@@ -1971,6 +2032,7 @@ El diagrama de contexto del sistema Pawtient presenta una vista general del sist
 
 ![System Context View](pawtient-report/assets/images/fixsystem.png)
 
+---
 ### 4.6.3. Software Architecture Container Diagrams
 
 El diagrama de contenedores del sistema Pawtient presenta una vista de alto nivel de la arquitectura, mostrando los principales bloques tecnológicos y la forma en que interactúan entre sí.
@@ -1980,6 +2042,10 @@ El sistema está compuesto por una aplicación web (frontend), que permite la in
 Asimismo, el sistema se integra con servicios externos para el envío de notificaciones y el procesamiento de pagos. La comunicación entre los contenedores se realiza mediante protocolos estándar, garantizando una arquitectura organizada, escalable y mantenible.
 
 ![Container View](pawtient-report/assets/images/containerfix.png)
+
+<br>
+
+---
 
 ### 4.6.4. Software Architecture Components Diagrams
 
@@ -2001,6 +2067,9 @@ La interacción entre estas capas sigue un flujo definido donde la capa de Inter
   ![Profile](pawtient-report/assets/images/profile.png)
 - IAM Bounded Context
   ![IAM](pawtient-report/assets/images/IAM.png)
+
+<br>
+
 ---
 
 ## 4.7. Software Object-Oriented Design
@@ -2220,6 +2289,8 @@ El modelo incluye tablas con atributos definidos bajo una nomenclatura uniforme,
 
 <br>
 
+---
+
 ### 4.8.1. Database Diagrams
 
 >*El diagrama de base de datos de Pawtient refleja una arquitectura orientada al dominio, organiza los bounded contexts, cada uno responsable de un conjunto cohesivo de entidades. Para su elaboración se utilizó MySQL Workbench, herramienta que permitió diseñar, visualizar y estructurar las tablas, columnas y relaciones del sistema de manera clara.
@@ -2271,18 +2342,21 @@ En total el esquema comprende 28 tablas, organizadas en cinco módulos cohesivos
 
 Para el desarrollo de Pawtient, el equipo ha estandarizado un entorno de desarrollo y un conjunto de tecnologías que aseguran la compatibilidad y fluidez del trabajo conjunto en todo el ciclo de vida del producto:
 
-| Categoría | Producto |                                  Propósito                                  | Ruta / URL                     |
-|:----------|:--------:|:---------------------------------------------------------------------------:|:-------------------------------|
-| Project Management | Jira |              Gestión ágil de Sprints, tareas y Product Backlog              | https://jira.it.tuwien.ac.at/  |
-| Requirements Management | UXPressia |                 Elaboración de Impact Maps y User Personas                  | https://uxpressia.com          |
-| Product UX/UI Design | Figma |                     Wireframes, Mockups y Prototipos UI                     | https://figma.com              |
-| Software Development | Visual Studio Code |            Editor principal para desarrollo web (HTML, CSS, JS)             | https://code.visualstudio.com/ |
-| Software Development | Angular CLI |            Framework principal para el Frontend Web Application             | https://angular.io             |
-| Software Development | Spring Boot |              Framework principal para los RESTful Web Services              | https://spring.io              |
-| Software Deployment | GitHub Pages |                   Despliegue estático de la Landing Page                    | https://pages.github.com/      |
-| Software Documentation | Swagger / OpenAPI |                Documentación interactiva de los Web Services                | https://swagger.io/            |
-| Version Control | Git + GitHub |                 Control de versiones y trabajo colaborativo                 | https://github.com             |
-|Miro   |Diseño| Diseño colaborativo en tiempo real de mapas de experiencia (As-Is y To-Be). |https://miro.com   |
+| Categoría | Producto | Propósito | URL |
+|:----------|:---------|:----------|:----|
+| Project Management | Jira | Gestión ágil de Sprints, tareas y Product Backlog | https://jira.atlassian.com |
+| Requirements Management | UXPressia | Elaboración de Impact Maps y User Personas | https://uxpressia.com |
+| Requirements Management | Miro | Diseño colaborativo de mapas de experiencia (As-Is y To-Be) | https://miro.com |
+| Product UX/UI Design | Figma | Wireframes, Mockups y Prototipos UI | https://figma.com |
+| Software Development | Visual Studio Code | Editor principal para desarrollo web (HTML, CSS, JS) | https://code.visualstudio.com |
+| Software Development | Vue Framework | Framework principal para el Frontend Web Application | https://vuejs.org |
+| Software Development | ASP . NET Core Framework | Framework principal para los RESTful Web Services | https://dotnet.microsoft.com/apps/aspnet |
+| Software Deployment | GitHub Pages | Despliegue estático de la Landing Page | https://pages.github.com |
+| Software Documentation | Swagger / OpenAPI | Documentación interactiva de los Web Services | https://swagger.io |
+| Version Control | Git + GitHub | Control de versiones y trabajo colaborativo | https://github.com |
+
+<br>
+
 ---
 
 ### 5.1.2. Source Code Management
@@ -2313,6 +2387,7 @@ Se implementará GitFlow con las siguientes ramas:
 
 **Conventional Commits:** Se aplican [Conventional Commits](https://www.conventionalcommits.org/) para los mensajes de commits:
 
+<br>
 
 ---
 
@@ -2329,6 +2404,8 @@ Se implementará GitFlow con las siguientes ramas:
 | Gherkin (Acceptance Criteria) | Gherkin Conventions | https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/ |
 
 > **Nota:** Para todos los lenguajes se aplica la nomenclatura en **inglés**.
+
+<br>
 
 ---
 
@@ -2370,6 +2447,8 @@ Se implementará GitFlow con las siguientes ramas:
 
 [Ver Front-End desplegado](`https://pawtient.netlify.app/login`)
 
+<br>
+
 ---
 
 ## 5.2. Landing Page, Services & Applications Implementation
@@ -2390,6 +2469,8 @@ A continuación se presentará el sprint planning para esta primera entrega, don
 | Sprint 1 Goal                        | Nuestro enfoque está en presentar una landing page que muestre todas las <br> funcionalidades y características de Pawtient a los visitantes. <br> Creemos que esto generará una sólida primera impresión sobre el valor de la plataforma para clínicas y dueños de mascotas. <br> Esto se confirmará cuando la página esté desplegada, sea responsiva y sus enlaces funcionen correctamente. |
 | Sprint 1 Velocity                    | 15                                                                                                                                                                                                                                                                                                |
 | Sum of story points                  | 10                                                                                                                                                                                                                                                                                                |
+
+<br>
 
 ---
 
@@ -2416,6 +2497,9 @@ Los aspectos que tomamos en cuenta para este primer sprint fueron los features d
 C = *Collaborator* (apoya el desarrollo del aspecto).
 
 </div>
+
+<br>
+
 ---
 
 #### 5.2.1.3. Sprint Backlog 1
@@ -2518,8 +2602,12 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar la L
 </table>
 </div>
 
+<br>
+
 ![Ver imagen Sprint 1](pawtient-report/assets/images/sprint-1.png)
 [Ver imagen en Trello](https://trello.com/invite/b/6a04c26d44c138fd083131b5/ATTI04ef86782e73ed695b865a4b575cdff591158CE5/sprint-1-pethealth)
+
+<br>
 
 ---
 
@@ -2551,6 +2639,8 @@ Durante el Sprint 1 se implementó la Landing Page de la solución Pawtient, la 
 | PetHealt/Pawtient-landing-page | develop | b38d1d8 | chore: creates an empty folder and file structure | Creación del "molde" inicial con carpetas y archivos CSS vacíos para el equipo. | 23/04/2026 |
 | PetHealt/Pawtient-landing-page | main | df95928 | landing page files | Primer commit con los recursos estáticos iniciales de la Landing Page. | 13/04/2026 |
 
+<br>
+
 ---
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
@@ -2566,7 +2656,7 @@ El desarrollo tecnológico se centró en:
 
 A continuación, se presentan las capturas de las principales vistas desarrolladas y desplegadas en producción:
 
-*(Nota: Reemplaza las siguientes líneas con las imágenes/capturas reales de tu Landing Page)*
+
 ![Vista del Hero Section y Navbar](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-1.png)
 ![Vista de la sección Nosotros y Servicios](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-2.png)
 ![Vista de la sección IoT y Roles](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-3.png)
@@ -2578,6 +2668,8 @@ A continuación, se presentan las capturas de las principales vistas desarrollad
 Asimismo, se elaboró un **video demostrativo** que muestra la navegación fluida de la Landing Page, comprobando su responsividad, el cambio de temas (claro/oscuro) y explicando cada una de las secciones implementadas por el equipo:  
 [Ver video demostrativo de Pawtient](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCmFsBAO3FvTpMOpMAylR0gAUDFExNbahk7ihbfPEj4jSI?e=BnRltz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+<br>
+
 ---
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
@@ -2585,6 +2677,8 @@ Asimismo, se elaboró un **video demostrativo** que muestra la navegación fluid
 Durante el Sprint 1, el esfuerzo técnico y el alcance principal se centraron exclusivamente en el diseño, implementación y despliegue de la Landing Page de captación. Por este motivo, en esta fase iterativa no se desarrollaron servicios de backend (RESTful API) asociados a la lógica de negocio profunda.
 
 Sin embargo, a partir de las *Technical Stories* definidas en el Product Backlog, se ha establecido la arquitectura inicial de los Web Services y se ha previsto la integración con OpenAPI/Swagger. Esto permitirá, en los sprints posteriores, documentar formalmente los contratos de los endpoints que darán soporte a las funcionalidades *Core* de la plataforma, tales como la autenticación de roles (IAM), la programación de citas médicas, la gestión de historiales clínicos y el control de inventario de suministros veterinarios.
+
+<br>
 
 ---
 
@@ -2595,7 +2689,7 @@ Sin embargo, a partir de las *Technical Stories* definidas en el Product Backlog
 Durante el **Sprint 1** se realizó el despliegue exitoso de la **Landing Page** en la plataforma **Netlify**, utilizando el repositorio [PetHealt/Pawtient-landing-page](https://github.com/PetHealt/Pawtient-landing-page).  
 Se optó por Netlify debido a su facilidad para implementar **Continuous Deployment (CD)** desde GitHub. Esto asegura que cualquier cambio aprobado y subido a la rama `main` se publique automáticamente en el servidor de producción sin intervención manual adicional.
 
-### 🔹 Proceso seguido
+### Proceso seguido
 1. **Conexión de cuenta:** Se vinculó la cuenta de GitHub de la organización **PetHealt** con la plataforma Netlify.
 2. **Selección de repositorio:** Se seleccionó el proyecto `Pawtient-landing-page` para la creación del nuevo sitio.
 3. **Configuración de Build:** Se definió la rama `main` como la rama de producción. Dado que es un sitio estático, no se requirieron comandos de compilación (Build commands) complejos.
@@ -2604,7 +2698,9 @@ Se optó por Netlify debido a su facilidad para implementar **Continuous Deploym
 
 **URL del despliegue:** [https://pawtient.netlify.app/](https://pethealt.netlify.app/)
 
-### 🔹 Evidencias
+<br>
+
+### Evidencias
 A continuación, se presentan las capturas de pantalla que documentan el estado "Published" en el panel de Netlify y la correcta visualización del sitio en el navegador:
 
 1. **Captura del Panel de Netlify:** Donde se vea el estado "Site is live" y la conexión con el repo de GitHub.
@@ -2614,6 +2710,9 @@ A continuación, se presentan las capturas de pantalla que documentan el estado 
 ![Configuración de despliegue en Netlify](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-3.png)
 ![Configuración de despliegue en Netlify](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-7.png)
 ![Configuración de despliegue en Netlify](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-1.png)
+
+<br>
+
 ---
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
@@ -2624,9 +2723,12 @@ El trabajo asíncrono se gestionó de manera eficiente: cada integrante empujó 
 
 A continuación, se presentan los **analíticos de GitHub (Insights & Network Graph)**, que evidencian la participación del equipo en *commits*, gestión de ramas y *merges* durante el Sprint. Estas evidencias confirman la colaboración activa, equilibrada y estructurada de todos los miembros del equipo:
 
-*(Nota: Reemplaza las siguientes líneas con tus capturas de GitHub Insights / Network)*
 ![Gráfico de Red (Network Graph) mostrando las ramas y merges](pawtient-report/assets/images/Team-Collaboration/network-graph.png)
 ![Analíticas de Contribución (Contributors) del equipo](pawtient-report/assets/images/Team-Collaboration/contributors.png)
+
+<br>
+
+---
 
 ### 5.2.2. Sprint 2
 #### 5.2.2.1. Sprint Planning 2
@@ -2647,6 +2749,8 @@ A continuación se presentará el sprint planning para el trabajo parcial, donde
 | Sprint 2 Goal                        | Nuestro enfoque en el Sprint 2 estuvo orientado al desarrollo del front-end funcional de Pawtient, integrando las principales vistas y módulos de la plataforma junto con endpoints estructurados bajo el enfoque Domain-Driven Design (DDD). Además, se realizaron mejoras y correcciones basadas en el feedback proporcionado, permitiendo refinar la organización de la solución y alinear mejor la arquitectura del proyecto. Consideramos que esto contribuye a una estructura más escalable, mantenible y eficiente en la interacción entre la interfaz y los servicios de la aplicación. Esto se validó mediante la correcta conexión del front-end con los endpoints y el funcionamiento adecuado de las funcionalidades implementadas. |
 | Sprint 2 Velocity                    | 14                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Sum of story points                  | 50                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+
+<br>
 
 ---
 
@@ -2673,6 +2777,8 @@ Los aspectos que tomamos en cuenta para este segundo sprint fueron los endpoints
 C = *Collaborator* (apoya el desarrollo del aspecto).
 
 </div>
+
+<br>
 
 ---
 
@@ -2874,9 +2980,13 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el F
 </table>
 </div>
 
+<br>
+
 ![Imagen del trello para sprint2](pawtient-report/assets/images/sprint-2.png)
 
 [Ver enlace trello](https://trello.com/invite/b/6a04c5f0c2abdeec5c930425/ATTIc7eb47f5f43708a30c1456fa6cb7578e00C5BA81/sprint-2-pethealth)
+
+<br>
 
 ---
 
@@ -2908,6 +3018,8 @@ Durante el Sprint 2 se implementó el front-end de la solución Pawtient, incorp
 | PetHealt/Pawtient-Front-end-Web-app | main | e436aa7 | Add "Mi Perfil" route and logout functionality to sidebar | Integración de ruta Mi Perfil y logout en sidebar. | 13/05/2026 |
 | PetHealt/Pawtient-Front-end-Web-app | main | 1dd4dfc | refactor(home.vue): enhance dashboard layout and add profile editing functionality | Mejora del dashboard principal y edición de perfiles. | 13/04/2026 |
 
+<br>
+
 ---
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
@@ -2936,13 +3048,18 @@ A continuación, se presentan las capturas de las principales vistas desarrollad
 ![Vista de pestaña reportes](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-11.png)
 
 Asimismo, se elaboró un **video demostrativo** que muestra la navegación fluida del frontend:
+
 [Ver video demostrativo de Pawtient]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311469_upc_edu_pe/IQA2vengUzUuS4seoi1K_jSXAdn-WEneaPJZtWg47Zge2Hc])
+
+<br>
 
 ---
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 Durante el Sprint 2, el esfuerzo técnico se centró en el diseño, implementación y despliegue del Front-End funcional de Pawtient. Además, se integró la estructura inicial de endpoints organizados, permitiendo una arquitectura más modular y preparada para futuras integraciones y documentación mediante OpenAPI/Swagger.
+
+<br>
 
 ---
 
@@ -2951,7 +3068,7 @@ Durante el Sprint 2, el esfuerzo técnico se centró en el diseño, implementaci
 Durante el **Sprint 2** se realizó el despliegue exitoso del **Frontend** en la plataforma **Netlify**, utilizando el repositorio [PetHealt/Pawtient-Frontend-Web-App](https://github.com/PetHealt/Pawtient-Frontend-Web-App).  
 Se optó por Netlify debido a su facilidad para implementar **Continuous Deployment (CD)** desde GitHub. Esto asegura que cualquier cambio aprobado y subido a la rama `main` se publique automáticamente en el servidor de producción sin intervención manual adicional.
 
-### 🔹 Proceso seguido
+### Proceso seguido
 1. **Conexión de cuenta:** Se vinculó la cuenta de GitHub de la organización **PetHealt** con la plataforma Netlify.
 2. **Selección de repositorio:** Se seleccionó el proyecto `Pawtient-Frontend-Web-App` para la creación del nuevo sitio.
 3. **Configuración de Build:** Se definió la rama `main` como la rama de producción. Dado que es un sitio estático, no se requirieron comandos de compilación (Build commands) complejos.
@@ -2960,7 +3077,9 @@ Se optó por Netlify debido a su facilidad para implementar **Continuous Deploym
 
 **URL del despliegue:** [https://pawtient.netlify.app/login](https://pawtient.netlify.app/login)
 
-### 🔹 Evidencias
+<br>
+
+### Evidencias
 A continuación, se presentan las capturas de pantalla que documentan el estado "Published" en el panel de Netlify y la correcta visualización del sitio en el navegador:
 
 1. **Captura del Panel de Netlify:** Donde se vea el estado "Site is live" y la conexión con el repo de GitHub.
@@ -2970,6 +3089,8 @@ A continuación, se presentan las capturas de pantalla que documentan el estado 
 ![Configuración de despliegue en Netlify](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-3.png)
 ![Configuración de despliegue en Netlify](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-7.jpg)
 ![Configuración de despliegue en Netlify](pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-1.png)
+
+<br>
 
 ---
 
@@ -2984,6 +3105,127 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 ![Gráfico de Red (Network Graph) mostrando las ramas y merges](pawtient-report/assets/images/Team-Collaboration/network-frontend.png)
 ![Analíticas de Contribución (Contributors) del equipo](pawtient-report/assets/images/Team-Collaboration/contributors-2.png)
 
+<br>
+
+---
+
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+<br>
+
+---
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+<br>
+
+---
+
+#### 5.2.3.3. Sprint Backlog 3
+
+<br>
+
+---
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+<br>
+
+---
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+<br>
+
+---
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+<br>
+
+---
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+<br>
+
+---
+
+## 5.3. Validation Interviews
+
+### 5.3.1. Diseño de Entrevistas
+
+<br>
+
+---
+
+### 5.3.2. Registro de Entrevistas
+
+<br>
+
+---
+
+### 5.3.3. Evaluaciones según heurísticas
+
+<br>
+
+
+---
+
+## 5.4. Video About-the-Product
+
+<br>
+
+---
+
+## Conclusiones
+
+
+1. 
+
+2. 
+
+3. 
+
+4. 
+
+5. 
+
+6. 
+ 
+
+<br>
+
+---
+
+## Recomendaciones
+
+1. 
+
+2. 
+
+3. 
+
+4. 
+
+5. 
+
+6. 
+
+7. 
+
+
+<br>
+
+---
+
+## Video About-The-Team
+
+
+<br>
+
 ---
 
 ## Bibliografía
@@ -2996,10 +3238,11 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 6. Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide*. Scrum.org. https://scrumguides.org/scrum-guide.html
 7. W3C. (2023). *HTML5 Semantic Elements*. World Wide Web Consortium. https://www.w3.org/TR/html52/
 
+<br>
+
 ---
 
 ## Anexos
 - Landing page: desplegada en Netlify [https://pethealt.netlify.app/](https://pethealt.netlify.app/)
-- Frontend: desplegada en Netlify []()
-- video de exposición [Click Aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQDjBMv1FAbeT7vu70wgG-jjAUtpp41LDZw-REsa8JLOJ3U?e=mhXlkB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-- prototipo web [Click Aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCmFsBAO3FvTpMOpMAylR0gAUDFExNbahk7ihbfPEj4jSI?e=BnRltz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Video de exposición [Click Aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQDjBMv1FAbeT7vu70wgG-jjAUtpp41LDZw-REsa8JLOJ3U?e=mhXlkB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Prototipo web [Click Aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCmFsBAO3FvTpMOpMAylR0gAUDFExNbahk7ihbfPEj4jSI?e=BnRltz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
