@@ -2059,9 +2059,9 @@ Cada bounded context se estructura en capas (domain, application, infrastructure
 
 ### 4.7.1. Class Diagrams
 
-A continuación, se presentan los diagramas de clases UML para cada bounded context del sistema Pawtient. Estos diagramas describen las clases, sus atributos, métodos y relaciones, diferenciando además los componentes de frontend y backend.
+A continuación, se presentan los diagramas de clases UML para cada bounded context del sistema Pawtient. Estos diagramas describen las clases, sus atributos, métodos y relaciones, diferenciando los componentes de frontend y backend.
 
-Esta representación permite comprender la organización modular del sistema y la distribución de responsabilidades entre la interfaz de usuario y la lógica de negocio, asegurando coherencia con la arquitectura definida.
+Esta representación permite comprender la organización modular del sistema y la distribución de responsabilidades entre la interfaz de usuario y la lógica de negocio, asegurando coherencia con la arquitectura definida. El frontend está desarrollado en Vue.js con Pinia como manejador de estado, siguiendo una arquitectura en capas: domain, application, infrastructure y presentation. El backend está implementado en ASP .NET Core, organizando cada bounded context en entidades de dominio, comandos, servicios, repositorios y controladores REST.
 
 <br>
 
@@ -2069,31 +2069,31 @@ Esta representación permite comprender la organización modular del sistema y l
 
 <br>
 
-Este diagrama corresponde al Identity & Access Bounded Context, encargado de gestionar la autenticación y autorización de los usuarios dentro del sistema Pawtient. El agregado principal User administra la información esencial del usuario, incluyendo su identificador, correo electrónico, contraseña cifrada, rol y fecha de registro. Este contexto permite controlar el acceso al sistema mediante operaciones como registro, inicio de sesión y validación de credenciales. Además, el modelo considera diferentes roles (administrador, veterinario y dueño de mascota), los cuales determinan los permisos y funcionalidades disponibles dentro de la plataforma. En conjunto, este contexto garantiza la seguridad del sistema y el control adecuado de acceso a los recursos.
+Este diagrama corresponde al Identity & Access Bounded Context, encargado de gestionar la autenticación y autorización de los usuarios dentro del sistema Pawtient. La entidad principal User administra la información esencial del usuario, incluyendo su identificador, nombre, correo electrónico, contraseña, rol y plan de suscripción. El sistema contempla dos roles: administrador de clínica (`admin`) y veterinario independiente (`freelancer`), los cuales determinan las funcionalidades disponibles dentro de la plataforma. El flujo de registro incluye la selección de plan de suscripción como paso posterior al registro de cuenta.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC1](pawtient-report/assets/images/class-diagrams/frontend/front-diagram-1.png)
+![Frontend Diagram BC1](pawtient-report/assets/images/class-diagrams/frontend/bc1-iam-frontend.png)
 
 </div>
 <br>
 
-El módulo IAM permite a los usuarios registrarse, iniciar sesión y gestionar su sesión activa. Incluye vistas como LoginView, RegisterView y ProfileView, junto con un AuthStore que maneja el estado de autenticación y la comunicación con la API mediante Observables.
+El módulo IAM en frontend permite a los usuarios registrarse, iniciar sesión y seleccionar su plan de suscripción. Incluye las vistas `LoginView`, `RegisterView` y `ChoosePlanView`, junto con los componentes `LoginForm` y `RegisterForm`. El `authStore` centraliza el estado de autenticación, gestiona la sesión mediante `localStorage` y coordina la comunicación con el backend a través de `AuthApi` y `UserAssembler`.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC1](pawtient-report/assets/images/class-diagrams/backend/back-diagram-1.png)
+![Backend Diagram BC1](pawtient-report/assets/images/class-diagrams/backend/bc1-iam-backend.png)
 
 </div>
 <br>
 
-El módulo IAM gestiona la lógica de negocio relacionada con autenticación y control de acceso. Implementa comandos como registro e inicio de sesión, handlers para procesar dichas operaciones, repositorios para persistencia de usuarios y servicios de seguridad como generación de tokens JWT.
+El módulo IAM en backend gestiona la lógica de autenticación y control de acceso. Implementa comandos como `RegisterUserCommand` y `LoginUserCommand`, procesados por `AuthService`, que se encarga del hash de contraseñas y la generación de tokens JWT. El `UserRepository` gestiona la persistencia de usuarios mediante Entity Framework Core, y el `AuthController` expone los endpoints REST de registro, login, actualización de plan y eliminación de cuenta.
 
 <br>
 
@@ -2101,64 +2101,63 @@ El módulo IAM gestiona la lógica de negocio relacionada con autenticación y c
 
 <br>
 
-Este diagrama corresponde al contexto de gestión de citas, responsable de administrar la programación, modificación y cancelación de citas médicas para las mascotas. El agregado principal Appointment contiene información clave como la mascota asociada, el veterinario asignado, la fecha y el estado de la cita. Este contexto permite organizar la agenda de atención, asegurando un flujo ordenado de consultas dentro de la clínica. Además, el sistema contempla distintos estados de la cita (programada, cancelada, completada), lo que permite llevar un control preciso del ciclo de vida de cada atención.
-
-
-<br>
-<div align="center">
-
-**Frontend Components Diagrams**
-
-![Frontend Diagram BC2](pawtient-report/assets/images/class-diagrams/frontend/front-diagram-2.png)
-
-</div>
-<br>
-
-El módulo Appointments permite a los usuarios visualizar el calendario de citas, registrar nuevas citas y gestionar las existentes. Incluye componentes como AppointmentDashboard, AppointmentForm y AppointmentCard, junto con un AppointmentStore que gestiona el estado y sincroniza los datos con el backend.
-
-<br>
-<div align="center">
-
-**Backend Components Diagrams**
-
-![Backend Diagram BC2](pawtient-report/assets/images/class-diagrams/backend/back-diagram-2.png)
-
-</div>
-<br>
-
-El módulo Appointments gestiona la lógica de negocio relacionada con la programación de citas. Implementa comandos como creación y cancelación de citas, handlers para procesar estas acciones y repositorios para la persistencia de la información.
-
-<br>
-
-**2. Bounded Context: `Clinical Management`**
-
-<br>
-
-Este diagrama corresponde al contexto principal del sistema Pawtient, encargado de la gestión clínica de las mascotas. El agregado principal Pet representa al paciente veterinario, incluyendo información como nombre, especie, raza, fecha de nacimiento y su propietario. Este contexto incluye las entidades Consultation, que registra cada atención médica con diagnóstico y tratamiento, y MedicalRecord, que almacena el historial clínico completo de la mascota, incluyendo antecedentes, alergias y observaciones. En conjunto, este contexto permite centralizar toda la información médica del paciente, facilitando el seguimiento continuo de su estado de salud y la toma de decisiones clínicas.
+Este diagrama corresponde al contexto de gestión de citas, responsable de administrar la programación, modificación y cancelación de citas médicas para los pacientes. La entidad principal `Appointment` contiene información clave como el nombre de la mascota, el responsable, la fecha, la hora, el estado de la cita, el motivo de consulta y el monto asociado. El sistema contempla el estado `scheduled` como valor por defecto, permitiendo llevar un control preciso del ciclo de vida de cada atención y filtrar citas pendientes en tiempo real mediante propiedades computadas.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC3](pawtient-report/assets/images/class-diagrams/frontend/front-diagram-3.png)
+![Frontend Diagram BC2](pawtient-report/assets/images/class-diagrams/frontend/bc2-appointments-frontend.png)
 
 </div>
 <br>
 
-El módulo Clinical Management permite a los usuarios gestionar mascotas, consultas y registros médicos. Incluye vistas como PetDashboardView, ConsultationView y MedicalRecordView, junto con componentes especializados como formularios y tarjetas. El estado es gestionado por ClinicStore, que coordina la comunicación con la API y mantiene sincronizados los datos clínicos.
+El módulo Appointments en frontend permite visualizar, registrar, editar y eliminar citas. El `appointmentsStore` gestiona el estado reactivo de las citas, expone la propiedad computada `pendingAppointments` para filtrar citas con estado `scheduled`, y coordina la comunicación con el backend a través de `AppointmentsApi` y `AppointmentAssembler`. La vista principal `ScheduleView` centraliza toda la interacción del usuario con la agenda.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC3](pawtient-report/assets/images/class-diagrams/backend/back-diagram-3.png)
+![Backend Diagram BC2](pawtient-report/assets/images/class-diagrams/backend/bc2-appointments-backend.png)
 
 </div>
 <br>
 
-El módulo Clinical Management gestiona la lógica de negocio relacionada con pacientes, consultas y registros médicos. Implementa comandos como creación de consultas y actualización de historiales médicos, handlers para su procesamiento, servicios de consulta para recuperación de datos y repositorios para la persistencia de la información clínica.
+El módulo Appointments en backend gestiona la lógica de negocio relacionada con la programación de citas. Implementa los comandos `CreateAppointmentCommand` y `UpdateAppointmentCommand`, procesados por `AppointmentService`, que incluye la validación de disponibilidad de horarios. El `AppointmentRepository` gestiona la persistencia y el `AppointmentsController` expone los endpoints REST de consulta, creación, actualización y eliminación de citas.
+
+<br>
+
+**3. Bounded Context: `Clinical Management`**
+
+<br>
+
+Este diagrama corresponde al contexto principal de gestión clínica del sistema Pawtient. La entidad `Pet` representa al paciente veterinario, incluyendo nombre, tipo de especie, raza, edad y referencia al responsable. La entidad `Owner` almacena los datos de contacto del responsable de la mascota (nombre, DNI, teléfono) como dato administrativo sin acceso al sistema. Este contexto permite centralizar el registro y gestión de los pacientes de la clínica, facilitando el acceso rápido a su información durante cualquier consulta.
+
+<br>
+<div align="center">
+
+**Frontend Components Diagrams**
+
+![Frontend Diagram BC3](pawtient-report/assets/images/class-diagrams/frontend/bc3-clinic-frontend.png)
+
+</div>
+<br>
+
+El módulo Clinical Management en frontend permite registrar, editar y eliminar mascotas. El `clinicStore` gestiona el estado reactivo de los pacientes, filtrando siempre por `clinicId` del usuario activo, y coordina la comunicación con el backend a través de `ClinicApi` y `PetAssembler`. La vista `PatientsView` centraliza el listado de pacientes e incorpora el componente `PetCreateDialog`, que contiene el formulario `PetForm` para el registro detallado de mascotas.
+
+<br>
+<div align="center">
+
+**Backend Components Diagrams**
+
+![Backend Diagram BC3](pawtient-report/assets/images/class-diagrams/backend/bc3-clinic-backend.png)
+
+</div>
+<br>
+
+El módulo Clinical Management en backend gestiona la lógica de negocio relacionada con pacientes y sus responsables. Implementa los comandos `CreatePetCommand` y `UpdatePetCommand`, procesados por `PetService`. El `PetRepository` gestiona la persistencia de mascotas mediante Entity Framework Core, y el `PetsController` expone los endpoints REST de consulta, creación, actualización parcial (PATCH) y eliminación de pacientes.
 
 <br>
 
@@ -2166,31 +2165,31 @@ El módulo Clinical Management gestiona la lógica de negocio relacionada con pa
 
 <br>
 
-Este diagrama corresponde al contexto de gestión de inventario, encargado de administrar los productos, proveedores y movimientos de stock dentro de la clínica veterinaria. El agregado principal Product contiene información como nombre, descripción, precio y stock disponible. Además, el modelo incluye la entidad Supplier, que representa a los proveedores de insumos, y StockMovement, que registra las entradas y salidas de productos. Este contexto permite mantener un control preciso del inventario, evitando desabastecimientos y facilitando la gestión de recursos médicos.
+Este diagrama corresponde al contexto de gestión de inventario, encargado de administrar los productos e insumos médicos y los proveedores de la clínica. La entidad `Product` contiene nombre, stock actual, stock mínimo y precio, e incluye el método de dominio `isLowStock()` para detectar alertas de reabastecimiento. La entidad `Supplier` registra los datos de contacto y categoría de cada proveedor. Ambas entidades se filtran por `clinicId` para garantizar el aislamiento de datos entre clínicas.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC4](pawtient-report/assets/images/class-diagrams/frontend/front-diagram-4.png)
+![Frontend Diagram BC4](pawtient-report/assets/images/class-diagrams/frontend/bc4-store-frontend.png)
 
 </div>
 <br>
 
-El módulo Store permite a los usuarios visualizar productos, registrar nuevos insumos y gestionar movimientos de inventario. Incluye vistas como InventoryDashboardView, ProductFormView y StockMovementView, junto con componentes reutilizables y un InventoryStore que maneja el estado de los productos y movimientos.
+El módulo Store en frontend gestiona dos recursos independientes: productos e inventario, y proveedores. El `storeStore` centraliza el estado de ambos recursos y coordina la comunicación con el backend a través de `StoreApi`, `ProductAssembler` y `SupplierAssembler`. Las vistas `InventoryView` y `SuppliersView` permiten visualizar, crear, editar y eliminar productos y proveedores respectivamente, con soporte para alertas visuales de stock bajo basadas en el método `isLowStock()`.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC4](pawtient-report/assets/images/class-diagrams/backend/back-diagram-4.png)
+![Backend Diagram BC4](pawtient-report/assets/images/class-diagrams/backend/bc4-store-backend.png)
 
 </div>
 <br>
 
-El módulo Store gestiona la lógica de negocio relacionada con productos y control de inventario. Implementa comandos como creación de productos y registro de movimientos, handlers correspondientes y repositorios para la persistencia de datos.
+El módulo Store en backend gestiona la lógica de negocio de inventario y proveedores en servicios independientes. `ProductService` implementa la detección de stock bajo mediante `GetLowStockAlerts`, mientras que `SupplierService` gestiona el ciclo de vida completo de proveedores. Cada servicio cuenta con su propio repositorio (`ProductRepository`, `SupplierRepository`) y controlador REST (`ProductsController`, `SuppliersController`), manteniendo una separación clara de responsabilidades.
 
 <br>
 
@@ -2198,31 +2197,31 @@ El módulo Store gestiona la lógica de negocio relacionada con productos y cont
 
 <br>
 
-Este diagrama corresponde al contexto de reportes y gestión financiera, encargado de generar informes y controlar la facturación dentro del sistema. El agregado principal Report permite generar distintos tipos de reportes sobre el funcionamiento de la clínica, mientras que la entidad Billing gestiona la información financiera, incluyendo montos, fechas y transacciones. Este contexto permite obtener una visión global del rendimiento del negocio, facilitando la toma de decisiones estratégicas y el control económico.
+Este diagrama corresponde al contexto de reportes y facturación, encargado de consolidar la información financiera y operativa de la clínica. La entidad `ReportSummary` agrega los indicadores clave del negocio: ingresos totales, gastos de inventario, rentabilidad neta, alertas de stock bajo y número de citas atendidas. La entidad `InvoiceEntity` registra las boletas de pago asociadas a cada atención, con soporte para generación y descarga de PDF mediante la librería jsPDF.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC5](pawtient-report/assets/images/class-diagrams/frontend/front-diagram-5.png)
+![Frontend Diagram BC5](pawtient-report/assets/images/class-diagrams/frontend/bc5-reports-frontend.png)
 
 </div>
 <br>
 
-El módulo Reports permite a los usuarios generar reportes y visualizar información financiera. Incluye vistas como ReportView y BillingView, junto con un ReportStore que gestiona los datos y coordina la comunicación con el backend.
+El módulo Reports en frontend consolida datos de múltiples bounded contexts para generar el reporte general de la clínica. El `reportsStore` combina información de citas e inventario para calcular el `ReportSummary`, gestiona el ciclo de vida de las boletas de pago y expone la función `downloadInvoicePdf` para la descarga de comprobantes en formato PDF. La vista `ReportsView` centraliza la visualización de KPIs y el historial de boletas.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC5](pawtient-report/assets/images/class-diagrams/backend/back-diagram-5.png)
+![Backend Diagram BC5](pawtient-report/assets/images/class-diagrams/backend/bc5-reports-backend.png)
 
 </div>
 <br>
 
-El módulo Reports gestiona la lógica de negocio relacionada con la generación de reportes y facturación. Implementa comandos para la generación de reportes, handlers para su procesamiento y repositorios para el almacenamiento de la información.
+El módulo Reports en backend gestiona la generación de reportes financieros y el ciclo de vida de las boletas de pago. El `ReportService` consolida datos de citas e inventario para generar el `ReportSummary`, y gestiona la creación y eliminación de facturas a través del `InvoiceRepository`. El `ReportsController` expone endpoints REST para consultar el resumen general, listar boletas, registrar nuevos pagos y eliminar registros.
 
 <br>
 
@@ -2230,31 +2229,44 @@ El módulo Reports gestiona la lógica de negocio relacionada con la generación
 
 <br>
 
-Este diagrama corresponde al contexto de gestión de perfil de usuario, encargado de administrar la información personal de los usuarios dentro del sistema. El agregado principal Profile contiene datos como nombre, correo electrónico y la relación con el usuario del sistema. Este contexto permite a los usuarios actualizar su información personal y mantener sus datos actualizados dentro de la plataforma.
+Este diagrama corresponde al contexto de gestión de perfil de usuario, encargado de administrar la información personal de los profesionales registrados en el sistema. La entidad `Profile` almacena nombre, apellido, correo electrónico y dirección, derivada de campos separados (calle, número, ciudad) mediante lógica de dominio. Este contexto comparte el endpoint de usuarios con el bounded context IAM, dado que el perfil se construye sobre los datos del usuario autenticado.
 
 <br>
 <div align="center">
 
 **Frontend Components Diagrams**
 
-![Frontend Diagram BC6](pawtient-report/assets/images/class-diagrams/frontend/front-diagram-6.png)
+![Frontend Diagram BC6](pawtient-report/assets/images/class-diagrams/frontend/bc6-profiles-frontend.png)
 
 </div>
 <br>
 
-El módulo Profile permite a los usuarios visualizar y actualizar su información personal. Incluye la vista ProfileView y un ProfileStore que gestiona el estado del perfil y la comunicación con la API.
+El módulo Profile en frontend permite visualizar y actualizar la información personal del profesional activo. El `profilesStore` carga el perfil por correo electrónico y coordina la comunicación con el backend a través de `ProfilesApi` y `ProfileAssembler`. La vista `ProfileView` integra los componentes `ProfileDetails` para la visualización y `ProfileEditForm` para la edición de datos.
 
 <br>
 <div align="center">
 
 **Backend Components Diagrams**
 
-![Backend Diagram BC6](pawtient-report/assets/images/class-diagrams/backend/back-diagram-6.png)
+![Backend Diagram BC6](pawtient-report/assets/images/class-diagrams/backend/bc6-profiles-backend.png)
 
 </div>
 <br>
 
-El módulo Profile gestiona la lógica de negocio relacionada con la actualización de perfiles de usuario. Implementa comandos de actualización, handlers y repositorios para la persistencia de datos.
+El módulo Profile en backend gestiona la lógica de actualización de perfiles de usuario. El `ProfileService` expone operaciones de consulta por correo electrónico y por identificador de usuario, y delega la persistencia en el `ProfileRepository`. El `ProfilesController` expone endpoints REST para consultar y actualizar el perfil del profesional autenticado mediante operaciones PATCH.
+
+<br>
+
+<div align="center">
+
+**Shared Frontend Diagram**
+
+![Shared Frontend Diagram](pawtient-report/assets/images/class-diagrams/frontend/shared.png)
+
+</div>
+<br>
+
+El módulo compartido (`shared`) provee la infraestructura base de comunicación HTTP para todos los bounded contexts del frontend. `BaseApi` encapsula la instancia de Axios configurada con la URL base del entorno, mientras que `BaseEndpoint` estandariza las operaciones CRUD (`getAll`, `getById`, `create`, `update`, `delete`) que heredan todas las clases de API del sistema. Las vistas compartidas incluyen `Layout` con el sidebar de navegación, `HomeView` como pantalla de inicio post-login, `LanguageSwitcher` para soporte multiidioma y `PageNotFound` para el manejo de rutas inexistentes.
 
 <br>
 
@@ -2271,19 +2283,17 @@ El modelo incluye tablas con atributos definidos bajo una nomenclatura uniforme,
 
 ### 4.8.1. Database Diagrams
 
->*El diagrama de base de datos de Pawtient refleja una arquitectura orientada al dominio, organiza los bounded contexts, cada uno responsable de un conjunto cohesivo de entidades. Para su elaboración se utilizó MySQL Workbench, herramienta que permitió diseñar, visualizar y estructurar las tablas, columnas y relaciones del sistema de manera clara.
-Aunque el modelo es único a nivel físico, en el diagrama las tablas se agrupan visualmente según el bounded context al que pertenecen, lo que facilita la comprensión de la estructura del sistema sin generar duplicación de datos.*
+>*El diagrama de base de datos de Pawtient refleja una arquitectura orientada al dominio y organiza las entidades según los bounded contexts del sistema. Para su elaboración se utilizó MySQL Workbench, herramienta que permitió diseñar, visualizar y estructurar las tablas, columnas y relaciones de forma clara. Aunque el modelo es único a nivel físico, las tablas se agrupan visualmente según el bounded context al que pertenecen, lo que facilita la comprensión de la estructura sin generar duplicación de datos.*
 
 <br>
 
 <div align="center">
-  
 
 **`Database Diagram`**
 
 <br>
 
-![Database Diagram](pawtient-report/assets/images/database-diagram/database-diagram.png)
+![Database Diagram](pawtient-report/assets/images/database-diagram/database.png)
 
 </div>
 
@@ -2293,13 +2303,19 @@ Aunque el modelo es único a nivel físico, en el diagrama las tablas se agrupan
 
 <br>
 
-La base de datos de Pawtient está diseñada en MySQL bajo el esquema de normalización en Tercera Forma Normal (3FN) y gestiona dos segmentos de usuario: administradores de clínica veterinaria y veterinarios.
-El módulo de identidad y acceso centraliza la autenticación en la tabla Users, desde la cual se extienden los perfiles Clinics (administradores) y Veterinarians (con especialización referenciada mediante catálogo). La relación entre veterinarios y clínicas es de muchos a muchos, resuelta a través de Clinic_vets.
-El módulo de pacientes registra las mascotas asociadas a cada clínica. La especie y la raza están desacopladas en tablas Species y Breeds, eliminando la dependencia transitiva que existía al almacenar ambos datos como texto libre en la tabla de mascotas.
-La historia clínica se articula alrededor de Medical_records, que actúa como raíz permanente del expediente de cada paciente. A partir de ella se ramifican las Consultations, que a su vez concentran los signos vitales, diagnósticos (referenciados a un catálogo de códigos ICD_codes), prescripciones, exámenes de laboratorio e imagen, y cirugías. El módulo incluye además registros independientes de vacunación (Vaccines) y de psicología animal (Psych_records), ambos vinculados a la historia clínica.
-El módulo de citas combina Schedules (bloques de disponibilidad por veterinario y clínica), Appointments (la cita concreta con tipo, estado y razón) y Reminders (notificaciones multicanal asociadas a cada cita).
-Finalmente, el módulo de inventario gestiona productos clasificados por categoría y proveedor, registra los movimientos de entrada, salida y ajuste mediante Inventory_movements —vinculados opcionalmente a una consulta para trazabilidad de consumo clínico— y genera alertas automáticas de stock mínimo a través de Stock_alerts. Las prescripciones enlazan directamente con los productos del inventario a través de Prescription_items, cerrando el ciclo entre la atención clínica y el control de insumos.
-En total el esquema comprende 28 tablas, organizadas en cinco módulos cohesivos: IAM, Mascotas, Historia Clínica, Citas e Inventario.
+La base de datos de Pawtient está diseñada en MySQL bajo el esquema de normalización en Tercera Forma Normal (3FN) y gestiona dos segmentos de usuario: administradores de clínica veterinaria y veterinarios independientes. En total el esquema comprende **31 tablas** organizadas en **seis módulos cohesivos**: IAM, Mascotas, Historia Clínica, Citas y Agenda, Inventario y Facturación.
+
+El **módulo IAM** (5 tablas) centraliza la autenticación en `Users`, desde la cual se extienden los perfiles `Clinics` (para administradores) y `Veterinarians` (con especialización referenciada mediante el catálogo `Specializations`). La relación entre veterinarios y clínicas es de muchos a muchos, resuelta a través de `Clinic_vets`, lo que permite que un veterinario trabaje en múltiples clínicas sin duplicar su registro.
+
+El **módulo de Mascotas** (3 tablas) registra los pacientes asociados a cada clínica mediante `Pets`. La especie y la raza están desacopladas en tablas independientes `Species` y `Breeds`, eliminando la dependencia transitiva que existiría al almacenar ambos valores como texto libre en la tabla de mascotas. La raza admite valor nulo para registrar animales mestizos.
+
+El **módulo de Historia Clínica** es el más extenso del sistema con 13 tablas. Se articula alrededor de `Medical_records`, que actúa como raíz permanente del expediente de cada paciente en relación 1:1 con `Pets`. A partir de ella se ramifican las `Consultations`, que concentran los signos vitales (`Vital_signs`), diagnósticos referenciados al catálogo `ICD_codes` (`Diagnoses`), prescripciones con sus ítems de medicación (`Prescriptions`, `Prescription_items`), tipos y resultados de exámenes complementarios (`Exam_types`, `Exams`) y cirugías derivadas de una consulta en relación 1:1 (`Surgeries`). El módulo incluye además registros independientes de vacunación (`Vaccines`) y de psicología animal (`Psych_records`), ambos vinculados directamente a la historia clínica del paciente.
+
+El **módulo de Citas y Agenda** (4 tablas) combina `Schedules` para definir los bloques de disponibilidad horaria por veterinario y clínica, `Appointments` para registrar la cita concreta con tipo, estado y motivo, y `Reminders` para las notificaciones multicanal asociadas a cada cita. La tabla `Vaccine_reminders` vincula los recordatorios directamente a las vacunas registradas, permitiendo alertas automáticas cuando se aproxima la fecha de la próxima dosis.
+
+El **módulo de Inventario** (5 tablas) gestiona productos clasificados por categoría (`Product_categories`) y proveedor (`Suppliers`), ambos con alcance por clínica mediante `CLI_id`. Los movimientos de entrada, salida y ajuste se registran en `Inventory_movements`, vinculados opcionalmente a una consulta para trazabilidad de consumo clínico. Las alertas automáticas de stock mínimo se gestionan mediante `Stock_alerts`, también scoped a nivel de clínica. Las prescripciones enlazan con los productos del inventario a través de `Prescription_items`, cerrando el ciclo entre la atención clínica y el control de insumos.
+
+El **módulo de Facturación** (1 tabla) registra las boletas de pago mediante `Invoices`, asociadas a la clínica y opcionalmente a una cita o consulta. Incluye campos desnormalizados de nombre de mascota y responsable para facilitar la generación de reportes sin requerir joins adicionales, soporte requerido por el módulo de reportes del sistema.
 
 <br>
 
