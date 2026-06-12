@@ -747,22 +747,35 @@ y evaluar sus fortalezas y debilidades. Esto nos permite definir la propuesta de
 #### Estrategias:
 
 - Posicionar a PetHealth como una solución moderna, accesible e intuitiva, diseñada específicamente para las clínicas veterinarias pequeñas y medianas en Perú, a diferencia de los sistemas ERP corporativos complejos y costosos (como Qvet) o plataformas con interfaces anticuadas (como SmartVet).
+
 - Enfocarse en la funcionalidad única del modelo dual (B2B2C) que conecta al veterinario directamente con el dueño de la mascota a través de una "Libreta Sanitaria Digital", transformando el software de una simple herramienta administrativa a un canal de fidelización y marketing para la clínica.
+
 - Ofrecer un modelo de suscripción SaaS escalonado con un plan básico de muy bajo costo ($5 USD), lo cual elimina el riesgo financiero para los emprendedores que buscan dejar el papel, haciéndolo mucho más atractivo que los competidores premium.
+
 - Posicionar a PetHealth como una alternativa "Lite" y veloz frente a la complejidad de otras aplicaciones (como Provet Cloud). Mientras que otros requieren una curva de aprendizaje alta debido a sus múltiples módulos hospitalarios y de IA, PetHealth elimina la fricción operativa ofreciendo una interfaz web 100% responsive, optimizada para procesos de consulta rápida en clínicas medianas, garantizando que el personal médico no pierda tiempo en menús complejos.
+
 - Capturar el segmento de veterinarios independientes(freelancers) mediante una propuesta de "oficina móvil", ofreciendo una herramienta de gestión personal que no requiere infraestructura física ni costos de implementación, superando la rigidez de los softwares tradicionales que solo están diseñados para locales fijos.
+
 - Utilizar el diferencial de precios frente a SmartVet (\$19 USD) y Qvet (\$55+ USD) para atraer al sector informal de veterinaria, posicionando a PetHealth como la única plataforma que permite la digitalización profesional por el costo de una sola consulta básica al mes.
+
 - Diferenciarse de Provet Cloud ofreciendo una política de exportación de datos simplificada y sin "secuestro" de información, asegurando que el veterinario independiente siempre sea dueño de su cartera de clientes sin enfrentar procesos técnicos complejos de migración.
 
 #### Tácticas:
 
 - Desarrollar un proceso de onboarding (registro inicial) autogestionable de menos de 10 minutos y tutoriales interactivos dentro de la plataforma para facilitar la rápida adopción por parte del personal veterinario con baja familiaridad tecnológica.
+
 - Implementar campañas de educación y marketing en redes sociales (Instagram, TikTok, Facebook) dirigidas a los dueños de mascotas ("Pet Parents") para que sean ellos quienes exijan historiales clínicos transparentes y recomienden PetHealth a sus veterinarios.
+
 - Establecer alianzas estratégicas con proveedores de insumos médicos, marcas de alimentos para mascotas y colegios veterinarios para llegar a un gran número de clínicas de manera directa y generar confianza institucional.
-- Crear una calculadora interactiva (ROI) dentro de la Landing Page que le muestre a los dueños de las clínicas el ahorro de tiempo, la reducción de inasistencias (gracias a los recordatorios) y el aumento de ganancias que obtendrán al usar PetHealth versus sus métodos manuales actuales
+
+- Crear una calculadora interactiva (ROI) dentro de la Landing Page que le muestre a los dueños de las clínicas el ahorro de tiempo, la reducción de inasistencias (gracias a los recordatorios) y el aumento de ganancias que obtendrán al usar PetHealth versus sus métodos manuales actuales.
+
 - Diseñar un módulo de agenda con geolocalización básica para que el veterinario freelancer pueda organizar sus citas diarias según su ruta de desplazamiento, diferenciándonos de la competencia que se enfoca únicamente en la gestión de salas de espera físicas. 
+
 - Lanzar una promoción dirigida a veterinarios independientes donde el primer mes del plan básico cuesta solo \$1 USD, resaltando que el precio regular (\$5 USD) sigue siendo 4 veces más económico que SmartVet (\$19 USD).
+
 - Implementar en la Landing Page una herramienta donde el usuario selecciona su software actual (Qvet, SmartVet o Provet) y PetHealth le calcula automáticamente cuánto dinero ahorraría al año migrando con nosotros, enfatizando la eliminación de los costos de instalación (Setup Fees) de la competencia.
+
 - Crear un kit de marketing digital gratuito para los independientes que se suscriban al plan de \$5 USD, que incluya plantillas de Instagram y tarjetas personales con el código QR de su Libreta Sanitaria Digital, posicionándonos como una inversión de marketing más que un gasto de software.
 
 <br>
@@ -773,13 +786,15 @@ y evaluar sus fortalezas y debilidades. Esto nos permite definir la propuesta de
 
 Esta sección expone la investigación basada en entrevistas realizadas a médicos veterinarios (incluyendo administradores de clínicas) y dueños de mascotas, segmentos clave del proyecto. A través de sus testimonios se buscó identificar las principales dificultades en la gestión clínica, administrativa y en el seguimiento de la salud animal, para explorar cómo una solución digital integral podría responder de manera efectiva a sus necesidades
 
+<br>
+
 ### 2.2.1. Diseño de entrevistas
 
 Las entrevistas fueron diseñadas aplicando buenas prácticas de investigación cualitativa, estructurando las preguntas de lo general a lo específico. El objetivo principal es recolectar información demográfica, psicográfica, conductual y tecnológica de los entrevistados. Estos datos son fundamentales para construir posteriormente nuestros arquetipos (User Personas), identificando su biografía, dispositivos de preferencia, influencias, metas y puntos de dolor respecto a la gestión de salud veterinaria.
 
 <br>
 
-## Segmento 1: Médicos Veterinarios y Administradores de Clínicas
+## Segmento 1: Dueños y Administradores de Clínicas Veterinarias
 
 **A. Información Demográfica y Antecedentes**
 
@@ -795,11 +810,11 @@ Las entrevistas fueron diseñadas aplicando buenas prácticas de investigación 
 
 - Pensando en la gestión diaria (citas, historias clínicas, inventario), ¿cuál es la tarea que considera más tediosa, desordenada o propensa a errores?
 
-- ¿Cómo le afecta a nivel personal (estrés, falta de tiempo libre) el no tener la información de sus pacientes o el stock de insumos centralizados?
+- ¿Cómo le afecta a nivel personal (estrés, falta de tiempo libre) el no tener la información de sus pacientes o el stock de insumos centralizado?
 
 **C. Tecnología y Canales de Interacción**
 
-- ¿Qué dispositivos utiliza con mayor frecuencia en su día a día (Smartphone, Laptop) tanto para su vida personal como para la clínica?
+- ¿Qué dispositivos utiliza con mayor frecuencia en su día a día (smartphone, laptop) tanto para su vida personal como para la clínica?
 
 - ¿Qué tan hábil se considera aprendiendo a usar nuevos programas y cuáles son sus redes sociales favoritas para informarse o interactuar con colegas?
 
@@ -807,39 +822,39 @@ Las entrevistas fueron diseñadas aplicando buenas prácticas de investigación 
 
 **D. Comportamiento frente a la solución**
 
-Si existiera una herramienta integral que le permitiera gestionar la clínica y fidelizar a sus clientes, ¿qué funciones serían indispensables para que usted decida implementarla?
+- Si existiera una herramienta integral que le permitiera gestionar la clínica de forma centralizada, ¿qué funciones serían indispensables para que usted decida implementarla?
 
 <br>
 
-## Segmento 2: Dueños de Mascotas (Pet Parents)**
+## Segmento 2: Veterinarios Independientes
 
 **A. Información Demográfica y Antecedentes**
 
-- ¿Podría indicarnos su edad, ocupación actual, en qué distrito reside y con quiénes vive actualmente?
+- ¿Podría indicarnos su edad, en qué distrito reside y cuál es su estado civil o composición familiar actual?
 
-- Hábleme de su mascota: ¿Qué especie es, cuántos años tiene y cómo llegó a su vida?
+- ¿Cuántos años lleva ejerciendo como veterinario independiente y en qué tipo de consultas se especializa principalmente?
 
-- ¿Cómo describiría su personalidad como dueño de mascota? (Ej. sobreprotector, relajado, muy organizado con sus cosas).
+- ¿Cómo describiría su personalidad en su práctica diaria? (Ej. metódico, ágil, muy orientado al paciente, organizado).
 
 **B. Objetivos y Frustraciones**
 
-- ¿Cuál es su objetivo principal respecto a la salud de su mascota y qué es lo que más le genera estrés cuando tiene que llevarla al veterinario?
+- ¿Cuáles son sus objetivos profesionales principales para este año y qué es lo que más le impide alcanzarlos actualmente?
 
-- ¿Cómo se organiza para recordar sus vacunas, citas o encontrar su historial médico si tiene que ir a una clínica nueva?
+- En su rutina de consultas, ¿cuál es la tarea administrativa que le resulta más tediosa o propensa a errores (registro de historiales, seguimiento de tratamientos, recordatorio de citas)?
 
-- ¿Alguna vez ha olvidado una indicación médica importante o ha perdido una receta física? ¿Cómo resolvió esa situación?
+- ¿Cómo le afecta a nivel personal no contar con un sistema centralizado para acceder a la información de sus pacientes desde cualquier lugar?
 
 **C. Tecnología y Canales de Interacción**
 
-- ¿Qué dispositivos tecnológicos utiliza principalmente en su rutina y cuáles son las aplicaciones o redes sociales donde pasa más tiempo?
+- ¿Qué dispositivos utiliza con mayor frecuencia en su día a día (smartphone, laptop, tablet) tanto en consulta como fuera de ella?
 
-- Cuando compra productos para su mascota (comida, accesorios), ¿qué marcas suele preferir y por qué confía en ellas?
+- ¿Qué tan cómodo se siente adoptando nuevas herramientas digitales y qué redes sociales utiliza para mantenerse al día con el rubro?
 
-- ¿Sigue a algún influencer de mascotas, veterinario en redes sociales o blog que influya en la manera en que cuida a su animal?
+- ¿Hay alguna marca, aplicación o referente del sector veterinario o tecnológico que considere una influencia en su forma de trabajar?
 
 **D. Comportamiento frente a la solución**
 
-- Si existiera una plataforma web donde pudiera ver todo el historial de su mascota, recibir recordatorios y agendar citas desde su celular, ¿qué características harían que la use constantemente?
+- Si existiera una herramienta digital que le permitiera gestionar pacientes, historiales y citas desde su celular, ¿qué características harían que la use de forma constante en su práctica diaria?
 
 <br>
 
@@ -849,7 +864,7 @@ Si existiera una herramienta integral que le permitiera gestionar la clínica y 
 
 <div align="center">
   
-**Segmento objetivo 1: `Personal de clínico de centros veterinarios`**
+**Segmento objetivo 1: `Dueños y Administradores de Clínicas Veterinarias`**
 
 <br>
 
@@ -860,13 +875,13 @@ Si existiera una herramienta integral que le permitiera gestionar la clínica y 
 
 <br>
 
-| Campo | Detalle                                                                                                                                                                                                                                                                                                                                                       |
+| Campo | Detalle                  |
 |:------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombres y apellidos** | Valeria Nomberto                                                                                                                                                                                                                                                                                                                                              |
-| **Edad** | 23                                                                                                                                                                                                                                                                                                                                                            |
-| **Ubicación** | Lince                                                                                                                                                                                                                                                                                                                                                         |
-| **Fecha de entrevista** | 21-04-2026                                                                                                                                                                                                                                                                                                                                                    |
-| **Duración** | 05:59 min                                                                                                                                                                                                                                                                                                                                                     |
+| **Nombres y apellidos** | Valeria Nomberto |
+| **Edad** | 23 |
+| **Ubicación** | Lince |
+| **Fecha de entrevista** | 21-04-2026 |
+| **Duración** | 05:59 min   |
 | **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQAz3Em-fhe6R7-5goCWq0-YAWzVewgdUXIBFNEKZiFuhOE?e=kimAI5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 **Resumen:**
@@ -929,7 +944,7 @@ Luciana es una veterinaria y administradora de 28 años que reside en Surco y cu
 ---
 <div align="center">
   
-**Segmento objetivo 2: `Dueños de mascotas`**
+**Segmento objetivo 2: `Dueños de mascotas (ACTUALIZAR Veterinarios Independientes)`**
 
 <br>
 
@@ -1032,7 +1047,7 @@ Tras analizar las entrevistas realizadas a los profesionales del sector veterina
 * **Necesidades y Soluciones Esperadas:** El 100% de los entrevistados expresa la necesidad urgente de una transformación digital. Buscan una herramienta tecnológica integral, con accesibilidad móvil (mencionada explícitamente), que les permita centralizar tres pilares fundamentales: historias clínicas, agendamiento de citas y control de inventarios en tiempo real.
 
 
-**Segmento objetivo 2: `Dueños de mascotas`**
+**Segmento objetivo 2: `Dueños de mascotas (ACTUALIZAR Veterinarios Independientes)`**
 
 El análisis de las entrevistas a los dueños de mascotas revela patrones de comportamiento muy marcados respecto a la responsabilidad y la gestión del tiempo, delineando el siguiente perfil para el arquetipo:
 
@@ -1058,7 +1073,7 @@ El análisis de las entrevistas a los dueños de mascotas revela patrones de com
 
 Los siguientes User Personas se elaboraron a partir de las entrevistas realizadas a dueños y administradores de clínicas veterinarias, así como a veterinarios independientes. Cada uno representa características, comportamientos y necesidades clave que permiten orientar el diseño y la propuesta de valor de la plataforma Pawtient.
 
-**User Persona 1:** Dueños y administradores de clínicas veterinarias
+## User Persona 1: Dueños y administradores de clínicas veterinarias
 
 Camila Ramírez de 32 años es dueña y administradora de una clínica veterinaria en Santiago de Surco. En su día a día debe coordinar citas, controlar inventarios y supervisar la información clínica de sus pacientes, por lo que busca soluciones digitales que le permitan mantener una gestión más organizada, rápida y eficiente.
 
@@ -1066,7 +1081,7 @@ Camila Ramírez de 32 años es dueña y administradora de una clínica veterinar
 
 <br>
 
-**User Persona 2:** Veterinarios independientes
+## User Persona 2: Veterinarios independientes
 
 Diego Torres es un médico veterinario independiente que atiende consultas y realiza seguimiento de pacientes en distintos puntos de Santiago de Surco. Su principal desafío es mantener organizada la información clínica y gestionar sus citas de manera eficiente, por lo que busca herramientas digitales prácticas que le permitan optimizar su trabajo diario y enfocarse más en la atención de sus pacientes.
 
@@ -1076,37 +1091,41 @@ Diego Torres es un médico veterinario independiente que atiende consultas y rea
 
 ### 2.3.2. User Task Matrix
 
-##### User Task Matrix - Dueños y administradores de clínicas veterinarias
+<br>
 
-| **Tareas / Tasks**                   | **Frecuencia** | **Importancia** |
-|--------------------------------------|----------------|-----------------|
-| Gestionar historiales clínicos         | Alta           | Muy alta        |
-| Organizar citas veterinarias   | Alta           | Muy alta        |
-| Controlar inventario de insumos                     | Alta           | Alta            |
-| Supervisar procesos operativos     | Alta           | Muy alta        |
-| Consultar información de pacientes     | Alta           | Muy alta        |
-| Coordinar atención del personal         | Media          | Alta            |
-| Revisar reportes y registros       | Media          | Alta            |
-| Gestionar información administrativa | Alta           | Muy alta        |
-| Dar seguimiento a tratamientos  | Media          | Alta            |
+## User Task Matrix - Dueños y administradores de clínicas veterinarias
 
 Los dueños y administradores de clínicas veterinarias realizan tareas enfocadas en la organización operativa, control de información clínica y supervisión de procesos internos. Esto evidencia la necesidad de una plataforma que centralice datos y optimice la gestión diaria del centro veterinario.
 
-##### User Task Matrix - Veterinarios independientes
+| **Tareas / Tasks**                   | **Frecuencia** | **Importancia** |
+|--------------------------------------|----------------|-----------------|
+| Gestionar historiales clínicos       | Alta           | Muy alta        |
+| Organizar citas veterinarias         | Alta           | Muy alta        |
+| Controlar inventario de insumos      | Alta           | Alta            |
+| Supervisar procesos operativos       | Alta           | Muy alta        |
+| Consultar información de pacientes   | Alta           | Muy alta        |
+| Coordinar atención del personal      | Media          | Alta            |
+| Revisar reportes y registros         | Media          | Alta            |
+| Gestionar información administrativa | Alta           | Muy alta        |
+| Dar seguimiento a tratamientos       | Media          | Alta            |
+
+<br>
+
+## User Task Matrix - Veterinarios independientes
+
+Los veterinarios independientes desarrollan tareas relacionadas con la atención clínica, el seguimiento de pacientes y la gestión de información médica en distintos entornos de trabajo. Esto refleja la necesidad de herramientas digitales accesibles que faciliten la organización y agilicen sus actividades diarias.
 
 | **Tareas / Tasks**                          | **Frecuencia** | **Importancia** |
 |---------------------------------------------|----------------|-----------------|
-| Registrar consultas veterinarias         | Alta           | Muy alta        |
-| Consultar historiales clínicos           | Alta           | Muy alta        |
-| Gestionar citas y tratamientos | Alta           | Alta            |
-| Realizar seguimiento de pacientes              | Media          | Alta            |
-| Acceder a información clínica móvil  | Alta           | Muy alta        |
-| Organizar registros médicos    | Alta           | Alta            |
-| Comunicar indicaciones médicas          | Alta           | Alta            |
-| Gestionar tiempos de atención           | Media          | Alta            |
-| Revisar información de pacientes      | Alta           | Muy alta        |
-
-Los veterinarios independientes desarrollan tareas relacionadas con la atención clínica, el seguimiento de pacientes y la gestión de información médica en distintos entornos de trabajo. Esto refleja la necesidad de herramientas digitales accesibles que faciliten la organización y agilicen sus actividades diarias.
+| Registrar consultas veterinarias            | Alta           | Muy alta        |
+| Consultar historiales clínicos              | Alta           | Muy alta        |
+| Gestionar citas y tratamientos              | Alta           | Alta            |
+| Realizar seguimiento de pacientes           | Media          | Alta            |
+| Acceder a información clínica móvil         | Alta           | Muy alta        |
+| Organizar registros médicos                 | Alta           | Alta            |
+| Comunicar indicaciones médicas              | Alta           | Alta            |
+| Gestionar tiempos de atención               | Media          | Alta            |
+| Revisar información de pacientes            | Alta           | Muy alta        |
 
 <br>
 
@@ -1146,7 +1165,7 @@ En esta sección se presentarán los Empathy Maps de cada segmento objetivo, con
 
 <br>
 
-**Dueños de mascotas**
+**Veterinarios independientes**
 
 <img alt= "Empathy mapping veterinarios independientes" src="https://raw.githubusercontent.com/PetHealt/Pawtient-report/refs/heads/feature/sprint2-emily/pawtient-report/assets/images/Empathy%20Mapping/Empathy-%20mapping-2.png">
 
@@ -1161,6 +1180,7 @@ En esta sección se presentarán los Empathy Maps de cada segmento objetivo, con
 En esta sección se introduce y resume el proceso realizado por el equipo para el Big Picture Event Storming, que fue realizado mediante una llamada en discord y plasmado con la ayuda de la herramienta Miro. A continuación, se explica el proceso:
 
 <br>
+ACTUALIZAR CON Veterinarios independientes
 
 **1. OPEN**
 
@@ -1196,13 +1216,19 @@ Luego de conversar un poco, el equipo descartó algunos eventos y identificó me
 
 <br>
 
+## 2.5. Ubiquitous Language
+
+>*A continuación se presenta el glosario de términos clave utilizados en el dominio del sistema **Pawtient**, orientado a la gestión de clínicas veterinarias. Este lenguaje común permite una comunicación clara y sin ambigüedades entre todos los stakeholders: veterinarios, administradores y el equipo de desarrollo.*
+
+<br>
+
 ## Actores del dominio
 
 | Término (EN) | Término (ES) | Definición |
 |:---|:---|:---|
-| `Veterinarian / Admin` | Veterinario / Administrador | Usuario interno de la clínica con privilegios para gestionar citas, consultas, inventario y reportes. En el sistema se identifica como un único rol con acceso completo. |
-| `Pet Owner` | Dueño de mascota | Persona externa responsable de una o más mascotas registradas. Puede iniciar sesión para consultar información, pero no tiene acceso administrativo. |
-| `Supplier` | Proveedor | Entidad externa que abastece insumos médicos a la clínica. Puede ser registrado, editado o eliminado por el veterinario/admin. |
+| `Veterinarian` | Veterinario | Profesional médico registrado en el sistema con acceso a consultas, historiales clínicos, citas y recetas de los pacientes bajo su atención. |
+| `Admin` | Administrador | Usuario interno de la clínica con privilegios para gestionar citas, inventario, proveedores y reportes. |
+| `Supplier` | Proveedor | Entidad externa que abastece insumos médicos a la clínica. Puede ser registrado, editado o eliminado por el veterinario o administrador. |
 
 <br>
 
@@ -1212,7 +1238,7 @@ Luego de conversar un poco, el equipo descartó algunos eventos y identificó me
 |:---|:---|:---|
 | `Clinic` | Clínica | Entidad principal del sistema que agrupa veterinarios, mascotas, citas e inventario bajo una misma organización. |
 | `Subscription Plan` | Plan de suscripción | Plan comercial que determina las funcionalidades habilitadas para una clínica (ej. Paw Basic). Activado al registrar la clínica. |
-| `User Account` | Cuenta de usuario | Credenciales de acceso al sistema, asociadas a un rol (veterinario/admin o dueño de mascota). |
+| `User Account` | Cuenta de usuario | Credenciales de acceso al sistema, asociadas a un rol (veterinario o administrador). |
 | `Session` | Sesión | Período activo de uso del sistema tras autenticación exitosa. |
 | `Access Data` | Datos de acceso | Información guardada localmente para facilitar el inicio de sesión recurrente. |
 
@@ -1222,7 +1248,8 @@ Luego de conversar un poco, el equipo descartó algunos eventos y identificó me
 
 | Término (EN) | Término (ES) | Definición |
 |:---|:---|:---|
-| `Pet` | Mascota | Animal registrado en el sistema, asociado a un dueño de mascota. Es la unidad de atención clínica. |
+| `Pet` | Mascota | Animal registrado en el sistema por el veterinario o administrador. Es la unidad de atención clínica. |
+| `Pet Owner` | Dueño de mascota | Dato de contacto asociado a una mascota, registrado por el veterinario o administrador. No tiene acceso al sistema. |
 | `Patient` | Paciente | Mascota en el contexto de una consulta médica activa. El término se usa cuando la mascota está siendo atendida. |
 | `Triage` | Triaje | Proceso de valoración inicial del paciente al ingresar a consulta, donde se registran signos vitales básicos. |
 | `Vital Signs` | Signos vitales | Mediciones fisiológicas registradas durante el triaje (temperatura, peso, frecuencia cardíaca, etc.). |
@@ -1235,11 +1262,10 @@ Luego de conversar un poco, el equipo descartó algunos eventos y identificó me
 |:---|:---|:---|
 | `Appointment` | Cita | Reserva programada para la atención de un paciente en una fecha y hora específica. |
 | `Availability` | Disponibilidad | Configuración de horarios en los que un veterinario puede recibir citas. |
-| `Appointment Request` | Solicitud de cita | Acción del dueño de mascota de pedir una cita. Inicia el flujo de confirmación. |
-| `Confirmed Appointment` | Cita confirmada | Cita que ha sido aceptada y agendada formalmente. |
-| `Cancelled Appointment` | Cita cancelada | Cita que fue anulada antes de realizarse. Genera una pregunta de negocio: ¿se bloquea al usuario si cancela con poca anticipación? |
+| `Confirmed Appointment` | Cita confirmada | Cita que ha sido aceptada y agendada formalmente por el veterinario o administrador. |
+| `Cancelled Appointment` | Cita cancelada | Cita que fue anulada antes de realizarse. |
 | `Rescheduled Appointment` | Cita reprogramada | Cita que fue modificada a una nueva fecha u hora. |
-| `Appointment Reminder` | Recordatorio de cita | Notificación enviada automáticamente al dueño de mascota antes de la cita. |
+| `Appointment Reminder` | Recordatorio de cita | Notificación generada automáticamente antes de la fecha de una cita programada. |
 
 <br>
 
@@ -1254,7 +1280,6 @@ Luego de conversar un poco, el equipo descartó algunos eventos y identificó me
 | `Lab Result` | Resultado de laboratorio | Resultado de un examen médico. Puede cargarse como PDF o JPG al historial del paciente. |
 | `Closed Consultation` | Consulta finalizada | Estado de la consulta una vez que el veterinario ha completado el diagnóstico, emitido receta y adjuntado exámenes si aplica. |
 | `Medical History` | Historial médico | Registro acumulado de todas las consultas, diagnósticos, recetas y exámenes de un paciente a lo largo del tiempo. |
-| `Shared Medical History` | Historial compartido | Historial médico enviado/entregado al dueño de mascota al finalizar la consulta. |
 
 <br>
 
@@ -1264,7 +1289,7 @@ Luego de conversar un poco, el equipo descartó algunos eventos y identificó me
 |:---|:---|:---|
 | `Medical Supply` | Insumo médico | Producto utilizado en la clínica: medicamentos, materiales de uso clínico, etc. Registrado con un stock inicial. |
 | `Initial Stock` | Stock inicial | Cantidad definida al registrar un insumo médico por primera vez en el sistema. |
-| `Stock Adjustment` | Ajuste de inventario | Modificación manual del nivel de stock de un insumo, registrada por el veterinario/admin. |
+| `Stock Adjustment` | Ajuste de inventario | Modificación manual del nivel de stock de un insumo, registrada por el veterinario o administrador. |
 | `Critical Stock Alert` | Alerta de stock crítico | Notificación generada automáticamente cuando el stock de un insumo cae por debajo del umbral mínimo. |
 | `Discounted Medication` | Medicamento descontado | Medicamento dispensado al paciente durante una consulta, que descuenta unidades del inventario automáticamente. |
 | `Supply Expense` | Gasto de insumos | Registro del costo asociado al uso o compra de insumos. Aparece en los reportes financieros. |
@@ -1275,9 +1300,7 @@ Luego de conversar un poco, el equipo descartó algunos eventos y identificó me
 
 | Término (EN) | Término (ES) | Definición |
 |:---|:---|:---|
-| `Added Supplier` | Proveedor agregado | Proveedor nuevo registrado en el sistema. |
-| `Edited Supplier` | Proveedor editado | Proveedor cuya información fue actualizada. |
-| `Deleted Supplier` | Proveedor eliminado | Proveedor removido del sistema. Acción irreversible. |
+| `Supplier` | Proveedor | Entidad externa registrada en el sistema que abastece insumos médicos a la clínica. |
 
 <br>
 
@@ -1286,54 +1309,10 @@ Luego de conversar un poco, el equipo descartó algunos eventos y identificó me
 | Término (EN) | Término (ES) | Definición |
 |:---|:---|:---|
 | `Service Invoice` | Boleta de atención | Documento generado al finalizar una consulta que detalla los servicios prestados y su costo. |
-| `Client Payment` | Pago de cliente | Registro del pago efectuado por el dueño de mascota, asociado a una boleta de atención. |
+| `Client Payment` | Pago de cliente | Registro del pago efectuado por el responsable de la mascota, asociado a una boleta de atención. |
 | `Cancelled Sale` | Venta cancelada | Registro de una transacción que fue anulada antes o después de la emisión de la boleta. |
-| `Income Report` | Reporte de ingresos | Reporte generado que consolida los ingresos de la clínica en un período determinado. |
-| `Supply Expense Report` | Reporte de gastos de insumos | Reporte que detalla el consumo y costo de los insumos utilizados en un período. |
-
-<br>
-
-## Eventos del dominio (Domain Events)
-
-Los siguientes son los eventos significativos identificados en el Event Storming. Representan hechos ocurridos en el sistema que tienen impacto en el negocio:
-
-| Evento (EN) | Evento (ES) | Bounded Context |
-|:---|:---|:---|
-| `ClinicRegistered` | Clínica registrada | Gestión de clínica |
-| `SubscriptionPlanActivated` | Plan de suscripción activado | Gestión de clínica |
-| `UserRegistered` | Usuario registrado | Gestión de usuarios |
-| `SessionStarted` | Sesión iniciada | Gestión de usuarios |
-| `AccessDataSaved` | Datos de acceso guardados | Gestión de usuarios |
-| `PetOwnerAccountRegistered` | Cuenta de dueño registrada | Gestión de usuarios |
-| `PetRegistered` | Mascota registrada | Mascotas |
-| `AvailabilityConfigured` | Disponibilidad configurada | Agenda |
-| `AppointmentRequested` | Cita solicitada | Agenda |
-| `AppointmentConfirmed` | Cita confirmada | Agenda |
-| `AppointmentCancelled` | Cita cancelada | Agenda |
-| `AppointmentRescheduled` | Cita reprogramada | Agenda |
-| `AppointmentReminderSent` | Recordatorio de cita enviado | Agenda |
-| `PatientAdmittedToTriage` | Paciente ingresado a triaje | Consulta médica |
-| `VitalSignsRegistered` | Signos vitales registrados | Consulta médica |
-| `MedicalConsultationStarted` | Consulta médica iniciada | Consulta médica |
-| `DiagnosisIssued` | Diagnóstico emitido | Consulta médica |
-| `PrescriptionGenerated` | Receta médica generada | Consulta médica |
-| `MedicalExamAttached` | Examen adjuntado | Consulta médica |
-| `ConsultationClosed` | Consulta finalizada | Consulta médica |
-| `MedicalHistoryShared` | Historial médico compartido | Consulta médica |
-| `SupplierAdded` | Proveedor agregado | Inventario |
-| `SupplierEdited` | Proveedor editado | Inventario |
-| `SupplierDeleted` | Proveedor eliminado | Inventario |
-| `MedicalSupplyRegistered` | Insumo médico registrado | Inventario |
-| `InitialStockDefined` | Stock inicial definido | Inventario |
-| `MedicationDispensed` | Medicamento descontado por venta | Inventario |
-| `CriticalStockAlertGenerated` | Alerta de stock crítico generada | Inventario |
-| `StockAdjustmentMade` | Ajuste de inventario realizado | Inventario |
-| `ServiceInvoiceGenerated` | Boleta de atención generada | Facturación |
-| `ClientPaymentRegistered` | Pago de cliente registrado | Facturación |
-| `SaleCancelled` | Venta cancelada | Facturación |
-| `IncomeReportGenerated` | Reporte de ingresos generado | Facturación |
-| `SupplyExpenseRegistered` | Gasto de insumos registrado | Facturación |
-
+| `Income Report` | Reporte de ingresos | Reporte que consolida los ingresos de la clínica en un período determinado. |
+| `Supply Expense Report` | Reporte de
 
 <br>
 
@@ -1362,7 +1341,7 @@ Los siguientes son los eventos significativos identificados en el Event Storming
 | **EP03** | Programación y Gestión de Citas | Digitalizar y automatizar la agenda de citas para reducir el estrés del personal clínico y optimizar la gestión de turnos. | US08A, US08B, US09A, US09B, US10–US11 |
 | **EP04** | Trazabilidad de Suministros e Inventario | Proveer control en tiempo real del inventario de medicamentos e insumos para evitar faltantes, vencimientos y errores operativos en la clínica. | US12–US13, US14A, US14B, US15 |
 | **EP05** | Perfiles y Gestión de Mascotas | Permitir al profesional registrar y gestionar el perfil digital de las mascotas atendidas, con historial, vacunas y documentos accesibles desde el sistema. | US16–US17, US18A, US18B |
-| **EP06** | Notificaciones y Recordatorios Automatizados | Automatizar el envío de alertas para vacunas, citas y cuidados preventivos, facilitando el seguimiento clínico por parte del profesional. | US19–US21 |
+| **EP06** | Registro de Seguimiento Clínico | Permitir al profesional registrar notas de seguimiento, resultados de exámenes y configurar alertas internas para el control proactivo de la salud de los pacientes. | US19–US21 |
 | **EP07** | Landing Page de Pawtient | Presentar la propuesta de valor de Pawtient al segmento profesional y facilitar el registro o contacto con la plataforma. | US22–US25 |
 | **EP08** | Technical Stories – API Real (Backend) | Proveer endpoints seguros, documentados y funcionales con Spring Boot que soporten todas las operaciones del sistema Pawtient. | TS01, TS02A, TS02B, TS03A, TS03B, TS04, TS05A, TS05B |
 | **EP09** | Technical Stories – Fake API (Frontend) | Proveer datos simulados mediante JSON Server para que el equipo de frontend pueda desarrollar y probar sin depender del backend real. | TS06–TS09 |
@@ -1388,25 +1367,25 @@ Los siguientes son los eventos significativos identificados en el Event Storming
 | US04B | Registrar historia clínica – persistencia y confirmación | Como administrador de clínica o veterinario independiente, quiero que la historia clínica se guarde correctamente en el sistema y recibir confirmación del registro para tener certeza de que la información quedó almacenada. | **Escenario 1 – Registro exitoso:** Given el profesional ha completado el formulario sin errores, When confirma el guardado, Then el sistema almacena el registro y muestra un mensaje de confirmación con el identificador generado. **Escenario 2 – Error de conexión al guardar:** Given el profesional intenta guardar y el servidor no está disponible temporalmente, When el sistema detecta el fallo, Then muestra el mensaje "No se pudo guardar. Intenta nuevamente" sin perder los datos ingresados. **Escenario 3 – Registro vinculado al perfil de la mascota:** Given el sistema confirma el guardado, When el profesional navega al perfil de la mascota, Then la nueva historia clínica aparece listada en el historial ordenada cronológicamente. | EP02 |
 | US05 | Consultar historial médico de una mascota | Como administrador de clínica o veterinario independiente, quiero buscar y visualizar el historial completo de una mascota para tomar decisiones clínicas informadas durante la consulta. | **Escenario 1 – Búsqueda por nombre de mascota:** Given el profesional ingresa el nombre de la mascota en el buscador del módulo de historiales, When el sistema procesa la búsqueda, Then muestra los registros coincidentes ordenados cronológicamente de forma descendente. **Escenario 2 – Sin resultados:** Given el profesional realiza una búsqueda y no existe ningún registro con ese nombre, When el sistema procesa la consulta, Then muestra el mensaje "No se encontraron registros" y ofrece la opción de crear uno nuevo. **Escenario 3 – Visualización de vacunas aplicadas:** Given el profesional abre el historial de una mascota, When navega a la sección de vacunación, Then el sistema lista todas las vacunas aplicadas con fecha de aplicación, número de lote y fecha de próxima dosis. | EP02 |
 | US06 | Editar y actualizar historia clínica | Como administrador de clínica o veterinario independiente, quiero actualizar la historia clínica de una mascota después de cada consulta para mantener la información vigente y con trazabilidad de cambios. | **Escenario 1 – Actualización exitosa:** Given el profesional abre un registro existente y modifica el diagnóstico o tratamiento, When guarda los cambios, Then el sistema registra la actualización incluyendo la fecha, hora y nombre del usuario que realizó el cambio. **Escenario 2 – Edición sin permisos:** Given un usuario sin rol de profesional intenta editar una historia clínica, When intenta acceder al modo de edición, Then el sistema deniega la acción y muestra el mensaje "No tienes permisos para editar este registro". **Escenario 3 – Historial de cambios visible:** Given el profesional revisa una historia clínica, When accede a la sección de trazabilidad, Then el sistema muestra un registro cronológico de todas las modificaciones con nombre del autor y fecha. | EP02 |
-| US07 | Registrar vacunas aplicadas | Como administrador de clínica o veterinario independiente, quiero registrar cada vacuna aplicada durante una consulta vinculándola al historial de la mascota para mantener un calendario de vacunación actualizado. | **Escenario 1 – Registro de vacuna exitoso:** Given el profesional completa los campos de vacunación (nombre de vacuna, lote, fecha de aplicación y próxima dosis), When confirma el registro, Then el sistema guarda la entrada y la añade al historial de vacunación de la mascota. **Escenario 2 – Fecha de próxima dosis en el pasado:** Given el profesional ingresa una fecha de próxima dosis anterior a la fecha actual, When intenta guardar, Then el sistema muestra una advertencia indicando que la fecha corresponde al pasado y solicita confirmación para continuar. **Escenario 3 – Recordatorio automático programado:** Given se registra una vacuna con fecha de próxima dosis, When el sistema confirma el guardado, Then programa automáticamente un recordatorio para alertar al profesional 7 días antes de la fecha indicada. | EP02 |
-| US08A | Agendar cita – selección y validación de horario | Como administrador de clínica o veterinario independiente, quiero seleccionar fecha, hora y mascota para una nueva cita y verificar la disponibilidad del horario antes de confirmar. | **Escenario 1 – Horario disponible habilitado:** Given el profesional selecciona fecha, hora y mascota del cliente, When el sistema verifica la disponibilidad, Then habilita el botón de confirmación indicando que el horario está libre. **Escenario 2 – Horario no disponible:** Given el profesional selecciona un horario ya ocupado, When intenta confirmar, Then el sistema indica la no disponibilidad y sugiere los próximos horarios libres. **Escenario 3 – Cita fuera del horario de atención:** Given el profesional intenta registrar una cita fuera del horario configurado, When intenta confirmar, Then el sistema muestra una advertencia indicando que el horario está fuera del rango configurado. | EP03 |
-| US08B | Agendar cita – confirmación y notificación interna | Como administrador de clínica o veterinario independiente, quiero confirmar el registro de la cita y que quede visible de inmediato en la agenda del sistema para que todo el equipo esté informado. | **Escenario 1 – Cita registrada y visible en agenda:** Given el profesional confirma la cita con horario disponible, When el sistema procesa el registro, Then añade la cita al calendario y la muestra de inmediato en la agenda del día. **Escenario 2 – Confirmación visible en la agenda:** Given el sistema registra la cita exitosamente, When el profesional accede a la agenda del día, Then la nueva cita aparece listada en el horario correspondiente con nombre de mascota y motivo de consulta. **Escenario 3 – Error al registrar la cita:** Given el profesional confirma la cita y ocurre un fallo del servidor, When el sistema detecta el error, Then muestra el mensaje "No se pudo registrar la cita. Intenta nuevamente" sin duplicar el registro. | EP03 |
-| US09A | Gestionar solicitudes de cita – revisión y validación | Como administrador de clínica o veterinario independiente, quiero revisar las solicitudes de cita entrantes y verificar la disponibilidad del horario solicitado para evitar conflictos en la agenda. | **Escenario 1 – Listado de solicitudes pendientes:** Given el profesional accede al módulo de citas, When selecciona la sección de solicitudes pendientes, Then el sistema muestra todas las solicitudes ordenadas por fecha de recepción con nombre de mascota y horario solicitado. **Escenario 2 – Horario solicitado no disponible:** Given el profesional revisa una solicitud cuyo horario ya está ocupado, When el sistema verifica la disponibilidad, Then resalta el conflicto e indica los próximos horarios libres para reasignar. **Escenario 3 – Solicitud fuera del horario de atención:** Given el profesional revisa una solicitud con un horario fuera del rango configurado, When el sistema valida el horario, Then muestra una advertencia indicando que el horario está fuera del rango de atención y solicita confirmación para continuar. | EP03 |
-| US09B | Gestionar solicitudes de cita – confirmación y cancelación | Como administrador de clínica o veterinario independiente, quiero confirmar o cancelar solicitudes de cita desde el sistema para mantener la agenda actualizada y gestionar los turnos de forma eficiente. | **Escenario 1 – Confirmación de solicitud exitosa:** Given el profesional selecciona una solicitud pendiente con horario disponible, When confirma la cita, Then el sistema registra la cita en la agenda y actualiza el estado de la solicitud a "confirmada". **Escenario 2 – Cancelación de cita con anticipación:** Given el profesional cancela una cita confirmada con al menos 2 horas de anticipación, When confirma la cancelación, Then el sistema libera el horario, actualiza la agenda y elimina los recordatorios asociados. **Escenario 3 – Cancelación fuera del plazo permitido:** Given el profesional intenta cancelar una cita con menos de 2 horas de anticipación, When confirma la cancelación, Then el sistema muestra una advertencia indicando que el plazo mínimo ha pasado y solicita confirmación para continuar. | EP03 |
-| US10 | Visualizar agenda del día | Como administrador de clínica o veterinario independiente, quiero ver un resumen de las citas programadas para el día en curso para organizar mi jornada de trabajo de forma eficiente. | **Escenario 1 – Visualización correcta de la agenda:** Given el profesional accede al panel principal, When selecciona la vista de agenda diaria, Then el sistema lista todas las citas del día ordenadas por hora con nombre de mascota y motivo de consulta. **Escenario 2 – Agenda vacía:** Given no existen citas programadas para el día en curso, When el profesional accede a la agenda, Then el sistema muestra el mensaje "No hay citas programadas para hoy". **Escenario 3 – Filtro por estado de cita:** Given el profesional desea ver solo las citas pendientes de confirmación, When aplica el filtro por estado "Solicitada", Then el sistema muestra únicamente las citas en ese estado. | EP03 |
-| US11 | Configurar recordatorios de citas | Como administrador de clínica o veterinario independiente, quiero configurar recordatorios automáticos previos a las citas programadas para reducir las inasistencias y mantener la agenda organizada. | **Escenario 1 – Recordatorio configurado correctamente:** Given el profesional accede a la configuración de recordatorios y define el tiempo de anticipación (24 horas, 1 hora), When guarda los cambios, Then el sistema aplica la configuración a todas las citas futuras registradas. **Escenario 2 – Recordatorio enviado según configuración:** Given existe una cita confirmada y el sistema evalúa el envío, When se cumple el tiempo de anticipación configurado, Then el sistema genera el recordatorio en el panel del profesional con los datos de la cita. **Escenario 3 – Recordatorios desactivados:** Given el profesional desactiva los recordatorios de citas en la configuración, When el sistema evalúa el envío de una alerta, Then no genera ninguna notificación para ese tipo de evento hasta que se reactive manualmente. | EP03 |
+| US07 | Registrar vacunas aplicadas | Como administrador de clínica o veterinario independiente, quiero registrar cada vacuna aplicada durante una consulta vinculándola al historial de la mascota para mantener un calendario de vacunación actualizado. | **Escenario 1 – Registro de vacuna exitoso:** Given el profesional completa los campos de vacunación (nombre de vacuna, lote, fecha de aplicación y próxima dosis), When confirma el registro, Then el sistema guarda la entrada y la añade al historial de vacunación de la mascota. **Escenario 2 – Fecha de próxima dosis en el pasado:** Given el profesional ingresa una fecha de próxima dosis anterior a la fecha actual, When intenta guardar, Then el sistema muestra una advertencia indicando que la fecha corresponde al pasado y solicita confirmación para continuar. **Escenario 3 – Recordatorio automático programado:** Given se registra una vacuna con fecha de próxima dosis, When el sistema confirma el guardado, Then programa automáticamente un recordatorio interno para alertar al profesional 7 días antes de la fecha indicada. | EP02 |
+| US08A | Agendar cita – selección y validación de horario | Como administrador de clínica o veterinario independiente, quiero seleccionar fecha, hora y mascota para una nueva cita y verificar la disponibilidad del horario antes de confirmar. | **Escenario 1 – Horario disponible habilitado:** Given el profesional selecciona fecha, hora y mascota, When el sistema verifica la disponibilidad, Then habilita el botón de confirmación indicando que el horario está libre. **Escenario 2 – Horario no disponible:** Given el profesional selecciona un horario ya ocupado, When intenta confirmar, Then el sistema indica la no disponibilidad y sugiere los próximos horarios libres. **Escenario 3 – Cita fuera del horario de atención:** Given el profesional intenta registrar una cita fuera del horario configurado, When intenta confirmar, Then el sistema muestra una advertencia indicando que el horario está fuera del rango configurado. | EP03 |
+| US08B | Agendar cita – confirmación y registro en agenda | Como administrador de clínica o veterinario independiente, quiero confirmar el registro de la cita y que quede visible de inmediato en la agenda del sistema para que todo el equipo esté informado. | **Escenario 1 – Cita registrada y visible en agenda:** Given el profesional confirma la cita con horario disponible, When el sistema procesa el registro, Then añade la cita al calendario y la muestra de inmediato en la agenda del día. **Escenario 2 – Confirmación visible en la agenda:** Given el sistema registra la cita exitosamente, When el profesional accede a la agenda del día, Then la nueva cita aparece listada en el horario correspondiente con nombre de mascota y motivo de consulta. **Escenario 3 – Error al registrar la cita:** Given el profesional confirma la cita y ocurre un fallo del servidor, When el sistema detecta el error, Then muestra el mensaje "No se pudo registrar la cita. Intenta nuevamente" sin duplicar el registro. | EP03 |
+| US09A | Editar cita agendada – selección y validación de nuevo horario | Como administrador de clínica o veterinario independiente, quiero modificar el horario de una cita ya registrada y verificar la disponibilidad del nuevo horario antes de confirmar el cambio. | **Escenario 1 – Nuevo horario disponible habilitado:** Given el profesional selecciona una cita existente y elige un nuevo horario, When el sistema verifica la disponibilidad, Then habilita el botón de confirmación indicando que el horario está libre. **Escenario 2 – Nuevo horario no disponible:** Given el profesional selecciona un horario ya ocupado, When intenta confirmar el cambio, Then el sistema indica la no disponibilidad y sugiere los próximos horarios libres. **Escenario 3 – Edición fuera del horario de atención:** Given el profesional intenta reasignar la cita a un horario fuera del rango configurado, When intenta confirmar, Then el sistema muestra una advertencia indicando que el horario está fuera del rango de atención. | EP03 |
+| US09B | Editar cita agendada – confirmación y cancelación | Como administrador de clínica o veterinario independiente, quiero confirmar el cambio de horario de una cita o cancelarla desde el sistema para mantener la agenda actualizada en todo momento. | **Escenario 1 – Cambio de horario confirmado y visible en agenda:** Given el profesional confirma el nuevo horario con disponibilidad validada, When el sistema procesa el cambio, Then actualiza la cita en la agenda y la muestra en el nuevo horario de forma inmediata. **Escenario 2 – Cancelación de cita con anticipación:** Given el profesional cancela una cita confirmada con al menos 2 horas de anticipación, When confirma la cancelación, Then el sistema libera el horario, actualiza la agenda y elimina los recordatorios asociados. **Escenario 3 – Cancelación fuera del plazo permitido:** Given el profesional intenta cancelar una cita con menos de 2 horas de anticipación, When confirma la cancelación, Then el sistema muestra una advertencia indicando que el plazo mínimo ha pasado y solicita confirmación para continuar. | EP03 |
+| US10 | Visualizar agenda del día | Como administrador de clínica o veterinario independiente, quiero ver un resumen de las citas programadas para el día en curso para organizar mi jornada de trabajo de forma eficiente. | **Escenario 1 – Visualización correcta de la agenda:** Given el profesional accede al panel principal, When selecciona la vista de agenda diaria, Then el sistema lista todas las citas del día ordenadas por hora con nombre de mascota y motivo de consulta. **Escenario 2 – Agenda vacía:** Given no existen citas programadas para el día en curso, When el profesional accede a la agenda, Then el sistema muestra el mensaje "No hay citas programadas para hoy". **Escenario 3 – Filtro por estado de cita:** Given el profesional desea ver solo las citas pendientes, When aplica el filtro por estado "Pendiente", Then el sistema muestra únicamente las citas en ese estado. | EP03 |
+| US11 | Configurar recordatorios de citas | Como administrador de clínica o veterinario independiente, quiero configurar recordatorios automáticos internos previos a las citas programadas para reducir las inasistencias y mantener la agenda organizada. | **Escenario 1 – Recordatorio configurado correctamente:** Given el profesional accede a la configuración de recordatorios y define el tiempo de anticipación (24 horas, 1 hora), When guarda los cambios, Then el sistema aplica la configuración a todas las citas futuras registradas. **Escenario 2 – Recordatorio generado según configuración:** Given existe una cita confirmada y el sistema evalúa el envío, When se cumple el tiempo de anticipación configurado, Then el sistema genera el recordatorio en el panel del profesional con los datos de la cita. **Escenario 3 – Recordatorios desactivados:** Given el profesional desactiva los recordatorios de citas en la configuración, When el sistema evalúa el envío de una alerta, Then no genera ninguna notificación para ese tipo de evento hasta que se reactive manualmente. | EP03 |
 | US12 | Registrar ingreso de suministros | Como administrador de clínica o veterinario independiente, quiero registrar el ingreso de nuevos suministros al inventario para mantener el stock actualizado en tiempo real. | **Escenario 1 – Ingreso registrado exitosamente:** Given el profesional completa los campos de nombre del producto, cantidad, unidad, fecha de vencimiento y proveedor, When confirma el registro, Then el sistema actualiza el stock y registra la transacción con fecha y usuario responsable. **Escenario 2 – Producto ya existente:** Given el profesional registra un suministro con el mismo nombre que uno existente, When confirma el ingreso, Then el sistema suma la cantidad al stock existente sin crear un registro duplicado. **Escenario 3 – Alerta de producto próximo a vencer:** Given un producto tiene fecha de vencimiento dentro de los próximos 30 días, When el profesional lo registra, Then el sistema genera una alerta visible en el panel indicando la proximidad del vencimiento. | EP04 |
 | US13 | Consultar niveles de stock | Como administrador de clínica o veterinario independiente, quiero consultar el nivel actual de un suministro para verificar disponibilidad antes de prescribir un tratamiento. | **Escenario 1 – Consulta exitosa:** Given el profesional busca un suministro por nombre en el módulo de inventario, When el producto existe, Then el sistema muestra la cantidad disponible, la unidad de medida y la fecha de vencimiento más próxima. **Escenario 2 – Stock mínimo alcanzado:** Given el stock de un suministro cae por debajo del nivel mínimo definido, When el sistema realiza la verificación periódica, Then genera una alerta y la muestra en el panel del profesional. **Escenario 3 – Producto sin existencia:** Given el profesional busca un suministro cuyo stock es cero, When el sistema responde a la consulta, Then muestra el mensaje "Sin stock disponible" junto con la fecha del último ingreso registrado. | EP04 |
 | US14A | Registrar consumo de suministros – descuento de inventario | Como administrador de clínica o veterinario independiente, quiero registrar los insumos utilizados al cerrar una consulta para que el inventario se descuente automáticamente y quede vinculado al historial clínico. | **Escenario 1 – Descuento automático exitoso:** Given el profesional selecciona los insumos usados y confirma el cierre de consulta, When el sistema procesa el registro, Then descuenta las cantidades del inventario y vincula la transacción al historial clínico de la mascota. **Escenario 2 – Cantidad supera el stock disponible:** Given el profesional intenta registrar una cantidad que supera el stock actual, When intenta guardar, Then el sistema muestra una alerta de stock insuficiente y no permite completar el registro hasta corregir la cantidad. **Escenario 3 – Trazabilidad visible en el historial:** Given el sistema confirma el descuento, When el profesional consulta el historial clínico de la mascota, Then los insumos utilizados aparecen listados dentro del registro de la consulta correspondiente. | EP04 |
 | US14B | Registrar consumo de suministros – reporte mensual | Como administrador de clínica o veterinario independiente, quiero generar un reporte mensual del consumo de suministros para analizar el uso de recursos y estimar costos operativos. | **Escenario 1 – Reporte generado correctamente:** Given el profesional accede al módulo de reportes y selecciona el período mensual, When genera el reporte, Then el sistema presenta un detalle de consumo por insumo con cantidad total utilizada y costo estimado. **Escenario 2 – Reporte de período sin movimientos:** Given el profesional selecciona un mes sin consumos registrados, When genera el reporte, Then el sistema muestra el mensaje "No hay movimientos registrados para el período seleccionado". **Escenario 3 – Exportación del reporte:** Given el profesional visualiza el reporte mensual generado, When selecciona la opción de exportar, Then el sistema descarga el reporte en formato PDF con los datos del período seleccionado. | EP04 |
 | US15 | Generar alertas de reabastecimiento | Como administrador de clínica o veterinario independiente, quiero recibir alertas automáticas cuando el stock de un suministro sea bajo para solicitar reposición con anticipación y evitar faltantes. | **Escenario 1 – Alerta generada automáticamente:** Given el stock de un suministro desciende al nivel mínimo configurado, When el sistema procesa la transacción de descuento, Then genera una alerta visible en el panel con el nombre del suministro y la cantidad actual. **Escenario 2 – Configuración del nivel mínimo:** Given el profesional edita la ficha de un suministro e ingresa un nivel mínimo de stock, When guarda la configuración, Then el sistema utiliza ese valor como umbral para las futuras alertas. **Escenario 3 – Alerta de vencimiento masivo:** Given varios suministros tienen fecha de vencimiento dentro de los próximos 15 días, When el sistema ejecuta la revisión diaria, Then agrupa las alertas en una sola notificación que lista todos los productos afectados. | EP04 |
 | US16 | Registrar mascota en el sistema | Como administrador de clínica o veterinario independiente, quiero registrar el perfil de una mascota en la plataforma para centralizar su información médica y acceder a ella durante cualquier consulta. | **Escenario 1 – Perfil creado exitosamente:** Given el profesional completa los campos de nombre, especie, raza, fecha de nacimiento y datos del responsable, When confirma el registro, Then el sistema crea el perfil y lo muestra en el listado de mascotas de la clínica. **Escenario 2 – Registro de múltiples mascotas:** Given el profesional desea registrar una segunda mascota para el mismo responsable, When selecciona "Agregar mascota" y completa los datos, Then el sistema crea un perfil independiente y lo lista junto a las mascotas previamente registradas. **Escenario 3 – Historial visible desde el perfil:** Given el profesional abre el perfil de una mascota, When navega a la sección de historial, Then el sistema muestra todas las consultas anteriores ordenadas por fecha con diagnóstico y nombre del profesional tratante. | EP05 |
-| US17 | Acceder al historial médico compartido de una mascota | Como administrador de clínica o veterinario independiente, quiero acceder al historial médico de una mascota compartido por otro profesional para contar con información clínica previa relevante antes de la consulta. | **Escenario 1 – Acceso mediante código temporal:** Given el profesional ingresa un código de acceso temporal proporcionado por otro profesional, When el sistema valida el código, Then muestra el historial clínico completo de la mascota durante el período de validez de 24 horas. **Escenario 2 – Código expirado:** Given el profesional intenta usar un código después de las 24 horas de validez, When el sistema valida el código, Then muestra el mensaje "Código expirado" e indica que debe solicitarse un nuevo código al profesional de origen. **Escenario 3 – Acceso revocado por el profesional de origen:** Given el profesional de origen revocó el acceso al historial compartido, When el destinatario intenta ingresar con el código, Then el sistema invalida el acceso de forma inmediata y muestra el mensaje "Acceso no disponible". | EP05 |
+| US17 | Consultar historial médico de una mascota atendida en otra clínica | Como administrador de clínica o veterinario independiente, quiero consultar el historial médico de una mascota que fue atendida previamente en otra clínica registrada en Pawtient para contar con información clínica relevante antes de la consulta. | **Escenario 1 – Acceso mediante código temporal:** Given el profesional ingresa un código de acceso temporal generado por el profesional de origen, When el sistema valida el código, Then muestra el historial clínico completo de la mascota durante el período de validez de 24 horas. **Escenario 2 – Código expirado:** Given el profesional intenta usar un código después de las 24 horas de validez, When el sistema valida el código, Then muestra el mensaje "Código expirado" e indica que debe solicitarse un nuevo código al profesional de origen. **Escenario 3 – Acceso revocado por el profesional de origen:** Given el profesional de origen revocó el acceso al historial, When el destinatario intenta ingresar con el código, Then el sistema invalida el acceso de forma inmediata y muestra el mensaje "Acceso no disponible". | EP05 |
 | US18A | Buscar mascotas registradas – búsqueda y listado | Como administrador de clínica o veterinario independiente, quiero buscar mascotas registradas en el sistema para ver un listado con su información básica y acceder rápidamente a su perfil. | **Escenario 1 – Búsqueda por nombre de mascota exitosa:** Given el profesional ingresa el nombre de la mascota en el buscador, When el sistema procesa la consulta, Then muestra un listado ordenado con nombre, especie, raza y responsable de cada resultado. **Escenario 2 – Sin resultados en la búsqueda:** Given el sistema no encuentra mascotas que coincidan con el término ingresado, When presenta los resultados, Then muestra el mensaje "No se encontraron mascotas con ese nombre" y ofrece la opción de registrar una nueva. **Escenario 3 – Acceso al perfil desde el listado:** Given el sistema retorna resultados de la búsqueda, When el profesional selecciona una mascota del listado, Then el sistema redirige al perfil completo de esa mascota con su historial y datos de vacunación. | EP05 |
 | US18B | Buscar mascotas registradas – filtro y detalle | Como administrador de clínica o veterinario independiente, quiero filtrar los resultados de búsqueda por especie, raza o estado clínico y ver el detalle de cada mascota para tomar decisiones informadas antes de la consulta. | **Escenario 1 – Filtro por especie o raza:** Given el profesional aplica un filtro por especie (canino, felino) o raza, When el sistema procesa el filtro, Then muestra únicamente las mascotas que coinciden con los criterios seleccionados. **Escenario 2 – Detalle de mascota:** Given el profesional selecciona una mascota del listado filtrado, When accede a la vista de detalle, Then el sistema muestra nombre, especie, raza, fecha de nacimiento, responsable, estado clínico y opción para registrar una nueva consulta. **Escenario 3 – Historial de atenciones visible en el detalle:** Given el profesional revisa el detalle de una mascota, When navega a la sección de historial, Then el sistema muestra las tres consultas más recientes con fecha, diagnóstico y profesional tratante. | EP05 |
-| US19 | Configurar recordatorios de vacunación | Como administrador de clínica o veterinario independiente, quiero configurar alertas automáticas cuando la vacuna de una mascota esté próxima para gestionar el calendario de vacunación de forma proactiva. | **Escenario 1 – Alerta configurada 7 días antes:** Given el profesional activa los recordatorios de vacunación y define la anticipación en 7 días, When el sistema detecta una dosis próxima, Then genera una alerta en el panel del profesional con el nombre de la mascota, la vacuna pendiente y la fecha de aplicación. **Escenario 2 – Alerta el día de la vacuna:** Given es el día en que corresponde aplicar la vacuna, When el sistema ejecuta la revisión diaria, Then genera un recordatorio urgente en el panel indicando que la vacuna corresponde a ese día. **Escenario 3 – Recordatorio cancelado tras aplicación:** Given el profesional registra la vacuna como aplicada, When el sistema actualiza el historial, Then cancela los recordatorios pendientes de esa dosis y programa el siguiente según el esquema de dosis. | EP06 |
-| US20 | Configurar preferencias de notificación | Como administrador de clínica o veterinario independiente, quiero personalizar el tipo y frecuencia de notificaciones que recibo para gestionar las alertas del sistema según las necesidades de mi práctica. | **Escenario 1 – Configuración guardada:** Given el profesional selecciona los tipos de alerta deseados (citas, stock bajo, vacunas, seguimiento), When guarda los cambios, Then el sistema aplica las nuevas preferencias en todos los envíos posteriores. **Escenario 2 – Todas las notificaciones desactivadas:** Given el profesional desactiva todas las notificaciones, When el sistema intenta enviar cualquier alerta, Then no realiza ningún envío hasta que las preferencias sean reactivadas manualmente. **Escenario 3 – Configuración por defecto restaurada:** Given el profesional selecciona "Restaurar valores por defecto", When el sistema procesa la acción, Then habilita todas las categorías de notificación con las frecuencias estándar predefinidas. | EP06 |
-| US21 | Enviar notificaciones de resultados y seguimiento | Como administrador de clínica o veterinario independiente, quiero enviar notificaciones al responsable de una mascota cuando actualice el estado de seguimiento o registre resultados de exámenes para mantener una comunicación clínica efectiva. | **Escenario 1 – Notificación de seguimiento enviada:** Given el profesional añade una nota de seguimiento al historial y activa la opción de notificar, When el sistema confirma el guardado, Then registra el envío de la notificación y muestra una confirmación de entrega en el panel. **Escenario 2 – Notificación de resultados de examen:** Given el profesional registra los resultados de un examen de laboratorio y activa la opción de notificar, When confirma el registro, Then el sistema registra el envío e indica que el responsable fue notificado sobre la disponibilidad de los resultados. **Escenario 3 – Historial de notificaciones enviadas accesible:** Given el profesional desea revisar notificaciones previas enviadas, When accede al centro de notificaciones, Then el sistema muestra el historial de los últimos 30 días ordenado cronológicamente con estado de entrega. | EP06 |
+| US19 | Configurar recordatorios de vacunación | Como administrador de clínica o veterinario independiente, quiero configurar alertas automáticas internas cuando la vacuna de una mascota esté próxima para gestionar el calendario de vacunación de forma proactiva. | **Escenario 1 – Alerta configurada 7 días antes:** Given el profesional activa los recordatorios de vacunación y define la anticipación en 7 días, When el sistema detecta una dosis próxima, Then genera una alerta en el panel del profesional con el nombre de la mascota, la vacuna pendiente y la fecha de aplicación. **Escenario 2 – Alerta el día de la vacuna:** Given es el día en que corresponde aplicar la vacuna, When el sistema ejecuta la revisión diaria, Then genera un recordatorio urgente en el panel indicando que la vacuna corresponde a ese día. **Escenario 3 – Recordatorio cancelado tras aplicación:** Given el profesional registra la vacuna como aplicada, When el sistema actualiza el historial, Then cancela los recordatorios pendientes de esa dosis y programa el siguiente según el esquema de dosis. | EP06 |
+| US20 | Configurar preferencias de notificación | Como administrador de clínica o veterinario independiente, quiero personalizar el tipo y frecuencia de notificaciones internas que recibo para gestionar las alertas del sistema según las necesidades de mi práctica. | **Escenario 1 – Configuración guardada:** Given el profesional selecciona los tipos de alerta deseados (citas, stock bajo, vacunas, seguimiento), When guarda los cambios, Then el sistema aplica las nuevas preferencias en todos los envíos posteriores. **Escenario 2 – Todas las notificaciones desactivadas:** Given el profesional desactiva todas las notificaciones, When el sistema intenta enviar cualquier alerta, Then no genera ningún aviso hasta que las preferencias sean reactivadas manualmente. **Escenario 3 – Configuración por defecto restaurada:** Given el profesional selecciona "Restaurar valores por defecto", When el sistema procesa la acción, Then habilita todas las categorías de notificación con las frecuencias estándar predefinidas. | EP06 |
+| US21 | Registrar notas de seguimiento y resultados de exámenes | Como administrador de clínica o veterinario independiente, quiero registrar notas de seguimiento y resultados de exámenes en el historial de una mascota para mantener el registro clínico completo y actualizado después de cada consulta. | **Escenario 1 – Nota de seguimiento registrada exitosamente:** Given el profesional añade una nota de seguimiento al historial de una mascota y confirma el guardado, When el sistema procesa el registro, Then almacena la nota con fecha, hora y nombre del profesional, y la muestra en el historial ordenada cronológicamente. **Escenario 2 – Resultado de examen adjuntado al historial:** Given el profesional carga el resultado de un examen de laboratorio en formato PDF o JPG, When el sistema confirma la carga, Then vincula el archivo al historial clínico de la mascota y lo lista en la sección de exámenes de la consulta correspondiente. **Escenario 3 – Historial de seguimientos accesible:** Given el profesional desea revisar el seguimiento de una mascota, When accede a la sección de seguimiento en el historial, Then el sistema muestra todos los registros de los últimos 30 días ordenados cronológicamente con fecha y nombre del profesional que los registró. | EP06 |
 | US22 | Propuesta de valor para clínicas y veterinarios independientes | Como administrador de clínica o veterinario independiente que visita la landing page, quiero ver los beneficios del sistema para evaluar si Pawtient se adapta a las necesidades de mi práctica profesional. | **Escenario 1 – Sección de beneficios visible:** Given el profesional navega a la sección dirigida a profesionales, When la sección carga, Then se visualizan al menos tres beneficios clave (gestión de historiales, agenda digital, control de inventario) con íconos y descripciones claras. **Escenario 2 – Llamada a la acción funcional:** Given el profesional activa la opción "Solicitar demo" o "Registrar mi clínica", When el sistema procesa el clic, Then lleva al formulario de registro sin recargar la página completa. **Escenario 3 – Visualización en dispositivos móviles:** Given el profesional accede desde un smartphone, When navega por la sección de beneficios, Then el contenido se adapta correctamente sin desbordamientos ni pérdida de información. | EP07 |
 | US23 | Información general de la plataforma en la landing page | Como administrador de clínica o veterinario independiente que visita la landing page, quiero entender el alcance y las funcionalidades principales de Pawtient para decidir si me registro en la plataforma. | **Escenario 1 – Sección de funcionalidades visible:** Given el profesional navega hasta la sección de funcionalidades, When la sección carga, Then visualiza los módulos principales (historiales, agenda, inventario, notificaciones) con lenguaje claro y orientado a la práctica clínica. **Escenario 2 – Testimonios de profesionales visibles:** Given el profesional llega a la sección de testimonios, When la página carga completamente, Then se muestran al menos dos testimonios de clínicas o veterinarios con nombre, tipo de práctica y valoración. **Escenario 3 – Registro desde la landing page:** Given el profesional decide registrarse, When activa el botón de registro, Then el sistema lo redirige al formulario de creación de cuenta como administrador de clínica o veterinario independiente. | EP07 |
 | US24 | Navegar entre secciones de la landing page | Como administrador de clínica o veterinario independiente que visita la landing page, quiero usar el menú de navegación para desplazarme rápidamente a cualquier sección y conocer todo el contenido disponible. | **Escenario 1 – Desplazamiento suave:** Given el profesional selecciona un elemento del menú, When el enlace apunta a una sección dentro de la misma página, Then el sistema ejecuta un desplazamiento suave hasta esa sección sin recargar la página. **Escenario 2 – Menú fijo durante el scroll:** Given el profesional hace scroll hacia abajo, When supera la altura del encabezado inicial, Then el menú permanece fijo en la parte superior y se mantiene accesible. **Escenario 3 – Sección activa resaltada:** Given el profesional se encuentra en una sección específica, When el scroll la posiciona como la principal visible, Then el ítem correspondiente del menú se resalta visualmente. | EP07 |
@@ -1415,14 +1394,14 @@ Los siguientes son los eventos significativos identificados en el Event Storming
 | TS02A | Endpoint de historia clínica – validaciones y estructura | Como developer backend, quiero implementar las validaciones del endpoint POST /api/v1/records en Spring Boot para garantizar que solo se persistan registros con datos completos y token válido. | **Escenario 1 – Campos obligatorios faltantes (400):** Given el developer envía una petición POST con campos obligatorios ausentes, When el servidor valida el body con Bean Validation, Then retorna HTTP 400 con el mensaje "Missing required fields" y la lista de campos faltantes. **Escenario 2 – Token inválido o ausente (401):** Given el developer envía la petición sin token o con uno expirado, When el servidor valida la cabecera Authorization, Then retorna HTTP 401 con el mensaje "Unauthorized". **Escenario 3 – Estructura de respuesta correcta:** Given el developer envía una petición válida, When el servidor procesa el body, Then retorna la estructura de respuesta con los campos id, petId, date y status antes de persistir. | EP08 |
 | TS02B | Endpoint de historia clínica – persistencia y respuesta | Como developer backend, quiero implementar la lógica de persistencia del endpoint POST /api/v1/records para que las historias clínicas se almacenen correctamente y el frontend reciba confirmación. | **Escenario 1 – Creación exitosa (201):** Given el developer envía una petición POST con body válido y token vigente, When el servidor persiste el registro, Then retorna HTTP 201 con el objeto creado incluyendo el id generado y la marca de tiempo. **Escenario 2 – Mascota no encontrada (404):** Given el developer envía un petId inexistente en la base de datos, When el servidor busca la mascota, Then retorna HTTP 404 con el mensaje "Pet not found". **Escenario 3 – Error de persistencia (500):** Given ocurre un fallo en la base de datos al guardar el registro, When el servidor detecta la excepción, Then retorna HTTP 500 con el mensaje "Internal server error" sin exponer detalles internos. | EP08 |
 | TS03A | Endpoint de citas – validación de disponibilidad | Como developer backend, quiero implementar la validación de disponibilidad en el endpoint POST /api/v1/appointments para evitar conflictos de horario antes de registrar la cita. | **Escenario 1 – Conflicto de horario (409):** Given el developer envía una solicitud para un horario ya ocupado, When el servidor valida la disponibilidad, Then retorna HTTP 409 con el mensaje "Time slot not available" y los próximos horarios disponibles. **Escenario 2 – Fecha en el pasado (422):** Given el developer envía una fecha anterior a la fecha actual del servidor, When el servidor valida el campo date, Then retorna HTTP 422 con el mensaje "Invalid or past date". **Escenario 3 – Token inválido (401):** Given el developer envía la petición sin token o con uno expirado, When el servidor valida la cabecera Authorization, Then retorna HTTP 401 con el mensaje "Unauthorized". | EP08 |
-| TS03B | Endpoint de citas – registro transaccional y respuesta | Como developer backend, quiero implementar el registro transaccional de citas en el endpoint POST /api/v1/appointments para garantizar consistencia de datos y retornar la cita creada al frontend. | **Escenario 1 – Cita creada exitosamente (201):** Given el developer envía una petición POST con petId, professionalId, date y time válidos, When el servidor verifica disponibilidad y persiste la cita, Then retorna HTTP 201 con el objeto de cita incluyendo appointmentId y estado "confirmed". **Escenario 2 – Rollback ante fallo parcial:** Given ocurre un error durante la transacción de registro, When el servidor detecta la excepción, Then ejecuta rollback completo y retorna HTTP 500 sin registros parciales en la base de datos. **Escenario 3 – Notificación encolada tras registro:** Given el servidor persiste la cita exitosamente, When completa la transacción, Then encola automáticamente una notificación interna para el profesional responsable. | EP08 |
+| TS03B | Endpoint de citas – registro transaccional y respuesta | Como developer backend, quiero implementar el registro transaccional de citas en el endpoint POST /api/v1/appointments para garantizar consistencia de datos y retornar la cita creada al frontend. | **Escenario 1 – Cita creada exitosamente (201):** Given el developer envía una petición POST con petId, professionalId, date y time válidos, When el servidor verifica disponibilidad y persiste la cita, Then retorna HTTP 201 con el objeto de cita incluyendo appointmentId y estado "confirmed". **Escenario 2 – Rollback ante fallo parcial:** Given ocurre un error durante la transacción de registro, When el servidor detecta la excepción, Then ejecuta rollback completo y retorna HTTP 500 sin registros parciales en la base de datos. **Escenario 3 – Notificación interna encolada tras registro:** Given el servidor persiste la cita exitosamente, When completa la transacción, Then encola automáticamente una notificación interna para el profesional responsable. | EP08 |
 | TS04 | Endpoints de gestión de inventario | Como developer backend, quiero implementar endpoints GET /api/v1/inventory y POST /api/v1/inventory en Spring Boot para que el módulo de trazabilidad de suministros opere correctamente. | **Escenario 1 – Listado exitoso (200):** Given el developer envía GET con token válido y el id del profesional como parámetro, When el servidor consulta los suministros, Then retorna HTTP 200 con nombre, stock actual, unidad y fecha de vencimiento. **Escenario 2 – Ingreso exitoso (201):** Given el developer envía POST con name, quantity, unit y expirationDate válidos, When el servidor procesa la solicitud, Then retorna HTTP 201; si el producto ya existe, retorna el stock acumulado. **Escenario 3 – Flag lowStock en la respuesta:** Given el inventario tiene suministros con stock igual o menor al mínimo configurado, When el servidor retorna la lista, Then incluye el campo `lowStock: true` en los objetos que cumplen esa condición. | EP08 |
-| TS05A | Endpoint de notificaciones push – validaciones | Como developer backend, quiero implementar las validaciones del endpoint POST /api/v1/notifications/send para rechazar peticiones con datos incorrectos antes de encolar la notificación. | **Escenario 1 – Usuario sin dispositivo registrado (404):** Given el developer envía la solicitud para un userId sin token de dispositivo registrado, When el servidor consulta el registro del usuario, Then retorna HTTP 404 con el mensaje "No device token found for user". **Escenario 2 – Tipo de notificación inválido (400):** Given el developer envía un notificationType no reconocido, When el servidor valida el campo, Then retorna HTTP 400 con el mensaje "Invalid notification type" y la lista de tipos aceptados. **Escenario 3 – Fecha programada en el pasado (422):** Given el developer envía una scheduledDate anterior a la fecha actual, When el servidor valida el campo, Then retorna HTTP 422 con el mensaje "Scheduled date must be in the future". | EP08 |
-| TS05B | Endpoint de notificaciones push – encolado y respuesta | Como developer backend, quiero implementar la lógica de encolado del endpoint POST /api/v1/notifications/send para que las notificaciones se registren correctamente y el frontend reciba confirmación. | **Escenario 1 – Notificación encolada (200):** Given el developer envía una petición POST con userId, notificationType y scheduledDate válidos, When el servidor encola la notificación, Then retorna HTTP 200 con `status: "queued"` y el notificationId generado. **Escenario 2 – Consulta de estado de notificación (200):** Given el developer consulta GET /api/v1/notifications/:id con un notificationId existente, When el servidor busca el registro, Then retorna HTTP 200 con el estado actual de la notificación (queued, sent, failed). **Escenario 3 – Fallo en el servicio de encolado (503):** Given el servicio de cola no está disponible al momento del envío, When el servidor detecta el fallo, Then retorna HTTP 503 con el mensaje "Notification service unavailable. Retry later". | EP08 |
+| TS05A | Endpoint de notificaciones internas – validaciones | Como developer backend, quiero implementar las validaciones del endpoint POST /api/v1/notifications/send para rechazar peticiones con datos incorrectos antes de encolar la notificación interna. | **Escenario 1 – Usuario no encontrado (404):** Given el developer envía la solicitud para un userId inexistente en el sistema, When el servidor consulta el registro del usuario, Then retorna HTTP 404 con el mensaje "User not found". **Escenario 2 – Tipo de notificación inválido (400):** Given el developer envía un notificationType no reconocido, When el servidor valida el campo, Then retorna HTTP 400 con el mensaje "Invalid notification type" y la lista de tipos aceptados. **Escenario 3 – Fecha programada en el pasado (422):** Given el developer envía una scheduledDate anterior a la fecha actual, When el servidor valida el campo, Then retorna HTTP 422 con el mensaje "Scheduled date must be in the future". | EP08 |
+| TS05B | Endpoint de notificaciones internas – encolado y respuesta | Como developer backend, quiero implementar la lógica de encolado del endpoint POST /api/v1/notifications/send para que las notificaciones internas se registren correctamente y el frontend reciba confirmación. | **Escenario 1 – Notificación encolada (200):** Given el developer envía una petición POST con userId, notificationType y scheduledDate válidos, When el servidor encola la notificación, Then retorna HTTP 200 con `status: "queued"` y el notificationId generado. **Escenario 2 – Consulta de estado de notificación (200):** Given el developer consulta GET /api/v1/notifications/:id con un notificationId existente, When el servidor busca el registro, Then retorna HTTP 200 con el estado actual de la notificación (queued, sent, failed). **Escenario 3 – Fallo en el servicio de encolado (503):** Given el servicio de cola no está disponible al momento del envío, When el servidor detecta el fallo, Then retorna HTTP 503 con el mensaje "Notification service unavailable. Retry later". | EP08 |
 | TS06 | Configurar JSON Server con datos de autenticación simulados | Como developer frontend, quiero configurar un JSON Server con datos de usuarios y tokens simulados para que el equipo pueda desarrollar el flujo de login sin depender del backend real. | **Escenario 1 – Servidor levantado correctamente:** Given el developer ejecuta el comando de inicio con el archivo db.json, When el servidor arranca sin errores, Then responde en el puerto configurado y el endpoint /users devuelve la lista de usuarios simulados. **Escenario 2 – Login simulado devuelve token:** Given el developer envía POST /login con credenciales definidas en db.json, When JSON Server procesa la solicitud, Then retorna un objeto con token y perfil del usuario para que el frontend lo almacene localmente. **Escenario 3 – Ruta protegida rechaza sin token:** Given el developer accede a un recurso protegido sin Authorization, When el middleware verifica el token, Then retorna HTTP 401 para que el frontend redirija al login. | EP09 |
 | TS07 | Datos simulados de historiales clínicos y mascotas | Como developer frontend, quiero tener endpoints simulados de historiales clínicos y mascotas en JSON Server para desarrollar y probar los componentes de visualización y registro. | **Escenario 1 – GET de historial filtrado por petId:** Given el developer realiza GET /records con un petId como filtro, When JSON Server responde, Then retorna un array de historiales filtrados con todos los campos requeridos. **Escenario 2 – POST crea registro simulado:** Given el developer envía POST /records con campos obligatorios, When JSON Server procesa la solicitud, Then agrega el objeto a db.json y retorna HTTP 201 con id autogenerado. **Escenario 3 – GET de mascotas filtrado por clinicId:** Given el developer realiza GET /pets con el parámetro clinicId, When JSON Server responde, Then retorna únicamente las mascotas cuyo clinicId coincide con el parámetro enviado. | EP09 |
 | TS08 | Datos simulados de citas e inventario | Como developer frontend, quiero endpoints simulados de citas e inventario en JSON Server para que los componentes de agenda y trazabilidad puedan desarrollarse de forma independiente. | **Escenario 1 – GET de citas filtrado por fecha:** Given el developer realiza GET /appointments con el parámetro date, When JSON Server procesa la consulta, Then retorna únicamente las citas cuya fecha coincide con el parámetro. **Escenario 2 – GET de inventario con flag lowStock:** Given el developer realiza GET /inventory, When JSON Server responde, Then retorna el listado con el campo `lowStock: true` en registros cuyo stock es menor al mínimo configurado. **Escenario 3 – DELETE de cita elimina el registro:** Given el developer realiza DELETE /appointments/:id con un id existente, When JSON Server procesa la solicitud, Then elimina el objeto de db.json y retorna HTTP 200 confirmando la eliminación. | EP09 |
-| TS09 | Datos simulados de notificaciones y configuración | Como developer frontend, quiero endpoints simulados de notificaciones y preferencias en JSON Server para desarrollar el centro de alertas y la configuración del profesional. | **Escenario 1 – GET de notificaciones filtrado por userId:** Given el developer realiza GET /notifications con el parámetro userId, When JSON Server responde, Then retorna el listado ordenado por fecha descendente con el campo read incluido. **Escenario 2 – PUT actualiza preferencias:** Given el developer realiza PUT /settings/:userId con las preferencias actualizadas, When JSON Server procesa la solicitud, Then actualiza el objeto en db.json y retorna HTTP 200 con las preferencias modificadas. **Escenario 3 – POST encola notificación simulada:** Given el developer realiza POST /notifications con userId y notificationType válidos, When JSON Server procesa la solicitud, Then agrega la notificación a db.json y retorna HTTP 201 con `status: "queued"`. | EP09 |
+| TS09 | Datos simulados de notificaciones y configuración | Como developer frontend, quiero endpoints simulados de notificaciones internas y preferencias en JSON Server para desarrollar el centro de alertas y la configuración del profesional. | **Escenario 1 – GET de notificaciones filtrado por userId:** Given el developer realiza GET /notifications con el parámetro userId, When JSON Server responde, Then retorna el listado ordenado por fecha descendente con el campo read incluido. **Escenario 2 – PUT actualiza preferencias:** Given el developer realiza PUT /settings/:userId con las preferencias actualizadas, When JSON Server procesa la solicitud, Then actualiza el objeto en db.json y retorna HTTP 200 con las preferencias modificadas. **Escenario 3 – POST registra notificación interna simulada:** Given el developer realiza POST /notifications con userId y notificationType válidos, When JSON Server procesa la solicitud, Then agrega la notificación al historial interno en db.json y retorna HTTP 201 con `status: "queued"`. | EP09 |
 | TS10 | Implementar servicio de autenticación en Angular | Como developer frontend, quiero implementar un AuthService en Angular que gestione login, logout y almacenamiento del token JWT para centralizar la autenticación en la aplicación. | **Escenario 1 – Login exitoso almacena token:** Given el developer llama a login() con credenciales válidas, When el servicio realiza la petición, Then almacena el JWT en localStorage, actualiza el estado del usuario y retorna true al componente. **Escenario 2 – Token inválido fuerza logout:** Given el token ha expirado y el interceptor detecta una respuesta 401, When procesa la respuesta, Then llama a logout(), limpia el token y redirige al login. **Escenario 3 – Guard protege rutas privadas:** Given un usuario no autenticado navega a una ruta protegida, When el AuthGuard evalúa el estado, Then redirige a /login sin mostrar el contenido de la ruta. | EP10 |
 | TS11A | Módulo de historiales en Angular – listado y búsqueda | Como developer frontend, quiero implementar el componente de listado y búsqueda del módulo de historiales clínicos en Angular para que los profesionales encuentren registros de forma eficiente. | **Escenario 1 – Listado carga correctamente:** Given el profesional navega al módulo de historiales, When el componente se inicializa y llama al RecordService, Then muestra los historiales ordenados cronológicamente de forma descendente. **Escenario 2 – Búsqueda filtra resultados:** Given el profesional ingresa un nombre en el buscador, When el componente procesa el input, Then filtra el listado en tiempo real mostrando solo los registros que coinciden. **Escenario 3 – Estado vacío con opción de crear:** Given el RecordService retorna un array vacío, When el componente renderiza la vista, Then muestra el mensaje "No hay registros" y un botón para crear el primero. | EP10 |
 | TS11B | Módulo de historiales en Angular – creación y edición | Como developer frontend, quiero implementar los formularios de creación y edición del módulo de historiales en Angular para que los profesionales gestionen registros médicos sin recargar la página. | **Escenario 1 – Formulario valida campos obligatorios:** Given el profesional deja campos obligatorios vacíos, When intenta enviar el formulario, Then el componente muestra mensajes de validación junto a cada campo y no realiza la petición al servicio. **Escenario 2 – Edición actualiza la vista reactivamente:** Given el profesional modifica un campo y guarda los cambios, When el RecordService confirma la actualización, Then el componente de detalle refleja los cambios sin recargar la página. **Escenario 3 – Confirmación de guardado visible:** Given el RecordService retorna éxito, When el componente procesa la respuesta, Then muestra un mensaje de confirmación y redirige al detalle del historial creado o editado. | EP10 |
@@ -1430,7 +1409,7 @@ Los siguientes son los eventos significativos identificados en el Event Storming
 | TS12B | Módulo de citas en Angular – confirmación y cancelación | Como developer frontend, quiero implementar los flujos de confirmación y cancelación de citas en Angular para que la agenda se actualice reactivamente sin recargar la página. | **Escenario 1 – Confirmación de cita actualiza la agenda:** Given el profesional confirma una nueva cita, When el AppointmentService retorna éxito, Then la cita aparece en la lista de agenda sin recargar la página. **Escenario 2 – Cancelación elimina la cita de la vista:** Given el profesional confirma la cancelación de una cita, When el AppointmentService procesa la cancelación, Then la cita desaparece de la lista y se muestra un mensaje de confirmación. **Escenario 3 – Error de red muestra mensaje sin romper la vista:** Given el AppointmentService retorna un error al confirmar o cancelar, When el componente procesa la respuesta, Then muestra el mensaje "No se pudo completar la acción. Intenta nuevamente" sin alterar el estado actual de la agenda. | EP10 |
 | TS13A | Módulo de inventario en Angular – listado y alertas | Como developer frontend, quiero implementar el listado de suministros con indicadores de stock bajo y alertas de vencimiento en el módulo de inventario en Angular. | **Escenario 1 – Indicador de stock bajo visible:** Given el InventoryService retorna suministros con `lowStock: true`, When el componente renderiza la lista, Then muestra un indicador visual en esos suministros y los ordena al inicio. **Escenario 2 – Banner de vencimiento en el panel:** Given el sistema detecta suministros con vencimiento dentro de 30 días, When el componente de alertas evalúa los datos, Then muestra un banner en el panel con el listado de productos afectados. **Escenario 3 – Listado vacío muestra estado informativo:** Given el InventoryService retorna un array vacío, When el componente renderiza la vista, Then muestra el mensaje "No hay suministros registrados" con opción para agregar el primero. | EP10 |
 | TS13B | Módulo de inventario en Angular – registro de ingresos | Como developer frontend, quiero implementar el formulario de registro de ingresos de suministros en Angular para que el stock se actualice reactivamente tras cada entrada. | **Escenario 1 – Formulario suma stock al existente:** Given el profesional registra un suministro con nombre ya existente, When el InventoryService retorna el stock acumulado, Then el componente actualiza la cantidad en el listado sin duplicar el registro. **Escenario 2 – Formulario valida campos obligatorios:** Given el profesional deja campos obligatorios vacíos, When intenta guardar, Then el componente muestra mensajes de validación y no realiza la petición al servicio. **Escenario 3 – Confirmación de ingreso visible:** Given el InventoryService confirma el registro, When el componente procesa la respuesta, Then muestra un mensaje de confirmación y actualiza el stock en el listado sin recargar la página. | EP10 |
-| TS14 | Implementar módulo de notificaciones en Angular | Como developer frontend, quiero implementar el módulo de notificaciones en Angular con centro de alertas y configuración de preferencias para que los profesionales gestionen sus notificaciones. | **Escenario 1 – Centro muestra historial de 30 días:** Given el profesional accede al centro de notificaciones, When el NotificationService retorna el historial, Then el componente muestra las notificaciones de los últimos 30 días ordenadas cronológicamente con indicador de leído/no leído. **Escenario 2 – Marcar como leída actualiza el badge:** Given el profesional selecciona una notificación no leída, When el NotificationService registra la acción, Then el badge decrementa el contador y la notificación pierde el resaltado de no leída. **Escenario 3 – Preferencias se persisten:** Given el profesional modifica sus preferencias y guarda los cambios, When el NotificationService envía la actualización, Then muestra un mensaje de confirmación y las nuevas preferencias aplican a los envíos posteriores. | EP10 |
+| TS14 | Implementar módulo de notificaciones en Angular | Como developer frontend, quiero implementar el módulo de notificaciones internas en Angular con centro de alertas y configuración de preferencias para que los profesionales gestionen sus alertas clínicas. | **Escenario 1 – Centro muestra historial de 30 días:** Given el profesional accede al centro de notificaciones, When el NotificationService retorna el historial, Then el componente muestra las notificaciones de los últimos 30 días ordenadas cronológicamente con indicador de leído/no leído. **Escenario 2 – Marcar como leída actualiza el badge:** Given el profesional selecciona una notificación no leída, When el NotificationService registra la acción, Then el badge decrementa el contador y la notificación pierde el resaltado de no leída. **Escenario 3 – Preferencias se persisten:** Given el profesional modifica sus preferencias de alertas internas y guarda los cambios, When el NotificationService envía la actualización, Then muestra un mensaje de confirmación y las nuevas preferencias aplican a los envíos posteriores. | EP10 |
 
 <br>
 
@@ -1438,7 +1417,7 @@ Los siguientes son los eventos significativos identificados en el Event Storming
 
 ## 3.2. Impact Mapping
 
->*El Impact Mapping de Pawtient permite alinear los objetivos del negocio con las necesidades de los usuarios, asegurando que cada funcionalidad desarrollada genere valor real. A partir de los User Personas identificados: Sebastián Navarro (veterinario) y Camila Rodríguez (dueña de mascota), se definieron los objetivos de negocio (Business Goals), los actores involucrados, los impactos esperados en su comportamiento y los entregables que permiten alcanzarlos.
+>*El Impact Mapping de Pawtient permite alinear los objetivos del negocio con las necesidades de los usuarios, asegurando que cada funcionalidad desarrollada genere valor real. A partir de los User Personas identificados: Sebastián Navarro (veterinario independiente) y Valeria Torres (administradora de clínica veterinaria), se definieron los objetivos de negocio (Business Goals), los actores involucrados, los impactos esperados en su comportamiento y los entregables que permiten alcanzarlos.
 Los Business Goals han sido formulados bajo el criterio SMART, asegurando que sean específicos, medibles, alcanzables, relevantes y definidos en el tiempo.*
 
 <br>
@@ -1447,7 +1426,7 @@ Los Business Goals han sido formulados bajo el criterio SMART, asegurando que se
   
 **Herramienta utilizada:** `UXPressia`
 
-![Impact Map](pawtient-report/assets/images/impact-mapping/impact-map.png)
+![Impact Map](pawtient-report/assets/images/impact-mapping/impact.png)
 
 </div>
 
@@ -1467,64 +1446,63 @@ Los Story Points siguen la escala Fibonacci sin superar 5 por historia (1, 2, 3,
 
 <br>
 
-**Total de historias: 50**
-**Total de Story Points: 196**
+**Total de historias: 43**
+**Total de Story Points: 137**
 
 <br>
 
 | # | Story ID | Título | Descripción | Story Points |
 |:---:|:---:|:---|:---|:---:|
-| 1 | US02 | Iniciar sesión en la plataforma | Como administrador de clínica o veterinario independiente, quiero iniciar sesión con mis credenciales para acceder a las funcionalidades de gestión clínica según mi perfil. | 3 |
-| 2 | US01 | Registrar cuenta como administrador de clínica o veterinario independiente | Como administrador de clínica o veterinario independiente, quiero crear una cuenta en Pawtient con mis datos profesionales para acceder a las funcionalidades de gestión clínica. | 5 |
-| 3 | US03 | Recuperar contraseña olvidada | Como administrador de clínica o veterinario independiente, quiero recuperar el acceso a mi cuenta en caso de olvidar mi contraseña para no perder el acceso a la plataforma. | 3 |
-| 4 | US16 | Registrar mascota en el sistema | Como administrador de clínica o veterinario independiente, quiero registrar el perfil de una mascota en la plataforma para centralizar su información médica y acceder a ella durante cualquier consulta. | 5 |
-| 5 | US04A | Registrar historia clínica – formulario y validaciones | Como administrador de clínica o veterinario independiente, quiero completar el formulario de historia clínica con validaciones en tiempo real para asegurar que todos los datos obligatorios estén correctos antes de guardar. | 3 |
-| 6 | US04B | Registrar historia clínica – persistencia y confirmación | Como administrador de clínica o veterinario independiente, quiero que la historia clínica se guarde correctamente en el sistema y recibir confirmación del registro para tener certeza de que la información quedó almacenada. | 5 |
-| 7 | US05 | Consultar historial médico de una mascota | Como administrador de clínica o veterinario independiente, quiero buscar y visualizar el historial completo de una mascota para tomar decisiones clínicas informadas durante la consulta. | 5 |
-| 8 | US06 | Editar y actualizar historia clínica | Como administrador de clínica o veterinario independiente, quiero actualizar la historia clínica de una mascota después de cada consulta para mantener la información vigente y con trazabilidad de cambios. | 5 |
-| 9 | US07 | Registrar vacunas aplicadas | Como administrador de clínica o veterinario independiente, quiero registrar cada vacuna aplicada durante una consulta vinculándola al historial de la mascota para mantener un calendario de vacunación actualizado. | 5 |
-| 10 | US08A | Agendar cita – selección y validación de horario | Como administrador de clínica o veterinario independiente, quiero seleccionar fecha, hora y mascota para una nueva cita y verificar la disponibilidad del horario antes de confirmar. | 3 |
-| 11 | US08B | Agendar cita – confirmación y notificación interna | Como administrador de clínica o veterinario independiente, quiero confirmar el registro de la cita y que quede visible de inmediato en la agenda del sistema para que todo el equipo esté informado. | 5 |
-| 12 | US09A | Gestionar solicitudes de cita – revisión y validación | Como administrador de clínica o veterinario independiente, quiero revisar las solicitudes de cita entrantes y verificar la disponibilidad del horario solicitado para evitar conflictos en la agenda. | 3 |
-| 13 | US09B | Gestionar solicitudes de cita – confirmación y cancelación | Como administrador de clínica o veterinario independiente, quiero confirmar o cancelar solicitudes de cita desde el sistema para mantener la agenda actualizada y gestionar los turnos de forma eficiente. | 5 |
-| 14 | US10 | Visualizar agenda del día | Como administrador de clínica o veterinario independiente, quiero ver un resumen de las citas programadas para el día en curso para organizar mi jornada de trabajo de forma eficiente. | 3 |
-| 15 | US11 | Configurar recordatorios de citas | Como administrador de clínica o veterinario independiente, quiero configurar recordatorios automáticos previos a las citas programadas para reducir las inasistencias y mantener la agenda organizada. | 5 |
-| 16 | US12 | Registrar ingreso de suministros | Como administrador de clínica o veterinario independiente, quiero registrar el ingreso de nuevos suministros al inventario para mantener el stock actualizado en tiempo real. | 5 |
-| 17 | US13 | Consultar niveles de stock | Como administrador de clínica o veterinario independiente, quiero consultar el nivel actual de un suministro para verificar disponibilidad antes de prescribir un tratamiento. | 3 |
-| 18 | US14A | Registrar consumo de suministros – descuento de inventario | Como administrador de clínica o veterinario independiente, quiero registrar los insumos utilizados al cerrar una consulta para que el inventario se descuente automáticamente y quede vinculado al historial clínico. | 5 |
-| 19 | US14B | Registrar consumo de suministros – reporte mensual | Como administrador de clínica o veterinario independiente, quiero generar un reporte mensual del consumo de suministros para analizar el uso de recursos y estimar costos operativos. | 3 |
-| 20 | US15 | Generar alertas de reabastecimiento | Como administrador de clínica o veterinario independiente, quiero recibir alertas automáticas cuando el stock de un suministro sea bajo para solicitar reposición con anticipación y evitar faltantes. | 5 |
-| 21 | US17 | Acceder al historial médico compartido de una mascota | Como administrador de clínica o veterinario independiente, quiero acceder al historial médico de una mascota compartido por otro profesional para contar con información clínica previa relevante antes de la consulta. | 5 |
-| 22 | US18A | Buscar mascotas registradas – búsqueda y listado | Como administrador de clínica o veterinario independiente, quiero buscar mascotas registradas en el sistema para ver un listado con su información básica y acceder rápidamente a su perfil. | 5 |
-| 23 | US18B | Buscar mascotas registradas – filtro y detalle | Como administrador de clínica o veterinario independiente, quiero filtrar los resultados de búsqueda por especie, raza o estado clínico y ver el detalle de cada mascota para tomar decisiones informadas antes de la consulta. | 3 |
-| 24 | US19 | Configurar recordatorios de vacunación | Como administrador de clínica o veterinario independiente, quiero configurar alertas automáticas cuando la vacuna de una mascota esté próxima para gestionar el calendario de vacunación de forma proactiva. | 5 |
-| 25 | US20 | Configurar preferencias de notificación | Como administrador de clínica o veterinario independiente, quiero personalizar el tipo y frecuencia de notificaciones que recibo para gestionar las alertas del sistema según las necesidades de mi práctica. | 3 |
-| 26 | US21 | Enviar notificaciones de resultados y seguimiento | Como administrador de clínica o veterinario independiente, quiero enviar notificaciones al responsable de una mascota cuando actualice el estado de seguimiento o registre resultados de exámenes para mantener una comunicación clínica efectiva. | 5 |
-| 27 | US22 | Propuesta de valor para clínicas y veterinarios independientes | Como administrador de clínica o veterinario independiente que visita la landing page, quiero ver los beneficios del sistema para evaluar si Pawtient se adapta a las necesidades de mi práctica profesional. | 3 |
-| 28 | US23 | Información general de la plataforma en la landing page | Como administrador de clínica o veterinario independiente que visita la landing page, quiero entender el alcance y las funcionalidades principales de Pawtient para decidir si me registro en la plataforma. | 3 |
-| 29 | US24 | Navegar entre secciones de la landing page | Como administrador de clínica o veterinario independiente que visita la landing page, quiero usar el menú de navegación para desplazarme rápidamente a cualquier sección y conocer todo el contenido disponible. | 2 |
-| 30 | US25 | Ver preguntas frecuentes en la landing page | Como administrador de clínica o veterinario independiente que visita la landing page, quiero consultar las preguntas frecuentes para resolver dudas antes de registrarme sin necesidad de contactar al equipo de soporte. | 2 |
-| 31 | TS01 | Endpoint de autenticación de usuarios | Como developer backend, quiero implementar un endpoint POST /api/v1/auth/login en Spring Boot que valide credenciales y devuelva un token JWT para que el frontend gestione sesiones de forma segura. | 5 |
-| 32 | TS02A | Endpoint de historia clínica – validaciones y estructura | Como developer backend, quiero implementar las validaciones del endpoint POST /api/v1/records para garantizar que solo se persistan registros con datos completos y token válido. | 3 |
-| 33 | TS02B | Endpoint de historia clínica – persistencia y respuesta | Como developer backend, quiero implementar la lógica de persistencia del endpoint POST /api/v1/records para que las historias clínicas se almacenen correctamente y el frontend reciba confirmación. | 5 |
-| 34 | TS03A | Endpoint de citas – validación de disponibilidad | Como developer backend, quiero implementar la validación de disponibilidad en el endpoint POST /api/v1/appointments para evitar conflictos de horario antes de registrar la cita. | 3 |
-| 35 | TS03B | Endpoint de citas – registro transaccional y respuesta | Como developer backend, quiero implementar el registro transaccional de citas en el endpoint POST /api/v1/appointments para garantizar consistencia de datos y retornar la cita creada al frontend. | 5 |
-| 36 | TS04 | Endpoints de gestión de inventario | Como developer backend, quiero implementar endpoints GET /api/v1/inventory y POST /api/v1/inventory en Spring Boot para que el módulo de trazabilidad de suministros opere correctamente. | 5 |
-| 37 | TS05A | Endpoint de notificaciones push – validaciones | Como developer backend, quiero implementar las validaciones del endpoint POST /api/v1/notifications/send para rechazar peticiones con datos incorrectos antes de encolar la notificación. | 3 |
-| 38 | TS05B | Endpoint de notificaciones push – encolado y respuesta | Como developer backend, quiero implementar la lógica de encolado del endpoint POST /api/v1/notifications/send para que las notificaciones se registren correctamente y el frontend reciba confirmación. | 5 |
-| 39 | TS06 | Configurar JSON Server con datos de autenticación simulados | Como developer frontend, quiero configurar un JSON Server con datos de usuarios y tokens simulados para que el equipo pueda desarrollar el flujo de login sin depender del backend real. | 3 |
-| 40 | TS07 | Datos simulados de historiales clínicos y mascotas | Como developer frontend, quiero tener endpoints simulados de historiales clínicos y mascotas en JSON Server para desarrollar y probar los componentes de visualización y registro. | 3 |
-| 41 | TS08 | Datos simulados de citas e inventario | Como developer frontend, quiero endpoints simulados de citas e inventario en JSON Server para que los componentes de agenda y trazabilidad puedan desarrollarse de forma independiente. | 3 |
-| 42 | TS09 | Datos simulados de notificaciones y configuración | Como developer frontend, quiero endpoints simulados de notificaciones y preferencias en JSON Server para desarrollar el centro de alertas y la configuración del profesional. | 2 |
-| 43 | TS10 | Implementar servicio de autenticación en Angular | Como developer frontend, quiero implementar un AuthService en Angular que gestione login, logout y almacenamiento del token JWT para centralizar la autenticación en la aplicación. | 5 |
-| 44 | TS11A | Módulo de historiales en Angular – listado y búsqueda | Como developer frontend, quiero implementar el componente de listado y búsqueda del módulo de historiales clínicos en Angular para que los profesionales encuentren registros de forma eficiente. | 3 |
-| 45 | TS11B | Módulo de historiales en Angular – creación y edición | Como developer frontend, quiero implementar los formularios de creación y edición del módulo de historiales en Angular para que los profesionales gestionen registros médicos sin recargar la página. | 5 |
-| 46 | TS12A | Módulo de citas en Angular – agenda diaria y disponibilidad | Como developer frontend, quiero implementar la vista de agenda diaria y la verificación de disponibilidad de horarios en el módulo de citas en Angular. | 3 |
-| 47 | TS12B | Módulo de citas en Angular – confirmación y cancelación | Como developer frontend, quiero implementar los flujos de confirmación y cancelación de citas en Angular para que la agenda se actualice reactivamente sin recargar la página. | 5 |
-| 48 | TS13A | Módulo de inventario en Angular – listado y alertas | Como developer frontend, quiero implementar el listado de suministros con indicadores de stock bajo y alertas de vencimiento en el módulo de inventario en Angular. | 3 |
-| 49 | TS13B | Módulo de inventario en Angular – registro de ingresos | Como developer frontend, quiero implementar el formulario de registro de ingresos de suministros en Angular para que el stock se actualice reactivamente tras cada entrada. | 5 |
-| 50 | TS14 | Implementar módulo de notificaciones en Angular | Como developer frontend, quiero implementar el módulo de notificaciones en Angular con centro de alertas y configuración de preferencias para que los profesionales gestionen sus notificaciones. | 5 |
-
+| 1 | TS01 | Endpoint de autenticación de usuarios | Implementar endpoint POST /api/v1/auth/login en Spring Boot que valide credenciales y devuelva un token JWT. | 3 |
+| 2 | US01 | Registrar cuenta como administrador de clínica o veterinario independiente | Como administrador de clínica o veterinario independiente, quiero crear una cuenta en Pawtient con mis datos profesionales para acceder a las funcionalidades de gestión clínica. | 3 |
+| 3 | US02 | Iniciar sesión en la plataforma | Como administrador de clínica o veterinario independiente, quiero iniciar sesión con mis credenciales para acceder a las funcionalidades de gestión clínica según mi perfil. | 2 |
+| 4 | US03 | Recuperar contraseña olvidada | Como administrador de clínica o veterinario independiente, quiero recuperar el acceso a mi cuenta en caso de olvidar mi contraseña para no perder el acceso a la plataforma. | 2 |
+| 5 | TS10 | Implementar servicio de autenticación en Angular | Implementar un AuthService en Angular que gestione login, logout y almacenamiento del token JWT para centralizar la autenticación en la aplicación. | 3 |
+| 6 | TS06 | Configurar JSON Server con datos de autenticación simulados | Configurar un JSON Server con datos de usuarios y tokens simulados para que el equipo pueda desarrollar el flujo de login sin depender del backend real. | 2 |
+| 7 | TS02A | Endpoint de historia clínica – validaciones y estructura | Implementar las validaciones del endpoint POST /api/v1/records en Spring Boot para garantizar que solo se persistan registros con datos completos y token válido. | 3 |
+| 8 | TS02B | Endpoint de historia clínica – persistencia y respuesta | Implementar la lógica de persistencia del endpoint POST /api/v1/records para que las historias clínicas se almacenen correctamente y el frontend reciba confirmación. | 3 |
+| 9 | US04A | Registrar historia clínica – formulario y validaciones | Como administrador de clínica o veterinario independiente, quiero completar el formulario de historia clínica con validaciones en tiempo real para asegurar que todos los datos obligatorios estén correctos antes de guardar. | 3 |
+| 10 | US04B | Registrar historia clínica – persistencia y confirmación | Como administrador de clínica o veterinario independiente, quiero que la historia clínica se guarde correctamente en el sistema y recibir confirmación del registro para tener certeza de que la información quedó almacenada. | 3 |
+| 11 | US05 | Consultar historial médico de una mascota | Como administrador de clínica o veterinario independiente, quiero buscar y visualizar el historial completo de una mascota para tomar decisiones clínicas informadas durante la consulta. | 3 |
+| 12 | US06 | Editar y actualizar historia clínica | Como administrador de clínica o veterinario independiente, quiero actualizar la historia clínica de una mascota después de cada consulta para mantener la información vigente y con trazabilidad de cambios. | 3 |
+| 13 | US07 | Registrar vacunas aplicadas | Como administrador de clínica o veterinario independiente, quiero registrar cada vacuna aplicada durante una consulta vinculándola al historial de la mascota para mantener un calendario de vacunación actualizado. | 3 |
+| 14 | TS07 | Datos simulados de historiales clínicos y mascotas | Proveer endpoints simulados de historiales clínicos y mascotas en JSON Server para desarrollar y probar los componentes de visualización y registro. | 2 |
+| 15 | TS11A | Módulo de historiales en Angular – listado y búsqueda | Implementar el componente de listado y búsqueda del módulo de historiales clínicos en Angular para que los profesionales encuentren registros de forma eficiente. | 3 |
+| 16 | TS11B | Módulo de historiales en Angular – creación y edición | Implementar los formularios de creación y edición del módulo de historiales en Angular para que los profesionales gestionen registros médicos sin recargar la página. | 3 |
+| 17 | TS03A | Endpoint de citas – validación de disponibilidad | Implementar la validación de disponibilidad en el endpoint POST /api/v1/appointments para evitar conflictos de horario antes de registrar la cita. | 3 |
+| 18 | TS03B | Endpoint de citas – registro transaccional y respuesta | Implementar el registro transaccional de citas en el endpoint POST /api/v1/appointments para garantizar consistencia de datos y retornar la cita creada al frontend. | 3 |
+| 19 | US08A | Agendar cita – selección y validación de horario | Como administrador de clínica o veterinario independiente, quiero seleccionar fecha, hora y mascota para una nueva cita y verificar la disponibilidad del horario antes de confirmar. | 3 |
+| 20 | US08B | Agendar cita – confirmación y registro en agenda | Como administrador de clínica o veterinario independiente, quiero confirmar el registro de la cita y que quede visible de inmediato en la agenda del sistema para que todo el equipo esté informado. | 2 |
+| 21 | US09A | Editar cita agendada – selección y validación de nuevo horario | Como administrador de clínica o veterinario independiente, quiero modificar el horario de una cita ya registrada y verificar la disponibilidad del nuevo horario antes de confirmar el cambio. | 3 |
+| 22 | US09B | Editar cita agendada – confirmación y cancelación | Como administrador de clínica o veterinario independiente, quiero confirmar el cambio de horario de una cita o cancelarla desde el sistema para mantener la agenda actualizada en todo momento. | 2 |
+| 23 | US10 | Visualizar agenda del día | Como administrador de clínica o veterinario independiente, quiero ver un resumen de las citas programadas para el día en curso para organizar mi jornada de trabajo de forma eficiente. | 2 |
+| 24 | US11 | Configurar recordatorios de citas | Como administrador de clínica o veterinario independiente, quiero configurar recordatorios automáticos internos previos a las citas programadas para reducir las inasistencias y mantener la agenda organizada. | 2 |
+| 25 | TS08 | Datos simulados de citas e inventario | Proveer endpoints simulados de citas e inventario en JSON Server para que los componentes de agenda y trazabilidad puedan desarrollarse de forma independiente. | 2 |
+| 26 | TS12A | Módulo de citas en Angular – agenda diaria y disponibilidad | Implementar la vista de agenda diaria y la verificación de disponibilidad de horarios en el módulo de citas en Angular. | 3 |
+| 27 | TS12B | Módulo de citas en Angular – confirmación y cancelación | Implementar los flujos de confirmación y cancelación de citas en Angular para que la agenda se actualice reactivamente sin recargar la página. | 3 |
+| 28 | TS04 | Endpoints de gestión de inventario | Implementar endpoints GET /api/v1/inventory y POST /api/v1/inventory en Spring Boot para que el módulo de trazabilidad de suministros opere correctamente. | 3 |
+| 29 | US12 | Registrar ingreso de suministros | Como administrador de clínica o veterinario independiente, quiero registrar el ingreso de nuevos suministros al inventario para mantener el stock actualizado en tiempo real. | 3 |
+| 30 | US13 | Consultar niveles de stock | Como administrador de clínica o veterinario independiente, quiero consultar el nivel actual de un suministro para verificar disponibilidad antes de prescribir un tratamiento. | 2 |
+| 31 | US14A | Registrar consumo de suministros – descuento de inventario | Como administrador de clínica o veterinario independiente, quiero registrar los insumos utilizados al cerrar una consulta para que el inventario se descuente automáticamente y quede vinculado al historial clínico. | 3 |
+| 32 | US14B | Registrar consumo de suministros – reporte mensual | Como administrador de clínica o veterinario independiente, quiero generar un reporte mensual del consumo de suministros para analizar el uso de recursos y estimar costos operativos. | 3 |
+| 33 | US15 | Generar alertas de reabastecimiento | Como administrador de clínica o veterinario independiente, quiero recibir alertas automáticas cuando el stock de un suministro sea bajo para solicitar reposición con anticipación y evitar faltantes. | 2 |
+| 34 | TS13A | Módulo de inventario en Angular – listado y alertas | Implementar el listado de suministros con indicadores de stock bajo y alertas de vencimiento en el módulo de inventario en Angular. | 3 |
+| 35 | TS13B | Módulo de inventario en Angular – registro de ingresos | Implementar el formulario de registro de ingresos de suministros en Angular para que el stock se actualice reactivamente tras cada entrada. | 2 |
+| 36 | US16 | Registrar mascota en el sistema | Como administrador de clínica o veterinario independiente, quiero registrar el perfil de una mascota en la plataforma para centralizar su información médica y acceder a ella durante cualquier consulta. | 3 |
+| 37 | US17 | Consultar historial médico de una mascota atendida en otra clínica | Como administrador de clínica o veterinario independiente, quiero consultar el historial médico de una mascota atendida en otra clínica registrada en Pawtient para contar con información clínica relevante antes de la consulta. | 3 |
+| 38 | US18A | Buscar mascotas registradas – búsqueda y listado | Como administrador de clínica o veterinario independiente, quiero buscar mascotas registradas en el sistema para ver un listado con su información básica y acceder rápidamente a su perfil. | 2 |
+| 39 | US18B | Buscar mascotas registradas – filtro y detalle | Como administrador de clínica o veterinario independiente, quiero filtrar los resultados de búsqueda por especie, raza o estado clínico y ver el detalle de cada mascota para tomar decisiones informadas antes de la consulta. | 2 |
+| 40 | TS05A | Endpoint de notificaciones internas – validaciones | Implementar las validaciones del endpoint POST /api/v1/notifications/send para rechazar peticiones con datos incorrectos antes de encolar la notificación interna. | 2 |
+| 41 | TS05B | Endpoint de notificaciones internas – encolado y respuesta | Implementar la lógica de encolado del endpoint POST /api/v1/notifications/send para que las notificaciones internas se registren correctamente y el frontend reciba confirmación. | 3 |
+| 42 | US19 | Configurar recordatorios de vacunación | Como administrador de clínica o veterinario independiente, quiero configurar alertas automáticas internas cuando la vacuna de una mascota esté próxima para gestionar el calendario de vacunación de forma proactiva. | 2 |
+| 43 | US20 | Configurar preferencias de notificación | Como administrador de clínica o veterinario independiente, quiero personalizar el tipo y frecuencia de notificaciones internas que recibo para gestionar las alertas del sistema según las necesidades de mi práctica. | 2 |
+| 44 | US21 | Registrar notas de seguimiento y resultados de exámenes | Como administrador de clínica o veterinario independiente, quiero registrar notas de seguimiento y resultados de exámenes en el historial de una mascota para mantener el registro clínico completo y actualizado después de cada consulta. | 3 |
+| 45 | TS09 | Datos simulados de notificaciones y configuración | Proveer endpoints simulados de notificaciones internas y preferencias en JSON Server para desarrollar el centro de alertas y la configuración del profesional. | 2 |
+| 46 | TS14 | Implementar módulo de notificaciones en Angular | Implementar el módulo de notificaciones internas en Angular con centro de alertas y configuración de preferencias para que los profesionales gestionen sus alertas clínicas. | 3 |
+| 47 | US22 | Propuesta de valor para clínicas y veterinarios independientes | Como profesional que visita la landing page, quiero ver los beneficios del sistema para evaluar si Pawtient se adapta a las necesidades de mi práctica profesional. | 2 |
+| 48 | US23 | Información general de la plataforma en la landing page | Como profesional que visita la landing page, quiero entender el alcance y las funcionalidades principales de Pawtient para decidir si me registro en la plataforma. | 2 |
+| 49 | US24 | Navegar entre secciones de la landing page | Como profesional que visita la landing page, quiero usar el menú de navegación para desplazarme rápidamente a cualquier sección y conocer todo el contenido disponible. | 1 |
+| 50 | US25 | Ver preguntas frecuentes en la landing page | Como profesional que visita la landing page, quiero consultar las preguntas frecuentes para resolver dudas antes de registrarme sin necesidad de contactar al equipo de soporte. | 1 |
 
 <br>
 
@@ -1550,19 +1528,19 @@ Los Story Points siguen la escala Fibonacci sin superar 5 por historia (1, 2, 3,
 
 El orden del backlog responde a los siguientes criterios en cascada:
 
-1. **Visibilidad inmediata (Sprint 1):** Las User Stories de Landing Page (US22–US25) se priorizan primero porque deben estar disponibles desde el inicio para la adquisición de usuarios, tal como indica el enunciado.
+1. **Infraestructura base (autenticación):** Las historias de registro, inicio de sesión y recuperación de contraseña (US01–US03) junto con su soporte técnico (TS01, TS06, TS10) se priorizan primero porque son el prerequisito técnico de toda la plataforma. Sin autenticación funcional ningún otro módulo puede operar de forma segura.
 
-2. **Core del negocio:** Las historias del módulo de historiales clínicos (US04, US05, US06) y citas (US08, US09, US10) se priorizan a continuación por ser el diferencial central de Pawtient y las que directamente impactan el Business Goal 1.
+2. **Core del negocio (historiales clínicos):** Las historias del módulo de historiales (US04A, US04B, US05, US06, US07) y su soporte técnico (TS02A, TS02B, TS07, TS11A, TS11B) se priorizan a continuación por ser el diferencial central de Pawtient. Centralizar los registros médicos digitales es la propuesta de valor principal para ambos segmentos objetivo.
 
-3. **Engagement del dueño:** Las historias de perfil de mascota (US16), recordatorios (US11, US19) y vacunación (US07) se ubican en posición media-alta por su impacto directo en el Business Goal 2.
+3. **Gestión operativa (citas y agenda):** Las historias del módulo de citas (US08A, US08B, US09A, US09B, US10, US11) y su soporte técnico (TS03A, TS03B, TS08, TS12A, TS12B) se ubican en tercer lugar por su impacto directo en la eficiencia operativa diaria de la clínica y la reducción de errores administrativos.
 
-4. **Inventario y trazabilidad:** Las historias del módulo de suministros (US12–US15) se ubican en posición media por ser críticas para el Business Goal 4 pero de menor urgencia que los módulos core.
+4. **Trazabilidad de inventario:** Las historias del módulo de suministros (US12, US13, US14A, US14B, US15) y su soporte técnico (TS04, TS13A, TS13B) se ubican en posición media por ser críticas para el control operativo de la clínica, aunque de menor urgencia que los módulos de historiales y citas.
 
-5. **Funcionalidades complementarias:** Las historias de configuración (US20), seguimiento (US21), compartir historial (US17) y búsqueda de clínicas (US18) se ubican en posición baja-media por ser mejoras sobre funcionalidad ya establecida.
+5. **Perfiles de mascotas:** Las historias de registro y búsqueda de mascotas (US16, US17, US18A, US18B) se ubican en posición media-baja por ser funcionalidad de soporte sobre los módulos ya establecidos. Su valor depende de que los módulos anteriores estén operativos.
 
-6. **Autenticación:** Las historias de registro e inicio de sesión (US01–US03) se ubican al final de las User Stories funcionales porque, si bien son necesarias técnicamente, no representan valor directo de negocio para el usuario final y el enunciado indica explícitamente que iniciar el backlog con autenticación es incorrecto.
+6. **Seguimiento clínico y notificaciones:** Las historias de recordatorios, vacunación y registro de seguimiento (US19, US20, US21) y su soporte técnico (TS05A, TS05B, TS09, TS14) se ubican hacia el final de las historias funcionales por ser mejoras sobre funcionalidad ya establecida que incrementan el valor de la plataforma sin ser bloqueantes.
 
-7. **Technical Stories:** Las TS01–TS05 cierran el backlog por ser soporte técnico del API REST, sin valor de negocio directo perceptible por el usuario.
+7. **Landing page:** Las historias de presentación de la plataforma (US22–US25) se ubican al cierre del backlog funcional porque no dependen de ningún otro módulo del sistema, pueden desarrollarse en paralelo en cualquier momento y no bloquean la entrega de valor al usuario interno de la plataforma.
 
 <br>
 
