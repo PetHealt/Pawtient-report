@@ -3429,7 +3429,7 @@ Se optó por Azure debido a su facilidad para implementar Continuous Deployment 
 
 Proceso seguido
 
-URL del despliegue: 
+URL del despliegue: [Click Aqui](https://pawtient-api-emi25-hqe5hpdqgyeehrcw.westus-01.azurewebsites.net/swagger/index.html)
 
 
 Evidencias
