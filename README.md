@@ -3461,16 +3461,14 @@ Aún no se cuenta con validación suficiente con usuarios reales, por lo que las
 ---
 
 ## Recomendaciones
-Completar el proceso de investigación con entrevistas reales a veterinarias, veterinarios y dueños de mascotas, para sustentar adecuadamente los segmentos objetivo y user personas.
-Desarrollar y documentar completamente el análisis competitivo, identificando soluciones similares existentes y diferenciando claramente la propuesta de valor de Pawtient.
+
+Completar el proceso de investigación con entrevistas reales a veterinarias, veterinarios y dueños de mascotas, 
+para sustentar adecuadamente los segmentos objetivo y user personas.Desarrollar y documentar completamente el análisis competitivo, 
+identificando soluciones similares existentes y diferenciando claramente la propuesta de valor de Pawtient.
 Refinar los User Stories y criterios de aceptación, asegurando que sean medibles, claros y alineados con necesidades reales del usuario.
-Priorizar la construcción de un MVP (Producto Mínimo Viable) enfocado en funcionalidades críticas como:
-Gestión de citas
-Registro clínico de pacientes
-Control básico de inventario
-Validar continuamente el producto mediante iteraciones ágiles (sprints) y feedback de usuarios para mejorar la solución de forma incremental.
-Completar el diseño UX/UI (wireframes, mockups y prototipos) con coherencia visual basada en un design system definido.
-Asegurar la correcta configuración de despliegue y DevOps (CI/CD) para facilitar pruebas, integración y entrega continua del sistema.
+Priorizar la construcción de un MVP (Producto Mínimo Viable) enfocado en funcionalidades críticas como:Gestión de citasRegistro clínico de pacientesControl básico de inventarioValidar continuamente el producto mediante iteraciones ágiles (sprints) y feedback de usuarios para mejorar la solución de forma incremental.
+Completar el diseño UX/UI (wireframes, mockups y prototipos) con coherencia visual basada en un design system definido.Asegurar la correcta configuración de despliegue y DevOps (CI/CD) para facilitar pruebas, integración y entrega continua del sistema.
+
 ---
 
 ## Bibliografía
