@@ -3109,18 +3109,22 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 
 A continuación se presentará el sprint planning para esta primera entrega, donde definimos qué trabajo se va a realizar para el próximo sprint y cómo se va a lograr.
 
-| Sprint #                             | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                    |
-|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sprint planning <br> background      |                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Date                                 | 2026/05/25                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Time                                 | 8:00 PM                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Location                             | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                     |
-| Prepared By                          | Gonzalo Quintanilla                                                                                                                                                                                                                                                                                                                                                                                         |
-| Attendees <br> (to planning meeting) | Brianna Salinas, Emily Arroyo, Mateo Salazar, Mathias Acuache y Gonzalo Quintanilla                                                                                                                                                                                                                                                                                                                         |
-| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Sprint 1 Goal                        | Nuestro enfoque está en presentar nuestra primera versión del Backend y conectarlo con el Front que muestre todas las <br> funcionalidades y características de Pawtient a los visitantes. <br> Creemos que esto generará una sólida primera impresión sobre el valor de la plataforma para clínicas y dueños de mascotas. <br> Esto se confirmará cuando el backend este levantado y conectado al Frontend |
-| Sprint 1 Velocity                    | 15                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Sum of story points                  | 10                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Sprint #                             | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                        |
+|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning <br> background      |                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Date                                 | 2026/05/25                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Time                                 | 8:00 PM                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Location                             | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                         |
+| Prepared By                          | Gonzalo Quintanilla                                                                                                                                                                                                                                                                                                                                                                                             |
+| Attendees <br> (to planning meeting) | Brianna Salinas, Emily Arroyo, Mateo Salazar, Mathias Acuache y Gonzalo Quintanilla                                                                                                                                                                                                                                                                                                                             |
+| Sprint 1 Review Summary              | Durante el Sprint 1 se desarrolló la landing page de Pawtient, permitiendo presentar las principales funcionalidades y características de la plataforma a clínicas veterinarias y veterinarios independientes. Como resultado, se obtuvo una primera validación positiva respecto al valor de la solución, además de verificar que la página fuera responsiva, accesible y funcional en distintos dispositivos. |
+| Sprint 1 Retrospective Summary       | El equipo tuvo poca comunicación, habían distintas opiniones respecto al diseño y no se tenía una visión clara sobre algunos aspectos del producto pero aún asi se logró llegar a una cuerdo.                                                                                                                                                                                                                   
+| Sprint 2 Review Summary              | Durante el Sprint 2 se desarrollo el Front End, permitiendo presentar las principales funcionalidades y características de la plataforma a clínicas veterinarias y veterinarios independientes. Se tuvo una aceptación positiva, pero teniendo en cuenta algunos puntos de mejora                                                                                                                                |
+| Sprint 2 Retrospective Summary       | Hubo diversas opiniones de acorde al proyecto Front End, se tenia distintas opiniones respecto a lo que se tenia que implementar y tambien algunas dudas sobre como funcionaria nuestro código en el proyecto..                                                                                                                                                                                                                   
+| **Sprint Goal & User Stories**       |                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sprint 3 Goal                        | Nuestro enfoque está en presentar nuestra primera versión del Backend y conectarlo con el Front que muestre todas las <br> funcionalidades y características de Pawtient a los visitantes. <br> Creemos que esto generará una sólida primera impresión sobre el valor de la plataforma para clínicas y dueños de mascotas. <br> Esto se confirmará cuando el backend este levantado y conectado al Frontend     |
+| Sprint 4 Velocity                    | 15                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sum of story points                  | 10                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 <br>
 
@@ -3159,7 +3163,7 @@ El objetivo principal de este Sprint es **implementar y desplegar el Backend y C
 <table>
   <tr>
     <td><b>Sprint #</b></td>
-    <td colspan="7">Sprint 2</td>
+    <td colspan="7">Sprint 3</td>
   </tr>
 
   <tr>
@@ -3364,34 +3368,24 @@ Durante el Sprint 3 se implementó el back-end de la solución Pawtient, incorpo
 
 **Development Evidence – Sprint 1**
 
-| Repository                          | Branch     | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-|:------------------------------------|:-----------|:---|:---|:---|:--------------------|
-| PetHealt/Pawtient-Back-end-Web-app  | v1.0.0     | 202bf69 | fix: update assembly informational version | Refactorización y mejora de estructura del módulo store. | 16/06/2026          |
-| PetHealt/Pawtient-Back-end-Web-app | v1.0.0     | 31ef079 | feat: add report application boundend context application and interfaces | Implementación de vista dashboard para facturación y reportes. | 16/06/2026          |
-| PetHealt/Pawtient-Back-end-Web-app | v1.0.0     | 5df53d2 | fix: update assembly informational version | Integración del servicio API para reportes. | 12/06/2026          |
-| PetHealt/Pawtient-Back-end-Web-app | v1.0.0     | b97019d | feat:add clinic application adn interfaces | Creación de entidad Report para el dominio de reportes. | 16/06/2026          |
-| PetHealt/Pawtient-Back-end-Web-app | v1.0.0     | db5a9bd | feat: add command and query service interfaces for supplier management
-| Implementación de carpeta reports y store en la capa de aplicación. | 16/06/2026 |
-| PetHealt/Pawtient-Back-end-Web-app | v1.0.0     | 5c03221 |feat: add CreateSupplierResource record for supplier creation
-| Adaptación de componentes para compatibilidad con db.json. | 18/06/2026 |
-| PetHealt/Pawtient-Back-end-Web-app | main       | e753031 | fix: update database connection string in appsettings.json | Finalización e integración del módulo store. | 16/06/20266         |
-| PetHealt/Pawtient-Back-end-Web-app | v1.0.0     | 9c0098d | feat: add CreateProductResource record for product creation
-| Creación de estructura inicial del módulo clinic. | 18/06/2026 |
-| PetHealt/Pawtient-Back-end-Web-app | develop    | 515b398 | refactor: reorganize DbSet properties and update entity configurations in AppDbContext
-| Actualización de detalles del perfil de usuario. | 18/06/2026 |
-| PetHealt/Pawtient-Back-end-Web-app | develop    | 5b94912 |feat: add invoice management functionality with command and query services
-| Implementación de ruta de perfil y actualización del guard de autenticación. | 18/06/2026 |
-| PetHealt/Pawtient-Back-end-Web-app | v1.0.0     | 2fb2f4e |Integración limpia de clinic: descartar archivos de compilación
-| Creación de servicio API para actualización de perfiles. | 15/06/2026 |
-| PetHealt/Pawtient-Back-end-Web-app | develop    | c996f10 | fix password in appsettings
-| Implementación del store de perfiles y funcionalidad loadProfile. | 18/06/2026 |
-| PetHealt/Pawtient-Back-end-Web-app | v1.0.0     | 433edc4 | feat: one users endpoint example added
-| Implementación de edición persistente de perfiles. | 15/06/2026 |
-| PetHealt/Pawtient-Back-end-Web-app | develop    | 9dc0f0a | feat: mysql database connection and entitys creation
-| Creación de formulario de edición con validaciones. | 18/06/2026 |
-| PetHealt/Pawtient-Back-end-Web-app | develop    | dce1a16 | Update README.md | Implementación de componente de visualización de perfil. | 12/06/2026          |
-| PetHealt/Pawtient-Back-end-Web-app | develop    | be30e5f | feat: implement product and supplier management services and controllers
-| Creación de entidad Profile y componente de detalles. | 18/06/2026 |
+| Repository                          | Branch     | Commit Id | Commit Message                                                                        | Commit Message Body | Committed on (Date) |
+|:------------------------------------|:-----------|:---|:--------------------------------------------------------------------------------------|:---|:--------------------|
+| PetHealt/Pawtient-Back-end-Web-app  | develop     | 202bf69 | fix: update assembly informational version                                            | Refactorización y mejora de estructura del módulo store. | 16/06/2026          |
+| PetHealt/Pawtient-Back-end-Web-app | develop     | 31ef079 | feat: add report application boundend context application and interfaces              | Implementación de vista dashboard para facturación y reportes. | 16/06/2026          |
+| PetHealt/Pawtient-Back-end-Web-app | develop     | 5df53d2 | fix: update assembly informational version                                            | Integración del servicio API para reportes. | 12/06/2026          |
+| PetHealt/Pawtient-Back-end-Web-app | develop     | b97019d | feat:add clinic application adn interfaces                                            | Creación de entidad Report para el dominio de reportes. | 16/06/2026          |
+| PetHealt/Pawtient-Back-end-Web-app | develop     | db5a9bd | feat: add command and query service interfaces for supplier management                | Implementación de carpeta reports y store en la capa de aplicación. | 16/06/2026 |
+| PetHealt/Pawtient-Back-end-Web-app | develop     | 5c03221 | feat: add CreateSupplierResource record for supplier creation                         | Adaptación de componentes para compatibilidad con db.json. | 18/06/2026 |
+| PetHealt/Pawtient-Back-end-Web-app | develop      | e753031 | fix: update database connection string in appsettings.json                            | Finalización e integración del módulo store. | 16/06/20266         |
+| PetHealt/Pawtient-Back-end-Web-app | develop     | 9c0098d | feat: add CreateProductResource record for product creation                           | Creación de estructura inicial del módulo clinic. | 18/06/2026 |
+| PetHealt/Pawtient-Back-end-Web-app | develop    | 515b398 | refactor: reorganize DbSet properties and update entity configurations in AppDbContext| Actualización de detalles del perfil de usuario. | 18/06/2026 |
+| PetHealt/Pawtient-Back-end-Web-app | develop    | 5b94912 | feat: add invoice management functionality with command and query services            | Implementación de ruta de perfil y actualización del guard de autenticación. | 18/06/2026 |
+| PetHealt/Pawtient-Back-end-Web-app | develop     | 2fb2f4e | Integración limpia de clinic: descartar archivos de compilación                       | Creación de servicio API para actualización de perfiles. | 15/06/2026 |
+| PetHealt/Pawtient-Back-end-Web-app | develop    | c996f10 | fix password in appsettings                                                           | Implementación del store de perfiles y funcionalidad loadProfile. | 18/06/2026 |
+| PetHealt/Pawtient-Back-end-Web-app | develop    | 433edc4 | feat: one users endpoint example added                                                | Implementación de edición persistente de perfiles. | 15/06/2026 |
+| PetHealt/Pawtient-Back-end-Web-app | develop    | 9dc0f0a | feat: mysql database connection and entitys creation                                  | Creación de formulario de edición con validaciones. | 18/06/2026 |
+| PetHealt/Pawtient-Back-end-Web-app | develop    | dce1a16 | Update README.md                                                                      | Implementación de componente de visualización de perfil. | 12/06/2026          |
+| PetHealt/Pawtient-Back-end-Web-app | develop    | be30e5f | feat: implement product and supplier management services and controllers              | Creación de entidad Profile y componente de detalles. | 18/06/2026 |
 
 <br>
 
@@ -3440,80 +3434,43 @@ A continuación, se presentan las capturas de pantalla que documentan el estado 
 <br>
 
 ---
+#### 5.2.3.8. Team Collaboration Insights during Sprint
 
-## 5.3. Validation Interviews
+Durante el Sprint 3, el equipo trabajó siguiendo la estrategia de ramificación estandarizada **GitFlow**, creando ramas específicas por endpoint asignado (ejemplo: `feature/appointments`, `feature/clinic`, `feature/profiles`, `feature/reports`, `feature/store`).
 
-### 5.3.1. Diseño de Entrevistas
+El trabajo asíncrono se gestionó de manera eficiente: cada integrante empujó (*push*) sus cambios a su respectiva rama remota. Posteriormente, el Líder Técnico se encargó de realizar la integración progresiva (*merge*) de todas las ramas hacia `develop`, resolviendo los conflictos de fusión.
 
-<br>
-
----
-
-### 5.3.2. Registro de Entrevistas
-
-<br>
-
----
-
-### 5.3.3. Evaluaciones según heurísticas
-
-<br>
+A continuación, se presentan los **analíticos de GitHub (Insights & Network Graph)**, que evidencian la participación del equipo en *commits*, gestión de ramas y *merges* durante el Sprint. Estas evidencias confirman la colaboración activa, equilibrada y estructurada de todos los miembros del equipo:
 
 
----
+![Gráfico de Red (Network Graph) mostrando las ramas y merges](pawtient-report/assets/images/Team-Collaboration/team-collaboration-3.1.png)
+![Gráfico de Red (Network Graph) mostrando las ramas y merges](pawtient-report/assets/images/Team-Collaboration/team-collaboration-3.2.png)
+![Analíticas de Contribución (Contributors) del equipo](pawtient-report/assets/images/Team-Collaboration/team-collaboration-3.3.png)
 
-## 5.4. Video About-the-Product
-
-<br>
 
 ---
 
 ## Conclusiones
-
-
-1. 
-
-2. 
-
-3. 
-
-4. 
-
-5. 
-
-6. 
- 
-
-<br>
+El proyecto Pawtient está correctamente orientado a resolver una problemática real en clínicas veterinarias, enfocándose en la gestión de pacientes, citas, historial clínico e inventario, lo cual cubre procesos críticos del dominio.
+El equipo ha definido una estructura metodológica sólida basada en Lean UX, User Personas, User Stories y arquitectura de software, lo que permite una base ordenada para el desarrollo progresivo del sistema.
+El informe evidencia que el proyecto se encuentra en una fase inicial de análisis y planificación, ya que gran parte de los apartados (entrevistas, segmentación, backlog y diseño UX/UI) aún están en formato de plantilla.
+Se ha establecido un enfoque de trabajo colaborativo con herramientas modernas como GitFlow, control de versiones y documentación técnica, lo cual favorece la escalabilidad del proyecto.
+El uso de un lenguaje común del dominio (ubiquitous language) contribuye a una mejor comunicación entre los miembros del equipo y al entendimiento del problema.
+Aún no se cuenta con validación suficiente con usuarios reales, por lo que las decisiones de diseño y funcionalidad todavía requieren retroalimentación del entorno objetivo.
 
 ---
 
 ## Recomendaciones
-
-1. 
-
-2. 
-
-3. 
-
-4. 
-
-5. 
-
-6. 
-
-7. 
-
-
-<br>
-
----
-
-## Video About-The-Team
-
-
-<br>
-
+Completar el proceso de investigación con entrevistas reales a veterinarias, veterinarios y dueños de mascotas, para sustentar adecuadamente los segmentos objetivo y user personas.
+Desarrollar y documentar completamente el análisis competitivo, identificando soluciones similares existentes y diferenciando claramente la propuesta de valor de Pawtient.
+Refinar los User Stories y criterios de aceptación, asegurando que sean medibles, claros y alineados con necesidades reales del usuario.
+Priorizar la construcción de un MVP (Producto Mínimo Viable) enfocado en funcionalidades críticas como:
+Gestión de citas
+Registro clínico de pacientes
+Control básico de inventario
+Validar continuamente el producto mediante iteraciones ágiles (sprints) y feedback de usuarios para mejorar la solución de forma incremental.
+Completar el diseño UX/UI (wireframes, mockups y prototipos) con coherencia visual basada en un design system definido.
+Asegurar la correcta configuración de despliegue y DevOps (CI/CD) para facilitar pruebas, integración y entrega continua del sistema.
 ---
 
 ## Bibliografía
