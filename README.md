@@ -9,7 +9,7 @@
 
 <br>
 
-# Informe de Proyecto - AV2
+# Informe de Proyecto - TB2
 
 ## Presentado por ´PetHealt Team´
 
@@ -42,7 +42,7 @@
 
 `U202314898` - `Acuache Lucas, Mathias Joaquin`
 
-### **Junio 2026**
+### **Julio 2026**
 
 
 <br>
@@ -61,8 +61,10 @@
 | AV1 | 2026-04-08 | Salinas Guzmán, Brianna Cristina <br> Quintanilla Pozo, Gonzalo Samuel <br> Salazar Miranda, Mateo Paolo <br> Arroyo Gonzales, Emily Juliette <br> Acuache Lucas, Mathias Joaquin | Avance 1 del reporte del proyecto y primera versión de la landing page |
 | TB1 | 2026-05-13 | Salinas Guzmán, Brianna Cristina <br> Quintanilla Pozo, Gonzalo Samuel <br> Salazar Miranda, Mateo Paolo <br> Arroyo Gonzales, Emily Juliette <br> Acuache Lucas, Mathias Joaquin | Correciones del project report y despliegue de la primera versión del frontend |
 | AV2 | 2026-06-13 | Salinas Guzmán, Brianna Cristina <br> Quintanilla Pozo, Gonzalo Samuel <br> Salazar Miranda, Mateo Paolo <br> Arroyo Gonzales, Emily Juliette <br> Acuache Lucas, Mathias Joaquin | Entrega del reporte AV2 del proyecto, nueva versión de Web Applications, primera versión de Web Services, Video About-The-Product y Video About-The-Team |
+| TB2 | 2026-07-08 | Salinas Guzmán, Brianna Cristina <br> Quintanilla Pozo, Gonzalo Samuel <br> Salazar Miranda, Mateo Paolo <br> Arroyo Gonzales, Emily Juliette <br> Acuache Lucas, Mathias Joaquin | Entrega del reporte TB2 del proyecto, Web Applications y Web Services integrado, nueva versión del Landing Page, Video About-The-Product y Video About-The-Team |
 
 </div>
+<br>
 
 ---
 
@@ -78,7 +80,7 @@
 
 **AV2 Collaboration Insights**
 
-Para el desarrollo del AV2, cada integrante contribuyó de la siguiente manera:
+Para el desarrollo del TB2, cada integrante contribuyó de la siguiente manera:
 
 | Integrante | Tareas Realizadas |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -173,6 +175,7 @@ Para el desarrollo del AV2, cada integrante contribuyó de la siguiente manera:
     - [5.2.1. Sprint 1](#521-sprint-1)
     - [5.2.2. Sprint 2](#522-sprint-2)
     - [5.2.3. Sprint 3](#523-sprint-3)
+    - [5.2.4. Sprint 4](#524-sprint-4)
   - [5.3. Validation Interviews](#52-landing-page-services--applications-implementation)
     - [5.3.1. Diseño de Entrevistas](#521-sprint-1)
     - [5.3.2. Registro de Entrevistas](#522-sprint-2)
@@ -3448,26 +3451,274 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 ![Analíticas de Contribución (Contributors) del equipo](pawtient-report/assets/images/Team-Collaboration/team-collaboration-3.3.png)
 
 
+<br>
+
+---
+
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+<br>
+
+---
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+<br>
+
+---
+
+#### 5.2.4.3. Sprint Backlog 4
+
+
+<br>
+
+---
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+
+<br>
+
+---
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+<br>
+
+---
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+
+<br>
+
+---
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+<br>
+
+---
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+
+<br>
+
+
+---
+
+## 5.3. Validation Interviews
+
+### 5.3.1. Diseño de Entrevistas
+
+
+<br>
+
+---
+
+### 5.3.2. Registro de Entrevistas
+
+<div align="center">
+
+**Segmento objetivo 1: `Dueños y administradores de clínicas veterinarias`**
+
+<br>
+
+#### Entrevista 1
+
+<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg1_1.png" alt="Entrevista de Validación 1 - Segmento 1" width="700"/>
+
+<br>
+<br>
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `` |
+| **Edad** | `` |
+| **Ubicación** | `` |
+| **Fecha de entrevista** | `` |
+| **Duración** | `` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+
+**Resumen:**
+
+</div>
+
+
+**Hallazgos sobre el Landing Page:** 
+
+**Hallazgos sobre la Aplicación Web:** 
+
+<br>
+
+<div align="center">
+
+#### Entrevista 2
+
+*Imagen de la entrevista*
+
+<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg1_2.png" alt="Entrevista de Validación 2 - Segmento 1" width="700"/>
+
+<br>
+<br>
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `` |
+| **Edad** | `` |
+| **Ubicación** | `` |
+| **Fecha de entrevista** | `` |
+| **Duración** | `` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+
+**Resumen:**
+</div>
+
+<br>
+
+<div align="center">
+
+#### Entrevista 3
+
+*Imagen de la entrevista*
+
+<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg1_3.png" alt="Entrevista de Validación 3 - Segmento 1" width="700"/>
+
+<br>
+<br>
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `` |
+| **Edad** | `` |
+| **Ubicación** | `` |
+| **Fecha de entrevista** | `` |
+| **Duración** | `` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+
+**Resumen:**
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+**Segmento objetivo 2: `Veterinarios independientes`**
+
+<br>
+
+#### Entrevista 1
+
+*Imagen de la entrevista*
+
+<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg2_1.png" alt="Entrevista de Validación 1 - Segmento 2" width="700"/>
+
+<br>
+<br>
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `` |
+| **Edad** | `` |
+| **Ubicación** | `` |
+| **Fecha de entrevista** | `` |
+| **Duración** | `` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+
+
+**Resumen:**
+
+</div>
+
+<br>
+<div align="center">
+
+
+#### Entrevista 2
+
+*Imagen de la entrevista*
+
+<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg2_2.png" alt="Entrevista de Validación 2 - Segmento 2" width="700"/>
+
+<br>
+<br>
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `` |
+| **Edad** | `` |
+| **Ubicación** | `` |
+| **Fecha de entrevista** | `` |
+| **Duración** | `` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+
+**Resumen:**
+
+</div>
+
+<br>
+
+<div align="center">
+
+#### Entrevista 3
+
+*Imagen de la entrevista*
+
+<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg2_3.png" alt="Entrevista de Validación 3 - Segmento 2" width="700"/>
+
+<br>
+<br>
+
+| Campo | Detalle |
+|:------|:--------|
+| **Nombres y apellidos** | `` |
+| **Edad** | `` |
+| **Ubicación** | `` |
+| **Fecha de entrevista** | `` |
+| **Duración** | `` |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+
+**Resumen:**
+
+</div>
+
+<br>
+
+---
+
+### 5.3.3. Evaluaciones según heurísticas
+
+
+<br>
+
+---
+
+## 5.4. Video About-the-Product
+
+El video About-the-Product de Pawtient presenta una visión general del producto, sus principales funcionalidades y la propuesta de valor.
+
+[Ver Video About-the-Product de BrandRadar](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCY33XTNcmZQZI3KLIUXU6yATnu9ITeb3ZMtEUUqnQmvvA?e=INFJYg)
+
+<br> 
+
 ---
 
 ## Conclusiones
-El proyecto Pawtient está correctamente orientado a resolver una problemática real en clínicas veterinarias, enfocándose en la gestión de pacientes, citas, historial clínico e inventario, lo cual cubre procesos críticos del dominio.
-El equipo ha definido una estructura metodológica sólida basada en Lean UX, User Personas, User Stories y arquitectura de software, lo que permite una base ordenada para el desarrollo progresivo del sistema.
-El informe evidencia que el proyecto se encuentra en una fase inicial de análisis y planificación, ya que gran parte de los apartados (entrevistas, segmentación, backlog y diseño UX/UI) aún están en formato de plantilla.
-Se ha establecido un enfoque de trabajo colaborativo con herramientas modernas como GitFlow, control de versiones y documentación técnica, lo cual favorece la escalabilidad del proyecto.
-El uso de un lenguaje común del dominio (ubiquitous language) contribuye a una mejor comunicación entre los miembros del equipo y al entendimiento del problema.
-Aún no se cuenta con validación suficiente con usuarios reales, por lo que las decisiones de diseño y funcionalidad todavía requieren retroalimentación del entorno objetivo.
+ 
+<br> 
+
 
 ---
 
 ## Recomendaciones
 
-Completar el proceso de investigación con entrevistas reales a veterinarias, veterinarios y dueños de mascotas, 
-para sustentar adecuadamente los segmentos objetivo y user personas.Desarrollar y documentar completamente el análisis competitivo, 
-identificando soluciones similares existentes y diferenciando claramente la propuesta de valor de Pawtient.
-Refinar los User Stories y criterios de aceptación, asegurando que sean medibles, claros y alineados con necesidades reales del usuario.
-Priorizar la construcción de un MVP (Producto Mínimo Viable) enfocado en funcionalidades críticas como:Gestión de citasRegistro clínico de pacientesControl básico de inventarioValidar continuamente el producto mediante iteraciones ágiles (sprints) y feedback de usuarios para mejorar la solución de forma incremental.
-Completar el diseño UX/UI (wireframes, mockups y prototipos) con coherencia visual basada en un design system definido.Asegurar la correcta configuración de despliegue y DevOps (CI/CD) para facilitar pruebas, integración y entrega continua del sistema.
+<br> 
 
 ---
 
