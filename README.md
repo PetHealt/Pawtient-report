@@ -76,21 +76,6 @@
 
 **URL del Repositorio:** [`https://github.com/PetHealt/Pawtient-report.git`](https://github.com/PetHealt/Pawtient-report.git)
 
-<br>
-
-**AV2 Collaboration Insights**
-
-Para el desarrollo del TB2, cada integrante contribuyó de la siguiente manera:
-
-| Integrante | Tareas Realizadas |
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Salinas Guzmán, Brianna Cristina | Tareas    |
-| Quintanilla Pozo, Gonzalo Samuel      | Tareas    |
-| Salazar Miranda, Mateo Paolo      | Tareas    | 
-| Arroyo Gonzales, Emily Juliette    | Tareas    |
-| Acuache Lucas, Mathias Joaquin           | Tareas    |
-
-
 </div>
 
 <br>
@@ -183,8 +168,6 @@ Para el desarrollo del TB2, cada integrante contribuyó de la siguiente manera:
   - [5.4. Video About-the-Product](#52-landing-page-services--applications-implementation)
     
   #### [Conclusiones](#conclusiones-1)
-  
-  #### [Recomendaciones](#recomendaciones-1)
 
   #### [Video About-the-Team](#video-about-the-team-1)
   
@@ -3412,10 +3395,12 @@ A continuación las Evidencias:
 ---
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
 Durante el Sprint 3, el esfuerzo técnico y el alcance principal se centraron exclusivamente en el diseño, implementación y despliegue del Back End.
 
 Por ende, luego de haber realizado el diseño del Backend Hemos podido llegar a una de las ultimas partes de nuestro proyecto que es la conexión entre el Front End y el Back End, esto hace 
 que ya se tenga una primera parte de nuestro proyecto general, para que posteriormente se pueda transmitir nuestro proyecto a nuestros segmentos usuarios establecidos.
+
 <br>
 
 ---
@@ -3447,7 +3432,9 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 
 
 ![Gráfico de Red (Network Graph) mostrando las ramas y merges](pawtient-report/assets/images/Team-Collaboration/team-collaboration-3.1.png)
+
 ![Gráfico de Red (Network Graph) mostrando las ramas y merges](pawtient-report/assets/images/Team-Collaboration/team-collaboration-3.2.png)
+
 ![Analíticas de Contribución (Contributors) del equipo](pawtient-report/assets/images/Team-Collaboration/team-collaboration-3.3.png)
 
 
@@ -3703,7 +3690,7 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 
 El video About-the-Product de Pawtient presenta una visión general del producto, sus principales funcionalidades y la propuesta de valor.
 
-[Ver Video About-the-Product de BrandRadar](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgCY33XTNcmZQZI3KLIUXU6yATnu9ITeb3ZMtEUUqnQmvvA?e=INFJYg)
+[Ver Video About-the-Product de Pawtient](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgAVwClQJa7fSq_98avIde5dAdUgX9EuVOIH0NNKo8wIeUg?e=H1lvHU)
 
 <br> 
 
@@ -3716,9 +3703,13 @@ El video About-the-Product de Pawtient presenta una visión general del producto
 
 ---
 
-## Recomendaciones
+## Video About-The-Team
 
-<br> 
+
+[Ver Video About-the-Team de Pawtient](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202410239_upc_edu_pe/IgBORgl_rPztQKvSIWNc6IkMAYzuzv3VdpSMoSMcEEjcNLU?e=nXyF9x)
+
+
+<br>
 
 ---
 
