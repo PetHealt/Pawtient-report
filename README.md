@@ -3541,28 +3541,34 @@ Para el desarrollo de las entrevistas se consideraron los siguientes segmentos o
 
 #### Entrevista 1
 
-<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg1_1.png" alt="Entrevista de Validación 1 - Segmento 1" width="700"/>
+<img src="pawtient-report/assets/images/validation-interviews/imagenentrevista1.png" alt="Entrevista de Validación 1 - Segmento 1" width="700"/>
 
 <br>
 <br>
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+| **Nombres y apellidos** | Paola Miranda Magallanes |
+| **Edad** | 46 |
+| **Ubicación** | Los Olivos |
+| **Fecha de entrevista** | 1/07/2026 |
+| **Duración** | 1:45 |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315171_upc_edu_pe/IQBnd_gRD4HfR676Y_5dDVfVASmK05JT57LQxWUQP2n1NPg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=o62h0r) |
 
 **Resumen:**
+
+Paola es una administradora de clínica veterinaria de 46 años residente en Los Olivos. Durante la validación identificó correctamente a Pawtient como una plataforma orientada a centralizar la gestión de pacientes, citas e inventarios. Consideró que la Landing Page comunica claramente la finalidad del producto y destacó la organización de la Aplicación Web. La funcionalidad que consideró más útil fue la gestión del historial clínico digital, debido a que facilita el acceso a la información de los pacientes. Asimismo, sugirió implementar más alertas relacionadas con el inventario. Finalmente, indicó que utilizaría Pawtient porque permitiría reducir el uso de registros físicos y mantener la información de la clínica organizada.
 
 </div>
 
 
 **Hallazgos sobre el Landing Page:** 
 
+La entrevistada comprendió rápidamente la propuesta de valor de Pawtient y consideró que la información presentada en la Landing Page es clara. Identificó correctamente que la solución busca centralizar la gestión de pacientes, citas e inventarios dentro de una clínica veterinaria.
+
 **Hallazgos sobre la Aplicación Web:** 
+
+La navegación de la Aplicación Web fue considerada ordenada e intuitiva. El historial clínico digital fue identificado como una de las funcionalidades de mayor valor. Como oportunidad de mejora, el entrevistado propuso implementar alertas adicionales para informar sobre productos o insumos próximos a agotarse.
 
 <br>
 
@@ -3570,50 +3576,65 @@ Para el desarrollo de las entrevistas se consideraron los siguientes segmentos o
 
 #### Entrevista 2
 
-*Imagen de la entrevista*
-
-<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg1_2.png" alt="Entrevista de Validación 2 - Segmento 1" width="700"/>
+<img src="pawtient-report/assets/images/validation-interviews/imagenentrevista2.png" alt="Entrevista de Validación 2 - Segmento 1" width="700"/>
 
 <br>
 <br>
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+| **Nombres y apellidos** | Daniel Rios Enciso |
+| **Edad** | 24 |
+| **Ubicación** | Callao |
+| **Fecha de entrevista** | 29/06/2026 |
+| **Duración** | 1:16 |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315171_upc_edu_pe/IQBB3v8H4GMSTpc6cue650yKAbwR5CcMjWZO83y7nbb-ugQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qA14jg) |
 
 **Resumen:**
+
+Daniel es un administradora de clínica veterinaria de 36 años residente en el Callao. Durante la entrevista comprendió a Pawtient como una solución destinada a organizar los pacientes, citas, tratamientos e inventarios de una veterinaria. Consideró que la Landing Page presenta un diseño moderno y permite conocer rápidamente las principales características del producto. Respecto a la Aplicación Web, destacó la facilidad de navegación y consideró que la gestión de citas es una de las funcionalidades más útiles para las actividades diarias de una clínica. Como oportunidad de mejora, sugirió incorporar descripciones breves en algunos botones y reportes más detallados sobre las actividades e inventarios de la clínica.
+
 </div>
 
+**Hallazgos sobre el Landing Page:** 
+
+El entrevistado consideró que la Landing Page presenta la información de manera clara y visualmente atractiva. La división de la información por secciones permitió que identificara rápidamente las principales funciones y beneficios de Pawtient.
+
+**Hallazgos sobre la Aplicación Web:** 
+
+La organización de las funcionalidades fue valorada positivamente y la gestión de citas fue considerada una herramienta de gran utilidad para la clínica. Se identificó como oportunidad de mejora la incorporación de pequeñas descripciones en determinados botones y la generación de reportes más detallados sobre las operaciones de la clínica.
 <br>
 
 <div align="center">
 
 #### Entrevista 3
 
-*Imagen de la entrevista*
-
-<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg1_3.png" alt="Entrevista de Validación 3 - Segmento 1" width="700"/>
+<img src="pawtient-report/assets/images/validation-interviews/imagenentrevista3.png" alt="Entrevista de Validación 3 - Segmento 1" width="700"/>
 
 <br>
 <br>
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+| **Nombres y apellidos** | Jimena Cano Villar |
+| **Edad** | 21 |
+| **Ubicación** | San Miguel |
+| **Fecha de entrevista** | 02/07/2026 |
+| **Duración** | 1:25 |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315171_upc_edu_pe/IQADMRLLadlvQ6IrMhxTP8hcAUdlDNDm_EqCKB2wWD5NiBE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=N9tJVo) |
 
 **Resumen:**
 
+Jimena es una administradora de clínica veterinaria de 21 años residente en San Miguel. Durante la validación comprendió que Pawtient tiene como finalidad digitalizar y centralizar los procesos administrativos de las clínicas veterinarias. Consideró que la Landing Page permite conocer fácilmente las funciones y planes disponibles. Asimismo, calificó la Aplicación Web como limpia y fácil de utilizar, destacando especialmente la gestión de inventarios como una herramienta importante para mantener el control de los insumos. Como mejora, sugirió incorporar una guía inicial para nuevos usuarios y un panel de tareas o notificaciones importantes del día. Finalmente, indicó que utilizaría Pawtient para mantener un mayor control de las operaciones de una clínica.
+
 </div>
+
+**Hallazgos sobre el Landing Page:** 
+
+La entrevistada identificó correctamente el propósito de Pawtient y valoró la distribución de la información dentro de la Landing Page. Las secciones de funcionalidades y planes facilitaron la comprensión general de la solución.
+**Hallazgos sobre la Aplicación Web:** 
+
+La interfaz fue percibida como limpia y sencilla de utilizar. La gestión de inventarios fue considerada una de las funcionalidades de mayor importancia para un administrador. Se identificó la necesidad de incluir una guía inicial de uso y un panel que permita visualizar las principales tareas o notificaciones del día.
 
 <br>
 
@@ -3627,52 +3648,64 @@ Para el desarrollo de las entrevistas se consideraron los siguientes segmentos o
 
 #### Entrevista 1
 
-*Imagen de la entrevista*
-
-<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg2_1.png" alt="Entrevista de Validación 1 - Segmento 2" width="700"/>
+<img src="pawtient-report/assets/images/validation-interviews/imagenentrevista4.png" alt="Entrevista de Validación 1 - Segmento 2" width="700"/>
 
 <br>
 <br>
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
-
+| **Nombres y apellidos** | Gabriel Lasteros Lopez |
+| **Edad** | 25 |
+| **Ubicación** | Los Olivos |
+| **Fecha de entrevista** | 01/07/2026 |
+| **Duración** | 1:25 |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315171_upc_edu_pe/IQCFjCpSBKbHTZ54AX81wbJoAefKoqhJ81_-RxAG99Dd44Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rpRtyH) |
 
 **Resumen:**
 
+Gabriel es un veterinaria independiente de 25 años residente en Los Olivos. Durante la entrevista comprendió que Pawtient permite organizar digitalmente la información de los pacientes y gestionar las consultas veterinarias. Consideró que la Landing Page presenta las principales funciones de forma sencilla y permite comprender rápidamente el propósito del producto. En la Aplicación Web destacó la facilidad para identificar la sección de pacientes y consideró que el historial clínico es la funcionalidad de mayor utilidad para su trabajo. También valoró positivamente la posibilidad de acceder al sistema desde diferentes dispositivos. Como oportunidad de mejora, sugirió incorporar más recordatorios relacionados con tratamientos y controles pendientes.
+
 </div>
+
+**Hallazgos sobre el Landing Page:** 
+
+El entrevistado comprendió rápidamente que Pawtient está orientado a facilitar la gestión digital de pacientes y consultas veterinarias. Consideró que las secciones de la Landing Page presentan las funcionalidades de manera sencilla y fácil de comprender.
+
+**Hallazgos sobre la Aplicación Web:** 
+El historial clínico digital fue identificado como la funcionalidad de mayor valor para el trabajo de la entrevistada. Asimismo, destacó la importancia del acceso desde diferentes dispositivos. Como mejora, propuso implementar recordatorios adicionales para tratamientos y controles pendientes de los pacientes.
 
 <br>
 <div align="center">
 
-
 #### Entrevista 2
 
-*Imagen de la entrevista*
-
-<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg2_2.png" alt="Entrevista de Validación 2 - Segmento 2" width="700"/>
+<img src="pawtient-report/assets/images/validation-interviews/imagenentrevista5.png" alt="Entrevista de Validación 2 - Segmento 2" width="700"/>
 
 <br>
 <br>
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+| **Nombres y apellidos** | Milka Sirio Villanueva |
+| **Edad** | 27 |
+| **Ubicación** | Chorrillos |
+| **Fecha de entrevista** | 16/06/2026 |
+| **Duración** | 1:28 |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315171_upc_edu_pe/IQC0zhzh8G9QTblFgOtg3aMoAVoBeRDfm1fVXPk1E4D3M_M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lKPuZu) |
 
 **Resumen:**
+Milka es una veterinaria independiente de 27 años residente en Chorrillos. Durante la validación comprendió que Pawtient es una plataforma orientada a organizar pacientes, citas e información médica. Consideró que la distribución de la Landing Page por secciones facilita la comprensión de las principales características del producto. Asimismo, destacó que la interfaz de la Aplicación Web es simple y permite identificar fácilmente las opciones relacionadas con los pacientes. La gestión del historial clínico y el seguimiento de tratamientos fueron consideradas las funcionalidades de mayor utilidad. También valoró la posibilidad de acceder desde un celular. Como oportunidad de mejora, propuso implementar una sección de notas rápidas para registrar información durante las consultas.
 
 </div>
+
+**Hallazgos sobre el Landing Page:** 
+
+La organización de la Landing Page por secciones facilitó que la entrevistada comprendiera rápidamente las principales características de Pawtient. La propuesta de gestión de pacientes, citas e información médica fue identificada correctamente.
+
+**Hallazgos sobre la Aplicación Web:** 
+
+La interfaz fue percibida como simple e intuitiva. La gestión del historial clínico y el seguimiento de tratamientos fueron considerados elementos de gran utilidad para la práctica veterinaria independiente. Como mejora, se propuso incorporar una sección de notas rápidas que facilite el registro temporal de información durante una consulta.
 
 <br>
 
@@ -3680,25 +3713,33 @@ Para el desarrollo de las entrevistas se consideraron los siguientes segmentos o
 
 #### Entrevista 3
 
-*Imagen de la entrevista*
-
-<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg2_3.png" alt="Entrevista de Validación 3 - Segmento 2" width="700"/>
+<img src="pawtient-report/assets/images/validation-interviews/imagenentrevista6.png" alt="Entrevista de Validación 3 - Segmento 2" width="700"/>
 
 <br>
 <br>
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+| **Nombres y apellidos** | Angel Vega Ochoa |
+| **Edad** | 22 |
+| **Ubicación** | Pueblo Libre |
+| **Fecha de entrevista** | 28/06/2026 |
+| **Duración** | 1:22 |
+| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315171_upc_edu_pe/IQA97b7GntvrTY_hK9ctn0B4AVxGSAYWcNkJYNx_dmf5a3Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FJCqWL) |
 
 **Resumen:**
 
+Angel es un veterinario independiente de 34 años residente en Pueblo Libre. Durante la validación identificó a Pawtient como una herramienta web para administrar pacientes, historiales clínicos y citas. Consideró que la Landing Page es visualmente agradable y permite reconocer rápidamente los beneficios de la solución. Respecto a la Aplicación Web, indicó que las opciones son visibles y presentan una estructura sencilla. La gestión de citas fue considerada la funcionalidad de mayor utilidad debido a la necesidad de organizar personalmente sus horarios y pacientes. También destacó la importancia de acceder a la plataforma desde dispositivos móviles. Como oportunidad de mejora, sugirió incorporar notificaciones automáticas de citas y tratamientos.
+
 </div>
+
+**Hallazgos sobre el Landing Page:** 
+
+El entrevistado consideró que la Landing Page comunica claramente los beneficios de Pawtient y presenta un diseño visualmente agradable. La información permitió identificar rápidamente que la solución está orientada a gestionar pacientes, historiales clínicos y citas.
+
+**Hallazgos sobre la Aplicación Web:** 
+
+La estructura de la Aplicación Web fue considerada sencilla y fácil de comprender. La gestión de citas fue identificada como una función especialmente útil para veterinarios independientes. Como oportunidad de mejora, el entrevistado sugirió incorporar notificaciones automáticas relacionadas con las próximas citas y tratamientos.
 
 <br>
 
