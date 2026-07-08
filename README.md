@@ -161,15 +161,15 @@
     - [5.2.2. Sprint 2](#522-sprint-2)
     - [5.2.3. Sprint 3](#523-sprint-3)
     - [5.2.4. Sprint 4](#524-sprint-4)
-  - [5.3. Validation Interviews](#52-landing-page-services--applications-implementation)
-    - [5.3.1. Diseño de Entrevistas](#521-sprint-1)
-    - [5.3.2. Registro de Entrevistas](#522-sprint-2)
-    - [5.3.3. Evaluaciones según heurísticas](#523-sprint-3)
-  - [5.4. Video About-the-Product](#52-landing-page-services--applications-implementation)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
     
-  #### [Conclusiones](#conclusiones-1)
+  #### [Conclusiones](#conclusiones)
 
-  #### [Video About-the-Team](#video-about-the-team-1)
+  #### [Video About-The-Team](#video-about-the-team)
   
   #### [Bibliografía](#-bibliografía)
   
@@ -185,8 +185,8 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |:---|:---|:---|
-| **5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta.** | **Salinas Guzmán, Brianna** <br> AV1: Demostré liderazgo colaborativo al guiar la estructuración del sistema mediante la elaboración del Ubiquitous Language, User Stories, Impact Mapping y Product Backlog, facilitando la alineación del equipo en torno al dominio del problema. <br><br> TB1: Durante el desarrollo del proyecto Pawtient, participé activamente en el trabajo colaborativo del equipo mediante la elaboración y corrección de las User Stories con Technical Stories y Epics, el Product Backlog, el Diagrama de Base de Datos y la implementación del Feature Store en Frontend. Asimismo, contribuí en la coordinación de tareas y en la toma de decisiones relacionadas con la organización de funcionalidades y estructura del sistema, manteniendo una comunicación constante con los integrantes del equipo para asegurar el cumplimiento de los objetivos del proyecto. <br><br> AV2: (acciones realizadas) <br><br> **Quintanilla Pozo, Gonzalo** <br> AV1: Ejercí el liderazgo técnico al establecer el flujo de trabajo con GitFlow, supervisando la creación de ramas y resolviendo conflictos de integración. Coordiné el Sprint Planning para alinear los objetivos del equipo con el despliegue de la Landing Page y proporcioné dirección en la arquitectura de estilos base. <br><br> TB1: (acciones realizadas) <br><br> AV2:(acciones realizadas) <br><br> **Salazar Miranda, Mateo** <br> AV1: Contribuí al liderazgo técnico mediante el análisis y diseño de la sección de Servicios y Estadísticas. Participé activamente en la toma de decisiones sobre la arquitectura C4 y el diseño de clases, aportando una visión crítica para optimizar la estructura y escalabilidad del sistema.  <br><br> TB1: (acciones realizadas) <br><br> AV2: (acciones realizadas) <br><br> **Arroyo Gonzales, Emily** <br> AV1: Demostré liderazgo colaborativo al liderar el modelado del Design Level Event Storming, facilitando la identificación de Bounded Contexts esenciales como Clinic y Appointment. Aseguré la consistencia estética y funcional mediante el diseño de componentes visuales clave. <br><br> TB1: (acciones realizadas) <br><br> AV2: (acciones realizadas) <br><br> **Acuache Lucas, Mathias** <br> AV1: Colaboré en la dirección conjunta del equipo mediante la estructuración de secciones críticas como IoT, Roles y Pricing. Mi participación en el diseño de la base de datos y diagramas de arquitectura permitió tener una visión clara de la lógica de negocio del sistema. <br><br> TB1: (acciones realizadas) <br><br> AV2: (acciones realizadas) <br><br> | El equipo PetHealt logró establecer una base sólida de trabajo mediante metodologías ágiles y GitFlow, permitiendo una integración sin fricciones. La combinación de liderazgo técnico y comunicación clara resultó en un despliegue exitoso, cumpliendo con el 100% de los objetivos planteados para esta entrega. |
-| **5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Salinas Guzmán, Brianna** <br> AV1: Contribuí a la creación de un entorno colaborativo mediante la organización y priorización del Product Backlog, estableciendo metas claras para el desarrollo del sistema Pawtient. Aseguré la coherencia entre requerimientos y diseño técnico. <br><br> TB1: En el proyecto Pawtient, participé en la planificación y organización de actividades necesarias para el avance del sistema, estableciendo prioridades mediante el Product Backlog y colaborando en la definición de requerimientos y tareas técnicas. Además, promoví un entorno de trabajo colaborativo participando en reuniones de coordinación, revisión de avances y validación de entregables. Gracias a la adecuada planificación y seguimiento de tareas, se lograron completar satisfactoriamente las actividades asignadas dentro de los tiempos establecidos.<br><br> AV2: (acciones realizadas) <br><br> **Quintanilla Pozo, Gonzalo** <br> AV1: Fomenté un entorno colaborativo al configurar el entorno de despliegue continuo en Netlify y gestionar las versiones mediante la rama v1.0.0. Planifiqué y ejecuté tareas de integración técnica, cumpliendo con el objetivo de publicar la Landing Page en los tiempos establecidos. <br><br> TB1: (acciones realizadas) <br><br> AV2: (acciones realizadas) <br><br> **Salazar Miranda, Mateo** <br> AV1: Participé en la planificación de tareas mediante la estimación de tiempos para la implementación de secciones responsivas del frontend. Cumplí con los objetivos asignados al desarrollar componentes CSS modulares para las funcionalidades de estadísticas de la plataforma. <br> TB1: (acciones realizadas) <br><br> AV2: (acciones realizadas) <br><br> **Arroyo Gonzales, Emily** <br> AV1: Contribuí a un entorno inclusivo al documentar los procesos de diseño y asegurar que las necesidades de los veterinarios se reflejaran en el Event Storming. Planifiqué y cumplí con la entrega de recursos visuales para la sección Hero y de Contacto. <br> TB1: (acciones realizadas) <br><br> AV2: (acciones realizadas) <br><br> **Acuache Lucas, Mathias** <br> AV1: Demostré compromiso con las metas del Sprint al planificar e implementar la lógica de navegación y los componentes de precios. Mi proactividad en la resolución de tareas del Sprint Backlog permitió cumplir con el despliegue de una plataforma funcional y preparada para futuras integraciones. <br><br> TB1: (acciones realizadas)  <br><br> AV2: (acciones realizadas) <br><br> | AV2: (conclusion grupal) |
+| **5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta.** | **Salinas Guzmán, Brianna** <br> AV1: Demostré liderazgo colaborativo al guiar la estructuración del sistema mediante la elaboración del Ubiquitous Language, User Stories, Impact Mapping y Product Backlog, facilitando la alineación del equipo en torno al dominio del problema. <br><br> TB1: Durante el desarrollo del proyecto Pawtient, participé activamente en el trabajo colaborativo del equipo mediante la elaboración y corrección de las User Stories con Technical Stories y Epics, el Product Backlog, el Diagrama de Base de Datos y la implementación del Feature Store en Frontend. Asimismo, contribuí en la coordinación de tareas y en la toma de decisiones relacionadas con la organización de funcionalidades y estructura del sistema, manteniendo una comunicación constante con los integrantes del equipo para asegurar el cumplimiento de los objetivos del proyecto. <br><br> AV2: *PENDIENTE — completar acciones realizadas en TB1/AV2/TB2* <br><br> **Quintanilla Pozo, Gonzalo** <br> AV1: Ejercí el liderazgo técnico al establecer el flujo de trabajo con GitFlow, supervisando la creación de ramas y resolviendo conflictos de integración. Coordiné el Sprint Planning para alinear los objetivos del equipo con el despliegue de la Landing Page y proporcioné dirección en la arquitectura de estilos base. <br><br> TB1: *PENDIENTE — completar acciones realizadas en TB1/AV2/TB2* <br><br> AV2:*PENDIENTE — completar acciones realizadas en TB1/AV2/TB2* <br><br> **Salazar Miranda, Mateo** <br> AV1: Contribuí al liderazgo técnico mediante el análisis y diseño de la sección de Servicios y Estadísticas. Participé activamente en la toma de decisiones sobre la arquitectura C4 y el diseño de clases, aportando una visión crítica para optimizar la estructura y escalabilidad del sistema.  <br><br> TB1: *PENDIENTE — completar acciones realizadas en TB1/AV2/TB2* <br><br> AV2: *PENDIENTE — completar acciones realizadas en TB1/AV2/TB2* <br><br> **Arroyo Gonzales, Emily** <br> AV1: Demostré liderazgo colaborativo al liderar el modelado del Design Level Event Storming, facilitando la identificación de Bounded Contexts esenciales como Clinic y Appointment. Aseguré la consistencia estética y funcional mediante el diseño de componentes visuales clave. <br><br> TB1: *PENDIENTE — completar acciones realizadas en TB1/AV2/TB2* <br><br> AV2: *PENDIENTE — completar acciones realizadas en TB1/AV2/TB2* <br><br> **Acuache Lucas, Mathias** <br> AV1: Colaboré en la dirección conjunta del equipo mediante la estructuración de secciones críticas como IoT, Roles y Pricing. Mi participación en el diseño de la base de datos y diagramas de arquitectura permitió tener una visión clara de la lógica de negocio del sistema. <br><br> TB1: *PENDIENTE — completar acciones realizadas en TB1/AV2/TB2* <br><br> AV2: *PENDIENTE — completar acciones realizadas en TB1/AV2/TB2* <br><br> | El equipo PetHealt logró establecer una base sólida de trabajo mediante metodologías ágiles y GitFlow, permitiendo una integración sin fricciones. La combinación de liderazgo técnico y comunicación clara resultó en un despliegue exitoso, cumpliendo con el 100% de los objetivos planteados para esta entrega. |
+| **5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Salinas Guzmán, Brianna** <br> AV1: Contribuí a la creación de un entorno colaborativo mediante la organización y priorización del Product Backlog, estableciendo metas claras para el desarrollo del sistema Pawtient. Aseguré la coherencia entre requerimientos y diseño técnico. <br><br> TB1: En el proyecto Pawtient, participé en la planificación y organización de actividades necesarias para el avance del sistema, estableciendo prioridades mediante el Product Backlog y colaborando en la definición de requerimientos y tareas técnicas. Además, promoví un entorno de trabajo colaborativo participando en reuniones de coordinación, revisión de avances y validación de entregables. Gracias a la adecuada planificación y seguimiento de tareas, se lograron completar satisfactoriamente las actividades asignadas dentro de los tiempos establecidos.<br><br> AV2: *PENDIENTE — completar acciones realizadas en TB1/AV2/TB2* <br><br> **Quintanilla Pozo, Gonzalo** <br> AV1: Fomenté un entorno colaborativo al configurar el entorno de despliegue continuo en Netlify y gestionar las versiones mediante la rama v1.0.0. Planifiqué y ejecuté tareas de integración técnica, cumpliendo con el objetivo de publicar la Landing Page en los tiempos establecidos. <br><br> TB1: *PENDIENTE — completar acciones realizadas en TB1/AV2/TB2* <br><br> AV2: *PENDIENTE — completar acciones realizadas en TB1/AV2/TB2* <br><br> **Salazar Miranda, Mateo** <br> AV1: Participé en la planificación de tareas mediante la estimación de tiempos para la implementación de secciones responsivas del frontend. Cumplí con los objetivos asignados al desarrollar componentes CSS modulares para las funcionalidades de estadísticas de la plataforma. <br> TB1: *PENDIENTE — completar acciones realizadas en TB1/AV2/TB2* <br><br> AV2: *PENDIENTE — completar acciones realizadas en TB1/AV2/TB2* <br><br> **Arroyo Gonzales, Emily** <br> AV1: Contribuí a un entorno inclusivo al documentar los procesos de diseño y asegurar que las necesidades de los veterinarios se reflejaran en el Event Storming. Planifiqué y cumplí con la entrega de recursos visuales para la sección Hero y de Contacto. <br> TB1: *PENDIENTE — completar acciones realizadas en TB1/AV2/TB2* <br><br> AV2: *PENDIENTE — completar acciones realizadas en TB1/AV2/TB2* <br><br> **Acuache Lucas, Mathias** <br> AV1: Demostré compromiso con las metas del Sprint al planificar e implementar la lógica de navegación y los componentes de precios. Mi proactividad en la resolución de tareas del Sprint Backlog permitió cumplir con el despliegue de una plataforma funcional y preparada para futuras integraciones. <br><br> TB1: *PENDIENTE — completar acciones realizadas en TB1/AV2/TB2*  <br><br> AV2: *PENDIENTE — completar acciones realizadas en TB1/AV2/TB2* <br><br> | AV2: *PENDIENTE — completar conclusión grupal* |
 
 
 
@@ -930,7 +930,7 @@ Luciana es una veterinaria y administradora de 28 años que reside en Surco y cu
 ---
 <div align="center">
   
-**Segmento objetivo 2: `Dueños de mascotas (ACTUALIZAR Veterinarios Independientes)`**
+**Segmento objetivo 2: `Veterinarios Independientes` — ⚠️ PENDIENTE: las 3 entrevistas registradas abajo corresponden a dueños de mascotas, no a veterinarios independientes. El equipo debe reemplazarlas por entrevistas reales a veterinarios independientes para que coincidan con los segmentos objetivo definidos en 1.3.**
 
 <br>
 
@@ -1033,7 +1033,7 @@ Tras analizar las entrevistas realizadas a los profesionales del sector veterina
 * **Necesidades y Soluciones Esperadas:** El 100% de los entrevistados expresa la necesidad urgente de una transformación digital. Buscan una herramienta tecnológica integral, con accesibilidad móvil (mencionada explícitamente), que les permita centralizar tres pilares fundamentales: historias clínicas, agendamiento de citas y control de inventarios en tiempo real.
 
 
-**Segmento objetivo 2: `Dueños de mascotas (ACTUALIZAR Veterinarios Independientes)`**
+**Segmento objetivo 2: `Veterinarios Independientes` — ⚠️ PENDIENTE: las 3 entrevistas registradas abajo corresponden a dueños de mascotas, no a veterinarios independientes. El equipo debe reemplazarlas por entrevistas reales a veterinarios independientes para que coincidan con los segmentos objetivo definidos en 1.3.**
 
 El análisis de las entrevistas a los dueños de mascotas revela patrones de comportamiento muy marcados respecto a la responsabilidad y la gestión del tiempo, delineando el siguiente perfil para el arquetipo:
 
@@ -1163,10 +1163,9 @@ En esta sección se presentarán los Empathy Maps de cada segmento objetivo, con
 
 ## 2.4. Big Picture Event Storming
 
-En esta sección se introduce y resume el proceso realizado por el equipo para el Big Picture Event Storming, que fue realizado mediante una llamada en discord y plasmado con la ayuda de la herramienta Miro. A continuación, se explica el proceso:
+En esta sección se introduce y resume el proceso realizado por el equipo para el Big Picture Event Storming, que fue realizado mediante una llamada en Discord con la participación de dueños/administradores de clínicas veterinarias y veterinarios independientes, y plasmado con la ayuda de la herramienta Miro. A continuación, se explica el proceso:
 
 <br>
-ACTUALIZAR CON Veterinarios independientes
 
 **1. OPEN**
 
@@ -1195,12 +1194,6 @@ Luego de conversar un poco, el equipo descartó algunos eventos y identificó me
 <br>
 
 ---
-
-## 2.5. Ubiquitous Language
-
->*A continuación se presenta el glosario de términos clave utilizados en el dominio del sistema **Pawtient**, orientado a la gestión de clínicas veterinarias. Este lenguaje común permite una comunicación clara y sin ambigüedades entre todos los stakeholders: veterinarios, administradores, dueños de mascotas y el equipo de desarrollo.*
-
-<br>
 
 ## 2.5. Ubiquitous Language
 
@@ -1298,7 +1291,7 @@ Luego de conversar un poco, el equipo descartó algunos eventos y identificó me
 | `Client Payment` | Pago de cliente | Registro del pago efectuado por el responsable de la mascota, asociado a una boleta de atención. |
 | `Cancelled Sale` | Venta cancelada | Registro de una transacción que fue anulada antes o después de la emisión de la boleta. |
 | `Income Report` | Reporte de ingresos | Reporte que consolida los ingresos de la clínica en un período determinado. |
-| `Supply Expense Report` | Reporte de
+| `Supply Expense Report` | Reporte de gastos de insumos | Reporte que consolida los gastos en insumos médicos de la clínica en un período determinado, permitiendo evaluar el costo operativo asociado al inventario. |
 
 <br>
 
@@ -1329,9 +1322,9 @@ Luego de conversar un poco, el equipo descartó algunos eventos y identificó me
 | **EP05** | Perfiles y Gestión de Mascotas | Permitir al profesional registrar y gestionar el perfil digital de las mascotas atendidas, con historial, vacunas y documentos accesibles desde el sistema. | US16–US17, US18A, US18B |
 | **EP06** | Registro de Seguimiento Clínico | Permitir al profesional registrar notas de seguimiento, resultados de exámenes y configurar alertas internas para el control proactivo de la salud de los pacientes. | US19–US21 |
 | **EP07** | Landing Page de Pawtient | Presentar la propuesta de valor de Pawtient al segmento profesional y facilitar el registro o contacto con la plataforma. | US22–US25 |
-| **EP08** | Technical Stories – API Real (Backend) | Proveer endpoints seguros, documentados y funcionales con Spring Boot que soporten todas las operaciones del sistema Pawtient. | TS01, TS02A, TS02B, TS03A, TS03B, TS04, TS05A, TS05B |
+| **EP08** | Technical Stories – API Real (Backend) | Proveer endpoints seguros, documentados y funcionales con ASP.NET Core que soporten todas las operaciones del sistema Pawtient. | TS01, TS02A, TS02B, TS03A, TS03B, TS04, TS05A, TS05B |
 | **EP09** | Technical Stories – Fake API (Frontend) | Proveer datos simulados mediante JSON Server para que el equipo de frontend pueda desarrollar y probar sin depender del backend real. | TS06–TS09 |
-| **EP10** | Technical Stories – Frontend Angular | Implementar componentes, servicios y rutas en Angular que consuman la API y soporten las funcionalidades de la aplicación web. | TS10, TS11A, TS11B, TS12A, TS12B, TS13A, TS13B, TS14 |
+| **EP10** | Technical Stories – Frontend Vue | Implementar componentes, servicios y rutas en Vue que consuman la API y soporten las funcionalidades de la aplicación web. | TS10, TS11A, TS11B, TS12A, TS12B, TS13A, TS13B, TS14 |
 
 <br>
 
@@ -1376,26 +1369,26 @@ Luego de conversar un poco, el equipo descartó algunos eventos y identificó me
 | US23 | Información general de la plataforma en la landing page | Como administrador de clínica o veterinario independiente que visita la landing page, quiero entender el alcance y las funcionalidades principales de Pawtient para decidir si me registro en la plataforma. | **Escenario 1 – Sección de funcionalidades visible:** Given el profesional navega hasta la sección de funcionalidades, When la sección carga, Then visualiza los módulos principales (historiales, agenda, inventario, notificaciones) con lenguaje claro y orientado a la práctica clínica. **Escenario 2 – Testimonios de profesionales visibles:** Given el profesional llega a la sección de testimonios, When la página carga completamente, Then se muestran al menos dos testimonios de clínicas o veterinarios con nombre, tipo de práctica y valoración. **Escenario 3 – Registro desde la landing page:** Given el profesional decide registrarse, When activa el botón de registro, Then el sistema lo redirige al formulario de creación de cuenta como administrador de clínica o veterinario independiente. | EP07 |
 | US24 | Navegar entre secciones de la landing page | Como administrador de clínica o veterinario independiente que visita la landing page, quiero usar el menú de navegación para desplazarme rápidamente a cualquier sección y conocer todo el contenido disponible. | **Escenario 1 – Desplazamiento suave:** Given el profesional selecciona un elemento del menú, When el enlace apunta a una sección dentro de la misma página, Then el sistema ejecuta un desplazamiento suave hasta esa sección sin recargar la página. **Escenario 2 – Menú fijo durante el scroll:** Given el profesional hace scroll hacia abajo, When supera la altura del encabezado inicial, Then el menú permanece fijo en la parte superior y se mantiene accesible. **Escenario 3 – Sección activa resaltada:** Given el profesional se encuentra en una sección específica, When el scroll la posiciona como la principal visible, Then el ítem correspondiente del menú se resalta visualmente. | EP07 |
 | US25 | Ver preguntas frecuentes en la landing page | Como administrador de clínica o veterinario independiente que visita la landing page, quiero consultar las preguntas frecuentes para resolver dudas antes de registrarme sin necesidad de contactar al equipo de soporte. | **Escenario 1 – Sección FAQ visible:** Given el profesional navega a la sección de preguntas frecuentes, When la sección carga, Then el sistema muestra al menos 6 preguntas organizadas por categoría (funcionalidades del sistema y proceso de registro). **Escenario 2 – Expansión de respuesta:** Given el profesional selecciona una pregunta, When la activa, Then el sistema expande la respuesta sin redirigir a otra página. **Escenario 3 – Enlace de contacto al final:** Given el profesional no encuentra respuesta a su duda, When llega al final de la sección, Then el sistema muestra un enlace o formulario de contacto para consultas adicionales. | EP07 |
-| TS01 | Endpoint de autenticación de usuarios | Como developer backend, quiero implementar un endpoint POST /api/v1/auth/login en Spring Boot que valide credenciales y devuelva un token JWT para que el frontend gestione sesiones de forma segura. | **Escenario 1 – Autenticación exitosa (200):** Given el developer envía credenciales válidas, When el servidor las valida, Then retorna HTTP 200 con token JWT, perfil del usuario y tiempo de expiración. **Escenario 2 – Credenciales inválidas (401):** Given el developer envía credenciales incorrectas, When el servidor valida el body, Then retorna HTTP 401 con el mensaje "Invalid credentials". **Escenario 3 – Body malformado (400):** Given el developer envía una petición sin campos requeridos, When el servidor valida el body, Then retorna HTTP 400 con el mensaje "Missing required fields" y la lista de campos faltantes. | EP08 |
-| TS02A | Endpoint de historia clínica – validaciones y estructura | Como developer backend, quiero implementar las validaciones del endpoint POST /api/v1/records en Spring Boot para garantizar que solo se persistan registros con datos completos y token válido. | **Escenario 1 – Campos obligatorios faltantes (400):** Given el developer envía una petición POST con campos obligatorios ausentes, When el servidor valida el body con Bean Validation, Then retorna HTTP 400 con el mensaje "Missing required fields" y la lista de campos faltantes. **Escenario 2 – Token inválido o ausente (401):** Given el developer envía la petición sin token o con uno expirado, When el servidor valida la cabecera Authorization, Then retorna HTTP 401 con el mensaje "Unauthorized". **Escenario 3 – Estructura de respuesta correcta:** Given el developer envía una petición válida, When el servidor procesa el body, Then retorna la estructura de respuesta con los campos id, petId, date y status antes de persistir. | EP08 |
+| TS01 | Endpoint de autenticación de usuarios | Como developer backend, quiero implementar un endpoint POST /api/v1/auth/login en ASP.NET Core que valide credenciales y devuelva un token JWT para que el frontend gestione sesiones de forma segura. | **Escenario 1 – Autenticación exitosa (200):** Given el developer envía credenciales válidas, When el servidor las valida, Then retorna HTTP 200 con token JWT, perfil del usuario y tiempo de expiración. **Escenario 2 – Credenciales inválidas (401):** Given el developer envía credenciales incorrectas, When el servidor valida el body, Then retorna HTTP 401 con el mensaje "Invalid credentials". **Escenario 3 – Body malformado (400):** Given el developer envía una petición sin campos requeridos, When el servidor valida el body, Then retorna HTTP 400 con el mensaje "Missing required fields" y la lista de campos faltantes. | EP08 |
+| TS02A | Endpoint de historia clínica – validaciones y estructura | Como developer backend, quiero implementar las validaciones del endpoint POST /api/v1/records en ASP.NET Core para garantizar que solo se persistan registros con datos completos y token válido. | **Escenario 1 – Campos obligatorios faltantes (400):** Given el developer envía una petición POST con campos obligatorios ausentes, When el servidor valida el body con Bean Validation, Then retorna HTTP 400 con el mensaje "Missing required fields" y la lista de campos faltantes. **Escenario 2 – Token inválido o ausente (401):** Given el developer envía la petición sin token o con uno expirado, When el servidor valida la cabecera Authorization, Then retorna HTTP 401 con el mensaje "Unauthorized". **Escenario 3 – Estructura de respuesta correcta:** Given el developer envía una petición válida, When el servidor procesa el body, Then retorna la estructura de respuesta con los campos id, petId, date y status antes de persistir. | EP08 |
 | TS02B | Endpoint de historia clínica – persistencia y respuesta | Como developer backend, quiero implementar la lógica de persistencia del endpoint POST /api/v1/records para que las historias clínicas se almacenen correctamente y el frontend reciba confirmación. | **Escenario 1 – Creación exitosa (201):** Given el developer envía una petición POST con body válido y token vigente, When el servidor persiste el registro, Then retorna HTTP 201 con el objeto creado incluyendo el id generado y la marca de tiempo. **Escenario 2 – Mascota no encontrada (404):** Given el developer envía un petId inexistente en la base de datos, When el servidor busca la mascota, Then retorna HTTP 404 con el mensaje "Pet not found". **Escenario 3 – Error de persistencia (500):** Given ocurre un fallo en la base de datos al guardar el registro, When el servidor detecta la excepción, Then retorna HTTP 500 con el mensaje "Internal server error" sin exponer detalles internos. | EP08 |
 | TS03A | Endpoint de citas – validación de disponibilidad | Como developer backend, quiero implementar la validación de disponibilidad en el endpoint POST /api/v1/appointments para evitar conflictos de horario antes de registrar la cita. | **Escenario 1 – Conflicto de horario (409):** Given el developer envía una solicitud para un horario ya ocupado, When el servidor valida la disponibilidad, Then retorna HTTP 409 con el mensaje "Time slot not available" y los próximos horarios disponibles. **Escenario 2 – Fecha en el pasado (422):** Given el developer envía una fecha anterior a la fecha actual del servidor, When el servidor valida el campo date, Then retorna HTTP 422 con el mensaje "Invalid or past date". **Escenario 3 – Token inválido (401):** Given el developer envía la petición sin token o con uno expirado, When el servidor valida la cabecera Authorization, Then retorna HTTP 401 con el mensaje "Unauthorized". | EP08 |
 | TS03B | Endpoint de citas – registro transaccional y respuesta | Como developer backend, quiero implementar el registro transaccional de citas en el endpoint POST /api/v1/appointments para garantizar consistencia de datos y retornar la cita creada al frontend. | **Escenario 1 – Cita creada exitosamente (201):** Given el developer envía una petición POST con petId, professionalId, date y time válidos, When el servidor verifica disponibilidad y persiste la cita, Then retorna HTTP 201 con el objeto de cita incluyendo appointmentId y estado "confirmed". **Escenario 2 – Rollback ante fallo parcial:** Given ocurre un error durante la transacción de registro, When el servidor detecta la excepción, Then ejecuta rollback completo y retorna HTTP 500 sin registros parciales en la base de datos. **Escenario 3 – Notificación interna encolada tras registro:** Given el servidor persiste la cita exitosamente, When completa la transacción, Then encola automáticamente una notificación interna para el profesional responsable. | EP08 |
-| TS04 | Endpoints de gestión de inventario | Como developer backend, quiero implementar endpoints GET /api/v1/inventory y POST /api/v1/inventory en Spring Boot para que el módulo de trazabilidad de suministros opere correctamente. | **Escenario 1 – Listado exitoso (200):** Given el developer envía GET con token válido y el id del profesional como parámetro, When el servidor consulta los suministros, Then retorna HTTP 200 con nombre, stock actual, unidad y fecha de vencimiento. **Escenario 2 – Ingreso exitoso (201):** Given el developer envía POST con name, quantity, unit y expirationDate válidos, When el servidor procesa la solicitud, Then retorna HTTP 201; si el producto ya existe, retorna el stock acumulado. **Escenario 3 – Flag lowStock en la respuesta:** Given el inventario tiene suministros con stock igual o menor al mínimo configurado, When el servidor retorna la lista, Then incluye el campo `lowStock: true` en los objetos que cumplen esa condición. | EP08 |
+| TS04 | Endpoints de gestión de inventario | Como developer backend, quiero implementar endpoints GET /api/v1/inventory y POST /api/v1/inventory en ASP.NET Core para que el módulo de trazabilidad de suministros opere correctamente. | **Escenario 1 – Listado exitoso (200):** Given el developer envía GET con token válido y el id del profesional como parámetro, When el servidor consulta los suministros, Then retorna HTTP 200 con nombre, stock actual, unidad y fecha de vencimiento. **Escenario 2 – Ingreso exitoso (201):** Given el developer envía POST con name, quantity, unit y expirationDate válidos, When el servidor procesa la solicitud, Then retorna HTTP 201; si el producto ya existe, retorna el stock acumulado. **Escenario 3 – Flag lowStock en la respuesta:** Given el inventario tiene suministros con stock igual o menor al mínimo configurado, When el servidor retorna la lista, Then incluye el campo `lowStock: true` en los objetos que cumplen esa condición. | EP08 |
 | TS05A | Endpoint de notificaciones internas – validaciones | Como developer backend, quiero implementar las validaciones del endpoint POST /api/v1/notifications/send para rechazar peticiones con datos incorrectos antes de encolar la notificación interna. | **Escenario 1 – Usuario no encontrado (404):** Given el developer envía la solicitud para un userId inexistente en el sistema, When el servidor consulta el registro del usuario, Then retorna HTTP 404 con el mensaje "User not found". **Escenario 2 – Tipo de notificación inválido (400):** Given el developer envía un notificationType no reconocido, When el servidor valida el campo, Then retorna HTTP 400 con el mensaje "Invalid notification type" y la lista de tipos aceptados. **Escenario 3 – Fecha programada en el pasado (422):** Given el developer envía una scheduledDate anterior a la fecha actual, When el servidor valida el campo, Then retorna HTTP 422 con el mensaje "Scheduled date must be in the future". | EP08 |
 | TS05B | Endpoint de notificaciones internas – encolado y respuesta | Como developer backend, quiero implementar la lógica de encolado del endpoint POST /api/v1/notifications/send para que las notificaciones internas se registren correctamente y el frontend reciba confirmación. | **Escenario 1 – Notificación encolada (200):** Given el developer envía una petición POST con userId, notificationType y scheduledDate válidos, When el servidor encola la notificación, Then retorna HTTP 200 con `status: "queued"` y el notificationId generado. **Escenario 2 – Consulta de estado de notificación (200):** Given el developer consulta GET /api/v1/notifications/:id con un notificationId existente, When el servidor busca el registro, Then retorna HTTP 200 con el estado actual de la notificación (queued, sent, failed). **Escenario 3 – Fallo en el servicio de encolado (503):** Given el servicio de cola no está disponible al momento del envío, When el servidor detecta el fallo, Then retorna HTTP 503 con el mensaje "Notification service unavailable. Retry later". | EP08 |
 | TS06 | Configurar JSON Server con datos de autenticación simulados | Como developer frontend, quiero configurar un JSON Server con datos de usuarios y tokens simulados para que el equipo pueda desarrollar el flujo de login sin depender del backend real. | **Escenario 1 – Servidor levantado correctamente:** Given el developer ejecuta el comando de inicio con el archivo db.json, When el servidor arranca sin errores, Then responde en el puerto configurado y el endpoint /users devuelve la lista de usuarios simulados. **Escenario 2 – Login simulado devuelve token:** Given el developer envía POST /login con credenciales definidas en db.json, When JSON Server procesa la solicitud, Then retorna un objeto con token y perfil del usuario para que el frontend lo almacene localmente. **Escenario 3 – Ruta protegida rechaza sin token:** Given el developer accede a un recurso protegido sin Authorization, When el middleware verifica el token, Then retorna HTTP 401 para que el frontend redirija al login. | EP09 |
 | TS07 | Datos simulados de historiales clínicos y mascotas | Como developer frontend, quiero tener endpoints simulados de historiales clínicos y mascotas en JSON Server para desarrollar y probar los componentes de visualización y registro. | **Escenario 1 – GET de historial filtrado por petId:** Given el developer realiza GET /records con un petId como filtro, When JSON Server responde, Then retorna un array de historiales filtrados con todos los campos requeridos. **Escenario 2 – POST crea registro simulado:** Given el developer envía POST /records con campos obligatorios, When JSON Server procesa la solicitud, Then agrega el objeto a db.json y retorna HTTP 201 con id autogenerado. **Escenario 3 – GET de mascotas filtrado por clinicId:** Given el developer realiza GET /pets con el parámetro clinicId, When JSON Server responde, Then retorna únicamente las mascotas cuyo clinicId coincide con el parámetro enviado. | EP09 |
 | TS08 | Datos simulados de citas e inventario | Como developer frontend, quiero endpoints simulados de citas e inventario en JSON Server para que los componentes de agenda y trazabilidad puedan desarrollarse de forma independiente. | **Escenario 1 – GET de citas filtrado por fecha:** Given el developer realiza GET /appointments con el parámetro date, When JSON Server procesa la consulta, Then retorna únicamente las citas cuya fecha coincide con el parámetro. **Escenario 2 – GET de inventario con flag lowStock:** Given el developer realiza GET /inventory, When JSON Server responde, Then retorna el listado con el campo `lowStock: true` en registros cuyo stock es menor al mínimo configurado. **Escenario 3 – DELETE de cita elimina el registro:** Given el developer realiza DELETE /appointments/:id con un id existente, When JSON Server procesa la solicitud, Then elimina el objeto de db.json y retorna HTTP 200 confirmando la eliminación. | EP09 |
 | TS09 | Datos simulados de notificaciones y configuración | Como developer frontend, quiero endpoints simulados de notificaciones internas y preferencias en JSON Server para desarrollar el centro de alertas y la configuración del profesional. | **Escenario 1 – GET de notificaciones filtrado por userId:** Given el developer realiza GET /notifications con el parámetro userId, When JSON Server responde, Then retorna el listado ordenado por fecha descendente con el campo read incluido. **Escenario 2 – PUT actualiza preferencias:** Given el developer realiza PUT /settings/:userId con las preferencias actualizadas, When JSON Server procesa la solicitud, Then actualiza el objeto en db.json y retorna HTTP 200 con las preferencias modificadas. **Escenario 3 – POST registra notificación interna simulada:** Given el developer realiza POST /notifications con userId y notificationType válidos, When JSON Server procesa la solicitud, Then agrega la notificación al historial interno en db.json y retorna HTTP 201 con `status: "queued"`. | EP09 |
-| TS10 | Implementar servicio de autenticación en Angular | Como developer frontend, quiero implementar un AuthService en Angular que gestione login, logout y almacenamiento del token JWT para centralizar la autenticación en la aplicación. | **Escenario 1 – Login exitoso almacena token:** Given el developer llama a login() con credenciales válidas, When el servicio realiza la petición, Then almacena el JWT en localStorage, actualiza el estado del usuario y retorna true al componente. **Escenario 2 – Token inválido fuerza logout:** Given el token ha expirado y el interceptor detecta una respuesta 401, When procesa la respuesta, Then llama a logout(), limpia el token y redirige al login. **Escenario 3 – Guard protege rutas privadas:** Given un usuario no autenticado navega a una ruta protegida, When el AuthGuard evalúa el estado, Then redirige a /login sin mostrar el contenido de la ruta. | EP10 |
-| TS11A | Módulo de historiales en Angular – listado y búsqueda | Como developer frontend, quiero implementar el componente de listado y búsqueda del módulo de historiales clínicos en Angular para que los profesionales encuentren registros de forma eficiente. | **Escenario 1 – Listado carga correctamente:** Given el profesional navega al módulo de historiales, When el componente se inicializa y llama al RecordService, Then muestra los historiales ordenados cronológicamente de forma descendente. **Escenario 2 – Búsqueda filtra resultados:** Given el profesional ingresa un nombre en el buscador, When el componente procesa el input, Then filtra el listado en tiempo real mostrando solo los registros que coinciden. **Escenario 3 – Estado vacío con opción de crear:** Given el RecordService retorna un array vacío, When el componente renderiza la vista, Then muestra el mensaje "No hay registros" y un botón para crear el primero. | EP10 |
-| TS11B | Módulo de historiales en Angular – creación y edición | Como developer frontend, quiero implementar los formularios de creación y edición del módulo de historiales en Angular para que los profesionales gestionen registros médicos sin recargar la página. | **Escenario 1 – Formulario valida campos obligatorios:** Given el profesional deja campos obligatorios vacíos, When intenta enviar el formulario, Then el componente muestra mensajes de validación junto a cada campo y no realiza la petición al servicio. **Escenario 2 – Edición actualiza la vista reactivamente:** Given el profesional modifica un campo y guarda los cambios, When el RecordService confirma la actualización, Then el componente de detalle refleja los cambios sin recargar la página. **Escenario 3 – Confirmación de guardado visible:** Given el RecordService retorna éxito, When el componente procesa la respuesta, Then muestra un mensaje de confirmación y redirige al detalle del historial creado o editado. | EP10 |
-| TS12A | Módulo de citas en Angular – agenda diaria y disponibilidad | Como developer frontend, quiero implementar la vista de agenda diaria y la verificación de disponibilidad de horarios en el módulo de citas en Angular. | **Escenario 1 – Agenda diaria carga citas del día:** Given el profesional accede al módulo de agenda, When el componente AppointmentListComponent se inicializa con la fecha del día, Then muestra las citas ordenadas por hora con nombre de mascota y motivo de consulta. **Escenario 2 – Disponibilidad verificada al seleccionar horario:** Given el profesional selecciona fecha y hora en el formulario de nueva cita, When el AppointmentService consulta la disponibilidad del slot, Then habilita el botón de confirmación si está libre o muestra un mensaje de no disponibilidad. **Escenario 3 – Agenda vacía muestra estado informativo:** Given el AppointmentService retorna un array vacío para el día, When el componente renderiza la vista, Then muestra el mensaje "No hay citas programadas para hoy". | EP10 |
-| TS12B | Módulo de citas en Angular – confirmación y cancelación | Como developer frontend, quiero implementar los flujos de confirmación y cancelación de citas en Angular para que la agenda se actualice reactivamente sin recargar la página. | **Escenario 1 – Confirmación de cita actualiza la agenda:** Given el profesional confirma una nueva cita, When el AppointmentService retorna éxito, Then la cita aparece en la lista de agenda sin recargar la página. **Escenario 2 – Cancelación elimina la cita de la vista:** Given el profesional confirma la cancelación de una cita, When el AppointmentService procesa la cancelación, Then la cita desaparece de la lista y se muestra un mensaje de confirmación. **Escenario 3 – Error de red muestra mensaje sin romper la vista:** Given el AppointmentService retorna un error al confirmar o cancelar, When el componente procesa la respuesta, Then muestra el mensaje "No se pudo completar la acción. Intenta nuevamente" sin alterar el estado actual de la agenda. | EP10 |
-| TS13A | Módulo de inventario en Angular – listado y alertas | Como developer frontend, quiero implementar el listado de suministros con indicadores de stock bajo y alertas de vencimiento en el módulo de inventario en Angular. | **Escenario 1 – Indicador de stock bajo visible:** Given el InventoryService retorna suministros con `lowStock: true`, When el componente renderiza la lista, Then muestra un indicador visual en esos suministros y los ordena al inicio. **Escenario 2 – Banner de vencimiento en el panel:** Given el sistema detecta suministros con vencimiento dentro de 30 días, When el componente de alertas evalúa los datos, Then muestra un banner en el panel con el listado de productos afectados. **Escenario 3 – Listado vacío muestra estado informativo:** Given el InventoryService retorna un array vacío, When el componente renderiza la vista, Then muestra el mensaje "No hay suministros registrados" con opción para agregar el primero. | EP10 |
-| TS13B | Módulo de inventario en Angular – registro de ingresos | Como developer frontend, quiero implementar el formulario de registro de ingresos de suministros en Angular para que el stock se actualice reactivamente tras cada entrada. | **Escenario 1 – Formulario suma stock al existente:** Given el profesional registra un suministro con nombre ya existente, When el InventoryService retorna el stock acumulado, Then el componente actualiza la cantidad en el listado sin duplicar el registro. **Escenario 2 – Formulario valida campos obligatorios:** Given el profesional deja campos obligatorios vacíos, When intenta guardar, Then el componente muestra mensajes de validación y no realiza la petición al servicio. **Escenario 3 – Confirmación de ingreso visible:** Given el InventoryService confirma el registro, When el componente procesa la respuesta, Then muestra un mensaje de confirmación y actualiza el stock en el listado sin recargar la página. | EP10 |
-| TS14 | Implementar módulo de notificaciones en Angular | Como developer frontend, quiero implementar el módulo de notificaciones internas en Angular con centro de alertas y configuración de preferencias para que los profesionales gestionen sus alertas clínicas. | **Escenario 1 – Centro muestra historial de 30 días:** Given el profesional accede al centro de notificaciones, When el NotificationService retorna el historial, Then el componente muestra las notificaciones de los últimos 30 días ordenadas cronológicamente con indicador de leído/no leído. **Escenario 2 – Marcar como leída actualiza el badge:** Given el profesional selecciona una notificación no leída, When el NotificationService registra la acción, Then el badge decrementa el contador y la notificación pierde el resaltado de no leída. **Escenario 3 – Preferencias se persisten:** Given el profesional modifica sus preferencias de alertas internas y guarda los cambios, When el NotificationService envía la actualización, Then muestra un mensaje de confirmación y las nuevas preferencias aplican a los envíos posteriores. | EP10 |
+| TS10 | Implementar servicio de autenticación en Vue | Como developer frontend, quiero implementar un AuthService en Vue que gestione login, logout y almacenamiento del token JWT para centralizar la autenticación en la aplicación. | **Escenario 1 – Login exitoso almacena token:** Given el developer llama a login() con credenciales válidas, When el servicio realiza la petición, Then almacena el JWT en localStorage, actualiza el estado del usuario y retorna true al componente. **Escenario 2 – Token inválido fuerza logout:** Given el token ha expirado y el interceptor detecta una respuesta 401, When procesa la respuesta, Then llama a logout(), limpia el token y redirige al login. **Escenario 3 – Guard protege rutas privadas:** Given un usuario no autenticado navega a una ruta protegida, When el AuthGuard evalúa el estado, Then redirige a /login sin mostrar el contenido de la ruta. | EP10 |
+| TS11A | Módulo de historiales en Vue – listado y búsqueda | Como developer frontend, quiero implementar el componente de listado y búsqueda del módulo de historiales clínicos en Vue para que los profesionales encuentren registros de forma eficiente. | **Escenario 1 – Listado carga correctamente:** Given el profesional navega al módulo de historiales, When el componente se inicializa y llama al RecordService, Then muestra los historiales ordenados cronológicamente de forma descendente. **Escenario 2 – Búsqueda filtra resultados:** Given el profesional ingresa un nombre en el buscador, When el componente procesa el input, Then filtra el listado en tiempo real mostrando solo los registros que coinciden. **Escenario 3 – Estado vacío con opción de crear:** Given el RecordService retorna un array vacío, When el componente renderiza la vista, Then muestra el mensaje "No hay registros" y un botón para crear el primero. | EP10 |
+| TS11B | Módulo de historiales en Vue – creación y edición | Como developer frontend, quiero implementar los formularios de creación y edición del módulo de historiales en Vue para que los profesionales gestionen registros médicos sin recargar la página. | **Escenario 1 – Formulario valida campos obligatorios:** Given el profesional deja campos obligatorios vacíos, When intenta enviar el formulario, Then el componente muestra mensajes de validación junto a cada campo y no realiza la petición al servicio. **Escenario 2 – Edición actualiza la vista reactivamente:** Given el profesional modifica un campo y guarda los cambios, When el RecordService confirma la actualización, Then el componente de detalle refleja los cambios sin recargar la página. **Escenario 3 – Confirmación de guardado visible:** Given el RecordService retorna éxito, When el componente procesa la respuesta, Then muestra un mensaje de confirmación y redirige al detalle del historial creado o editado. | EP10 |
+| TS12A | Módulo de citas en Vue – agenda diaria y disponibilidad | Como developer frontend, quiero implementar la vista de agenda diaria y la verificación de disponibilidad de horarios en el módulo de citas en Vue. | **Escenario 1 – Agenda diaria carga citas del día:** Given el profesional accede al módulo de agenda, When el componente AppointmentListComponent se inicializa con la fecha del día, Then muestra las citas ordenadas por hora con nombre de mascota y motivo de consulta. **Escenario 2 – Disponibilidad verificada al seleccionar horario:** Given el profesional selecciona fecha y hora en el formulario de nueva cita, When el AppointmentService consulta la disponibilidad del slot, Then habilita el botón de confirmación si está libre o muestra un mensaje de no disponibilidad. **Escenario 3 – Agenda vacía muestra estado informativo:** Given el AppointmentService retorna un array vacío para el día, When el componente renderiza la vista, Then muestra el mensaje "No hay citas programadas para hoy". | EP10 |
+| TS12B | Módulo de citas en Vue – confirmación y cancelación | Como developer frontend, quiero implementar los flujos de confirmación y cancelación de citas en Vue para que la agenda se actualice reactivamente sin recargar la página. | **Escenario 1 – Confirmación de cita actualiza la agenda:** Given el profesional confirma una nueva cita, When el AppointmentService retorna éxito, Then la cita aparece en la lista de agenda sin recargar la página. **Escenario 2 – Cancelación elimina la cita de la vista:** Given el profesional confirma la cancelación de una cita, When el AppointmentService procesa la cancelación, Then la cita desaparece de la lista y se muestra un mensaje de confirmación. **Escenario 3 – Error de red muestra mensaje sin romper la vista:** Given el AppointmentService retorna un error al confirmar o cancelar, When el componente procesa la respuesta, Then muestra el mensaje "No se pudo completar la acción. Intenta nuevamente" sin alterar el estado actual de la agenda. | EP10 |
+| TS13A | Módulo de inventario en Vue – listado y alertas | Como developer frontend, quiero implementar el listado de suministros con indicadores de stock bajo y alertas de vencimiento en el módulo de inventario en Vue. | **Escenario 1 – Indicador de stock bajo visible:** Given el InventoryService retorna suministros con `lowStock: true`, When el componente renderiza la lista, Then muestra un indicador visual en esos suministros y los ordena al inicio. **Escenario 2 – Banner de vencimiento en el panel:** Given el sistema detecta suministros con vencimiento dentro de 30 días, When el componente de alertas evalúa los datos, Then muestra un banner en el panel con el listado de productos afectados. **Escenario 3 – Listado vacío muestra estado informativo:** Given el InventoryService retorna un array vacío, When el componente renderiza la vista, Then muestra el mensaje "No hay suministros registrados" con opción para agregar el primero. | EP10 |
+| TS13B | Módulo de inventario en Vue – registro de ingresos | Como developer frontend, quiero implementar el formulario de registro de ingresos de suministros en Vue para que el stock se actualice reactivamente tras cada entrada. | **Escenario 1 – Formulario suma stock al existente:** Given el profesional registra un suministro con nombre ya existente, When el InventoryService retorna el stock acumulado, Then el componente actualiza la cantidad en el listado sin duplicar el registro. **Escenario 2 – Formulario valida campos obligatorios:** Given el profesional deja campos obligatorios vacíos, When intenta guardar, Then el componente muestra mensajes de validación y no realiza la petición al servicio. **Escenario 3 – Confirmación de ingreso visible:** Given el InventoryService confirma el registro, When el componente procesa la respuesta, Then muestra un mensaje de confirmación y actualiza el stock en el listado sin recargar la página. | EP10 |
+| TS14 | Implementar módulo de notificaciones en Vue | Como developer frontend, quiero implementar el módulo de notificaciones internas en Vue con centro de alertas y configuración de preferencias para que los profesionales gestionen sus alertas clínicas. | **Escenario 1 – Centro muestra historial de 30 días:** Given el profesional accede al centro de notificaciones, When el NotificationService retorna el historial, Then el componente muestra las notificaciones de los últimos 30 días ordenadas cronológicamente con indicador de leído/no leído. **Escenario 2 – Marcar como leída actualiza el badge:** Given el profesional selecciona una notificación no leída, When el NotificationService registra la acción, Then el badge decrementa el contador y la notificación pierde el resaltado de no leída. **Escenario 3 – Preferencias se persisten:** Given el profesional modifica sus preferencias de alertas internas y guarda los cambios, When el NotificationService envía la actualización, Then muestra un mensaje de confirmación y las nuevas preferencias aplican a los envíos posteriores. | EP10 |
 
 <br>
 
@@ -1403,7 +1396,7 @@ Luego de conversar un poco, el equipo descartó algunos eventos y identificó me
 
 ## 3.2. Impact Mapping
 
->*El Impact Mapping de Pawtient permite alinear los objetivos del negocio con las necesidades de los usuarios, asegurando que cada funcionalidad desarrollada genere valor real. A partir de los User Personas identificados: Sebastián Navarro (veterinario independiente) y Valeria Torres (administradora de clínica veterinaria), se definieron los objetivos de negocio (Business Goals), los actores involucrados, los impactos esperados en su comportamiento y los entregables que permiten alcanzarlos.
+>*El Impact Mapping de Pawtient permite alinear los objetivos del negocio con las necesidades de los usuarios, asegurando que cada funcionalidad desarrollada genere valor real. A partir de los User Personas identificados: Diego Torres (veterinario independiente) y Camila Ramírez (administradora de clínica veterinaria), se definieron los objetivos de negocio (Business Goals), los actores involucrados, los impactos esperados en su comportamiento y los entregables que permiten alcanzarlos.
 Los Business Goals han sido formulados bajo el criterio SMART, asegurando que sean específicos, medibles, alcanzables, relevantes y definidos en el tiempo.*
 
 <br>
@@ -1439,13 +1432,13 @@ Los Story Points siguen la escala Fibonacci sin superar 5 por historia (1, 2, 3,
 
 | # | Story ID | Título | Descripción | Story Points |
 |:---:|:---:|:---|:---|:---:|
-| 1 | TS01 | Endpoint de autenticación de usuarios | Implementar endpoint POST /api/v1/auth/login en Spring Boot que valide credenciales y devuelva un token JWT. | 3 |
+| 1 | TS01 | Endpoint de autenticación de usuarios | Implementar endpoint POST /api/v1/auth/login en ASP.NET Core que valide credenciales y devuelva un token JWT. | 3 |
 | 2 | US01 | Registrar cuenta como administrador de clínica o veterinario independiente | Como administrador de clínica o veterinario independiente, quiero crear una cuenta en Pawtient con mis datos profesionales para acceder a las funcionalidades de gestión clínica. | 3 |
 | 3 | US02 | Iniciar sesión en la plataforma | Como administrador de clínica o veterinario independiente, quiero iniciar sesión con mis credenciales para acceder a las funcionalidades de gestión clínica según mi perfil. | 2 |
 | 4 | US03 | Recuperar contraseña olvidada | Como administrador de clínica o veterinario independiente, quiero recuperar el acceso a mi cuenta en caso de olvidar mi contraseña para no perder el acceso a la plataforma. | 2 |
-| 5 | TS10 | Implementar servicio de autenticación en Angular | Implementar un AuthService en Angular que gestione login, logout y almacenamiento del token JWT para centralizar la autenticación en la aplicación. | 3 |
+| 5 | TS10 | Implementar servicio de autenticación en Vue | Implementar un AuthService en Vue que gestione login, logout y almacenamiento del token JWT para centralizar la autenticación en la aplicación. | 3 |
 | 6 | TS06 | Configurar JSON Server con datos de autenticación simulados | Configurar un JSON Server con datos de usuarios y tokens simulados para que el equipo pueda desarrollar el flujo de login sin depender del backend real. | 2 |
-| 7 | TS02A | Endpoint de historia clínica – validaciones y estructura | Implementar las validaciones del endpoint POST /api/v1/records en Spring Boot para garantizar que solo se persistan registros con datos completos y token válido. | 3 |
+| 7 | TS02A | Endpoint de historia clínica – validaciones y estructura | Implementar las validaciones del endpoint POST /api/v1/records en ASP.NET Core para garantizar que solo se persistan registros con datos completos y token válido. | 3 |
 | 8 | TS02B | Endpoint de historia clínica – persistencia y respuesta | Implementar la lógica de persistencia del endpoint POST /api/v1/records para que las historias clínicas se almacenen correctamente y el frontend reciba confirmación. | 3 |
 | 9 | US04A | Registrar historia clínica – formulario y validaciones | Como administrador de clínica o veterinario independiente, quiero completar el formulario de historia clínica con validaciones en tiempo real para asegurar que todos los datos obligatorios estén correctos antes de guardar. | 3 |
 | 10 | US04B | Registrar historia clínica – persistencia y confirmación | Como administrador de clínica o veterinario independiente, quiero que la historia clínica se guarde correctamente en el sistema y recibir confirmación del registro para tener certeza de que la información quedó almacenada. | 3 |
@@ -1453,8 +1446,8 @@ Los Story Points siguen la escala Fibonacci sin superar 5 por historia (1, 2, 3,
 | 12 | US06 | Editar y actualizar historia clínica | Como administrador de clínica o veterinario independiente, quiero actualizar la historia clínica de una mascota después de cada consulta para mantener la información vigente y con trazabilidad de cambios. | 3 |
 | 13 | US07 | Registrar vacunas aplicadas | Como administrador de clínica o veterinario independiente, quiero registrar cada vacuna aplicada durante una consulta vinculándola al historial de la mascota para mantener un calendario de vacunación actualizado. | 3 |
 | 14 | TS07 | Datos simulados de historiales clínicos y mascotas | Proveer endpoints simulados de historiales clínicos y mascotas en JSON Server para desarrollar y probar los componentes de visualización y registro. | 2 |
-| 15 | TS11A | Módulo de historiales en Angular – listado y búsqueda | Implementar el componente de listado y búsqueda del módulo de historiales clínicos en Angular para que los profesionales encuentren registros de forma eficiente. | 3 |
-| 16 | TS11B | Módulo de historiales en Angular – creación y edición | Implementar los formularios de creación y edición del módulo de historiales en Angular para que los profesionales gestionen registros médicos sin recargar la página. | 3 |
+| 15 | TS11A | Módulo de historiales en Vue – listado y búsqueda | Implementar el componente de listado y búsqueda del módulo de historiales clínicos en Vue para que los profesionales encuentren registros de forma eficiente. | 3 |
+| 16 | TS11B | Módulo de historiales en Vue – creación y edición | Implementar los formularios de creación y edición del módulo de historiales en Vue para que los profesionales gestionen registros médicos sin recargar la página. | 3 |
 | 17 | TS03A | Endpoint de citas – validación de disponibilidad | Implementar la validación de disponibilidad en el endpoint POST /api/v1/appointments para evitar conflictos de horario antes de registrar la cita. | 3 |
 | 18 | TS03B | Endpoint de citas – registro transaccional y respuesta | Implementar el registro transaccional de citas en el endpoint POST /api/v1/appointments para garantizar consistencia de datos y retornar la cita creada al frontend. | 3 |
 | 19 | US08A | Agendar cita – selección y validación de horario | Como administrador de clínica o veterinario independiente, quiero seleccionar fecha, hora y mascota para una nueva cita y verificar la disponibilidad del horario antes de confirmar. | 3 |
@@ -1464,16 +1457,16 @@ Los Story Points siguen la escala Fibonacci sin superar 5 por historia (1, 2, 3,
 | 23 | US10 | Visualizar agenda del día | Como administrador de clínica o veterinario independiente, quiero ver un resumen de las citas programadas para el día en curso para organizar mi jornada de trabajo de forma eficiente. | 2 |
 | 24 | US11 | Configurar recordatorios de citas | Como administrador de clínica o veterinario independiente, quiero configurar recordatorios automáticos internos previos a las citas programadas para reducir las inasistencias y mantener la agenda organizada. | 2 |
 | 25 | TS08 | Datos simulados de citas e inventario | Proveer endpoints simulados de citas e inventario en JSON Server para que los componentes de agenda y trazabilidad puedan desarrollarse de forma independiente. | 2 |
-| 26 | TS12A | Módulo de citas en Angular – agenda diaria y disponibilidad | Implementar la vista de agenda diaria y la verificación de disponibilidad de horarios en el módulo de citas en Angular. | 3 |
-| 27 | TS12B | Módulo de citas en Angular – confirmación y cancelación | Implementar los flujos de confirmación y cancelación de citas en Angular para que la agenda se actualice reactivamente sin recargar la página. | 3 |
-| 28 | TS04 | Endpoints de gestión de inventario | Implementar endpoints GET /api/v1/inventory y POST /api/v1/inventory en Spring Boot para que el módulo de trazabilidad de suministros opere correctamente. | 3 |
+| 26 | TS12A | Módulo de citas en Vue – agenda diaria y disponibilidad | Implementar la vista de agenda diaria y la verificación de disponibilidad de horarios en el módulo de citas en Vue. | 3 |
+| 27 | TS12B | Módulo de citas en Vue – confirmación y cancelación | Implementar los flujos de confirmación y cancelación de citas en Vue para que la agenda se actualice reactivamente sin recargar la página. | 3 |
+| 28 | TS04 | Endpoints de gestión de inventario | Implementar endpoints GET /api/v1/inventory y POST /api/v1/inventory en ASP.NET Core para que el módulo de trazabilidad de suministros opere correctamente. | 3 |
 | 29 | US12 | Registrar ingreso de suministros | Como administrador de clínica o veterinario independiente, quiero registrar el ingreso de nuevos suministros al inventario para mantener el stock actualizado en tiempo real. | 3 |
 | 30 | US13 | Consultar niveles de stock | Como administrador de clínica o veterinario independiente, quiero consultar el nivel actual de un suministro para verificar disponibilidad antes de prescribir un tratamiento. | 2 |
 | 31 | US14A | Registrar consumo de suministros – descuento de inventario | Como administrador de clínica o veterinario independiente, quiero registrar los insumos utilizados al cerrar una consulta para que el inventario se descuente automáticamente y quede vinculado al historial clínico. | 3 |
 | 32 | US14B | Registrar consumo de suministros – reporte mensual | Como administrador de clínica o veterinario independiente, quiero generar un reporte mensual del consumo de suministros para analizar el uso de recursos y estimar costos operativos. | 3 |
 | 33 | US15 | Generar alertas de reabastecimiento | Como administrador de clínica o veterinario independiente, quiero recibir alertas automáticas cuando el stock de un suministro sea bajo para solicitar reposición con anticipación y evitar faltantes. | 2 |
-| 34 | TS13A | Módulo de inventario en Angular – listado y alertas | Implementar el listado de suministros con indicadores de stock bajo y alertas de vencimiento en el módulo de inventario en Angular. | 3 |
-| 35 | TS13B | Módulo de inventario en Angular – registro de ingresos | Implementar el formulario de registro de ingresos de suministros en Angular para que el stock se actualice reactivamente tras cada entrada. | 2 |
+| 34 | TS13A | Módulo de inventario en Vue – listado y alertas | Implementar el listado de suministros con indicadores de stock bajo y alertas de vencimiento en el módulo de inventario en Vue. | 3 |
+| 35 | TS13B | Módulo de inventario en Vue – registro de ingresos | Implementar el formulario de registro de ingresos de suministros en Vue para que el stock se actualice reactivamente tras cada entrada. | 2 |
 | 36 | US16 | Registrar mascota en el sistema | Como administrador de clínica o veterinario independiente, quiero registrar el perfil de una mascota en la plataforma para centralizar su información médica y acceder a ella durante cualquier consulta. | 3 |
 | 37 | US17 | Consultar historial médico de una mascota atendida en otra clínica | Como administrador de clínica o veterinario independiente, quiero consultar el historial médico de una mascota atendida en otra clínica registrada en Pawtient para contar con información clínica relevante antes de la consulta. | 3 |
 | 38 | US18A | Buscar mascotas registradas – búsqueda y listado | Como administrador de clínica o veterinario independiente, quiero buscar mascotas registradas en el sistema para ver un listado con su información básica y acceder rápidamente a su perfil. | 2 |
@@ -1484,7 +1477,7 @@ Los Story Points siguen la escala Fibonacci sin superar 5 por historia (1, 2, 3,
 | 43 | US20 | Configurar preferencias de notificación | Como administrador de clínica o veterinario independiente, quiero personalizar el tipo y frecuencia de notificaciones internas que recibo para gestionar las alertas del sistema según las necesidades de mi práctica. | 2 |
 | 44 | US21 | Registrar notas de seguimiento y resultados de exámenes | Como administrador de clínica o veterinario independiente, quiero registrar notas de seguimiento y resultados de exámenes en el historial de una mascota para mantener el registro clínico completo y actualizado después de cada consulta. | 3 |
 | 45 | TS09 | Datos simulados de notificaciones y configuración | Proveer endpoints simulados de notificaciones internas y preferencias en JSON Server para desarrollar el centro de alertas y la configuración del profesional. | 2 |
-| 46 | TS14 | Implementar módulo de notificaciones en Angular | Implementar el módulo de notificaciones internas en Angular con centro de alertas y configuración de preferencias para que los profesionales gestionen sus alertas clínicas. | 3 |
+| 46 | TS14 | Implementar módulo de notificaciones en Vue | Implementar el módulo de notificaciones internas en Vue con centro de alertas y configuración de preferencias para que los profesionales gestionen sus alertas clínicas. | 3 |
 | 47 | US22 | Propuesta de valor para clínicas y veterinarios independientes | Como profesional que visita la landing page, quiero ver los beneficios del sistema para evaluar si Pawtient se adapta a las necesidades de mi práctica profesional. | 2 |
 | 48 | US23 | Información general de la plataforma en la landing page | Como profesional que visita la landing page, quiero entender el alcance y las funcionalidades principales de Pawtient para decidir si me registro en la plataforma. | 2 |
 | 49 | US24 | Navegar entre secciones de la landing page | Como profesional que visita la landing page, quiero usar el menú de navegación para desplazarme rápidamente a cualquier sección y conocer todo el contenido disponible. | 1 |
@@ -1722,7 +1715,7 @@ Se toman como referencia los principios de **Material Design**, adaptados a la i
   Uso consistente de jerarquías tipográficas (heading, subheading, body) para mejorar la legibilidad.
 
 - **Component-based design:**  
-  Todos los elementos UI (botones, cards, forms) son reutilizables, permitiendo mantener coherencia y facilitar el desarrollo en Angular.
+  Todos los elementos UI (botones, cards, forms) son reutilizables, permitiendo mantener coherencia y facilitar el desarrollo en Vue.
 
 ![Landing Pawtient](pawtient-report\assets\images\pcpet.png)
 
@@ -1774,7 +1767,7 @@ de registro clínico e inventario.
 **Web Application**
 
 ```html
-<title>[Título de la Web Application]</title>
+<title>Pawtient - Panel de Gestión Veterinaria</title>
 <meta name="description" content="Panel de administración para veterinarios: registro clínico, control de inventario de insumos" />
 <meta name="keywords" content="gestión veterinaria, dashboard, historial clínico digital" />
 <meta name="author" content="PetHealth" />
@@ -1934,13 +1927,13 @@ que la aplicación web mantenga la integridad de la base de datos y ofrezca una 
 
 ![Screenshot Prototipo Desktop](../assets/prototypes/prototype-desktop-screenshot.png)
 
-[Ver video de prototipo Desktop en Microsoft Stream](`URL`)
+[Ver video de prototipo Desktop en Microsoft Stream](PENDIENTE-completar-con-el-equipo)
 
 **Prototipo Mobile**
 
 ![Screenshot Prototipo Mobile](../assets/prototypes/prototype-mobile-screenshot.png)
 
-[Ver video de prototipo Mobile en Microsoft Stream](`URL`)
+[Ver video de prototipo Mobile en Microsoft Stream](PENDIENTE-completar-con-el-equipo)
 
 <br>
 
@@ -1962,15 +1955,15 @@ En esta sección se explica y evidencia el proceso de Design-Level EventStorming
 
 ![Profile](pawtient-report/assets/images/Design-Level-Event-Storming/Profile.png)
 
-**Clinic Bounded Context**
+**Clinical Management Bounded Context**
 
 ![Clinic](pawtient-report/assets/images/Design-Level-Event-Storming/Clinic.png)
 
-**Appointment Bounded Context**
+**Appointment Management Bounded Context**
 
 ![Appointment](pawtient-report/assets/images/Design-Level-Event-Storming/Appoiments.png)
 
-**Report Bounded Context**
+**Reports & Billing Bounded Context**
 
 ![Report](pawtient-report/assets/images/Design-Level-Event-Storming/Reports.png)
 
@@ -2013,7 +2006,7 @@ Asimismo, el sistema se integra con servicios externos para el envío de notific
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-Los diagramas de componentes del sistema Pawtient representan la estructura interna del backend siguiendo el enfoque de Domain-Driven Design (DDD). La arquitectura se organiza en distintos Bounded Contexts, cada uno enfocado en una responsabilidad específica del sistema: IAM, Profile, Organization, Monitoring and Control, y Reports.
+Los diagramas de componentes del sistema Pawtient representan la estructura interna del backend siguiendo el enfoque de Domain-Driven Design (DDD). La arquitectura se organiza en distintos Bounded Contexts, cada uno enfocado en una responsabilidad específica del sistema: IAM, Profile, Clinical Management, Appointment Management y Reports & Billing.
 
 Dentro de cada Bounded Context, los componentes se estructuran en cuatro capas principales: Interfaces, Application, Domain e Infrastructure. La capa de Interfaces gestiona la interacción con los usuarios a través de endpoints REST; la capa de Application coordina la lógica de negocio y los casos de uso; la capa de Domain contiene las entidades y reglas de negocio; y la capa de Infrastructure se encarga de la persistencia de datos mediante repositorios. 
 
@@ -2021,11 +2014,11 @@ La interacción entre estas capas sigue un flujo definido donde la capa de Inter
 
   ![Component](pawtient-report/assets/images/componentfix.png)
   
-- Organization Bounded Context
+- Clinical Management Bounded Context
   ![Organization](pawtient-report/assets/images/organization.png)
-- Monitoring and Control Bounded Context
+- Appointment Management Bounded Context
   ![Monitoring](pawtient-report/assets/images/monitoring.png)
-- Reports Bounded Context
+- Reports & Billing Bounded Context
   ![Reports](pawtient-report/assets/images/reports.png)
 - Profile Bounded Context
   ![Profile](pawtient-report/assets/images/profile.png)
@@ -2378,9 +2371,9 @@ Se implementará GitFlow con las siguientes ramas:
 | HTML | HTML Style Guide | https://www.w3schools.com/html/html5_syntax.asp |
 | CSS | BEM & Custom Properties | Guía de estilo interna (Uso estricto de variables en `:root`) |
 | JavaScript / TypeScript | Google TypeScript Style Guide | https://google.github.io/styleguide/tsguide.html |
-| Angular | Angular coding style guide | https://angular.io/guide/styleguide |
-| Java | Google Java Style Guide | https://google.github.io/styleguide/javaguide.html |
-| Spring Boot | Spring Boot Features | https://docs.spring.io/spring-boot/docs/current/reference/html/features.html |
+| Vue.js | Vue.js Style Guide | https://vuejs.org/style-guide/ |
+| C# | .NET C# Coding Conventions | https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions |
+| ASP.NET Core | ASP.NET Core Documentation | https://learn.microsoft.com/en-us/aspnet/core/ |
 | Gherkin (Acceptance Criteria) | Gherkin Conventions | https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/ |
 
 > **Nota:** Para todos los lenguajes se aplica la nomenclatura en **inglés**.
@@ -2410,7 +2403,7 @@ Se implementará GitFlow con las siguientes ramas:
     ![Screenshot 5 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-5.png)
 
 6. **Seguir configurando**<br>
-   Seguimos configurando, pero esta vez seleccionando el "Publish directory" colocamos public, para finalmente darle a "Deploy demy-academy".
+   Seguimos configurando, pero esta vez seleccionando el "Publish directory" colocamos public, para finalmente darle a "Deploy site".
     ![Screenshot 6 del Deployment](pawtient-report/assets/images/Software-Deployment-Configuration/deployment-6.png)
 
 7. **Despliegue listo**<br>
@@ -2676,7 +2669,7 @@ Se optó por Netlify debido a su facilidad para implementar **Continuous Deploym
 4. **Despliegue inicial:** Se ejecutó el *Deploy* inicial, donde Netlify procesó los archivos HTML, CSS y JavaScript del repositorio.
 5. **Generación de URL:** Una vez finalizado el proceso de *Provisioning* y *Deploy*, la plataforma generó una URL pública segura (HTTPS).
 
-**URL del despliegue:** [https://pawtient.netlify.app/](https://pethealt.netlify.app/)
+**URL del despliegue:** [https://pawtient.netlify.app/](https://pawtient.netlify.app/)
 
 <br>
 
@@ -2762,7 +2755,7 @@ C = *Collaborator* (apoya el desarrollo del aspecto).
 
 ---
 
-#### 5.2.3.3. Sprint Backlog 2
+#### 5.2.2.3. Sprint Backlog 2
 
 El objetivo principal de este Sprint es **diseñar, implementar y desplegar el Front-End** de la plataforma Pawtient, de modo que los usuarios (tanto dueños y administradores de clínicas veterinarias como veterinarios independientes) puedan interactuar con las principales funcionalidades del sistema y visualizar de manera práctica cómo la plataforma optimiza la gestión clínica y operativa. Asimismo, se busca ofrecer una experiencia funcional e intuitiva que permita validar la estructura de la solución, la navegación entre módulos y la integración con los endpoints desarrollados.
 
@@ -2974,7 +2967,7 @@ El objetivo principal de este Sprint es **diseñar, implementar y desplegar el F
 
 Durante el Sprint 2 se implementó el front-end de la solución Pawtient, incorporando módulos para la gestión de pacientes, agenda médica, inventario, proveedores y reportes administrativos. El desarrollo se realizó en el repositorio público https://github.com/PetHealt/Pawtient-Frontend-Web-App, utilizando un flujo de ramas basado en feature branches (GitFlow).
 
-**Development Evidence – Sprint 1**
+**Development Evidence – Sprint 2**
 
 | Repository                          | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |:------------------------------------|:-------------|:---|:---|:---|:---|
@@ -3029,7 +3022,7 @@ A continuación, se presentan las capturas de las principales vistas desarrollad
 
 Asimismo, se elaboró un **video demostrativo** que muestra la navegación fluida del frontend:
 
-[Ver video demostrativo de Pawtient]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311469_upc_edu_pe/IQA2vengUzUuS4seoi1K_jSXAdn-WEneaPJZtWg47Zge2Hc])
+[Ver video demostrativo de Pawtient](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311469_upc_edu_pe/IQA2vengUzUuS4seoi1K_jSXAdn-WEneaPJZtWg47Zge2Hc)
 
 <br>
 
@@ -3109,7 +3102,7 @@ A continuación se presentará el sprint planning para esta primera entrega, don
 | Sprint 2 Retrospective Summary       | Hubo diversas opiniones de acorde al proyecto Front End, se tenia distintas opiniones respecto a lo que se tenia que implementar y tambien algunas dudas sobre como funcionaria nuestro código en el proyecto..                                                                                                                                                                                                                   
 | **Sprint Goal & User Stories**       |                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Sprint 3 Goal                        | Nuestro enfoque está en presentar nuestra primera versión del Backend y conectarlo con el Front que muestre todas las <br> funcionalidades y características de Pawtient a los visitantes. <br> Creemos que esto generará una sólida primera impresión sobre el valor de la plataforma para clínicas y dueños de mascotas. <br> Esto se confirmará cuando el backend este levantado y conectado al Frontend     |
-| Sprint 4 Velocity                    | 15                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sprint 3 Velocity                    | 15                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Sum of story points                  | 10                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 <br>
@@ -3350,9 +3343,10 @@ El objetivo principal de este Sprint es **implementar y desplegar el Backend y C
 ---
 
 #### 5.2.3.4. Development Evidence for Sprint Review
+
 Durante el Sprint 3 se implementó el back-end de la solución Pawtient, incorporando módulos para la gestión de pacientes, agenda médica, inventario, proveedores y reportes administrativos. El desarrollo se realizó en el repositorio público https://github.com/PetHealt/Pawtient-Web-Services, utilizando un flujo de ramas basado en feature branches (GitFlow).
 
-**Development Evidence – Sprint 1**
+**Development Evidence – Sprint 3**
 
 | Repository                          | Branch     | Commit Id | Commit Message                                                                        | Commit Message Body | Committed on (Date) |
 |:------------------------------------|:-----------|:---|:--------------------------------------------------------------------------------------|:---|:--------------------|
@@ -3378,6 +3372,7 @@ Durante el Sprint 3 se implementó el back-end de la solución Pawtient, incorpo
 ---
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
+
 Durante el Sprint 1 se implementó la Landing Page de la plataforma Pawtient, cumpliendo satisfactoriamente con los objetivos definidos en el Sprint Backlog.
 La Landing Page constituye el primer punto de interacción con los usuarios, mostrando de forma clara la propuesta de valor dual de la plataforma: herramientas de gestión clínica e inventario para centros veterinarios (B2B) y seguimiento médico para dueños de mascotas (B2C).
 Luego en el Sprint 2 se implemento el Front End de la Plataforma Pawtient, siguiendo la estructura de domain driven design.
@@ -3446,11 +3441,50 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 
 #### 5.2.4.1. Sprint Planning 4
 
+A continuación se presenta el Sprint Planning para esta cuarta entrega, donde se definió el trabajo orientado a completar las historias restantes del Product Backlog (Perfiles y Gestión de Mascotas, Seguimiento Clínico y Notificaciones), integrar por completo el Frontend con el Backend ya desplegado en el Sprint 3, y realizar el despliegue final de la plataforma.
+
+<br>
+
+| Campo | Detalle |
+|:---|:---|
+| **Sprint #** | Sprint 4 |
+| **Sprint Planning Background** | En este sprint se completan las historias de usuario restantes del Product Backlog — Perfiles y Gestión de Mascotas (EP05) y Seguimiento Clínico y Notificaciones (EP06) — y se realiza la integración final entre el Frontend en Vue.js y el Backend en ASP.NET Core desplegado en el Sprint 3, reemplazando cualquier dato simulado remanente por consumo real de la API. Se cierra el sprint con QA de regresión end-to-end y el despliegue final de Landing Page, Frontend y Backend. |
+| **Date** | 2026/06/20 |
+| **Time** | 8:00 PM |
+| **Location** | Llamada grupal en la plataforma Discord |
+| **Prepared By** | Quintanilla Pozo, Gonzalo Samuel |
+| **Attendees (to planning meeting)** | Brianna Salinas, Emily Arroyo, Mateo Salazar, Mathias Acuache y Gonzalo Quintanilla |
+| **Sprint 3 Review Summary** | Durante el Sprint 3 se completó la primera versión del Backend de Pawtient en ASP.NET Core, se desplegó en Azure y se conectó exitosamente con el Frontend desarrollado en el Sprint 2, dejando operativos los módulos de autenticación, historiales clínicos, citas e inventario. |
+| **Sprint 3 Retrospective Summary** | El equipo identificó la necesidad de reservar un sprint final dedicado exclusivamente a cerrar las historias pendientes del backlog y a las pruebas de integración de punta a punta, en vez de dejarlas dispersas entre los módulos ya entregados. |
+| **Sprint 4 Goal** | Nuestro enfoque está en completar las historias de Perfiles y Gestión de Mascotas y de Seguimiento Clínico y Notificaciones, integrar por completo el Frontend con los servicios reales del Backend y desplegar la versión final de Pawtient. Creemos que esto permitirá contar con una aplicación completamente funcional para ambos segmentos objetivo. Esto se confirmará cuando los profesionales puedan registrar y buscar mascotas, configurar recordatorios y notificaciones, y usar la Landing Page, el Frontend y el Backend desplegados en producción sin datos simulados. |
+| **Sprint 4 Velocity** | 27 |
+| **Sum of story points** | 27 |
+
 <br>
 
 ---
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
+
+Ahora presentaremos nuestro LACX (Leadership-and-Collaboration Matrix) que nos ayudará a saber quién lidera y quién colabora en cada aspecto de este cuarto sprint. Los aspectos considerados corresponden a las historias restantes del Product Backlog y al cierre general de la integración.
+
+<div style="font-size:70%;">
+
+| **Team Member** <br> Last Name, First Name | **GitHub Username** | **Perfiles de Mascotas (EP05)** <br> L/C | **Seguimiento Clínico y Notificaciones (EP06)** <br> L/C | **Integración Frontend-Backend** <br> L/C | **QA End-to-End** <br> L/C | **Despliegue Final (Render)** <br> L/C |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Quintanilla, Gonzalo** | GoldQP | C | C | **L** | C | C |
+| **Salinas, Brianna** | brianna-salinas | **L** | C | C | C | C |
+| **Salazar, Mateo** | Mateo Paolo Salazar Miranda | C | C | C | **L** | C |
+| **Arroyo, Emily** | Em2920 | C | C | C | C | **L** |
+| **Acuache, Mathias** | mathiasA25 | C | **L** | C | C | C |
+
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+
+**Nota.** L = *Leader* (responsable principal del aspecto). C = *Collaborator* (apoya el desarrollo del aspecto). 
+
+</div>
 
 <br>
 
@@ -3458,13 +3492,204 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 
 #### 5.2.4.3. Sprint Backlog 4
 
+El objetivo principal de este Sprint es **completar las historias restantes del Product Backlog e integrar por completo el Frontend con el Backend**, de modo que Pawtient quede funcional de punta a punta para ambos segmentos objetivo, y desplegar la versión final de la plataforma.
+
+<br>
+<div>
+<table>
+  <tr>
+    <td><b>Sprint #</b></td>
+    <td colspan="7">Sprint 4</td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="2"><b>Work-Item / Task</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status (To-do / In-Process / To-Review / Done)</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Registrar mascota en el sistema</td>
+    <td>T01</td>
+    <td>Implementar registro de mascotas</td>
+    <td>Formulario de registro de mascota (nombre, especie, raza, fecha de nacimiento, responsable) conectado al endpoint de mascotas del Backend.</td>
+    <td>5</td>
+    <td>Brianna S.</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US17</td>
+    <td>Consultar historial médico entre clínicas</td>
+    <td>T02</td>
+    <td>Implementar acceso por código temporal</td>
+    <td>Flujo de generación y validación de código de acceso temporal (24h) para consultar el historial de una mascota atendida en otra clínica.</td>
+    <td>6</td>
+    <td>Brianna S.</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US18A</td>
+    <td>Buscar mascotas registradas – búsqueda y listado</td>
+    <td>T03</td>
+    <td>Implementar buscador de mascotas</td>
+    <td>Barra de búsqueda por nombre de mascota con listado de resultados (especie, raza, responsable) conectado al Backend.</td>
+    <td>4</td>
+    <td>Mathias A.</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US18B</td>
+    <td>Buscar mascotas registradas – filtro y detalle</td>
+    <td>T04</td>
+    <td>Implementar filtros y vista de detalle</td>
+    <td>Filtro por especie/raza/estado clínico y vista de detalle de mascota con historial de las últimas 3 consultas.</td>
+    <td>4</td>
+    <td>Mathias A.</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>TS05A</td>
+    <td>Endpoint de notificaciones internas – validaciones</td>
+    <td>T05</td>
+    <td>Implementar validaciones del endpoint de notificaciones</td>
+    <td>Validar userId, notificationType y scheduledDate en POST /api/v1/notifications/send antes de encolar la notificación.</td>
+    <td>3</td>
+    <td>Gonzalo Q.</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>TS05B</td>
+    <td>Endpoint de notificaciones internas – encolado y respuesta</td>
+    <td>T06</td>
+    <td>Implementar encolado de notificaciones</td>
+    <td>Lógica de encolado y consulta de estado (queued/sent/failed) de notificaciones internas en el Backend.</td>
+    <td>4</td>
+    <td>Gonzalo Q.</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US19</td>
+    <td>Configurar recordatorios de vacunación</td>
+    <td>T07</td>
+    <td>Implementar alertas de vacunación</td>
+    <td>Generación de alertas internas (7 días antes y el día de la dosis) y cancelación automática al registrar la vacuna aplicada.</td>
+    <td>4</td>
+    <td>Mathias A.</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US20</td>
+    <td>Configurar preferencias de notificación</td>
+    <td>T08</td>
+    <td>Implementar panel de preferencias</td>
+    <td>Configuración de tipo y frecuencia de alertas (citas, stock bajo, vacunas, seguimiento) con opción de restaurar valores por defecto.</td>
+    <td>3</td>
+    <td>Mathias A.</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US21</td>
+    <td>Registrar notas de seguimiento y resultados de exámenes</td>
+    <td>T09</td>
+    <td>Implementar registro de seguimiento clínico</td>
+    <td>Registro de notas de seguimiento y carga de resultados de examen (PDF/JPG) vinculados al historial de la mascota.</td>
+    <td>5</td>
+    <td>Mathias A.</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>TS14</td>
+    <td>Implementar módulo de notificaciones en Vue</td>
+    <td>T10</td>
+    <td>Construir centro de alertas en el Frontend</td>
+    <td>Centro de notificaciones (historial de 30 días, marcar como leída) y pantalla de preferencias, consumiendo TS05A/TS05B directamente contra el Backend real.</td>
+    <td>6</td>
+    <td>Gonzalo Q.</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>-</td>
+    <td>T11</td>
+    <td>Integración final Frontend-Backend</td>
+    <td>Revisión de todos los módulos (auth, historiales, citas, inventario, mascotas, notificaciones) para asegurar que el Frontend consuma exclusivamente el Backend real, sin datos simulados remanentes.</td>
+    <td>6</td>
+    <td>Gonzalo Q.</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>-</td>
+    <td>T12</td>
+    <td>QA de regresión end-to-end</td>
+    <td>Pruebas de regresión sobre el flujo completo: registro/login, historiales, citas, inventario, mascotas y notificaciones.</td>
+    <td>6</td>
+    <td>Mateo S.</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>-</td>
+    <td>T13</td>
+    <td>Despliegue final en Render</td>
+    <td>Desplegar el Frontend y el Backend en Render, configurando variables de entorno y CORS para producción.</td>
+    <td>5</td>
+    <td>Emily A.</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>-</td>
+    <td>T14</td>
+    <td>Pulido final de la Landing Page</td>
+    <td>Revisión de contenido, corrección de enlaces y meta tags SEO pendientes, y ajustes visuales finales de la Landing Page.</td>
+    <td>4</td>
+    <td>Emily A.</td>
+    <td>To-do</td>
+  </tr>
+</table>
+</div>
 
 <br>
 
 ---
 
+---
+
 #### 5.2.4.4. Development Evidence for Sprint Review
 
+Durante el Sprint 4 se completaron los módulos de Perfiles y Gestión de Mascotas y de Seguimiento Clínico y Notificaciones, y se realizó la integración final entre el Frontend y el Backend de Pawtient, reemplazando cualquier dato simulado remanente por consumo real de la API. El desarrollo se realizó en los repositorios públicos https://github.com/PetHealt/Pawtient-Frontend-Web-App y https://github.com/PetHealt/Pawtient-Web-Services, utilizando un flujo de ramas basado en feature branches (GitFlow).
+
+<br>
+
+| Repository | Branch | Commit Id | Commit Message (sugerido) | Commit Message Body | Committed on (Date) |
+|:---|:---|:---|:---|:---|:---|
+| Pawtient-Frontend-Web-App | feature/pets | *PENDIENTE* | `feat: add pet registration form` | Formulario de registro de mascota (US16) conectado al endpoint de mascotas del Backend. | *PENDIENTE* |
+| Pawtient-Frontend-Web-App | feature/pets | *PENDIENTE* | `feat: add cross-clinic medical history access` | Flujo de código de acceso temporal para consultar historial de mascotas de otra clínica (US17). | *PENDIENTE* |
+| Pawtient-Frontend-Web-App | feature/pets | *PENDIENTE* | `feat: add pet search and listing` | Buscador de mascotas por nombre con listado de resultados (US18A). | *PENDIENTE* |
+| Pawtient-Frontend-Web-App | feature/pets | *PENDIENTE* | `feat: add pet filters and detail view` | Filtros por especie/raza/estado clínico y vista de detalle de mascota (US18B). | *PENDIENTE* |
+| Pawtient-Web-Services | feature/notifications | *PENDIENTE* | `feat: add notification endpoint validations` | Validaciones de userId, notificationType y scheduledDate en POST /api/v1/notifications/send (TS05A). | *PENDIENTE* |
+| Pawtient-Web-Services | feature/notifications | *PENDIENTE* | `feat: add notification queueing logic` | Lógica de encolado y consulta de estado de notificaciones internas (TS05B). | *PENDIENTE* |
+| Pawtient-Frontend-Web-App | feature/notifications | *PENDIENTE* | `feat: add vaccination reminder alerts` | Alertas internas de vacunación (7 días antes y el día de la dosis) con cancelación automática (US19). | *PENDIENTE* |
+| Pawtient-Frontend-Web-App | feature/notifications | *PENDIENTE* | `feat: add notification preferences panel` | Panel de configuración de tipo y frecuencia de alertas, con restauración a valores por defecto (US20). | *PENDIENTE* |
+| Pawtient-Frontend-Web-App | feature/notifications | *PENDIENTE* | `feat: add clinical follow-up notes` | Registro de notas de seguimiento y carga de resultados de examen (PDF/JPG) en el historial (US21). | *PENDIENTE* |
+| Pawtient-Frontend-Web-App | feature/notifications | *PENDIENTE* | `feat: add notification center component` | Centro de alertas (historial 30 días, marcar como leída) y pantalla de preferencias en Vue (TS14). | *PENDIENTE* |
+| Pawtient-Frontend-Web-App | feature/integration | *PENDIENTE* | `fix: replace remaining mocked data with real API calls` | Revisión final de todos los módulos para consumir exclusivamente el Backend real (T11). | *PENDIENTE* |
+| Pawtient-Frontend-Web-App | develop | *PENDIENTE* | `test: end-to-end regression across all modules` | Pruebas de regresión sobre auth, historiales, citas, inventario, mascotas y notificaciones (T12). | *PENDIENTE* |
+| Pawtient-Frontend-Web-App / Pawtient-Web-Services | main | *PENDIENTE* | `chore: configure production deployment on Render` | Configuración de variables de entorno y CORS para el despliegue final en Render (T13). | *PENDIENTE* |
+| Pawtient-Landing-Page | main | *PENDIENTE* | `fix: final landing page content and SEO polish` | Corrección de enlaces, meta tags y ajustes visuales finales de la Landing Page (T14). | *PENDIENTE* |
 
 <br>
 
@@ -3472,12 +3697,37 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
+Durante el Sprint 4 se completó la integración final de Pawtient: el Frontend en Vue.js consumiendo íntegramente los servicios del Backend en ASP.NET Core, incluyendo los nuevos módulos de Perfiles y Gestión de Mascotas y de Seguimiento Clínico y Notificaciones. Con este sprint la plataforma queda funcional de punta a punta para ambos segmentos objetivo: dueños/administradores de clínicas veterinarias y veterinarios independientes.
+
+El desarrollo tecnológico se centró en:
+- Registro, búsqueda y filtrado de mascotas conectado al Backend real.
+- Centro de notificaciones y configuración de preferencias de alerta.
+- Recordatorios automáticos de vacunación y registro de seguimiento clínico.
+- Eliminación de los últimos datos simulados del Frontend.
+
+A continuación se presentan las capturas de las principales vistas desarrolladas:
+
+<br>
+
+![Vista del módulo de Perfiles y Gestión de Mascotas](pawtient-report/assets/images/Evidence-for-sprint-review/Evidence4.1.png)
+
+![Vista del centro de notificaciones y preferencias](pawtient-report/assets/images/Evidence-for-sprint-review/Evidence4.2.png)
+
+![Vista del registro de seguimiento clínico](pawtient-report/assets/images/Evidence-for-sprint-review/Evidence4.3.png)
+
+<br>
+
+Asimismo, se debe elaborar un video demostrativo que muestre la aplicación integrada de punta a punta:
+
+[Ver video demostrativo de Pawtient - Sprint 4](PENDIENTE-agregar-enlace-al-video)
+
 <br>
 
 ---
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
+*PENDIENTE*
 
 <br>
 
@@ -3485,15 +3735,61 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
+El despliegue final de Pawtient se realizará en **Render**, consolidando en una sola plataforma el Frontend y el Backend (que en los Sprints 1-3 estuvieron en Netlify y Azure respectivamente).
+
+<br>
+
+**Proceso de despliegue — Backend (Render):**
+
+1. Crear un nuevo **Web Service** en Render y conectarlo al repositorio `PetHealt/Pawtient-Web-Services`.
+
+2. Configurar el **Build Command** y el **Start Command** correspondientes al proyecto ASP.NET Core (por ejemplo `dotnet publish -c Release -o out` y `dotnet out/Pawtient.WebServices.dll`).
+
+3. Definir las variables de entorno de producción (cadena de conexión a la base de datos MySQL, `JWT_SECRET` y demás credenciales usadas en el Sprint 3), sin exponerlas en el repositorio.
+
+4. Habilitar el *auto-deploy* sobre la rama `main` para que cada cambio aprobado se despliegue automáticamente.
+
+5. Actualizar la configuración de **CORS** del backend para aceptar peticiones desde el dominio público del frontend en Render.
+
+
+**Proceso de despliegue — Frontend (Render):**
+
+1. Crear un **Static Site** (o Web Service si se requiere SSR) en Render conectado al repositorio `PetHealt/Pawtient-Frontend-Web-App`.
+
+2. Configurar el **Build Command** (`npm install && npm run build`) y el directorio de publicación (`dist`).
+
+3. Definir la variable de entorno con la URL base de la API apuntando al Web Service del backend ya desplegado en Render.
+
+4. Disparar el primer deploy y validar que las vistas principales (login, historiales, citas, inventario, mascotas, notificaciones) carguen correctamente contra el backend real.
+
+<br>
+
+**URL del despliegue (Backend):** *PENDIENTE*
+**URL del despliegue (Frontend):** *PENDIENTE*
+
+![Deployment Sprint 4 - 01](pawtient-report/assets/images/sprint4-deployment-07.png)
+ 
+![Deployment Sprint 4 - 02](pawtient-report/assets/images/sprint4-deployment-08.png)
+
 <br>
 
 ---
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
+Durante el Sprint 4, el equipo trabajó siguiendo la estrategia de ramificación estandarizada **GitFlow**, creando ramas específicas por historia asignada (ejemplo: `feature/pets`, `feature/notifications`, `feature/integration`).
+
+El trabajo asíncrono se gestionó de manera eficiente: cada integrante empujó (*push*) sus cambios a su respectiva rama remota. Posteriormente, el Líder Técnico se encargó de realizar la integración progresiva (*merge*) de todas las ramas hacia `develop`, resolviendo los conflictos de fusión que surgieron al unir los módulos finales. Tras la validación en el entorno de desarrollo, el código unificado se consolidó en la rama principal `main` para su despliegue final en Render.
+
+A continuación, se presentan los **analíticos de GitHub (Insights & Network Graph)**, que evidencian la participación del equipo en *commits*, gestión de ramas y *merges* durante el Sprint. Estas evidencias confirman la colaboración activa, equilibrada y estructurada de todos los miembros del equipo:
 
 <br>
 
+![Gráfico de Red (Network Graph) mostrando las ramas y merges](pawtient-report/assets/images/Team-Collaboration/network-graph-4.png)
+
+![Analíticas de Contribución (Contributors) del equipo](pawtient-report/assets/images/Team-Collaboration/contributors-4.png)
+
+<br>
 
 ---
 
@@ -3501,6 +3797,26 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 
 ### 5.3.1. Diseño de Entrevistas
 
+Las entrevistas de validación tienen como objetivo evaluar la usabilidad y la percepción de valor de los prototipos de alta fidelidad de Pawtient (Landing Page y Aplicación Web) con usuarios reales de ambos segmentos objetivo: dueños/administradores de clínicas veterinarias y veterinarios independientes.
+
+**Objetivo de las entrevistas:** Validar si el flujo de navegación, la claridad de la propuesta de valor y las funcionalidades presentadas en los prototipos resuelven los problemas identificados en el Capítulo I y II, e identificar puntos de fricción antes del desarrollo final.
+
+**Landing Page:** Se evalúa si el usuario comprende la propuesta de valor de Pawtient, los planes de suscripción y si encuentra clara la información de contacto y registro.
+
+**Aplicación Web:** Se evalúa si el usuario logra completar tareas clave (registrar historia clínica, agendar una cita, controlar inventario) sin asistencia, y qué tan intuitiva percibe la navegación entre módulos.
+
+**Preguntas Landing Page:**
+- ¿Qué tan claro te resultó el propósito de Pawtient al ingresar a la página?
+- ¿Los planes de suscripción y sus beneficios se entienden con facilidad?
+- ¿Encontraste fácilmente cómo contactar o registrarte?
+
+**User flows a evaluar - preguntas de la entrevista:**
+- Flujo de registro y selección de plan.
+- Flujo de registro de historia clínica de una mascota.
+- Flujo de agendamiento y edición de una cita.
+- Flujo de consulta de inventario y alertas de stock bajo.
+
+Para cada flujo se pidió al usuario "pensar en voz alta" mientras navegaba el prototipo, registrando tiempos, errores de navegación y comentarios espontáneos.
 
 <br>
 
@@ -3516,19 +3832,19 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 
 #### Entrevista 1
 
-<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg1_1.png" alt="Entrevista de Validación 1 - Segmento 1" width="700"/>
+<img src="pawtient-report/assets/interviews/validation/ss_validacion_seg1_1.png" alt="Entrevista de Validación 1 - Segmento 1" width="700"/>
 
 <br>
 <br>
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+| **Nombres y apellidos** | *PENDIENTE* |
+| **Edad** | *PENDIENTE* |
+| **Ubicación** | *PENDIENTE* |
+| **Fecha de entrevista** | *PENDIENTE* |
+| **Duración** | *PENDIENTE* |
+| **Enlace al video** | *PENDIENTE — agregar enlace al video de la entrevista* |
 
 **Resumen:**
 
@@ -3547,19 +3863,19 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 
 *Imagen de la entrevista*
 
-<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg1_2.png" alt="Entrevista de Validación 2 - Segmento 1" width="700"/>
+<img src="pawtient-report/assets/interviews/validation/ss_validacion_seg1_2.png" alt="Entrevista de Validación 2 - Segmento 1" width="700"/>
 
 <br>
 <br>
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+| **Nombres y apellidos** | *PENDIENTE* |
+| **Edad** | *PENDIENTE* |
+| **Ubicación** | *PENDIENTE* |
+| **Fecha de entrevista** | *PENDIENTE* |
+| **Duración** | *PENDIENTE* |
+| **Enlace al video** | *PENDIENTE — agregar enlace al video de la entrevista* |
 
 **Resumen:**
 </div>
@@ -3572,19 +3888,19 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 
 *Imagen de la entrevista*
 
-<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg1_3.png" alt="Entrevista de Validación 3 - Segmento 1" width="700"/>
+<img src="pawtient-report/assets/interviews/validation/ss_validacion_seg1_3.png" alt="Entrevista de Validación 3 - Segmento 1" width="700"/>
 
 <br>
 <br>
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+| **Nombres y apellidos** | *PENDIENTE* |
+| **Edad** | *PENDIENTE* |
+| **Ubicación** | *PENDIENTE* |
+| **Fecha de entrevista** | *PENDIENTE* |
+| **Duración** | *PENDIENTE* |
+| **Enlace al video** | *PENDIENTE — agregar enlace al video de la entrevista* |
 
 **Resumen:**
 
@@ -3604,19 +3920,19 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 
 *Imagen de la entrevista*
 
-<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg2_1.png" alt="Entrevista de Validación 1 - Segmento 2" width="700"/>
+<img src="pawtient-report/assets/interviews/validation/ss_validacion_seg2_1.png" alt="Entrevista de Validación 1 - Segmento 2" width="700"/>
 
 <br>
 <br>
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+| **Nombres y apellidos** | *PENDIENTE* |
+| **Edad** | *PENDIENTE* |
+| **Ubicación** | *PENDIENTE* |
+| **Fecha de entrevista** | *PENDIENTE* |
+| **Duración** | *PENDIENTE* |
+| **Enlace al video** | *PENDIENTE — agregar enlace al video de la entrevista* |
 
 
 **Resumen:**
@@ -3631,19 +3947,19 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 
 *Imagen de la entrevista*
 
-<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg2_2.png" alt="Entrevista de Validación 2 - Segmento 2" width="700"/>
+<img src="pawtient-report/assets/interviews/validation/ss_validacion_seg2_2.png" alt="Entrevista de Validación 2 - Segmento 2" width="700"/>
 
 <br>
 <br>
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+| **Nombres y apellidos** | *PENDIENTE* |
+| **Edad** | *PENDIENTE* |
+| **Ubicación** | *PENDIENTE* |
+| **Fecha de entrevista** | *PENDIENTE* |
+| **Duración** | *PENDIENTE* |
+| **Enlace al video** | *PENDIENTE — agregar enlace al video de la entrevista* |
 
 **Resumen:**
 
@@ -3657,19 +3973,19 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 
 *Imagen de la entrevista*
 
-<img src="brandradar-report/assets/interviews/validation/ss_validacion_seg2_3.png" alt="Entrevista de Validación 3 - Segmento 2" width="700"/>
+<img src="pawtient-report/assets/interviews/validation/ss_validacion_seg2_3.png" alt="Entrevista de Validación 3 - Segmento 2" width="700"/>
 
 <br>
 <br>
 
 | Campo | Detalle |
 |:------|:--------|
-| **Nombres y apellidos** | `` |
-| **Edad** | `` |
-| **Ubicación** | `` |
-| **Fecha de entrevista** | `` |
-| **Duración** | `` |
-| **Enlace al video** | [Ver entrevista en Microsoft Stream](https://) |
+| **Nombres y apellidos** | *PENDIENTE* |
+| **Edad** | *PENDIENTE* |
+| **Ubicación** | *PENDIENTE* |
+| **Fecha de entrevista** | *PENDIENTE* |
+| **Duración** | *PENDIENTE* |
+| **Enlace al video** | *PENDIENTE — agregar enlace al video de la entrevista* |
 
 **Resumen:**
 
@@ -3681,6 +3997,48 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 
 ### 5.3.3. Evaluaciones según heurísticas
 
+**CARRERA:** Ingeniería de Software
+
+**CURSO:** Aplicaciones Web
+
+**SECCIÓN:** 10203
+
+**PROFESOR:** Alex Humberto Sánchez Ponce
+
+**AUDITOR:** *PENDIENTE — nombre del evaluador*
+
+**CLIENTE(S):** Usuarios del sector veterinario (dueños/administradores de clínicas y veterinarios independientes)
+
+**APP A EVALUAR:** Pawtient - Web Application y Landing Page
+
+<br>
+
+## TAREAS A EVALUAR:
+1. Registro y selección de plan de suscripción.
+2. Registro y consulta de historia clínica de una mascota.
+3. Agendamiento, edición y cancelación de una cita.
+4. Registro de ingreso de inventario y visualización de alertas de stock bajo.
+
+<br>
+
+## ESCALA DE SEVERIDAD:
+
+| Nivel | Descripción |
+|:---:|:---|
+| 0 | No es un problema de usabilidad |
+| 1 | Problema cosmético — no es necesario arreglarlo a menos que haya tiempo disponible |
+| 2 | Problema menor — baja prioridad |
+| 3 | Problema mayor — importante de corregir, alta prioridad |
+| 4 | Catástrofe de usabilidad — imperativo corregir antes del lanzamiento |
+
+<br>
+
+## TABLA DE RESUMEN DE PROBLEMAS IDENTIFICADOS:
+
+
+| # | Problema | Heurística incumplida | Severidad |
+|:---:|:---|:---|:---:|
+| 1 | *PENDIENTE* | *PENDIENTE* | *PENDIENTE* |
 
 <br>
 
@@ -3697,9 +4055,28 @@ El video About-the-Product de Pawtient presenta una visión general del producto
 ---
 
 ## Conclusiones
- 
-<br> 
 
+**Arquitectura orientada al dominio (DDD)**
+
+El sistema Pawtient se organizó siguiendo los principios de Domain-Driven Design, separando el dominio en bounded contexts (IAM, Perfiles, Clínica/Mascotas, Citas, Inventario y Reportes). Esta organización permitió distribuir el trabajo del equipo por módulos independientes y mantener una arquitectura backend en capas (Domain, Application, Infrastructure, Interfaces) coherente con el frontend en Vue.js.
+
+**Validación temprana con usuarios reales**
+
+Las entrevistas realizadas a dueños y administradores de clínicas veterinarias confirmaron que la desorganización de historiales clínicos, citas e inventarios es un dolor recurrente en el sector, validando la propuesta de valor de Pawtient. Queda pendiente completar la validación con el segmento de veterinarios independientes (ver nota en 5.3.2).
+
+**Avance incremental por sprints**
+
+El desarrollo se ejecutó en sprints incrementales: Sprint 1 (Landing Page), Sprint 2 (Frontend funcional) y Sprint 3 (Backend en ASP.NET Core y conexión con el frontend, desplegado en Azure). El equipo aplicó GitFlow de forma consistente, con ramas por feature y por bounded context, lo que facilitó el trabajo paralelo y la integración progresiva del código.
+
+**Despliegue y automatización**
+
+El despliegue continuo de la Landing Page y el Frontend en Netlify, y del Backend en Azure, garantizó que cada cambio aprobado en `main`/`develop` se publicara automáticamente, agilizando la validación con usuarios reales.
+
+**Trabajo pendiente hacia el cierre del proyecto**
+
+Para la entrega final, el equipo debe completar: el Sprint 4 (planning, backlog, evidencias de desarrollo, ejecución y despliegue), las entrevistas de validación del segmento de veterinarios independientes, la evaluación heurística de la plataforma (5.3.3) y las secciones de aporte individual (Student Outcome) correspondientes a AV2 y TB2.
+
+<br>
 
 ---
 
@@ -3728,6 +4105,6 @@ El video About-the-Product de Pawtient presenta una visión general del producto
 ---
 
 ## Anexos
-- Landing page: desplegada en Netlify [https://pethealt.netlify.app/](https://pethealt.netlify.app/)
+- Landing page: desplegada en Netlify [https://pawtient.netlify.app/](https://pawtient.netlify.app/)
 - Video de exposición [Click Aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQDjBMv1FAbeT7vu70wgG-jjAUtpp41LDZw-REsa8JLOJ3U?e=mhXlkB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - Prototipo web [Click Aqui](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315007_upc_edu_pe/IQCmFsBAO3FvTpMOpMAylR0gAUDFExNbahk7ihbfPEj4jSI?e=BnRltz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
