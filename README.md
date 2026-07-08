@@ -3501,6 +3501,31 @@ A continuación, se presentan los **analíticos de GitHub (Insights & Network Gr
 
 ### 5.3.1. Diseño de Entrevistas
 
+Las entrevistas de validación fueron diseñadas con el objetivo de evaluar la percepción, facilidad de uso y utilidad de la Landing Page y la Aplicación Web de Pawtient. Durante las entrevistas se presentó la solución desarrollada a representantes de ambos segmentos objetivo, permitiéndoles observar las principales características y funcionalidades del producto.
+
+Las preguntas estuvieron orientadas a identificar si la propuesta de valor de Pawtient es comprendida por los usuarios, evaluar la claridad de la información presentada en la Landing Page y conocer la percepción de los entrevistados respecto a la navegación y organización de la Aplicación Web. Asimismo, se buscó identificar las funcionalidades consideradas más útiles, posibles dificultades durante el uso y oportunidades de mejora.
+
+Para el desarrollo de las entrevistas se consideraron los siguientes segmentos objetivo:
+
+#### Segmento objetivo 1: Dueños y administradores de clínicas veterinarias
+
+- Luego de revisar la Landing Page, ¿qué entiende que ofrece Pawtient?
+- ¿La información presentada en la Landing Page le pareció clara y fácil de entender?
+- Después de observar la aplicación, ¿qué le pareció la organización y navegación de la plataforma?
+- De las funcionalidades mostradas, ¿cuál considera más útil para la gestión de una clínica veterinaria?
+- ¿Tuvo alguna dificultad para entender alguna sección o función de la plataforma?
+- ¿Qué aspecto de la aplicación mejoraría o agregaría para facilitar la administración de una clínica?
+- ¿Utilizaría Pawtient en una clínica veterinaria? ¿Por qué?
+
+#### Segmento objetivo 2: Veterinarios independientes
+
+- Luego de revisar la Landing Page, ¿qué entiende que ofrece Pawtient a los veterinarios?
+- ¿La Landing Page le permitió comprender rápidamente las principales funcionalidades del sistema?
+- Después de observar la aplicación, ¿le resultó fácil identificar cómo gestionar pacientes e información clínica?
+- ¿Qué funcionalidad considera más útil para su trabajo como veterinario independiente?
+- ¿Considera que podría utilizar la plataforma desde distintos dispositivos durante su jornada de trabajo?
+- ¿Qué cambiaría o agregaría para que Pawtient se adapte mejor al trabajo de un veterinario independiente?
+- ¿Usaría Pawtient de manera frecuente para gestionar sus consultas y pacientes? ¿Por qué?
 
 <br>
 
