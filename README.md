@@ -3592,7 +3592,7 @@ La navegación de la Aplicación Web fue considerada ordenada e intuitiva. El hi
 
 **Resumen:**
 
-Daniel es un administradora de clínica veterinaria de 36 años residente en el Callao. Durante la entrevista comprendió a Pawtient como una solución destinada a organizar los pacientes, citas, tratamientos e inventarios de una veterinaria. Consideró que la Landing Page presenta un diseño moderno y permite conocer rápidamente las principales características del producto. Respecto a la Aplicación Web, destacó la facilidad de navegación y consideró que la gestión de citas es una de las funcionalidades más útiles para las actividades diarias de una clínica. Como oportunidad de mejora, sugirió incorporar descripciones breves en algunos botones y reportes más detallados sobre las actividades e inventarios de la clínica.
+Daniel es un administrador de clínica veterinaria de 24 años residente en el Callao. Durante la entrevista comprendió a Pawtient como una solución destinada a organizar los pacientes, citas, tratamientos e inventarios de una veterinaria. Consideró que la Landing Page presenta un diseño moderno y permite conocer rápidamente las principales características del producto. Respecto a la Aplicación Web, destacó la facilidad de navegación y consideró que la gestión de citas es una de las funcionalidades más útiles para las actividades diarias de una clínica. Como oportunidad de mejora, sugirió incorporar descripciones breves en algunos botones y reportes más detallados sobre las actividades e inventarios de la clínica.
 
 </div>
 
@@ -3664,7 +3664,7 @@ La interfaz fue percibida como limpia y sencilla de utilizar. La gestión de inv
 
 **Resumen:**
 
-Gabriel es un veterinaria independiente de 25 años residente en Los Olivos. Durante la entrevista comprendió que Pawtient permite organizar digitalmente la información de los pacientes y gestionar las consultas veterinarias. Consideró que la Landing Page presenta las principales funciones de forma sencilla y permite comprender rápidamente el propósito del producto. En la Aplicación Web destacó la facilidad para identificar la sección de pacientes y consideró que el historial clínico es la funcionalidad de mayor utilidad para su trabajo. También valoró positivamente la posibilidad de acceder al sistema desde diferentes dispositivos. Como oportunidad de mejora, sugirió incorporar más recordatorios relacionados con tratamientos y controles pendientes.
+Gabriel es un veterinario independiente de 25 años residente en Los Olivos. Durante la entrevista comprendió que Pawtient permite organizar digitalmente la información de los pacientes y gestionar las consultas veterinarias. Consideró que la Landing Page presenta las principales funciones de forma sencilla y permite comprender rápidamente el propósito del producto. En la Aplicación Web destacó la facilidad para identificar la sección de pacientes y consideró que el historial clínico es la funcionalidad de mayor utilidad para su trabajo. También valoró positivamente la posibilidad de acceder al sistema desde diferentes dispositivos. Como oportunidad de mejora, sugirió incorporar más recordatorios relacionados con tratamientos y controles pendientes.
 
 </div>
 
@@ -3729,7 +3729,7 @@ La interfaz fue percibida como simple e intuitiva. La gestión del historial cl�
 
 **Resumen:**
 
-Angel es un veterinario independiente de 34 años residente en Pueblo Libre. Durante la validación identificó a Pawtient como una herramienta web para administrar pacientes, historiales clínicos y citas. Consideró que la Landing Page es visualmente agradable y permite reconocer rápidamente los beneficios de la solución. Respecto a la Aplicación Web, indicó que las opciones son visibles y presentan una estructura sencilla. La gestión de citas fue considerada la funcionalidad de mayor utilidad debido a la necesidad de organizar personalmente sus horarios y pacientes. También destacó la importancia de acceder a la plataforma desde dispositivos móviles. Como oportunidad de mejora, sugirió incorporar notificaciones automáticas de citas y tratamientos.
+Angel es un veterinario independiente de 22 años residente en Pueblo Libre. Durante la validación identificó a Pawtient como una herramienta web para administrar pacientes, historiales clínicos y citas. Consideró que la Landing Page es visualmente agradable y permite reconocer rápidamente los beneficios de la solución. Respecto a la Aplicación Web, indicó que las opciones son visibles y presentan una estructura sencilla. La gestión de citas fue considerada la funcionalidad de mayor utilidad debido a la necesidad de organizar personalmente sus horarios y pacientes. También destacó la importancia de acceder a la plataforma desde dispositivos móviles. Como oportunidad de mejora, sugirió incorporar notificaciones automáticas de citas y tratamientos.
 
 </div>
 
