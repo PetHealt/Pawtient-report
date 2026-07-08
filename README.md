@@ -3747,6 +3747,224 @@ La estructura de la Aplicación Web fue considerada sencilla y fácil de compren
 
 ### 5.3.3. Evaluaciones según heurísticas
 
+Las evaluaciones heurísticas permitieron analizar la usabilidad de la Landing Page y la Aplicación Web de Pawtient mediante principios reconocidos de diseño de interfaces. Para esta evaluación se utilizaron las heurísticas de usabilidad de Nielsen, considerando aspectos relacionados con la claridad de la información, navegación, consistencia, prevención de errores y facilidad de aprendizaje.
+
+Cada heurística fue evaluada mediante una escala de 1 a 5, donde 1 representa un bajo cumplimiento del principio de usabilidad y 5 representa un alto nivel de cumplimiento.
+
+<br>
+
+<h3 align="center">Heurísticas de Usabilidad</h3>
+
+<br>
+
+<h4 align="center">Visibilidad del estado del sistema</h4>
+
+<p align="center"><strong>Puntaje: 4/5</strong></p>
+
+<p align="center">
+Pawtient permite al usuario conocer el estado actual de diferentes procesos mediante indicadores visibles dentro de la plataforma. En el módulo de reportes se presentan datos como los ingresos totales, la rentabilidad neta y las alertas de almacén, permitiendo que el administrador identifique rápidamente la situación actual de la clínica. Como oportunidad de mejora, podrían incorporarse notificaciones más visibles cuando se produzcan cambios importantes en estos indicadores.
+</p>
+
+<p align="center">
+<img src="pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-11.png" alt="Visibilidad del estado del sistema" width="700"/>
+</p>
+
+<br>
+
+<h4 align="center">Relación entre el sistema y el mundo real</h4>
+
+<p align="center"><strong>Puntaje: 5/5</strong></p>
+
+<p align="center">
+La plataforma utiliza conceptos y términos directamente relacionados con las actividades habituales del entorno veterinario. En el módulo de Agenda Médica se emplean etiquetas como paciente, dueño, motivo de consulta, estado de la cita y monto de la consulta. Este lenguaje permite que veterinarios y administradores comprendan las funciones del sistema utilizando conceptos familiares dentro de su contexto profesional.
+</p>
+
+<p align="center">
+<img src="pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-8.png" alt="Relación entre el sistema y el mundo real" width="700"/>
+</p>
+
+<br>
+
+<h4 align="center">Control y libertad del usuario</h4>
+
+<p align="center"><strong>Puntaje: 5/5</strong></p>
+
+<p align="center">
+Pawtient proporciona diferentes alternativas para que el usuario mantenga el control sobre las acciones realizadas. En la edición del perfil se presenta una opción visible para regresar a la pantalla anterior, además de las acciones Cancelar y Guardar Cambios. Estos elementos permiten abandonar una modificación o continuar con ella según la decisión del usuario.
+</p>
+
+<p align="center">
+<img src="pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-6.png" alt="Control y libertad del usuario" width="700"/>
+</p>
+
+<br>
+
+<h4 align="center">Consistencia y estándares</h4>
+
+<p align="center"><strong>Puntaje: 5/5</strong></p>
+
+<p align="center">
+La Aplicación Web mantiene patrones visuales y de navegación consistentes entre sus diferentes módulos. Las vistas de Gestión de Pacientes e Inventario de Almacén conservan la misma barra lateral, organización general, iconografía y distribución de acciones. Esta uniformidad permite que el usuario reconozca la estructura de la plataforma al cambiar entre funcionalidades.
+</p>
+
+<p align="center">
+<img src="pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-7.png" alt="Consistencia en el módulo de pacientes" width="700"/>
+</p>
+
+<br>
+
+<p align="center">
+<img src="pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-9.png" alt="Consistencia en el módulo de inventario" width="700"/>
+</p>
+
+<br>
+
+<h4 align="center">Prevención de errores</h4>
+
+<p align="center"><strong>Puntaje: 4/5</strong></p>
+
+<p align="center">
+Pawtient diferencia visualmente las acciones que pueden generar consecuencias importantes para el usuario. En la pantalla de edición del perfil, la eliminación permanente de la cuenta se encuentra dentro de una sección denominada Zona de Peligro y se presenta una advertencia sobre la pérdida definitiva del acceso al sistema. Esta información ayuda al usuario a reconocer el riesgo antes de ejecutar la acción. Como mejora, podría incorporarse una ventana adicional de confirmación antes de completar la eliminación.
+</p>
+
+<p align="center">
+<img src="pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-6.png" alt="Prevención de errores" width="700"/>
+</p>
+
+<br>
+
+<h4 align="center">Reconocimiento antes que recuerdo</h4>
+
+<p align="center"><strong>Puntaje: 5/5</strong></p>
+
+<p align="center">
+Las principales funcionalidades de Pawtient permanecen visibles mediante una barra lateral que combina iconos y etiquetas de texto. Opciones como Inicio, Mi Perfil, Pacientes, Agenda, Inventario, Proveedores y Reportes pueden reconocerse directamente durante la navegación. De esta manera, el usuario no necesita memorizar rutas o secuencias para acceder a las herramientas principales del sistema.
+</p>
+
+<p align="center">
+<img src="pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-5.png" alt="Reconocimiento antes que recuerdo" width="700"/>
+</p>
+
+<br>
+
+<h4 align="center">Flexibilidad y eficiencia de uso</h4>
+
+<p align="center"><strong>Puntaje: 4/5</strong></p>
+
+<p align="center">
+El panel principal de Pawtient presenta accesos directos a acciones frecuentes del usuario. Desde la pantalla de inicio es posible acceder a la agenda completa, editar el perfil y consultar o cambiar el plan asociado a la cuenta. Asimismo, el menú lateral permite desplazarse directamente a los principales módulos sin realizar recorridos extensos. Como oportunidad de mejora, podrían añadirse más accesos rápidos para registrar pacientes o crear nuevas citas desde el dashboard.
+</p>
+
+<p align="center">
+<img src="pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-5.png" alt="Flexibilidad y eficiencia de uso" width="700"/>
+</p>
+
+<br>
+
+<h4 align="center">Diseño estético y minimalista</h4>
+
+<p align="center"><strong>Puntaje: 5/5</strong></p>
+
+<p align="center">
+La Landing Page de Pawtient presenta una composición visual limpia que prioriza la información esencial. La sección principal utiliza un título destacado, una breve explicación de la propuesta de valor, una llamada a la acción claramente visible y una imagen relacionada con el contexto veterinario. El uso adecuado de espacios y la limitada cantidad de elementos permiten que el usuario concentre su atención en el propósito principal del producto.
+</p>
+
+<p align="center">
+<img src="pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-1.1.png" alt="Diseño estético y minimalista" width="700"/>
+</p>
+
+<br>
+
+<h4 align="center">Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores</h4>
+
+<p align="center"><strong>Puntaje: 3/5</strong></p>
+
+<p align="center">
+Los formularios de Pawtient presentan campos y etiquetas claramente identificados, facilitando que el usuario reconozca la información necesaria para completar una acción. Sin embargo, en la interfaz evaluada no se evidencian mensajes detallados que expliquen de manera específica el origen de un error y orienten al usuario sobre cómo solucionarlo. Por ello, se recomienda incorporar mensajes contextuales para casos como credenciales incorrectas, campos incompletos o información inválida.
+</p>
+
+<p align="center">
+<img src="pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-3.png" alt="Formulario de inicio de sesión y recuperación ante errores" width="700"/>
+</p>
+
+<br>
+
+<h4 align="center">Ayuda y documentación</h4>
+
+<p align="center"><strong>Puntaje: 3/5</strong></p>
+
+<p align="center">
+Pawtient proporciona canales de contacto mediante correo electrónico, comunicación telefónica y un formulario de mensajes, permitiendo que los usuarios soliciten asistencia cuando lo necesiten. Sin embargo, la plataforma todavía podría complementar estos canales con una sección de preguntas frecuentes, tutoriales breves o una guía inicial para nuevos usuarios. Estas herramientas facilitarían la resolución autónoma de dudas relacionadas con el uso del sistema.
+</p>
+
+<p align="center">
+<img src="pawtient-report/assets/images/Evidence-for-sprint-review/evidencia-6.1.png" alt="Ayuda y documentación" width="700"/>
+</p>
+
+<br>
+
+<h3 align="center">Resultado de la Evaluación Heurística</h3>
+
+<div align="center">
+
+<table>
+<tr>
+<th>Heurística</th>
+<th>Puntaje</th>
+</tr>
+<tr>
+<td>Visibilidad del estado del sistema</td>
+<td align="center">4/5</td>
+</tr>
+<tr>
+<td>Relación entre el sistema y el mundo real</td>
+<td align="center">5/5</td>
+</tr>
+<tr>
+<td>Control y libertad del usuario</td>
+<td align="center">5/5</td>
+</tr>
+<tr>
+<td>Consistencia y estándares</td>
+<td align="center">5/5</td>
+</tr>
+<tr>
+<td>Prevención de errores</td>
+<td align="center">4/5</td>
+</tr>
+<tr>
+<td>Reconocimiento antes que recuerdo</td>
+<td align="center">5/5</td>
+</tr>
+<tr>
+<td>Flexibilidad y eficiencia de uso</td>
+<td align="center">4/5</td>
+</tr>
+<tr>
+<td>Diseño estético y minimalista</td>
+<td align="center">5/5</td>
+</tr>
+<tr>
+<td>Reconocimiento, diagnóstico y recuperación de errores</td>
+<td align="center">3/5</td>
+</tr>
+<tr>
+<td>Ayuda y documentación</td>
+<td align="center">3/5</td>
+</tr>
+</table>
+
+</div>
+
+<br>
+
+<p align="center">
+En términos generales, Pawtient presenta un alto nivel de cumplimiento de las heurísticas de usabilidad evaluadas. La organización de las funcionalidades, la consistencia visual y el uso de términos relacionados con el entorno veterinario facilitan la comprensión y navegación de la plataforma.
+</p>
+
+<p align="center">
+Las principales oportunidades de mejora identificadas se relacionan con la incorporación de más notificaciones sobre eventos importantes, mensajes de error más específicos, accesos rápidos a funciones frecuentes y elementos de ayuda para nuevos usuarios. Estos hallazgos permitirán orientar futuras mejoras de la plataforma y fortalecer la experiencia de uso de administradores de clínicas veterinarias y veterinarios independientes.
+</p>
 
 <br>
 
