@@ -1999,13 +1999,13 @@ El diagrama de contexto del sistema Pawtient presenta una vista general del sist
 ---
 ### 4.6.3. Software Architecture Container Diagrams
 
-El diagrama de contenedores del sistema Pawtient presenta una vista de alto nivel de la arquitectura, mostrando los principales bloques tecnológicos y la forma en que interactúan entre sí.
+El diagrama de contexto del sistema Pawtient presenta una vista general de la solución y las principales interacciones con sus usuarios y sistemas externos.
 
-El sistema está compuesto por una aplicación web (frontend), que permite la interacción de los usuarios mediante una interfaz intuitiva; un backend implementado como una API REST, encargado de procesar la lógica de negocio y gestionar las solicitudes; y una base de datos, donde se almacena la información del sistema, como usuarios, mascotas, citas e historiales médicos.
+Los actores principales identificados son los dueños y administradores de clínicas veterinarias, quienes utilizan Pawtient para gestionar los procesos clínicos, administrativos y operativos de sus centros veterinarios, y los veterinarios independientes, quienes acceden a la plataforma para gestionar pacientes, historiales clínicos, citas y tratamientos.
 
-Asimismo, el sistema se integra con servicios externos para el envío de notificaciones y el procesamiento de pagos. La comunicación entre los contenedores se realiza mediante protocolos estándar, garantizando una arquitectura organizada, escalable y mantenible.
+Asimismo, Pawtient se integra con un servicio externo de Email/SMS para el envío de notificaciones y recordatorios, y con un Payment Gateway encargado del procesamiento de los pagos relacionados con las suscripciones de la plataforma.
 
-![Container View](pawtient-report/assets/images/containerfix.png)
+![Container View](pawtient-report/assets/images/containerarreglado.png)
 
 <br>
 
